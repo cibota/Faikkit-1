@@ -1,32 +1,32 @@
-PREFIX: '&aShop > &f'
+PREFIX: '&aFaikkit > &f'
 LANG:
   CONSOLE: Console
 MSG:
-  ERROR: Error occured, please contact the server owner.
-  INGAMEONLY: This command can be used only in the game.
-  NOACCESS: You don't have access to do this.
-  RELOADED: Configuration reloaded!
+  ERROR: A aparut o eroare, va rugam sa contactati ownerul serverului.
+  INGAMEONLY: Aceasta comanda poate fi folosita doar in joc.
+  NOACCESS: Nu ai permesiune pentru a face asta.
+  RELOADED: Configurarile au fost restartate!
   USAGE:
-    SUBCOMMAND: 'Invalid command usage. Correct usage: %usage%'
+    SUBCOMMAND: 'Comanda invalida. Utilizare corecta: %usage%'
   CMD:
     SHOP:
       ADDMODIFIER:
         ITEM:
           USAGE: /shop addmodifier item <player> <shop> <item> <value> [buy|sell]
-          ADDED: You set &c%player%&f's %type% price modifier for the %item% item
-            in %shop% shop to &c%modifier%&f.
-          ADDEDBY: Your %type% price modifier for the %item% item in %shop% shop was
-            set to &c%modifier%&f by &c%player%&f.
+          ADDED: Ai setat &c%player%&f's %type% modificator de pret pentru %item% item
+            in %shop% cumparaturi la &c%modifier%&f.
+          ADDEDBY: Your %type% modificator de pret pentru %item% item in %shop% shop a fost
+            setat in &c%modifier%&f de &c%player%&f.
         SHOP:
           USAGE: /shop addmodifier shop <player> <shop> <value> [buy|sell]
-          ADDED: You set &c%player%&f's %type% price modifier for all items in %shop%
-            shop to &c%modifier%&f.
-          ADDEDBY: Your %type% price modifier for all items in %shop% shop was set
-            to &c%modifier%&f by &c%player%&f.
+          ADDED: Ai setat &c%player%&f's %type% modificator de pret pentru toate itemele din %shop%
+            cumparaturi la &c%modifier%&f.
+          ADDEDBY: Your %type% modificator de pret pentru toate itemele din %shop% shop a fost setat
+            in &c%modifier%&f de &c%player%&f.
         GLOBAL:
           USAGE: /shop addmodifier global <player> <value> [buy|sell]
           ADDED: You set &c%player%&f's %type% price modifier to &c%modifier%&f.
-          ADDEDBY: Your %type% price modifier was set to &c%modifier%&f by &c%player%&f.
+          ADDEDBY: Your %type% modificatorul de preț a fost setat la &c%modifier%&f de &c%player%&f.
       CHECKMODIFIERS:
         VIEW:
           VIEW: |-
@@ -38,95 +38,96 @@ MSG:
             Item modifiers:
             %item%
           ENTRY:
-            ITEM: 'Item: &c%item%&f, shop: &c%shop%&f, buy: &c%buy%&f, sell: &c%sell%&f'
-            SHOP: 'Shop: &c%shop%&f, buy: &c%buy%&f, sell: &c%sell%&f'
-            GLOBAL: 'Buy: &c%buy%&f, sell: &c%sell%&f'
+            ITEM: 'Item: &c%item%&f, shop: &c%shop%&f, Cumpără: &c%buy%&f, Vinde: &c%sell%&f'
+            SHOP: 'Shop: &c%shop%&f, Cumpără: &c%buy%&f, Vinde: &c%sell%&f'
+            GLOBAL: 'Cumpără: &c%buy%&f, Vinde: &c%sell%&f'
       RESETMODIFIER:
         ITEM:
           USAGE: /shop resetmodifier item <player> <shop> <item> [buy|sell]
-          RESET: You reset &c%player%&f's %type% price modifier for the %item% item
+          RESET: Ai resetat &c%player%&f's %type% modificatorul de pret la %item% itemul
             in %shop% shop.
-          RESETBY: Your %type% price modifier for the %item% item in %shop% shop was
-            reset by &c%player%&f.
+          RESETBY: Your %type% modificatorul de pret pentru %item% item in %shop% shop a fost resetat de &c%player%&f.
         SHOP:
           USAGE: /shop resetmodifier shop <player> <shop> [buy|sell]
-          RESET: You reset &c%player%&f's %type% price modifier for all items in %shop%
+          RESET: Ai resetat &c%player%&f's %type% modificatorul de pret pentru toate itemele din shop %shop%
             shop.
-          RESETBY: Your %type% price modifier for all items in %shop% shop was set
-            to by &c%player%&f.
+          RESETBY: Your %type% modificatorul de pret din toate itemele din %shop% shop a fost setat
+            de &c%player%&f.
         GLOBAL:
           USAGE: /shop resetmodifier global <player> [buy|sell]
-          RESET: You reset &c%player%&f's %type% price modifier.
-          RESETBY: Your %type% price modifier was set to &c%modifier%&f by &c%player%&f.
+          RESET: Ai resetat &c%player%&f's %type% modificatorul de pret.
+          RESETBY: Your %type% modificatorul de pret a fost setat la &c%modifier%&f de &c%player%&f.
   MODIFIER:
-    INVALIDAMOUNT: Invalid modifier value specified. Valid values are for instance
-      0.50 which is 50%, 2.0 which is 200% etc.
-    INVALIDTYPE: Invalid modifier type specified. Valid values are buy, sell and both.
-    BUY: buy
-    SELL: sell
-    BOTH: buy & sell
-  INVALIDPLAYER: Invalid player name specified.
-  INVALIDSHOP: Shop with ID &c%shop%&f not found.
-  INVALIDITEM: Item with ID &c%item%&f not found in &c%shop%&f.
-  NOACCESSTOSHOP: You don't have access to &c%shop%&f shop.
-  NODIRECTACCESSTOSHOP: You can't access the &c%shop%&f shop.
-  MAINMENUDISABLED: You can't use this command. Please use /shop <id> instead.
-  WORLDBLACKLISTED: You can't access %shop% in this world.
-  WORLDBANNED: You can't access the shop in this world.
-  WORLDBANNEDTARGET: '%player% can''t access the shop in that world.'
-  GAMEMODEBANNED: You can't access the shop when in gamemode %gamemode%.
-  GAMEMODEBANNEDTARGET: '%player% can''t access the shop when in gamemode %gamemode%.'
+    INVALIDAMOUNT: Valoare nevalida. Valorile valide sunt de exemplu
+      0.50 care este 50%, 2.0 care este 200% etc.
+    INVALIDTYPE: Tipul modificatorului de pret nu este specificat. Valorile valide sunt cumpărate, vinde si amandoua.
+    BUY: cumpare
+    SELL: vinde
+    BOTH: cumpara & vinde
+  INVALIDPLAYER: Numele jucătorului este nevalid.
+  INVALIDSHOP: Shop-ul cu ID-ul &c%shop%&f nu a fost gasit.
+  INVALIDITEM: Item-ul cu ID-ul &c%item%&f nu a fost gasit in &c%shop%&f.
+  NOACCESSTOSHOP: Nu ai acces la &c%shop%&f shop.
+  NODIRECTACCESSTOSHOP: Nu poti accesa &c%shop%&f shop
+  MAINMENUDISABLED: Nu poti utiliza această comandă. Foloseste /shop <id> in schimb.
+  WORLDBLACKLISTED: Nu poti accesa %shop% in aceasta lume.
+  NODIRECTACCESSTOSHOP: Nu puteți accesa&c%shop%&f shop.
+  MAINMENUDISABLED: Nu puteți utiliza această comandă. Foloseste /shop <id> in schimb.
+  WORLDBLACKLISTED: Nu ai acces la %shop% in aceasta lume.
+  WORLDBANNED: Nu puteți accesa shop-ul în această lume.
+  WORLDBANNEDTARGET: '%player% nu pot accesa shop-ul din acea lume..'
+  GAMEMODEBANNED: Nu puteți accesa shop-ul când sunteți în gamemode %gamemode%.
+  GAMEMODEBANNEDTARGET: '%player% nu pot accesa shop-ul în gamemode %gamemode%.'
   ITEM:
-    FULLINVENTORY: You don't have enough free space in your inventory.
-    CANNOTAFFORD: You need &c%price%$&f to buy &c%amount% x %item%&f.
-    CANNOTBUY: You can't buy this item.
-    CANNOTSELL: You can't sell this item.
-    BOUGHT: You bought &c%amount% x %item%&f for &c%price%$&f.
-    BOUGHTFREE: You received &c%amount% x %item%&f.
-    NOTENOUGH: You don't have &c%amount% x %item%&f to sell.
-    SOLD: You sold &a%amount% x %item%&f for &a%price%$&f.
-    SOLDFREE: You gave away &a%amount% x %item%&f.
-    SOLDALL: You sold all %item%&f (&a%amount% x %item%&f) for &a%price%$&f.
-    SOLDALLFREE: You gave away all %item%&f (&a%amount% x %item%&f).
-    NOACCESS: You don't have access to this item.
+    FULLINVENTORY: Nu aveți suficient spațiu liber în inventarul dvs..
+    CANNOTAFFORD: Ai nevoie de &c%price%$&f pentru a cumpara &c%amount% x %item%&f.
+    CANNOTBUY: Nu puteți cumpăra acest item.
+    CANNOTSELL: Nu poti vinde acest item.
+    BOUGHT: Ai cumpărat &c%amount% x %item%&f for &c%price%$&f.
+    BOUGHTFREE: Ai primit &c%amount% x %item%&f.
+    NOTENOUGH: Nu ai &c%amount% x %item%&f to sell.
+    SOLD: Ai vandut &a%amount% x %item%&f for &a%price%$&f.
+    SOLDFREE: Ai dat &a%amount% x %item%&f.
+    SOLDALL: Ai vândut toate %item%&f (&a%amount% x %item%&f) for &a%price%$&f.
+    SOLDALLFREE: Ai dat toate %item%&f (&a%amount% x %item%&f).
+    NOACCESS: Nu aveți acces la acest item.
   ENCHANT:
-    CANNOTAPPLY: Enchantment &c%enchantment%&f cannot be applied to the item you're
-      holding.
-    ALREADYAPPLIED: This item already has &c%enchantment%&f applied.
-    LEVELDIFF: You need an item with at least &c%enchantment% %level%&f applied.
-    CANNOTAFFORD: You need &c%price%$&f to buy &c%enchantment%&f.
-    MAX: This item already has the maximum amount of enchantments (%amount%).
-    TOOMANY: You can't enchant more than %amount% items at once.
-    BOUGHT: You bought &c%enchantment%&f enchantment for &c%price%$&f.
+    CANNOTAPPLY: Farmecul &c%enchantment%&f nu poate fi aplicat la itemul pe care il ai.
+    ALREADYAPPLIED: Acest item are deja &c%enchantment%&f aplicat.
+    LEVELDIFF: Ai nevoie de un item cu ​​cel puțin &c%enchantment% %level%&f aplicat.
+    CANNOTAFFORD: Ai nevoie de &c%price%$&f pentru a cumpara &c%enchantment%&f.
+    MAX: Acest item are deja cantitatea maximă de fermecări(%amount%).
+    TOOMANY: Nu poți fermeca mai mult decât %amount% iteme odata.
+    BOUGHT: Ai cumparat &c%enchantment%&f farmecul pentru &c%price%$&f.
   PERMISSION:
-    PERMISSIONSDISABLED: Permissions are disabled, please contact server's owner.
-    ALREADYHAVE: You already have the &c%permission%&f permission.
-    CANNOTAFFORD: You need &c%price%$&f to buy &c%permission%&f.
-    BOUGHT: You bought &c%permission%&f permission for &c%price%$&f.
+    PERMISSIONSDISABLED: Permisiunile sunt dezactivate, contaceaza un owner.
+    ALREADYHAVE: Detii deja &c%permission%&f permisiunea.
+    CANNOTAFFORD: Ai nevoie de &c%price%$&f pentru a cumpara &c%permission%&f.
+    BOUGHT: Ai cumparat &c%permission%&f permisiunile pentru &c%price%$&f.
   COMMAND:
-    BOUGHT: You bought &c%command%&f for &c%price%$&f.
-    CANNOTAFFORD: You need &c%price%$&f to buy this command.
+    BOUGHT: Ai cumparat &c%command%&f pentru pretul de &c%price%$&f.
+    CANNOTAFFORD: Iti trebuie &c%price%$&f pentru a cumpara aceasta comanda.
   SELLHAND:
-    NOITEM: You have to hold an item in your hand in order to sell it.
-    INVALIDQUANTITY: Invalid quantity specified. Must be between 1 and %max%.
+    NOITEM: Trebuie să țineți un item în mână pentru a-l vinde.
+    INVALIDQUANTITY: Cantita nevalida. Trebuie să fie între 1 și %max%.
     CANNOTSELL: You can't sell this item.
-    MULTIPLEQUANTITYONLY: You can't sell that quantity. Only multiples of %quantity%
-      are allowed for this item.
+    MULTIPLEQUANTITYONLY: Nu puteți vinde cantitatea respectivă. Numai multipli de %quantity%
+      sunt permise pentru acest item.
   SELLHANDALL:
-    SOLD: You sold %quantity% x %item% for a total of %price%$.
+    SOLD: Ai vandut %quantity% x %item% pentru pretul total de %price%$.
   SELLALL:
-    NOITEMS: You don't have any items you can sell.
-    SOLD: You sold %quantity% items for a total of %price%$.
+    NOITEMS: Nu ai niciun item pe care l-ai putea vinde.
+    SOLD: Ai vandut %quantity% iteme pentru pretul total de %price%$.
 DIALOG:
   AMOUNTSELECTION:
     BUY:
-      NAME: '&2Buying %item%'
+      NAME: '&2Cumpara %item%'
     SELL:
-      NAME: '&cSelling %item%'
+      NAME: '&cVinde %item%'
     BULKBUY:
-      NAME: '&cBuying stacks of %item%'
+      NAME: '&cCumperi stack-uri de %item%'
     BULKSELL:
-      NAME: '&cSelling stacks of %item%'
+      NAME: '&cVinzi stack-uri de %item%'
 SHOP:
   PERMISSION:
     ALREADYOWNED: '&4(Already owned)'
