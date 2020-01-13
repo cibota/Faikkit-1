@@ -21,3 +21,7 @@ CustomAlias:
     Cmds:
     - build
     Perm: true
+  s:
+    Cmds:
+    - tphere $1-
+    Perm: false
