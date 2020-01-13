@@ -1,0 +1,31 @@
+# Command section can utilize same custom variables as scheduler. Check schedules.yml file for all possible variables.
+
+spawn:
+  iesirespawn:
+    Loc: -268.0:146.0:3.0:-268.0:148.0:5.0
+    enabled: true
+    effect: reddust
+    showParticles: true
+    Tp: world;-192.00;67.0;225.00;0.0;0.0
+    requiresPerm: false
+    informOnMissingPerm: false
+    particleAmount: 20
+    particleHide: 0
+    activationRange: 16
+    commandsWithoutTp: false
+    commands:
+    - cmi effect [playerName] blindness 2 1 -s
+  sprepvp:
+    Loc: -234.0:147.0:-4.0:-232.0:149.0:-4.0
+    enabled: true
+    effect: reddust
+    showParticles: true
+    Tp: hub;932.43;80.0;988.61;179.43;-0.28
+    requiresPerm: false
+    informOnMissingPerm: false
+    particleAmount: 20
+    particleHide: 0
+    activationRange: 16
+    commandsWithoutTp: false
+    commands:
+    - cmi effect [playerName] blindness 2 1 -s

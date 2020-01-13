@@ -1,0 +1,5 @@
+# Directly defined reward file. ANY EDITS HERE CAN GET OVERRIDDEN!
+Messages:
+  Player: '&aAi votat pentru prima data!'
+Money: 10000
+DirectlyDefinedReward: true

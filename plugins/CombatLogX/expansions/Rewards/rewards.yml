@@ -1,0 +1,28 @@
+rewards:
+  # ID for the reward
+  # This can be anyting but make sure none of them are equal
+  reward1:
+    # A list of worlds that this reward can happen in
+    # If your world's name is a number, please add "" around it.
+    # Example: "1"
+    # Add "*" To allow all worlds
+    worlds:
+    - "world_nether"
+    
+    # A list of mob types that will trigger this reward
+    # Spigot Entity Types can be found here: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/EntityType.html
+    # Insert '*' for all mob types
+    # Default: 
+    # - "*"
+    mob types:
+    - "Wither"
+
+    # A list of commands to execute when an enemy is killed
+    # An enemy will not always be a Player
+    # Valid Placeholders:
+    # - {player}: The name of the player that killed their enemy
+    # - {killed}: The name of the entity that was killed for this reward
+    commands:
+    - "msg {player} Ai omorat un {killed}, ai primit o cheie pentru Crate-ul Faikkit!"
+    - "cc give p faikkit 1 {player}"
+    

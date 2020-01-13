@@ -1,0 +1,97 @@
+VoteSites:
+  # VoteSite name
+  MinecraftMP:
+    # Enable voteSite
+    # If false, votesite will not be loaded by plugin
+    # Default: false
+    Enabled: true
+    
+    # Display name of voting site
+    Name: 'Minecraft-MP.COM'
+          
+    # Priority of this site
+    # Used for sorted list
+    # High prority, higher on the list
+    Priority: 5
+          
+    # The serviceName from the vote, has to be correct to work correctly
+    # Gotten from voting on the site (will be in console/log)
+    # Usually is the main part of the url(e.g. PlanetMinecraft.com)
+    ServiceSite: 'Minecraft-MP.com'
+
+    # vote url for /vote
+    # Format for this can be set in Format.yml
+    # Do not include colors here
+    VoteURL: 'https://goo.gl/M8j8qy'
+
+    # Time between votes in hours (used for /vote next)
+    # Most sites are 24 hours
+    VoteDelay: 24
+    
+    # Reset vote delay each day (for certain sites that do this)
+    VoteDelayDaily: true
+    
+    # If true, rewards can be executed offline (requires ForceOffline to be true in the reward)
+    # Setting this to true will execute the reward offline while the player is offline
+    # This basiclly disables offline voting if set to true, don't misinterpret this option
+    ForceOffline: false
+    
+    # VoteSite Material for GUI's
+    # Removing this may result in an error, required on each site
+
+    # Rewards to give
+    # https://github.com/Ben12345rocks/AdvancedCore/wiki/Rewards
+  TopG:
+    # Enable voteSite
+    # If false, votesite will not be loaded by plugin
+    # Default: false
+    Enabled: true
+    
+    # Display name of voting site
+    Name: 'TopG.ORG'
+          
+    # Priority of this site
+    # Used for sorted list
+    # High prority, higher on the list
+    Priority: 4
+          
+    # The serviceName from the vote, has to be correct to work correctly
+    # Gotten from voting on the site (will be in console/log)
+    # Usually is the main part of the url(e.g. PlanetMinecraft.com)
+    ServiceSite: 'TopG.org'
+
+    # vote url for /vote
+    # Format for this can be set in Format.yml
+    # Do not include colors here
+    VoteURL: 'https://topg.org/Minecraft/in-419819'
+
+    # Time between votes in hours (used for /vote next)
+    # Most sites are 24 hours
+    VoteDelay: 24
+    
+    # Reset vote delay each day (for certain sites that do this)
+    VoteDelayDaily: true
+    
+    # If true, rewards can be executed offline (requires ForceOffline to be true in the reward)
+    # Setting this to true will execute the reward offline while the player is offline
+    # This basiclly disables offline voting if set to true, don't misinterpret this option
+    ForceOffline: false
+    
+    # VoteSite Material for GUI's
+    # Removing this may result in an error, required on each site
+
+    # Rewards to give
+    # https://github.com/Ben12345rocks/AdvancedCore/wiki/Rewards
+    
+# Reward for any site
+# Similar to AnySiteReward
+# This requires the site to be configured in order to get the reward.
+EverySiteReward:
+  Commands:
+  - 'cmi exp give %player% 1000'
+  - 'cmi money give %player% 2500'
+#  - 'lp user %player% permission settemp cmi.command.fly 10m world=world'
+#  - 'points give %player% 10'
+  - 'crazycrates give p vote 1 %player%'
+  - 'lp user %player% parent addtemp premium 10m'
+  - 'cmi tfly %player% 30m'

@@ -1,0 +1,302 @@
+# 
+#         For Cosmic Crates Only
+Crate:
+  CrateType: Roulette
+  CrateName: '&9&lSupreme Crate'
+  StartingKeys: 0
+  InGUI: true
+  Slot: 22
+  OpeningBroadCast: false
+  BroadCast: '%Prefix%&6&l%Player% &7deschide &9&lSupreme &3&lCrate&7!'
+  Item: CHEST
+  Name: '&9&lSupreme &3&lCrate'
+  Lore:
+    - '&7Acest crate contine iteme speciale,'
+    - '&7testeaza-ti norocul si vezi ce poti castiga.'
+    - '&7Momentan ai &6%Keys% chei pentru acest crate.'
+    - '&7&l(&e&l!&7&l) &cClick-dreapta pentru a vedea itemele.'
+  PhysicalKey:
+    Name: '&9&lSupreme Crate &b&lKey'
+    Lore:
+    - '&7O cheie speciala'
+    - '&7pentru un crate special!'
+    Item: TRIPWIRE_HOOK
+    Glowing: true
+  Prizes:
+    '1':
+      DisplayName: '&7&lFaikkit Crate &b&lKey'
+      DisplayItem: TRIPWIRE_HOOK
+      DisplayAmount: 1
+      Lore:
+      - '&7Cateva mere in caz de iti e foame.'
+      - '&7Sansa: &c15%'
+      MaxRange: 100
+      Chance: 15
+      Firework: true
+      Commands:
+      - cc give p faikkit %player% 1
+      - cmi broadcast ! &8&l[&b&lFaikkitCrates&8&l] &6%Player% &7a castigat &bFaikkit Crate Key &7din &9Supreme Crate&7!
+    '2':
+      DisplayName: '&eVoucher 2000 ClaimBlocks'
+      DisplayItem: PAPER
+      Lore:
+      - '&7Un voucher care contine 2000 de claim blocks'
+      - '&7Sansa: &c5%'
+      MaxRange: 100
+      Chance: 5
+      Firework: true
+      Commands:
+      - voucher give %player% claimb2000
+      - cmi broadcast ! &8&l[&bFaikkitCrates&8&l] &6%Player% &7a castigat &eVoucher 2000 ClaimBlocks &7din &9Supreme Crate&7!
+    '3':
+      DisplayName: '&a20.000$'
+      DisplayItem: SUNFLOWER
+      Lore:
+      - '&7O suma decenta de bani!'
+      - '&7Sansa: &c15%'
+      MaxRange: 100
+      Chance: 15
+      Firework: true
+      Commands:
+      - cmi money give %player% 20000
+      - cmi broadcast ! &8&l[&bFaikkitCrates&8&l] &6%Player% &7a castigat &a20.000$ &7din &9Supreme Crate&7!
+    '4':
+      DisplayName: '&a5.000$'
+      DisplayItem: SUNFLOWER
+      Lore:
+      - '&7O suma decenta de bani!'
+      - '&7Sansa: &c28%'
+      MaxRange: 100
+      Chance: 28
+      Firework: true
+      Commands:
+      - cmi money give %Player% 5000
+      - cmi broadcast ! &8&l[&bFaikkitCrates&8&l] &6%Player% &7a castigat &a5.000$ &7din &9Supreme Crate&7!
+    '5':
+      DisplayName: '&b15.000$'
+      DisplayItem: SUNFLOWER
+      Lore:
+      - '&7O suma decenta de bani!'
+      - '&7Sansa: &c22%'
+      MaxRange: 100
+      Chance: 25
+      Firework: true
+      Commands:
+      - cmi money give %Player% 15000
+      - cmi broadcast ! &8&l[&bFaikkitCrates&8&l] &6%Player% &7a castigat &b15.000$ &7din &9Supreme Crate&7!
+    '6':
+      DisplayName: '&b25.000$'
+      DisplayItem: SUNFLOWER
+      Lore:
+      - '&7O suma decenta de bani!'
+      - '&7Sansa: &c22%'
+      MaxRange: 100
+      Chance: 22
+      Firework: true
+      Commands:
+      - cmi money give %Player% 25000
+      - cmi broadcast ! &8&l[&bFaikkitCrates&8&l] &6%Player% &7a castigat &225.000$ &7din &9Supreme Crate&7!
+    '7':
+      DisplayName: '&b32x Sticlute EXP'
+      DisplayItem: EXPERIENCE_BOTTLE
+      Lore:
+      - '&7Cateva sticle de experienta nu strica niciodata.'
+      - '&7Sansa: &c20%'
+      MaxRange: 100
+      Chance: 20
+      Firework: true
+      Commands:
+      - cmi give %Player% 384 32
+      - cmi broadcast ! &8&l[&bFaikkitCrates&8&l] &6%Player% &7a castigat &b32x Sticlute EXP &7din &9Supreme Crate&7!
+    '8':
+      DisplayName: '&7&lFaikkit Crate &b&lKey'
+      DisplayItem: TRIPWIRE_HOOK
+      Lore:
+      - '&7O cheie speciala pentru o cutie speciala.'
+      - '&7Sansa: &c10%'
+      MaxRange: 100
+      Chance: 10
+      Firework: true
+      Commands:
+      - cc give p faikkit 1 %Player%
+      - cmi broadcast ! &8&l[&bFaikkitCrates&8&l] &6%Player% &7a castigat &2Faikkit Crate &7Key &7din &9Supreme Crate&7!
+    '9':
+      DisplayName: '&e&lVote Crate &b&lKey'
+      DisplayItem: TRIPWIRE_HOOK
+      Lore:
+      - '&7O cheie speciala pentru o cutie speciala.'
+      - '&7Sansa: &c10%'
+      MaxRange: 100
+      Chance: 10
+      Firework: true
+      Commands:
+      - cc give p vote 1 %Player%
+      - cmi broadcast ! &8&l[&bFaikkitCrates&8&l] &6%Player% &7a castigat &eVote Crate &7Key &7din &9Supreme Crate&7!
+    '10':
+      DisplayName: '&b16x Sticlute EXP'
+      DisplayItem: EXPERIENCE_BOTTLE
+      Lore:
+      - '&7Cateva sticle de experienta nu strica niciodata.'
+      - '&7Sansa: &c25%'
+      MaxRange: 100
+      Chance: 25
+      Firework: true
+      Commands:
+      - cmi give %Player% 384 16
+      - cmi broadcast ! &8&l[&bFaikkitCrates&8&l] &6%Player% &7a castigat &b16x Sticlute EXP &7din &9Supreme Crate&7!
+    '11':
+      DisplayName: '&b64x Sticlute EXP'
+      DisplayItem: EXPERIENCE_BOTTLE
+      Lore:
+      - '&7Cateva sticle de experienta nu strica niciodata.'
+      - '&7Sansa: &c15%'
+      MaxRange: 100
+      Chance: 15
+      Firework: true
+      Commands:
+      - cmi give %Player% 384 64
+      - cmi broadcast ! &8&l[&bFaikkitCrates&8&l] &6%Player% &7a castigat &b64x Sticlute EXP &7din &9Supreme Crate&7!
+    '12':
+      DisplayName: '&eVoucher Fly 12h'
+      DisplayItem: PAPER
+      Lore:
+      - '&7Un voucher care iti da acces la /fly pentru un timp.'
+      - '&7Sansa: &c5%'
+      MaxRange: 100
+      Chance: 5
+      Firework: true
+      Commands:
+      - voucher give %player% fly12h
+      - cmi broadcast ! &8&l[&bFaikkitCrates&8&l] &6%Player% &7a castigat &eVoucher Fly 12h &7din &9Supreme Crate&7!
+    '13':
+      DisplayName: '&eVoucher Fly 5h'
+      DisplayItem: PAPER
+      Lore:
+      - '&7Un voucher care iti da acces la /fly pentru un timp.'
+      - '&7Sansa: &c5%'
+      MaxRange: 100
+      Chance: 5
+      Firework: true
+      Commands:
+      - voucher give %player% fly5h
+      - cmi broadcast ! &8&l[&bFaikkitCrates&8&l] &6%Player% &7a castigat &eVoucher Fly 5h &7din &9Supreme Crate&7!
+    '12':
+      DisplayName: '&eVoucher Fly 1h'
+      DisplayItem: PAPER
+      Lore:
+      - '&7Un voucher care iti da acces la /fly pentru un timp.'
+      - '&7Sansa: &c5%'
+      MaxRange: 100
+      Chance: 10
+      Firework: true
+      Commands:
+      - voucher give %player% fly1h
+      - cmi broadcast ! &8&l[&bFaikkitCrates&8&l] &6%Player% &7a castigat &eVoucher Fly 1h &7din &9Supreme Crate&7!
+    '13':
+      DisplayName: '&eVoucher Fly 3h'
+      DisplayItem: PAPER
+      Lore:
+      - '&7Un voucher care iti da acces la /fly pentru un timp.'
+      - '&7Sansa: &c5%'
+      MaxRange: 100
+      Chance: 7
+      Firework: true
+      Commands:
+      - voucher give %player% fly12h
+      - cmi broadcast ! &8&l[&bFaikkitCrates&8&l] &6%Player% &7a castigat &eVoucher Fly 12h &7din &9Supreme Crate&7!
+    '14':
+      DisplayName: '&eVoucher Prefix Temmporar'
+      DisplayItem: PAPER
+      Lore:
+      - '&7Un voucher continand un prefix temporar.'
+      - '&7Sansa: &c1%'
+      MaxRange: 100
+      Chance: 1
+      Firework: true
+      Commands:
+      - voucher give %player% prefixs1temp
+      - cmi broadcast ! &8&l[&bFaikkitCrates&8&l] &6%Player% &7a castigat &eVoucher Prefix Temporar &7din &9Supreme Crate&7!
+    '14':
+      DisplayName: '&eVoucher Prefix Temmporar'
+      DisplayItem: PAPER
+      Lore:
+      - '&7Un voucher continand un prefix temporar.'
+      - '&7Sansa: &c1%'
+      MaxRange: 100
+      Chance: 1
+      Firework: true
+      Commands:
+      - voucher give %player% prefixs2temp
+      - cmi broadcast ! &8&l[&bFaikkitCrates&8&l] &6%Player% &7a castigat &eVoucher Prefix Temporar &7din &9Supreme Crate&7!
+    '14':
+      DisplayName: '&eVoucher Prefix Temmporar'
+      DisplayItem: PAPER
+      Lore:
+      - '&7Un voucher continand un prefix temporar.'
+      - '&7Sansa: &c1%'
+      MaxRange: 100
+      Chance: 1
+      Firework: true
+      Commands:
+      - voucher give %player% prefixs3temp
+      - cmi broadcast ! &8&l[&bFaikkitCrates&8&l] &6%Player% &7a castigat &eVoucher Prefix Temporar &7din &9Supreme Crate&7!
+    '15':
+      DisplayName: '&eVoucher 1000 ClaimBlocks'
+      DisplayItem: PAPER
+      Lore:
+      - '&7Un voucher care contine 1000 de claim blocks'
+      - '&7Sansa: &c5%'
+      MaxRange: 100
+      Chance: 15
+      Firework: true
+      Commands:
+      - voucher give %player% claimb1000
+      - cmi broadcast ! &8&l[&bFaikkitCrates&8&l] &6%Player% &7a castigat &eVoucher 1000 ClaimBlocks &7din &9Supreme Crate&7!
+    '16':
+      DisplayName: '&eVoucher 750 ClaimBlocks'
+      DisplayItem: PAPER
+      Lore:
+      - '&7Un voucher care contine 750 de claim blocks'
+      - '&7Sansa: &c5%'
+      MaxRange: 100
+      Chance: 25
+      Firework: true
+      Commands:
+      - voucher give %player% claimb750
+      - cmi broadcast ! &8&l[&bFaikkitCrates&8&l] &6%Player% &7a castigat &eVoucher 750 ClaimBlocks &7din &9Supreme Crate&7!
+    '17':
+      DisplayName: '&eVoucher 2750 ClaimBlocks'
+      DisplayItem: PAPER
+      Lore:
+      - '&7Un voucher care contine 2750 de claim blocks'
+      - '&7Sansa: &c5%'
+      MaxRange: 100
+      Chance: 5
+      Firework: true
+      Commands:
+      - voucher give %player% claimb2750
+      - cmi broadcast ! &8&l[&bFaikkitCrates&8&l] &6%Player% &7a castigat &eVoucher 2750 ClaimBlocks &7din &9Supreme Crate&7!
+    '18':
+      DisplayName: '&eVoucher 1500 ClaimBlocks'
+      DisplayItem: PAPER
+      Lore:
+      - '&7Un voucher care contine 1500 de claim blocks'
+      - '&7Sansa: &c5%'
+      MaxRange: 100
+      Chance: 10
+      Firework: true
+      Commands:
+      - voucher give %player% claimb1500
+      - cmi broadcast ! &8&l[&bFaikkitCrates&8&l] &6%Player% &7a castigat &eVoucher 1500 ClaimBlocks &7din &9Supreme Crate&7!
+    '19':
+      DisplayName: '&bPet Baby Wither'
+      DisplayItem: WITHER_SKELETON_SPAWN_EGG
+      Lore:
+      - '&7Un pet Baby Wither, foarte dragalas'
+      - '&7Sansa: &c0.5%'
+      MaxRange: 100
+      Chance: 0.5
+      Firework: true
+      Commands:
+      - petadmin create %player% Wither baby
+      - cmi broadcast ! &8&l[&bFaikkitCrates&8&l] &6%Player% &7a castigat &eVoucher 2000 ClaimBlocks &7din &9Supreme Crate&7!

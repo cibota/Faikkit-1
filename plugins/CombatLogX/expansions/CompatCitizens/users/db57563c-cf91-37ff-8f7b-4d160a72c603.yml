@@ -1,0 +1,86 @@
+punish: true
+inventory data:
+  items:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2227
+    type: WRITTEN_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: BOOK_SIGNED
+      title: How to Claim Land
+      author: BigScary
+      pages:
+      - |-
+        Click: §3§nbit.ly/mcgpuser§0
+        §0
+        §0Claim land to protect your stuff!  Click the link above to learn land claims in 3 minutes or less.  :)§0
+        §0
+        §0Our claim tools are wooden shovel and stick.
+      - |-
+        Useful Commands:§0
+        §0
+        §0/Trust /UnTrust /TrustList§0
+        §0/ClaimsList§0
+        §0/AbandonClaim§0
+        §0
+        §0/Claim /ExtendClaim§0
+        §0/IgnorePlayer§0
+        §0
+        §0/SubdivideClaims§0
+        §0/AccessTrust§0
+        §0/ContainerTrust§0
+        §0/PermissionTrust
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  armor:
+  - null
+  - null
+  - null
+  - null
+last health: 20.0
+last location:
+  ==: org.bukkit.Location
+  world: world
+  x: -236.36416418722956
+  y: 76.0
+  z: 296.6588534139951
+  pitch: 19.023176
+  yaw: -29.692444

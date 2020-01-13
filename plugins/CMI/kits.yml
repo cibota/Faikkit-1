@@ -1,0 +1,354 @@
+# Player should have appropriate permission node to use particular kit: cmi.kit.[kitName]
+# cmi.kit.newbie will allow to use newbie kit
+# Possible custom variables: {USERNAME} {DISPLAYNAME} {WORLDNAME} {KITNAME} {RANDOMPLAYER}
+# Edit kits ingame with /cmi kiteditor to avoid formating issues
+
+premium:
+  CommandName: premium
+  Enabled: true
+  DropOnGround: true
+  ShowDespiteWeight: false
+  Delay: 604800
+  MaxUsages: -1
+  Items:
+    '28':
+      v: 2227
+      type: EXPERIENCE_BOTTLE
+      amount: 64
+    '29':
+      v: 2227
+      type: PARROT_SPAWN_EGG
+    '30':
+      v: 2227
+      type: DIAMOND
+      amount: 16
+    '31':
+      v: 2227
+      type: PIG_SPAWN_EGG
+      amount: 2
+    '32':
+      v: 2227
+      type: TRIPWIRE_HOOK
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §8§lFaikkit Crate §b§lKey
+        lore:
+        - §7O cheie Speciala
+        - §7pentru o cutie speciala!
+        enchants:
+          LUCK: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+        internal: H4sIAAAAAAAAAONiYOBgEHQuSqyqBBIlqcW6YIqBPS0xMzs7s4QBAHTIepYhAAAA
+Starter:
+  CommandName: Starter
+  Enabled: true
+  DropOnGround: true
+  ShowDespiteWeight: false
+  Delay: 86400
+  MaxUsages: -1
+  Items:
+    '28':
+      v: 2227
+      type: IRON_SWORD
+    '29':
+      v: 2227
+      type: STONE_PICKAXE
+    '30':
+      v: 2227
+      type: STONE_AXE
+    '31':
+      v: 2227
+      type: STONE_SHOVEL
+    '36':
+      v: 2227
+      type: BREAD
+      amount: 32
+    Helmet:
+      v: 2227
+      type: CHAINMAIL_HELMET
+    Chest:
+      v: 2227
+      type: CHAINMAIL_CHESTPLATE
+    Legs:
+      v: 2227
+      type: CHAINMAIL_LEGGINGS
+    Boots:
+      v: 2227
+      type: CHAINMAIL_BOOTS
+MVP:
+  CommandName: MVP
+  Enabled: true
+  DropOnGround: true
+  ShowDespiteWeight: false
+  Delay: 604800
+  MaxUsages: -1
+  Slot: 4
+  Commands:
+  - money give {username} 50000
+  Items:
+    '28':
+      v: 2227
+      type: TRIPWIRE_HOOK
+      amount: 3
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §9§lSupreme Crate §b§lKey
+        lore:
+        - §7O cheie speciala
+        - §7pentru un crate special!
+        enchants:
+          LUCK: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+        internal: H4sIAAAAAAAAAONiYOBgEHQuSqyqBBIlqcW6YIqBvbi0oCg1N5UBALkVlswhAAAA
+    '29':
+      v: 2227
+      type: DIAMOND_HELMET
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          WATER_WORKER: 1
+          MENDING: 1
+          PROTECTION_ENVIRONMENTAL: 5
+          DURABILITY: 5
+    '30':
+      v: 2227
+      type: DIAMOND_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 5
+          THORNS: 4
+          DURABILITY: 5
+    '31':
+      v: 2227
+      type: DIAMOND_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 5
+          THORNS: 4
+          DURABILITY: 5
+    '32':
+      v: 2227
+      type: DIAMOND_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          DEPTH_STRIDER: 3
+          PROTECTION_ENVIRONMENTAL: 5
+          THORNS: 4
+          DURABILITY: 5
+    '33':
+      v: 2227
+      type: TRIPWIRE_HOOK
+      amount: 2
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §7§lWarrior Crate §b§lKey
+        lore:
+        - §7O cheie speciala
+        - §7care poate deschide numai o anumita cutie.
+        enchants:
+          LUCK: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+        internal: H4sIAAAAAAAAAONiYOBgEHQuSqyqBBIlqcW6YIqBPTyxqCgzv4gBAIOPIiMhAAAA
+nu:
+  CommandName: nu
+  Enabled: false
+  DropOnGround: true
+  ShowDespiteWeight: false
+  Delay: 10
+  MaxUsages: -1
+Claim:
+  CommandName: Claim
+  Enabled: true
+  DropOnGround: true
+  ShowDespiteWeight: false
+  Delay: 3723
+  MaxUsages: -1
+  Items:
+    '28':
+      v: 2227
+      type: WOODEN_SHOVEL
+    '29':
+      v: 2227
+      type: STICK
+VIP+:
+  CommandName: VIP+
+  Enabled: true
+  DropOnGround: true
+  ShowDespiteWeight: false
+  Delay: 604850
+  MaxUsages: -1
+  Commands:
+  - money give {DISPLAYNAME} 40000
+  Items:
+    '28':
+      v: 2227
+      type: TRIPWIRE_HOOK
+      amount: 2
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §9§lSupreme Crate §b§lKey
+        lore:
+        - §7O cheie speciala
+        - §7pentru un crate special!
+        enchants:
+          LUCK: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+        internal: H4sIAAAAAAAAAONiYOBgEHQuSqyqBBIlqcW6YIqBvbi0oCg1N5UBALkVlswhAAAA
+    '29':
+      v: 2227
+      type: TRIPWIRE_HOOK
+      amount: 2
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §7§lWarrior Crate §b§lKey
+        lore:
+        - §7O cheie speciala
+        - §7care poate deschide numai o anumita cutie.
+        enchants:
+          LUCK: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+        internal: H4sIAAAAAAAAAONiYOBgEHQuSqyqBBIlqcW6YIqBPTyxqCgzv4gBAIOPIiMhAAAA
+    '30':
+      v: 2227
+      type: DIAMOND_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          DEPTH_STRIDER: 3
+          PROTECTION_ENVIRONMENTAL: 4
+          THORNS: 4
+          DURABILITY: 3
+    '31':
+      v: 2227
+      type: DIAMOND_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 4
+          THORNS: 4
+          DURABILITY: 3
+    '32':
+      v: 2227
+      type: DIAMOND_HELMET
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          WATER_WORKER: 1
+          MENDING: 1
+          PROTECTION_ENVIRONMENTAL: 4
+          DURABILITY: 3
+    '33':
+      v: 2227
+      type: DIAMOND_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 4
+          THORNS: 4
+          DURABILITY: 3
+vip:
+  CommandName: vip
+  Enabled: true
+  DropOnGround: true
+  ShowDespiteWeight: false
+  Delay: 604841
+  MaxUsages: -1
+  Commands:
+  - money give {DISPLAYNAME} 35000
+  Group: vip
+  Items:
+    '28':
+      v: 2227
+      type: TRIPWIRE_HOOK
+      amount: 5
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §8§lFaikkit Crate §b§lKey
+        lore:
+        - §7O cheie Speciala
+        - §7pentru o cutie speciala!
+        enchants:
+          LUCK: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+        internal: H4sIAAAAAAAAAONiYOBgEHQuSqyqBBIlqcW6YIqBPS0xMzs7s4QBAHTIepYhAAAA
+    '29':
+      v: 2227
+      type: TRIPWIRE_HOOK
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §7§lWarrior Crate §b§lKey
+        lore:
+        - §7O cheie speciala
+        - §7care poate deschide numai o anumita cutie.
+        enchants:
+          LUCK: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+        internal: H4sIAAAAAAAAAONiYOBgEHQuSqyqBBIlqcW6YIqBPTyxqCgzv4gBAIOPIiMhAAAA
+    '30':
+      v: 2227
+      type: DIAMOND_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          DEPTH_STRIDER: 3
+          PROTECTION_ENVIRONMENTAL: 4
+          THORNS: 2
+          DURABILITY: 3
+    '31':
+      v: 2227
+      type: DIAMOND_HELMET
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          WATER_WORKER: 1
+          MENDING: 1
+          PROTECTION_ENVIRONMENTAL: 4
+          THORNS: 2
+          DURABILITY: 3
+    '32':
+      v: 2227
+      type: DIAMOND_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 4
+          THORNS: 2
+          DURABILITY: 3
+    '33':
+      v: 2227
+      type: DIAMOND_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 4
+          THORNS: 2
+          DURABILITY: 3

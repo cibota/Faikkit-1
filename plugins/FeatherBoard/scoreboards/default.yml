@@ -1,0 +1,126 @@
+# Default FeatherBoard comes with a board called "default". All players have the permission
+# featherboard.group.default  (by default) meaning all players should see the scoreboard unless
+# the permission is negated.
+
+# Example of the use of settings
+# This section is optional
+settings:
+  # If you quickly want to change the
+  # the label color change it here.
+  # It replaces $setting_label-color$ throughout the entire config
+  label-color: "&e"
+  # Show or hide the health
+  # This is an example of the script
+  show-health: true
+  # The priority of the scoreboard. The higher the number -> higher priority
+  # Used when having more than one scoreboard assigned
+  priority: 10
+
+# Example of pre processing script
+# This section is optional
+script-pre: |
+    if (settings['show-health'] == true){
+        board.getMeta().setSetting("enable-health","");
+    }else{
+        board.getMeta().setSetting("enable-health","|disabled|");
+    }
+
+# This section is required. Those are your scoreboard lines
+lines:
+  # Every section here are different lines. The first section will be used as the title
+  # the following sections will be used as the lines on the scoreboard (max 15)
+  # Just as the scoreboard names you can name these 'lines' whatever you want. But to make
+  # things simple I will use logical names such as "title", "spacer", "header", ...
+  title:
+    # Every line has its own frames. The animation will loop through these frames on intervals
+    # that you configure below.
+    # Put all your frames under 'text:'. You can make as many lines as you want and use
+    # placeholders and preset effects.
+    # Keep in mind that there is a limit in line width!
+    frames:
+    - '&e&l★&8<center width="20"> &c&lSurvival &7(&c{placeholderapi_server_online}&7/&c{placeholderapi_server_max_players}&7) </center>&e&l★'
+    interval: 2
+    # If you don't want a static order of the frames and want to show each frame at random
+    # you can enable this option.
+    random: false
+  # A scoreboard is dynamic. The lines can change length due to smaller placeholders or scrolling text.
+  # that is why it is advised to have something on your scoreboard that is bigger then all other lines.
+  # These lines (usually a header or footer) are also good for decoration.
+  header:
+    frames:
+    - '     <center width="20">&6* &7{time} &6*</center>'
+    interval: 10
+    random: true
+  player-label:
+    frames: []
+    interval: 100
+    random: false
+  spacer1:
+    frames: []
+    interval: 100
+    random: false
+  name-label:
+    frames:
+    - '&7• Nume: &r{player}'
+    interval: 100
+    random: false
+  # For empty lines just add another 'section' but just don't put any text
+  # in it so it acts like an empty line.
+  grad:
+    frames:
+    - '&7• Grad: &r{placeholderapi_cmi_user_prefix}'
+    interval: 50
+    random: false
+  rank:
+    frames:
+    - '&7• Rank: &r{placeholderapi_cmi_user_rank}'
+    interval: 50
+    random: false
+  spacer2:
+    frames: []
+    interval: 100
+    random: false
+  bani:
+    frames:
+    - '&7• Bani: &r{placeholderapi_cmi_user_balance_formatted}'
+    interval: 100
+    random: false
+  # For empty lines just add another 'section' but just don't put any text
+  # in it so it acts like an empty line.
+  spacer2:
+    frames: []
+    interval: 100
+    random: false
+  voturi:
+    frames:
+    - '<center width="15">&7• &7Voturi: &r{placeholderapi_VotingPlugin_Total_AllTime}</center>'
+    interval: 50
+    random: false
+  spacer2:
+    frames: []
+    interval: 100
+    random: false
+  # For empty lines just add another 'section' but just don't put any text
+  # in it so it acts like an empty line.
+#  global:
+#    frames:
+#    - '&7• Global: &c{placeholderapi_bungee_total}'
+#    interval: 50
+#    random: false
+  tps:
+    frames:
+    - '&7• TPS: &c{placeholderapi_server_tps_1}'
+    interval: 2
+    random: false
+  spacer4:
+    frames: []
+    interval: 100
+    random: false
+
+  # This is the same as the header. It is not needed since you already use the header as the longest line
+  # but it looks cleaner having a footer.
+  footer:
+    frames:
+    - '&e&l★ <center width="15"&7>&cplay.faicu.ro&7</center> &e&l★'
+    interval: 50
+    random: true

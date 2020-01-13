@@ -1,0 +1,470 @@
+# -------------------------------------------------------------------------------------------
+# 
+#  Your file has been automatically updated at 13.01.2020 05:00:57
+#  to ChatControl 8.5.4
+# 
+#  Unfortunatelly, due to how Bukkit saves all .yml files, it was not possible
+#  preserve the documentation comments in your file. We apologize.
+# 
+#  If you'd like to view the default file, you can either:
+#  a) Open the ChatControl-8.5.4.jar with a WinRar or similar
+#  b) or, visit: https://github.com/kangarko/ChatControl/wiki
+# 
+# -------------------------------------------------------------------------------------------
+
+Anti_Bot:
+  Cooldown:
+    Rejoin: 5
+    Chat_After_Login: 5
+    Command_After_Login: 5
+  Block_Chat_Until_Moved: false
+  Block_Commands_Until_Moved:
+  - /afk
+  - /me
+  - /msg
+  Show_Quit_Message_Only_If_Logged: true
+  Block_Signs_With_Same_Text: false
+  Disallowed_Nicknames:
+  - (f+(\W|\d|_)*u+(\W|\d|_)*c+(\W|\d|_)*k+(\W|\d|_)*)
+  - bitch
+  - asshole
+  - pula
+  - prost
+  - pizd
+  - handicapat
+  - coi
+  - mata
+  - mati
+Anti_Caps:
+  Enabled: true
+  Enabled_In_Commands: false
+  Commands_To_Apply:
+  - /msg
+  - /tell
+  - /reply
+  - /r
+  - /m
+  Points:
+    Warn_Set: spam
+    Amount: 4 * ({capsPercentage} / 2)
+  Ignore_Usernames: true
+  Min_Message_Length: 5
+  Min_Caps_Percentage: 50
+  Min_Caps_In_A_Row: 5
+  Warn_If_Caps_Above_Percent: 50
+  Whitelist:
+  - OMG
+  - LOL
+  - WTF
+  - WOW
+  - ROFL
+  - OMFG
+  - DA
+  - YE
+Anti_Spam:
+  Similarity_Check:
+    Ignore_Special_Characters: true
+    Ignore_Duplicate_Characters: true
+  Regex_In_Whitelists: false
+  Commands:
+    Command_Delay: 1
+    Limit:
+      Period: 10 seconds
+      Max_Commands: 7
+      Whitelist_Limit:
+      - chatcontrol
+      - chc
+    Delay_Points:
+      Warn_Set: fastmessages
+      Amount: 3 - {delay}
+    Similar_Percentage_Block: 80
+    Similarity_Points:
+      Warn_Set: spam
+      Amount: 4 * ({similarityPercentage} / 2)
+    Whitelist_Works_Like_Blacklist: true
+    Whitelist_Similarity:
+    - /tell
+    - /pm
+    - /t
+    - /w
+    - /r
+    - /tc
+    Whitelist_Delay:
+    - /tell
+    - /pm
+    - /t
+    - /w
+    - /r
+    Handle_As_Chat:
+    - /me
+  Chat:
+    Message_Delay: 1
+    Limit:
+      Period: 10 seconds
+      Max_Messages: 7
+      Points:
+        Warn_Set: spam
+        Amount: 3
+    Parrot:
+      Enabled: false
+      Delay: 20 ticks
+      Minimum_Similarity: 85
+      Whitelist:
+      - hello
+      - hey
+    Delay_Points:
+      Warn_Set: spam
+      Amount: 3 - {delay}
+    Similar_Percentage_Block: 90
+    Similarity_Message_Check_Count: 3
+    Similarity_Points:
+      Warn_Set: spam
+      Amount: 4 * ({similarityPercentage} / 2)
+    Whitelist_Similarity:
+    - hello
+    - hey
+    - da
+    - ce
+    - ok
+    - ce?
+    - da?
+    - ok?
+    - '?'
+    Whitelist_Delay:
+    - hello
+    - hey
+    - da
+    - ce
+    - ok
+    - ce?
+    - da?
+    - ok?
+    - '?'
+Grammar:
+  Insert_Dot:
+    Enabled: true
+    Min_Message_Length: 15
+  Capitalize:
+    Enabled: true
+    Min_Message_Length: 15
+  Lowercase_Second:
+    Enabled: true
+Clear:
+  Broadcast: true
+  Do_Not_Clear_For_Staff: true
+  Console_Lines: 30
+Mute:
+  Broadcast: true
+  Apply_Limits_For_Essentials_Mute: true
+  Prevent:
+    Writing_Books: false
+    Placing_Signs: false
+  Silence:
+    Join_Messages: true
+    Quit_Messages: true
+    Death_Messages: true
+  Disabled_Commands: []
+Newcomer:
+  Threshold: 0 minutes
+  Worlds:
+  - '*'
+  Warn_Points_Multiplier: 1.0
+  Restrict_Chat:
+    Enabled: false
+    Whitelist: []
+  Restrict_Seeing_Chat:
+    Enabled: false
+  Restrict_Commands:
+    Enabled: false
+    Blacklist: false
+    Whitelist:
+    - /login
+    - /l
+    - /register
+    - /reg
+    - /helpop
+    - /help
+    - /?
+Announcer:
+  Bungee: true
+  Ignore_Self: false
+  Log_To_Console: true
+  Sound: ENTITY_ARROW_HIT_PLAYER, 1.0, 0.1
+Admin_Chat:
+  Bungee: true
+  Log_To_Console: true
+  Write_To_File: true
+  Shortcut: none
+  Discord_Channel: admin
+Bungee_Chat:
+  Enabled_By_Default: true
+  Log_To_Console: true
+  Write_To_File: true
+  Shortcut: ''
+  Discord_Channel: global
+Private_Messages:
+  Enabled: true
+  Bungee: true
+  Deny_Message_Self: true
+  Register_Reply_To_Self: true
+  Register_Reply_To_Receiver: true
+  Reply_Change_Timeout: 3 seconds
+  Deep_Search: true
+  Toast:
+    Enabled: true
+    Format: '&6{sender} &8->{dynamic_spaces}&7{message}'
+  Auto_Start:
+    Enabled: false
+    Start_For_Empty_Tell_Command: false
+    Prefix: '@'
+    End: exit
+  Aliases:
+    Tell:
+    - tell
+    - msg
+    - whisper
+    - w
+    - pm
+    Reply:
+    - reply
+    - r
+    TogglePM:
+    - togglepm
+    - ignorepm
+    - nopm
+  Format_Sender: Private_Message_Sender
+  Format_Receiver: Private_Message_Receiver
+Toggle_Broadcast:
+  Enabled: true
+  Aliases:
+  - togglebroadcast
+  - togglebc
+  - toggletm
+Ignore:
+  Enabled: true
+  Aliases:
+  - ignore
+  - ign
+  Chat: true
+  Private_Messages: true
+Me:
+  Enabled: true
+  Aliases:
+  - me
+  - shout
+  - status
+  Bungee: true
+Packets:
+  Enabled: true
+  Replace_Unicode_In_Books: true
+  Tab_Complete:
+    Hide_Vanished_Players:
+      Enabled: true
+      Maximum_Length: 20
+    Enabled: false
+    Only_In_Commands: true
+    Require_Arguments: 1
+    Require_Length: -1
+Rules:
+  Verbose: true
+  Bungee: true
+  Chat: true
+  Commands: true
+  Packets: true
+  Signs:
+    Check: true
+    Block: true
+    Drop: true
+  Books:
+    Check: true
+    Replace: true
+  Anvil:
+    Check: true
+    Replace: true
+  Chat_Ignorer:
+    Enabled: false
+    Sets:
+      swear:
+        Ignored_By_Default: false
+Console_Filter:
+  Enabled: true
+  Filter_System_Out: false
+  Log: true
+  Filter_Console_Messages:
+  - Reached end of stream for
+  - Connection reset
+  - '[Slimefun] Old block data'
+  - '[Slimefun] Ignoring duplicate block'
+  - '[Slimefun] New block data'
+Sound_Notify:
+  Enabled: true
+  Cooldown: 5 seconds
+  Require_Afk: false
+  Require_Prefix: none
+  Sound: ENTITY_CHICKEN_EGG, 1F, 1.5F
+  Color: '&a'
+  Use_Sender_Group_Color: false
+  Enabled_In_Commands:
+  - /msg
+  - /tell
+  - /t
+  - /w
+  - /r
+Groups:
+  Enabled: false
+  List:
+    vip:
+      Message_Delay: 0
+      Command_Delay: 0
+Points:
+  Enabled: false
+  Smart_Warnings: true
+  Reset_Task:
+    Repeat_Every_Seconds: 20
+    Remove:
+      global: 5
+      spam: 1
+  Warn_Sets:
+    global:
+      '5':
+      - warn &7NU mai fa reclama sau incalca &2alte reguli ale chatului &7sau vei
+        fi &4penalizat&7!
+      '10':
+      - warn &c**** &lHei &c{player} **** &7-> &cAsta e &6Ultimul &cAvertisment!
+      '15':
+      - mute {player} 1d Incalcare Reguli Chat!
+    swear:
+      '4':
+      - warn &4&lNu mai vorbi urat sau incalca alte reguli ale chatului sau vei fi
+        penalizat!
+      '6':
+      - warn &4&lNu mai vorbi urat sau incalca alte reguli ale chatului sau vei fi
+        penalizat!
+      '8':
+      - mute {player} 15m Limbaj
+    spam:
+      '6':
+      - warn &cTe rog nu mai fa spam sau abuza chatul!
+      '10':
+      - warn &cTe rog nu mai spama chatul sau poti primi ban.
+      '12':
+      - kick {player} &cSpam Chat (Ultima avertizare)
+      '26':
+      - ban {player} Spam + Abuz Chat
+    fastmessages:
+      '6':
+      - warn &cTe rog sa scri mai incet pe chat.
+      '10':
+      - warn &cIncearca sa nu mai scri atat de repede, altfel nu o sa fiu atat de
+        iertator.
+      '14':
+      - kick {player} &cScris prea repede pe chat (ultima avertizare)
+Variables:
+  Custom_Enabled: false
+  Replace_In_Custom: true
+  Replace_Own_In_Custom: false
+  Vault:
+    Multi_Prefix: false
+    Multi_Suffix: false
+Writer:
+  Enabled: true
+  Ignore_Players:
+  - ignoredAdmin
+  Commands:
+  - /me
+  - /msg
+  - /m
+  - /tell
+  - /t
+  - /reply
+  - /r
+  - /mail
+Motd:
+  Enabled: true
+  Delay_Ticks: 2
+  Command_Aliases:
+  - motd
+  - welcome
+  Sound: ENTITY_FIREWORK_LAUNCH, 1F, 0.1F
+  Message:
+  - '&8&m-----------------------------------------------'
+  - '                 &7Salut &9{player}'
+  - '&f'
+  - '&6Bun venit pe Survival, iti uram un joc placut si sarbatori fericite!'
+  - '&f'
+  - '&6Ne poti gasi pe:'
+  - '&7Forum: &ffaikkit.faicu.ro'
+  - '&7Discord: &fhttps://discord.gg/kE2Nbjb'
+  - '&f'
+  - '&8&m-----------------------------------------------'
+  Message_First_Time: []
+  Message_Newcomer: []
+Color_Menu:
+  Title: Chat Color & Decoration
+  Icon:
+    No_Permission: BARRIER
+    Reset_Decoration: WHITE_CARPET
+    Reset_All: FEATHER
+    Color: WHITE_SHULKER_BOX
+    Decoration: WHITE_CARPET
+Spy:
+  Enabled: true
+  Bungee: true
+  Command_Aliases:
+  - spy
+  - socialspy
+  Format: '&8[&7SPY&8] &7{player}: &7{message}'
+  Format_PM: '&8[&5SPY&8] &7[{player}] -> [{receiver}]: &7{message}'
+  Channel_Prefix: '&8[&5SPY&8] '
+  Command_List_Works_Like_Blacklist: true
+  McMMO: true
+  Log_McMMO: false
+  Books: true
+  Signs: false
+  Command_List:
+  - /login
+  - /register
+  - /l
+  - /reg
+  Format_TownyChat: '&8[&5spy&8] &7[{townychat_channel}] &7{player}: &7{message}'
+  Format_Sign: '&8SPY: &7 [{location}] {player} placed a sign: [&8{text}&7]'
+BungeeCord:
+  Enabled: true
+  Prefix: '&8[{server_name}&8] &7'
+MySQL:
+  Enabled: false
+  Aggressive: false
+  Connection:
+    Host: localhost
+    Database: minecraft
+    Port: '3306'
+    User: ''
+    Password: ''
+    Table_Prefix: ChatControl_
+    Connector_Advanced: jdbc:mysql://{host}:{port}/{database}?autoReconnect=true
+Listener_Priority:
+  Checker: NORMAL
+  Formatter: NORMAL
+  Signs: HIGHEST
+Command_Aliases:
+- chatcontrol
+- chc
+- cc
+Locale: en
+Prefix: '&8[&3Faikkit&8]&7 '
+Server_Name: Survival
+Bungee_Server_Name: Survival
+Translate_Diacritical_Marks: true
+Clear_Data_If_Inactive: 30 days
+Regex_Timeout_Milis: 100
+Log_Lag_Over_Milis: 100
+Silent_Startup: false
+Regex_Strip_Colors: true
+Reset_Cache_On_Quit: false
+Enforce_New_Line: false
+Notify_Updates: true
+Notify_Promotions: true
+Debug: []
+Serialization: ''
+Version: 24
+Regex_Unicode: true

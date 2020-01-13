@@ -1,0 +1,4 @@
+# Directly defined reward file. ANY EDITS HERE CAN GET OVERRIDDEN!
+Messages:
+  Player: '&aAi votat pe toate site-urile de vot pe ziua de azi!'
+DirectlyDefinedReward: true

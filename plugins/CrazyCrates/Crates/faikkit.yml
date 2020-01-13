@@ -1,0 +1,369 @@
+# 
+#         For Cosmic Crates Only
+Crate:
+  CrateType: QuickCrate
+  CrateName: '&2&lFaikkit &3&lCrate'
+  StartingKeys: 0
+  InGUI: true
+  Slot: 24
+  OpeningBroadCast: true
+  BroadCast: '%Prefix%&6&l%Player% &7deschide &2&lFaikkit &3&lCrate&7!'
+  Item: PAPER
+  Name: '&2&lFaikkit &3&lCrate'
+  Lore:
+  - '&7Acest crate contine obiecte de tot felul,'
+  - '&7testeaza-ti norocul si vezi ce poti castiga.'
+  - '&7Momentan ai &6%Keys% chei pentru acest crate.'
+  - '&7&l(&e&l!&7&l) &cClick-dreapta pentru a vedea itemele.'
+  PhysicalKey:
+    Name: '&8&lFaikkit Crate &b&lKey'
+    Lore:
+    - '&7O cheie Speciala'
+    - '&7pentru o cutie speciala!'
+    Item: TRIPWIRE_HOOK
+    Glowing: true
+  Prizes:
+    '1':
+      DisplayName: '&7&lWarrior Crate &b&lKey'
+      DisplayItem: TRIPWIRE_HOOK
+      Lore:
+      - '&7O cheie speciala, pentru o cutie speciala.'
+      - '&7Sansa: &c2%'
+      MaxRange: 100
+      Chance: 2
+      Firework: true
+      Commands:
+      - cc give p Warrior 1 %Player%
+      - cmi broadcast ! &8&l[&b&lFaikkitCrates&8&l] &6%Player% &7a castigat &7Warrior Crate &bKey &7din &2Faikkit Crate&7!
+    '2':
+      DisplayName: '&c&lSabia lui Faicu'
+      DisplayItem: DIAMOND_SWORD
+      DisplayAmount: 1
+      Lore:
+      - '&7Sabia sacra a Fondatorului, ai mare grija de ea.'
+      - '&7Sansa: &c5%'
+      MaxRange: 100
+      Chance: 5
+      Firework: true
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2227
+        type: DIAMOND_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §c§lSabia lui Faicu
+          enchants:
+            DAMAGE_ARTHROPODS: 3
+            FIRE_ASPECT: 3
+            KNOCKBACK: 3
+            DAMAGE_ALL: 3
+            DURABILITY: 3
+      Commands:
+      - cmi broadcast ! &8&l[&bFaikkitCrates&8&l] &6%Player% &7a castigat &cSabia lui Faicu &7din &2Faikkit Crate&7!
+      Messages: []
+      BlackListed-Permissions: []
+      Alternative-Prize:
+        Toggle: false
+        Commands: []
+        Items: []
+        Messages: []
+    '3':
+      DisplayName: '&c&lPalaria lui Faicu'
+      DisplayItem: DIAMOND_HELMET
+      DisplayAmount: 1
+      Lore: 
+      - '&7Palaria sacra a Fondatorului, ai mare grija de ea.'
+      - '&7Sansa: &c5%'
+      MaxRange: 100
+      Chance: 5
+      Firework: true
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2227
+        type: DIAMOND_HELMET
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §c§lPalaria lui Faicu
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 4
+            DURABILITY: 3
+      Commands:
+      - cmi broadcast ! &8&l[&bFaikkitCrates&8&l] &6%Player% &7a castigat &cPalaria lui Faicu &7din &2Faikkit Crate&7!
+      Messages: []
+      BlackListed-Permissions: []
+      Alternative-Prize:
+        Toggle: false
+        Commands: []
+        Items: []
+        Messages: []
+    '4':
+      DisplayName: '&c&lTricoul lui Faicu'
+      DisplayItem: DIAMOND_CHESTPLATE
+      DisplayAmount: 1
+      Lore: 
+      - '&7Tricoul sacru al Fondatorului, ai mare grija de el.'
+      - '&7Sansa: &c5%'
+      MaxRange: 100
+      Chance: 5
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2227
+        type: DIAMOND_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §c§lTricoul lui Faicu
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 4
+            DURABILITY: 3
+      Commands:
+      - cmi broadcast ! &8&l[&bFaikkitCrates&8&l] &6%Player% &7a castigat &cTricoul lui Faicu &7din &2Faikkit Crate&7!
+      Messages: []
+      BlackListed-Permissions: []
+      Alternative-Prize:
+        Toggle: false
+        Commands: []
+        Items: []
+        Messages: []
+    '5':
+      DisplayName: '&c&lPantalonii lui Faicu'
+      DisplayItem: DIAMOND_LEGGINGS
+      DisplayAmount: 1
+      Lore: 
+      - '&7Pantalonii sacrii a Fondatorului, ai mare grija de ei.'
+      - '&7Sansa: &c5%'
+      MaxRange: 100
+      Chance: 5
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2227
+        type: DIAMOND_LEGGINGS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §c§lPantalonii lui Faicu
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 4
+            DURABILITY: 3
+      Commands: 
+      - cmi broadcast ! &8&l[&bFaikkitCrates&8&l] &6%Player% &7a castigat &cPantalonii lui Faicu &7din &2Faikkit Crate&7!
+      Messages: []
+      BlackListed-Permissions: []
+      Alternative-Prize:
+        Toggle: false
+        Commands: []
+        Items: []
+        Messages: []
+    '6':
+      DisplayName: '&c&lPapucii lui Faicu'
+      DisplayItem: DIAMOND_BOOTS
+      DisplayAmount: 1
+      Lore:
+      - '&7Papucii sacri ai Fondatorului, ai mare grija de ei.'
+      - '&7Sansa: &c5%'
+      MaxRange: 100
+      Chance: 5
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2227
+        type: DIAMOND_BOOTS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §c§lPapucii lui Faicu
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 4
+            DURABILITY: 3
+      Commands: 
+      - cmi broadcast ! &8&l[&bFaikkitCrates&8&l] &6%Player% &7a castigat &cPapucii lui Faicu &7din &2Faikkit Crate&7!
+      Messages: []
+      BlackListed-Permissions: []
+      Alternative-Prize:
+        Toggle: false
+        Commands: []
+        Items: []
+        Messages: []
+    '7':   
+      DisplayName: '&b&8x Mere'
+      DisplayItem: APPLE
+      DisplayAmount: 8
+      Lore:
+      - '&7Cateva mere in caz de iti e foame.'
+      - '&7Sansa: &c15%'
+      MaxRange: 100
+      Chance: 15
+      Firework: true
+      Commands:
+      - cmi give %player% apple 8
+      - cmi broadcast ! &8&l[&b&lFaikkitCrates&8&l] &6%Player% &7a castigat &b8x Mere &7din &2Faikkit Crate&7!
+    '8':
+      DisplayName: '&bVillager Spawn Egg'
+      DisplayItem: VILLAGER_SPAWN_EGG
+      Lore:
+      - '&7Acest ou e de inalta calitate, ai grija sa nu il spargi'
+      - '&7Sansa: &c5%'
+      MaxRange: 100
+      Chance: 5
+      Firework: true
+      Commands:
+      - cmi give %player% villager_spawn_egg 1
+      - cmi broadcast ! &8&l[&bFaikkitCrates&8&l] &6%Player% &7a castigat &bVillager Spawn Egg &7din &2Faikkit Crate&7!
+    '9':
+      DisplayName: '&b3x Cow Spawn Egg'
+      DisplayItem: COW_SPAWN_EGG
+      DisplayAmount: 3
+      Lore:
+      - '&7Acest ou e de inalta calitate, ai grija sa nu il spargi'
+      - '&7Sansa: &c10%'
+      MaxRange: 100
+      Chance: 10
+      Firework: true
+      Commands:
+      - cmi give %player% cow_spawn_egg 3
+      - cmi broadcast ! &8&l[&bFaikkitCrates&8&l] &6%Player% &7a castigat &b3xCow Spawn Egg &7din &2Faikkit Crate&7!
+    '10':
+      DisplayName: '&b2x Chicken Spawn Egg'
+      DisplayItem: CHICKEN_SPAWN_EGG
+      DisplayAmount: 2
+      Lore:
+      - '&7Acest ou e de inalta calitate, ai grija sa nu il spargi'
+      - '&7Sansa: &c10%'
+      MaxRange: 100
+      Chance: 10
+      Firework: true
+      Commands:
+      - cmi give %player% chicken_spawn_egg 2
+      - cmi broadcast ! &8&l[&bFaikkitCrates&8&l] &6%Player% &7a castigat &b2x Chicken Spawn Egg &7din &2Faikkit Crate&7!
+    '11':
+      DisplayName: '&bVoucher 2000 ClaimBlocks'
+      DisplayItem: PAPER
+      Lore:
+      - '&7Un voucher care iti promite 2000 de claimblockuri pe gratis!'
+      - '&7Sansa: &c5%'
+      MaxRange: 100
+      Chance: 5
+      Firework: true
+      Commands:
+      - voucher give %player% claimb2000
+      - cmi broadcast ! &8&l[&bFaikkitCrates&8&l] &6%Player% &7a castigat &bVoucher 2000 ClaimBlocks &7din &2Faikkit Crate&7!
+    '12':
+      DisplayName: '&bVoucher 1000 ClaimBlocks'
+      DisplayItem: PAPER
+      Lore:
+      - '&7Un voucher care iti da 1000 de claimblockuri pe gratis!'
+      - '&7Sansa: &c5%'
+      MaxRange: 100
+      Chance: 15
+      Firework: true
+      Commands:
+      - voucher give %player% claimb1000
+      - cmi broadcast ! &8&l[&bFaikkitCrates&8&l] &6%Player% &7a castigat &bVoucher 1000 ClaimBlocks &7din &2Faikkit Crate&7!
+    '13':
+      DisplayName: '&bVoucher 1500 ClaimBlocks'
+      DisplayItem: PAPER
+      Lore:
+      - '&7Un voucher care iti promite 1500 de claimblockuri pe gratis!'
+      - '&7Sansa: &c5%'
+      MaxRange: 100
+      Chance: 8
+      Firework: true
+      Commands:
+      - voucher give %player% claimb1500
+      - cmi broadcast ! &8&l[&bFaikkitCrates&8&l] &6%Player% &7a castigat &bVoucher 1500 ClaimBlocks &7din &2Faikkit Crate&7!
+    '14':
+      DisplayName: '&bVoucher 3000 ClaimBlocks'
+      DisplayItem: PAPER
+      Lore:
+      - '&7Un voucher care iti promite 3000 de claimblockuri pe gratis!'
+      - '&7Sansa: &c5%'
+      MaxRange: 100
+      Chance: 5
+      Firework: true
+      Commands:
+      - voucher give %player% claimb3000
+      - cmi broadcast ! &8&l[&bFaikkitCrates&8&l] &6%Player% &7a castigat &bVoucher 3000 ClaimBlocks &7din &2Faikkit Crate&7!
+    '15':
+      DisplayName: '&b20.000$'
+      DisplayItem: SUNFLOWER
+      Lore:
+      - '&7O suma decenta de bani!'
+      - '&7Sansa: &c15%'
+      MaxRange: 100
+      Chance: 15
+      Firework: true
+      Commands:
+      - cmi money give %player% 20000
+      - cmi broadcast ! &8&l[&bFaikkitCrates&8&l] &6%Player% &7a castigat &b20.000$ &7din &2Faikkit Crate&7!
+    '16':
+      DisplayName: '&b50.000$'
+      DisplayItem: SUNFLOWER
+      Lore:
+      - '&7O suma decenta de bani!'
+      - '&7Sansa: &c10%'
+      MaxRange: 100
+      Chance: 10
+      Firework: true
+      Commands:
+      - cmi money give %player% 50000
+      - cmi broadcast ! &8&l[&bFaikkitCrates&8&l] &6%Player% &7a castigat &b50.000$ &7din &2Faikkit Crate&7!
+    '17':
+      DisplayName: '&b100.000$'
+      DisplayItem: SUNFLOWER
+      Lore:
+      - '&7O suma decenta de bani!'
+      - '&7Sansa: &c5%'
+      MaxRange: 100
+      Chance: 5
+      Firework: true
+      Commands:
+      - cmi money give %player% 100000
+      - cmi broadcast ! &8&l[&bFaikkitCrates&8&l] &6%Player% &7a castigat &b100.000$ &7din &2Faikkit Crate&7!
+    '18':
+      DisplayName: '&b5.000$'
+      DisplayItem: SUNFLOWER
+      Lore:
+      - '&7O suma decenta de bani!'
+      - '&7Sansa: &c20%'
+      MaxRange: 100
+      Chance: 20
+      Firework: true
+      Commands:
+      - cmi money give %player% 5000
+      - cmi broadcast ! &8&l[&bFaikkitCrates&8&l] &6%Player% &7a castigat &b5.000$ &7din &2Faikkit Crate&7!
+    '19':
+      DisplayName: '&b10.000$'
+      DisplayItem: SUNFLOWER
+      Lore:
+      - '&7O suma decenta de bani!'
+      - '&7Sansa: &c20%'
+      MaxRange: 100
+      Chance: 20
+      Firework: true
+      Commands:
+      - cmi money give %player% 10000
+      - cmi broadcast ! &8&l[&bFaikkitCrates&8&l] &6%Player% &7a castigat &b10.000$ &7din &2Faikkit Crate&7!

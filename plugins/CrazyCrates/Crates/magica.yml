@@ -1,0 +1,203 @@
+# 
+#         For Cosmic Crates Only
+Crate:
+  CrateType: War
+  CrateName: '&2&lCutie &3&lMagica'
+  StartingKeys: 0
+  InGUI: true
+  Slot: 32
+  OpeningBroadCast: false
+  BroadCast: '%Prefix%&6&l%Player% &fdeschide o &2&lCutie &3&lMagica&f!'
+  Item: BOOK
+  Name: '&2&lCutie &3&lMagica'
+  Lore:
+  - '&7Cutiile tale: &6%Keys%'
+  - '&7&l(&e&l!&7&l) Click-Dreapta - Recompensele'
+  PhysicalKey:
+    Name: '&2&lCutie &3&lMagica &b&lKey'
+    Lore:
+    - '&7O Cheie Speciala'
+    - '&7pentru o cutie speciala..'
+    Item: BOOK
+    Glowing: true
+  Prizes:
+#    '1':
+#      DisplayName: '&4&lFly &3&l7 &2&lZile'
+#      DisplayItem: '399'
+#      Lore:
+#      - '&dSansa de a castiga &4&lFly &3&l7 &2&lZile &deste:'
+#      - '&c2%'
+#      MaxRange: 100
+#      Chance: 2
+#      Firework: true
+#      Commands:
+#      - otu give %Player% fly7d 1
+#      - cmi broadcast &6%Player% &fa castigat &4&lFly &3&l7 &2&lZile &fdin &2&lCutie &3&lMagica!
+    '2 ':
+      DisplayName: '&732x &bDiamante'
+      DisplayItem: DIAMOND
+      Lore:
+      - '&dSansa de a castiga &732x &bDiamante &deste:'
+      - '&c20%'
+      MaxRange: 100
+      Chance: 20
+      Firework: true
+      Commands:
+      - cmi give %Player% 264 32
+      - cmi broadcast &6%Player% &fa castigat &732x &bDiamante &fdin &2&lCutie &3&lMagica!
+    '3':
+      DisplayName: '&764x &bDiamante'
+      DisplayItem: DIAMOND
+      Lore:
+      - '&dSansa de a castiga &764x &bDiamante &deste:'
+      - '&c10%'
+      MaxRange: 100
+      Chance: 5
+      Firework: true
+      Commands:
+      - cmi give %Player% 264 64
+      - cmi broadcast &6%Player% &fa castigat &764x &bDiamante &fdin &2&lCutie &3&lMagica!
+#    '4':
+#      DisplayName: '&6Burete'
+#      DisplayItem: SPONGE
+#      Lore:
+#      - '&dSansa de a castiga un &6Burete &deste:'
+#      - '&c10%'
+#      MaxRange: 100
+#      Chance: 10
+#      Firework: true
+#      Commands:
+#      - cmi give %Player% 19 1
+#      - cmi broadcast &6%Player% &fa castigat un &6Burete&fdin &2&lCutie &3&lMagica!
+#    '5':
+#      DisplayName: '&b&lExcalibur'
+#      DisplayItem: '276'
+#      Lore:
+#      - '&dSansa de a castiga &b&lExcalibur &deste:'
+#      - '&c1%'
+#      MaxRange: 100
+#      Chance: 1
+#      Firework: true
+#      Commands:
+#      - 'myitems load custom sabiemagica %Player% 1'
+#      - cmi broadcast &6%Player% &fa castigat &b&lExcalibur &fdin &2&lCutie &3&lMagica!
+    '6':
+      DisplayName: '&7&lCaptain Ahab'
+      DisplayItem: FISHING_ROD
+      Lore:
+      - '&dSansa de a castiga &7&lCaptain Ahab &deste:'
+      - '&c1%'
+      MaxRange: 100
+      Chance: 1
+      Firework: true
+      Commands:
+      - cmi give %Player% 346 1 e 61:5 e lure:5 e unbreaking:2 n &c&lCaptain_Ahab l NU_IL_REPARA!
+      - cmi broadcast &6%Player% &fa castigat &7&lCaptain Ahab &fdin &2&lCutie &3&lMagica!
+    '7':
+      DisplayName: '&612.500$'
+      DisplayItem: PAPER
+      Lore:
+      - '&dSansa de a castiga &612.500$ &deste:'
+      - '&c25%'
+      MaxRange: 100
+      Chance: 25
+      Firework: true
+      Commands:
+      - cmi money give %Player% 12500
+      - cmi broadcast &6%Player% &fa castigat &612.500$ &fdin &2&lCutie &3&lMagica!
+    '8':
+      DisplayName: '&625.000$'
+      DisplayItem: PAPER
+      Lore:
+      - '&dSansa de a castiga &625.000$ &deste:'
+      - '&c12.5%'
+      MaxRange: 100
+      Chance: 12.5
+      Firework: true
+      Commands:
+      - cmi money give %Player% 25000
+      - cmi broadcast &6%Player% &fa castigat &625.000$ &fdin &2&lCutie &3&lMagica!
+    '9':
+      DisplayName: '&7Kit &2Premium'
+      DisplayItem: ENDER_CHEST
+      Lore:
+      - '&dSansa de a castiga &7Kit &2MVP &deste:'
+      - '&c1%'
+      MaxRange: 100
+      Chance: 1
+      Firework: true
+      Commands:
+      - cmi kit premium %Player%
+      - cmi broadcast &6%Player% &fa castigat &7Kit &2premium &fdin &2&lCutie &3&lMagica!
+    '10':
+      DisplayName: '&bDiamond Boots'
+      DisplayItem: DIAMOND_BOOTS
+      Lore:
+      - '&dSansa de a castiga &bDiamond Boots &deste:'
+      - '&c2.5%'
+      MaxRange: 100
+      Chance: 2.5
+      Firework: true
+      Commands:
+      - cmi give %Player% 313 1 e fireprotection:3 e protection:5 e unbreaking:2 n &c&lPapuci l NU_IL_REPARA!
+      - cmi broadcast &6%Player% &fa castigat &bDiamond Boots &fdin &2&lCutie &3&lMagica!
+    '11':
+      DisplayName: '&bDiamond Chestplate'
+      DisplayItem: DIAMOND_CHESTPLATE
+      Lore:
+      - '&dSansa de a castiga &bDiamond Chestplate &deste:'
+      - '&c2.5%'
+      MaxRange: 100
+      Chance: 2.5
+      Firework: true
+      Commands:
+      - cmi give %Player% 311 1 e blastprotection:3 e protection:5 e unbreaking:2 n &c&lArmura l NU_IL_REPARA!
+      - cmi broadcast &6%Player% &fa castigat &bDiamond Chestplate &fdin &2&lCutie &3&lMagica!
+    '12':
+      DisplayName: '&bDiamond Leggings'
+      DisplayItem: DIAMOND_LEGGINGS
+      Lore:
+      - '&dSansa de a castiga &bDiamond Leggings &deste:'
+      - '&c2.5%'
+      MaxRange: 100
+      Chance: 2.5
+      Firework: true
+      Commands:
+      - cmi give %Player% 312 1 e fireprotection:3 e protection:5 e unbreaking:2 e thorns:3 n &c&lPantaloni l NU_IL_REPARA!
+      - cmi broadcast &6%Player% &fa castigat &bDiamond Leggings &fdin &2&lCutie &3&lMagica!
+    '13':
+      DisplayName: '&bDiamond Helmet'
+      DisplayItem: DIAMOND_HELMET
+      Lore:
+      - '&dSansa de a castiga &bDiamond Helmet &deste:'
+      - '&c2.5%'
+      MaxRange: 100
+      Chance: 2.5
+      Firework: true
+      Commands:
+      - cmi give %Player% 310 1 e fireprotection:3 e protection:5 e unbreaking:2 n &c&lCasca l NU_IL_REPARA!
+      - cmi broadcast &6%Player% &fa castigat &bDiamond Helmet &fdin &2&lCutie &3&lMagica!
+    '14':
+      DisplayName: '&7&lBow'
+      DisplayItem: BOW
+      Lore:
+      - '&dSansa de a castiga &7&lBow &deste:'
+      - '&c2.5%'
+      MaxRange: 100
+      Chance: 2.5
+      Firework: true
+      Commands:
+      - cmi give %Player% 261 1 e power:5 e infinity:1 e unbreaking:2 n &c&lArc l NU_IL_REPARA!
+      - cmi broadcast &6%Player% &fa castigat &7&lBow &fdin &2&lCutie &3&lMagica!
+    '15':
+      DisplayName: '&3&lCutie &7&lMagica'
+      DisplayItem: CHEST
+      Lore:
+      - '&dSansa de a castiga &2&lCutie &3&lLegendara &deste:'
+      - '&c1%'
+      MaxRange: 100
+      Chance: 1
+      Firework: true
+      Commands:
+      - crazycrates give p magica 1 %player%
+      - cmi broadcast &6%Player% &fa castigat o &2&lCutie &3&lMagica!

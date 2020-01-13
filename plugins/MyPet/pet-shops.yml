@@ -1,0 +1,568 @@
+#####################################################################
+#             This is the shop configuration of MyPet               #
+#               You can find more info on the wiki:                 #
+#  https://wiki.mypet-plugin.de/setup/configurations/pet-shops.yml  #
+#####################################################################
+
+Shops:
+  petshop:
+# When Default is set to true /petshop will open the sop instead of the shop selection GUI
+#    Default: true
+    Name: "&b&lPet Shop"
+    Balance:
+      Type: Private
+    Position: 4
+    Icon:
+      Material: "fox_spawn_egg"
+      Glowing: true
+    Pets:
+#      a_unique_name:
+#        Position: 0
+#        Name: "Ingame Name"
+#        Description:
+#        - <green>This is a description!
+#        PetType: PetTypeName
+#        EXP: 0
+#        Price: 100
+#        Skilltree: "skilltreename"
+#        Options:
+#          - baby
+#          - saddle
+      fox:
+        Name: Fox
+        Description:
+          - <green>E o vulpe!
+        PetType: Fox
+        EXP: 0
+        Price: 100000
+      bat:
+        Name: Bat
+        Description:
+          - <green>E un liliac!
+        PetType: Bat
+        EXP: 0
+        Price: 100000
+      blaze:
+        Name: Blaze
+        Description:
+          - <green>Un blaze, scuipa mingi de foc cand e nervos!
+        PetType: Blaze
+        EXP: 0
+        Price: 100000
+      cavespider:
+        Name: CaveSpider
+        Description:
+          - <green>Este un CaveSpider!
+        PetType: CaveSpider
+        EXP: 0
+        Price: 100000
+      chicken:
+        Name: Chicken
+        Description:
+          - <green>Este un Chicken!
+        PetType: Chicken
+        EXP: 0
+        Price: 100000
+      cow:
+        Name: Cow
+        Description:
+          - <green>Este un Cow!
+        PetType: Cow
+        EXP: 0
+        Price: 100000
+      creeper:
+        Name: Creeper
+        Description:
+          - <green>Este un Creeper!
+        PetType: Creeper
+        EXP: 0
+        Price: 100000
+      donkey:
+        Name: Donkey
+        Description:
+          - <green>Este un Donkey!
+        PetType: Donkey
+        EXP: 0
+        Price: 100000
+      elder_guardian:
+        Name: Elder Guardian
+        Description:
+          - <green>Este un Elder Guardian!
+        PetType: ElderGuardian
+        EXP: 0
+        Price: 100000
+      enderman:
+        Name: Enderman
+        Description:
+          - <green>Este un Enderman!
+        PetType: Enderman
+        EXP: 0
+        Price: 100000
+      endermite:
+        Name: Endermite
+        Description:
+          - <green>Este un Endermite!
+        PetType: Endermite
+        EXP: 0
+        Price: 100000
+      evoker:
+        Name: Evoker
+        Description:
+          - <green>Este un Evoker!
+        PetType: Evoker
+        EXP: 0
+        Price: 100000
+      guardian:
+        Name: Guardian
+        Description:
+          - <green>Este un Guardian!
+        PetType: Guardian
+        EXP: 0
+        Price: 100000
+      horse:
+        Name: Horse
+        Description:
+          - <green>Este un Horse!
+        PetType: Horse
+        EXP: 0
+        Price: 100000
+      iron_golem:
+        Name: IronGolem
+        Description:
+          - <green>Este un IronGolem!
+        PetType: IronGolem
+        EXP: 0
+        Price: 100000
+      illusioner:
+        Name: Illusioner
+        Description:
+          - <green>Este un Illusioner!
+        PetType: Illusioner
+        EXP: 0
+        Price: 100000
+      llama:
+        Name: Llama
+        Description:
+          - <green>Este un Llama!
+        PetType: Llama
+        EXP: 0
+        Price: 100000
+      magmacube:
+        Name: MagmaCube
+        Description:
+          - <green>Este un MagmaCube!
+        PetType: MagmaCube
+        EXP: 0
+        Price: 100000
+        Options:
+          - size:2
+      mooshroom:
+        Name: Mooshroom
+        Description:
+          - <green>Este un Mooshroom!
+        PetType: Mooshroom
+        EXP: 0
+        Price: 100000
+      mule:
+        Name: Mule
+        Description:
+          - <green>Este un Mule!
+        PetType: Mule
+        EXP: 0
+        Price: 100000
+      ocelot:
+        Name: Ocelot
+        Description:
+          - <green>Este un Ocelot!
+        PetType: Ocelot
+        EXP: 0
+        Price: 100000
+      parrot:
+        Name: Parrot
+        Description:
+          - <green>Este un Parrot!
+        PetType: Parrot
+        EXP: 0
+        Price: 100000
+      pig:
+        Name: Pig
+        Description:
+          - <green>Este un Pig!
+        PetType: Pig
+        EXP: 0
+        Price: 100000
+      pigzombie:
+        Name: PigZombie
+        Description:
+          - <green>Este un PigZombie!
+        PetType: PigZombie
+        EXP: 0
+        Price: 100000
+      polarbear:
+        Name: PolarBear
+        Description:
+          - <green>Este un PolarBear!
+        PetType: PolarBear
+        EXP: 0
+        Price: 100000
+      rabbit:
+        Name: Rabbit
+        Description:
+          - <green>Este un Rabbit!
+        PetType: Rabbit
+        EXP: 0
+        Price: 100000
+      sheep:
+        Name: Sheep
+        Description:
+          - <green>Este un Sheep!
+        PetType: Sheep
+        EXP: 0
+        Price: 100000
+      silverfish:
+        Name: Silverfish
+        Description:
+          - <green>Este un Silverfish!
+        PetType: Silverfish
+        EXP: 0
+        Price: 100000
+      skeleton:
+        Name: Skeleton
+        Description:
+          - <green>Este un Skeleton!
+        PetType: Skeleton
+        EXP: 0
+        Price: 100000
+      skeleton_horse:
+        Name: Skeleton Horse
+        Description:
+          - <green>Este un Skeleton Horse!
+        PetType: SkeletonHorse
+        EXP: 0
+        Price: 100000
+      slime:
+        Name: Slime
+        Description:
+          - <green>Este un Slime!
+        PetType: Slime
+        EXP: 0
+        Price: 100000
+        Options:
+          - size:2
+      snowman:
+        Name: Snowman
+        Description:
+          - <green>Este un Snowman!
+        PetType: Snowman
+        EXP: 0
+        Price: 100000
+      spider:
+        Name: Spider
+        Description:
+          - <green>Este un Spider!
+        PetType: Spider
+        EXP: 0
+        Price: 100000
+      squid:
+        Name: Squid
+        Description:
+          - <green>Este un Squid!
+        PetType: Squid
+        EXP: 0
+        Price: 100000
+      stray:
+        Name: Stray
+        Description:
+          - <green>Este un Stray!
+        PetType: Stray
+        EXP: 0
+        Price: 100000
+      witch:
+        Name: Witch
+        Description:
+          - <green>Este un Witch!
+        PetType: Witch
+        EXP: 0
+        Price: 100000
+      wither:
+        Name: Wither
+        Description:
+          - <green>Este un Wither!
+        PetType: Wither
+        EXP: 0
+        Price: 100000
+      wither_skeleton:
+        Name: Wither Skeleton
+        Description:
+          - <green>Este un Wither Skeleton!
+        PetType: WitherSkeleton
+        EXP: 0
+        Price: 100000
+      wolf:
+        Name: Wolf
+        Description:
+          - <green>Este un Wolf!
+        PetType: Wolf
+        EXP: 0
+        Price: 100000
+        Options:
+          - tamed
+      vex:
+        Name: Vex
+        Description:
+          - <green>Este un Vex!
+        PetType: Vex
+        EXP: 0
+        Price: 100000
+      villager:
+        Name: Villager
+        Description:
+          - <green>Este un Villager!
+        PetType: Villager
+        EXP: 0
+        Price: 100000
+      vindicator:
+        Name: Vindicator
+        Description:
+          - <green>Este un Vindicator!
+        PetType: Vindicator
+        EXP: 0
+        Price: 100000
+      zombie:
+        Name: Zombie
+        Description:
+          - <green>Este un Zombie!
+        PetType: Zombie
+        EXP: 0
+        Price: 100000
+      zombie_horse:
+        Name: Zombie Horse
+        Description:
+          - <green>Este un Zombie Horse!
+        PetType: ZombieHorse
+        EXP: 0
+        Price: 100000
+      zombie_villager:
+        Name: Zombie Villager
+        Description:
+          - <green>Este un Zombie Villager!
+        PetType: ZombieVillager
+        EXP: 0
+        Price: 100000
+#      enderdragon:
+#        Name: EnderDragon
+#        Description:
+#        - <green>Este un EnderDragon!
+#        PetType: EnderDragon
+#        EXP: 0
+#        Price: 100000
+#      ghast:
+#        Name: Ghast
+#        Description:
+#        - <green>Este un Ghast!
+#        PetType: Ghast
+#        EXP: 0
+#        Price: 100000
+#      giant:
+#        Name: Giant
+#        Description:
+#        - <green>Este un Giant!
+#        PetType: Giant
+#        EXP: 0
+#        Price: 100000
+  babies:
+    Name: "Toate Peturile Baby"
+    Balance:
+      Type: Private
+    Position: 1
+    Pets:
+      baby_fox:
+        Name: "Baby Fox"
+        Description:
+          - <green>Este o baby fox!
+        PetType: Fox
+        EXP: 0
+        Price: 50000
+        Options:
+          - baby
+      baby_chicken:
+        Name: "Chicken"
+        Description:
+          - <green>Este un baby Chicken!
+        PetType: Chicken
+        EXP: 0
+        Price: 50000
+        Options:
+          - baby
+      baby_cow:
+        Name: "Cow"
+        Description:
+          - <green>Este un baby Cow!
+        PetType: Cow
+        EXP: 0
+        Price: 50000
+        Options:
+          - baby
+      baby_donkey:
+        Name: Donkey
+        Description:
+          - <green>Este un bab Donkey!
+        PetType: Donkey
+        EXP: 0
+        Price: 50000
+        Options:
+          - baby
+      baby_horse:
+        Name: "Horse"
+        Description:
+          - <green>Este un baby Horse!
+        PetType: Horse
+        EXP: 0
+        Price: 50000
+        Options:
+          - baby
+      baby_llama:
+        Name: Llama
+        Description:
+          - <green>Este un baby Llama!
+        PetType: Llama
+        EXP: 0
+        Price: 50000
+        Options:
+          - baby
+      baby_mooshroom:
+        Name: "Mooshroom"
+        Description:
+          - <green>Este un baby Mooshroom!
+        PetType: Mooshroom
+        EXP: 0
+        Price: 50000
+        Options:
+          - baby
+      baby_mule:
+        Name: Mule
+        Description:
+          - <green>Este un baby Mule!
+        PetType: Mule
+        EXP: 0
+        Price: 50000
+        Options:
+          - baby
+      baby_ocelot:
+        Name: "Ocelot"
+        Description:
+          - <green>Este un baby Ocelot!
+        PetType: Ocelot
+        EXP: 0
+        Price: 50000
+        Options:
+          - baby
+      baby_pig:
+        Name: "Pig"
+        Description:
+          - <green>Este un baby Pig!
+        PetType: Pig
+        EXP: 0
+        Price: 50000
+        Options:
+          - baby
+      baby_pig_zombie:
+        Name: "PigZombie"
+        Description:
+          - <green>Este un baby PigZombie!
+        PetType: PigZombie
+        EXP: 0
+        Price: 50000
+        Options:
+          - baby
+      baby_polar_bear:
+        Name: "Polar Bear"
+        Description:
+          - <green>Este un baby Polar Bear!
+        PetType: PolarBear
+        EXP: 0
+        Price: 50000
+        Options:
+          - baby
+      baby_rabbit:
+        Name: "Rabbit"
+        Description:
+          - <green>Este un baby Rabbit!
+        PetType: Rabbit
+        EXP: 0
+        Price: 50000
+        Options:
+          - baby
+      baby_sheep:
+        Name: "Sheep"
+        Description:
+          - <green>Este un baby Sheep!
+        PetType: Sheep
+        EXP: 0
+        Price: 50000
+        Options:
+          - baby
+      baby_skeleton_horse:
+        Name: Skeleton Horse
+        Description:
+          - <green>Este un baby Skeleton Horse!
+        PetType: SkeletonHorse
+        EXP: 0
+        Price: 50000
+        Options:
+          - baby
+      baby_villager:
+        Name: "Villager"
+        Description:
+          - <green>Este un baby Villager!
+        PetType: Villager
+        EXP: 0
+        Price: 50000
+        Options:
+          - baby
+      baby_wither:
+        Name: "Wither"
+        Description:
+          - <green>Este un baby Wither!
+        PetType: Wither
+        EXP: 0
+        Price: 50000
+        Options:
+          - baby
+      baby_wolf:
+        Name: "Wolf"
+        Description:
+          - <green>Este un baby Wolf!
+        PetType: Wolf
+        EXP: 0
+        Price: 50000
+        Options:
+          - tamed
+          - baby
+      baby_zombie:
+        Name: "Zombie"
+        Description:
+          - <green>Este un baby Zombie!
+        PetType: Zombie
+        EXP: 0
+        Price: 50000
+        Options:
+          - baby
+      baby_zombie_horse:
+        Name: Zombie Horse
+        Description:
+          - <green>Este un baby Zombie Horse!
+        PetType: ZombieHorse
+        EXP: 0
+        Price: 50000
+        Options:
+          - baby
+      baby_zombie_villager:
+        Name: Zombie Villager
+        Description:
+          - <green>Este un baby Zombie Villager!
+        PetType: ZombieVillager
+        EXP: 0
+        Price: 50000
+        Options:
+          - baby

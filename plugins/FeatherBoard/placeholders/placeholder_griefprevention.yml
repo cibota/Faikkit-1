@@ -1,0 +1,53 @@
+## --------------------------------------- ##
+## GriefPrevention placeholders Placeholders
+## http://www.spigotmc.org/resources/griefprevention.1884/
+## About: This configuration allows you to
+##        configure what certain placeholders return.
+## --------------------------------------- ##
+
+# DO NOT EDIT THE CONFIG VERSION
+config: 1
+
+# Enable/Disable the placeholder group
+# Placeholder groups will not be loaded into the memory
+# when not used.
+enabled: true
+
+# Define what the boolean placeholder {griefprevention_currentclaim_doorsopen_raw} returns
+griefprevention_currentclaim_doorsopen_raw:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {griefprevention_currentclaim_isadminclaim_raw} returns
+griefprevention_currentclaim_isadminclaim_raw:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Placeholder settings {griefprevention_currentclaim_ownername} returns
+griefprevention_currentclaim_ownername:
+  # Default return value
+  default: ""
+
+
+# Define what the boolean placeholder {griefprevention_currentclaim_areexplosivesallowed_raw} returns
+griefprevention_currentclaim_areexplosivesallowed_raw:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {griefprevention_currentclaim_indatastore_raw} returns
+griefprevention_currentclaim_indatastore_raw:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
