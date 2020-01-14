@@ -1,4 +1,4 @@
 # Directly defined reward file. ANY EDITS HERE CAN GET OVERRIDDEN!
 Messages:
-  Player: '&aAi venit pe locul doi în %TopVoter%!'
+  Player: '&aEsti pe Locul 2 in %TopVoter%!'
 DirectlyDefinedReward: true
