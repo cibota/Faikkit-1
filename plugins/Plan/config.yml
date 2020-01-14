@@ -4,7 +4,7 @@
 # https://github.com/Rsl1122/Plan-PlayerAnalytics/wiki/Bukkit-Configuration
 # -----------------------------------------------------
 Server:
-    ServerName: Plan
+    ServerName: Faikkit
 # -----------------------------------------------------
 Plugin:
     Logging:
@@ -40,9 +40,9 @@ Database:
 # -----------------------------------------------------
 Webserver:
     Port: 8804
-    Alternative_IP: false
+    Alternative_IP: true
         # %port% is replaced automatically with Webserver.Port
-        Address: your.domain.here:%port%
+        Address: play.faicu.ro:%port%
     # InternalIP usually does not need to be changed, only change it if you know what you're doing!
     # 0.0.0.0 allocates Internal (local) IP automatically for the WebServer.
     Internal_IP: 0.0.0.0
@@ -63,7 +63,7 @@ Data_gathering:
     Geolocations: true
     Ping: true
     Commands:
-        Log_unknown: false
+        Log_unknown: true
         Log_aliases_as_main_command: true
 # -----------------------------------------------------
 # Supported time units: MILLISECONDS, SECONDS, MINUTES, HOURS, DAYS
