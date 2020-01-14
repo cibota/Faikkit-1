@@ -54,125 +54,127 @@ info:
   # Use !prefix! in any locale line to automatically include this prefix
   prefix: '&e[&aCMI&e] '
   NoPermission: '&cNu ai voie!'
-  CantHavePermission: '&cNu poti avea aceasta permisie!'
-  NoPlayerPermission: '&c[playerName] nu are permisie pentru: [permission]'
-  Ingame: '&cNu poti folosi asta in joc!'
-  NoInformation: '&cNu au fost gasite informatii!'
-  Console: '&6Faikkit'
-  FromConsole: '&cPoti folosi asta doar in consola!'
-  NotOnline: '&cPlayerul nu este online!'
-  NobodyOnline: '&cNu e nimeni online!'
-  Same: '&cNu iti poti deschide inventarul tau pentru editare!'
-  cantLoginWithDifCap: '&cNu te poti loga cu capitalizari ale numelui diferite! Nume vechi:
-    &e[oldName]&c. Actualul nume: &e[currentName]'
-  Searching: '&eSe cauta datele playerilor, poate dura ceva timp.'
-  NoPlayer: '&cNu s-a gasit un player cu numele asta!'
-  NoCommand: '&cNu exista o comanda ca aceasta!'
-  cantFindCommand: '&5Nu am gasit comanda &7[%1]&5, te-ai referit la &7[%2]&5?'
-  PurgeNotEnabled: '&cFunctia Purge nu a fost activata in config!'
-  FeatureNotEnabled: '&cAceasta functie nu este activata!'
+  CantHavePermission: '&cYou can''t have this permission!'
+  NoPlayerPermission: '&c[playerName] doesn''t have permission for: [permission]'
+  Ingame: '&cYou can only use this in game!'
+  NoInformation: '&cNo information found!'
+  Console: '&6Server'
+  FromConsole: '&cYou can only use this in the console!'
+  NotOnline: '&cThe player is not online!'
+  NobodyOnline: '&cThere is no one online!'
+  Same: '&cCan''t open your own inventory for editing!'
+  cantLoginWithDifCap: '&cCan''t login with different name capitalization! Old name:
+    &e[oldName]&c. Current: &e[currentName]'
+  Searching: '&eSearching for player data, please wait, this can take some time to
+    finish!'
+  NoPlayer: '&cCan''t find player with this name!'
+  NoCommand: '&cThere is no command by this name!'
+  cantFindCommand: '&5Couldn''t find &7[%1]&5 command, did you mean &7[%2]&5?'
+  PurgeNotEnabled: '&cPurge function is not enabled in config file!'
+  FeatureNotEnabled: '&cThis feature is not enabled!'
   TeamManagementDisabled: '&7This feature will have limited functionalaty while DisableTeamManagement
     is set to true!'
-  ModuleNotEnabled: '&cAcest modul nu este activat!'
-  versionNotSupported: '&cVersiunea serverului nu este suportata pentru aceasta functie'
+  ModuleNotEnabled: '&cThis module is not enabled!'
+  versionNotSupported: '&cServer version is not supported for this feature'
   bungeeNoGo: '&cThis feature will not work on bungee network based servers'
-  clickToTeleport: '&eClick pentru a te teleporta'
-  UseMaterial: '&4Foloseste nume de materiale!'
-  UseInteger: '&4Foloseste numere!'
-  UseBoolean: '&4Foloseste Adevarat sau Fals!'
-  NoLessThan: '&4Numarul nu poate fi mai mic decat[amount]!'
-  NoMoreThan: '&4Valoarea nu poate fi mai mult de [amount]'
-  NoGameMode: '&cFoloseste 0/1/2/3 sau Survival/Creative/Adventure/Spectator sau s/c/a/sp!'
-  NoWorld: '&4Nu am gasit o lume cu numele asta!'
-  IncorrectLocation: '&4Locatie definita incorect!'
-  NameChange: '&6[playerDisplayName] &es-a logat, mai este cunoscut ca si: &6[namelist]'
-  Cooldowns: '&eAceasta comanda este in cooldown pentru &6[time]'
-  specializedCooldowns: '&eCooldown este pornit pentru aceasta comanda, te rog asteapta &6[time]'
-  CooldownOneTime: '&eAceasta comanda poate fi folosita doar o singura data!'
+  clickToTeleport: '&eClick to teleport'
+  UseMaterial: '&4Please use material names!'
+  UseInteger: '&4Please use numbers!'
+  UseBoolean: '&4Please use True or False!'
+  NoLessThan: '&4Number can''t be less than [amount]!'
+  NoMoreThan: '&4Value can''t be more than [amount]'
+  NoGameMode: '&cPlease use 0/1/2/3 or Survival/Creative/Adventure/Spectator or s/c/a/sp!'
+  NoWorld: '&4Can''t find world with this name!'
+  IncorrectLocation: '&4Location defined incorrectly!'
+  NameChange: '&6[playerDisplayName] &elogged in, also known as: &6[namelist]'
+  Cooldowns: '&eThis command is on cooldown for another &6[time]'
+  specializedCooldowns: '&eCooldown in motion for this command, please wait &6[time]'
+  CooldownOneTime: '&eThis command can only be used once!'
   WarmUp:
-    canceled: '&eComanda a fost oprita din cauza ca te-ai miscat'
+    canceled: '&eCommand was cancelled due to your movement'
     counter: '!actionbar!&6--> &e[time] &6<--'
-    DontMove: '!title!!subtitle!&6Nu te misca!'
+    DontMove: '!title!!subtitle!&6Don''t move!'
   Spawner: '&r[type] Spawner'
   Elevator:
-    created: '&eAi creat un lift.'
-  CantPlaceSpawner: '&eNu poti pune un spawner atat de aproape de alt spawner  (&6[range]&e)'
-  ChunksLoading: '&eChunkurile lumii se incarca, te rog sa mai astepti putin.'
+    created: '&eCreated elevator sign'
+  CantPlaceSpawner: '&eCan''t place spawner so close to another spawner (&6[range]&e)'
+  ChunksLoading: '&eWorld chunk data is still being loaded. Please wait a bit and
+    try again.'
   ShulkerBox: Shulker Box
-  CantuseShulkerBox: '&cNu poti folosi shulker box in timp ce faci PvP.
-    Timp: [time]'
+  CantuseShulkerBox: '&cCan''t use shulker box while you are in combat with player.
+    Wait: [time]'
   CantUseNonEncrypted: '!actionbar!&cCommands on this item are not encrypted. Can''t
     use them!'
   CantDecode: '!actionbar!&cCan''t decode message/command. Key file contains wrong
     key for this task. Inform server administration about this'
-  Show: '&eArata'
+  Show: '&eShow'
   Remove: '&cRemove'
-  Back: '&eInapoi'
-  Forward: '&eInainte'
+  Back: '&eBack'
+  Forward: '&eForward'
   Update: '&eUpdate'
-  Save: '&eSaveaza'
-  Delete: '&cSterge'
+  Save: '&eSave'
+  Delete: '&cDelete'
   Click: '&eClick'
   PasteOld: '&ePaste old'
-  ClickToPaste: '&eClick pentru a pune mesajul in chat'
-  CantTeleportWorld: '&eNu te poti teleporta in lumea asta
+  ClickToPaste: '&eClick to paste into chat'
+  CantTeleportWorld: '&eYou can''t teleport to this world'
   CantTeleport: '&eYou can''t teleport because you have too many limited items. Scroll
     over this line to see the maximum amount of items allowed.'
-  teleported: '&eTe-ai teleportat.'
-  BlackList: '&e[material] [amount] &6Maxim: [max]'
+  teleported: '&eYou have been teleported.'
+  BlackList: '&e[material] [amount] &6Max: [max]'
   PlayerSpliter: '&e----- &6[playerDisplayName] &e-----'
   Spliter: '&e--------------------------------------------------'
   ListSpliter: ', '
   ProgressBarFill: '&2▏'
   ProgressBarEmpty: '&e▏'
-  nothingInHand: '&eTrebuie sa ti itemul in mana'
-  nothingInHandLeather: '&eTrebuie sa ti 'Leather' in mana'
-  nothingToShow: '&eNimic de aratat'
-  noItem: '&cNu am putut gasi itemul
+  nothingInHand: '&eYou need to hold item in hand'
+  nothingInHandLeather: '&eYou need to hold leather item in hand'
+  nothingToShow: '&eNothing to show'
+  noItem: '&cCan''t find item'
   dontHaveItem: '&cYou don''t have &6[amount]x [itemName] &cin your inventory'
   wrongWorld: '&cCan''t do this in this world'
-  differentWorld: '&cAlte lumi'
+  differentWorld: '&cDifferent worlds'
   HaveItem: '&cYou have &6[amount]x [itemName] &cin your inventory'
   ItemWillBreak: '!actionbar!&eYour item (&6[itemName]&e) will break soon! &e[current]&6/&e[max]'
-  cantDoForPlayer: '&eNu poti face asta lui &6[playerDisplayName]'
+  cantDoForPlayer: '&eYou can''t do this to &6[playerDisplayName]'
   cantDoForYourSelf: '&eYou can''t do this to yourself'
   cantDetermineMobType: '&cCan''t determine mob type from &e[type] &cvariable'
-  cantRename: '!actionbar!&eNu poti folosi acest nume'
-  wrongName: '&cNume incorect'
-  invalidName: '&cNume invalid'
-  alreadyexist: '&4Numele acesta este deja luat'
-  dontexist: '&4Nimic gasit pe acest nume'
+  cantRename: '!actionbar!&eYou can''t use this name'
+  wrongName: '&cWrong name'
+  invalidName: '&cInvalid name'
+  alreadyexist: '&4This name is taken'
+  dontexist: '&4Nothing found by this name'
   worldDontExist: '&cTarget world can''t be accessed anymore. Can''t teleport you
     there!'
-  flyingToHigh: '&cNu poti zbura atat de sus, inaltimea maxima: &6[max]&c!'
+  flyingToHigh: '&cYou can''t fly so high, max height is &6[max]&c!'
   specializedItemFail: '&cCan''t determine specialized item requirement by value:
     &7[value]'
-  sunSpeeding: Dormi [count] din [total] [hour] ore [speed]X speed
-  sleepersRequired: '&f[sleeping] &7din &f[required] &7playeri dormind pentru a incepe mari viteza timpului 
-    si sari peste noapte'
+  sunSpeeding: Sleeping [count] of [total] [hour] hour [speed]X speed
+  sleepersRequired: '&f[sleeping] &7of &f[required] &7sleeping from required for night
+    time speedup'
   sunSpeedingTitle: '&7[hour]'
   sunSpeedingSubTitle: '&f[count]&7/&f[total] &7(&f[speed]X&7)'
-  repairConfirm: '&eClick sa confirmi repararea itemului &7[items] &epentru &7[cost]'
-  bookDate: '&7Scris pe &f[date]'
-  maintenance: '&7Modul Mentenanta'
-  notSet: nu e setat
-  mapLimit: '&cNu poti trece de 30 000 000 blockuri'
-  startedEditingPainting: '&eAi inceput editarea picturilor. Click pe orice alt block pentru a te
-    opri.'
-  canceledEditingPainting: '&eAi oprit editarea picturilor'
-  changedPainting: '!actionbar!&eAi schimbat pictura &6[name] &ecu id-ul &6[id]'
-  noSpam: '!title!&cNu mai spama!'
-  noCmdSpam: '!title!&cNu mai spama comenzi!'
+  repairConfirm: '&eClick to confirm &7[items] &eitem repair for &7[cost]'
+  bookDate: '&7Written at &f[date]'
+  maintenance: '&7Maintenance mode'
+  notSet: not set
+  mapLimit: '&cCant go beyond 30 000 000 blocks'
+  startedEditingPainting: '&eYou started editing painting. Click any other block to
+    cancel.'
+  canceledEditingPainting: '&eYou canceled painting editing mode'
+  changedPainting: '!actionbar!&eChanged painting to &6[name] &ewith id of &6[id]'
+  noSpam: '!title!&cNo spamming!'
+  noCmdSpam: '!title!&cNo command spamming!'
   spamConsoleInform: '&cPlayer (&7[playerName]&c) triggered (&7[rules]&c) chat filter
     with:&r [message]'
-  lookAtSign: '&eUita-te la sign'
-  lookAtBlock: '&eUita-te la block'
-  lookAtEntity: '&eUita-te la entitate'
-  notOnGround: '&eNu poti face asta in timp ce zbori
+  lookAtSign: '&eLook at sign'
+  lookAtBlock: '&eLook at block'
+  lookAtEntity: '&eLook at entity'
+  notOnGround: '&eYou can''t perform this while flying'
   FirstJoin: '&eWelcome &6[playerDisplayName] &eto our server!'
   LogoutCustom: ' &6[playerDisplayName] &eleft the game'
   LoginCustom: ' &6[playerDisplayName] &ejoined the game'
-  deathlocation: '&eAi murit la x:&6[x]&e, y:&6[y]&e, z:&6[z]&e in lumea &6[world]'
+  deathlocation: '&eYou died at x:&6[x]&e, y:&6[y]&e, z:&6[z]&e in &6[world]'
   bungee:
     Online: '&6Online'
     Offline: '&cOffline'
@@ -182,110 +184,110 @@ info:
   variables:
     Online: '&6Online'
     Offline: '&cOffline'
-    'True': '&6Adevarat'
-    'False': '&cFals'
-    Enabled: '&6Activat'
-    Disabled: '&cDezactivat'
+    'True': '&6True'
+    'False': '&cFalse'
+    Enabled: '&6Enabled'
+    Disabled: '&cDisabled'
     survival: '&6Survival'
     creative: '&6Creative'
     adventure: '&6Adventure'
     spectator: '&6Spectator'
-    flying: '&6Zboara'
-    notflying: '&6Nu zboara'
-  noSchedule: '&cSchedule cu numele asta nu a fost gasit'
+    flying: '&6Flying'
+    notflying: '&6Not flying'
+  noSchedule: '&cSchedule by this name is not found'
   totem:
-    cooldown: '&eCooldown totem: [time]'
-    warmup: '&eEfect totem: [time]'
+    cooldown: '&eTotem cooldown: [time]'
+    warmup: '&eTotem effect: [time]'
     cantConsume: '&eTotem usage was denied due to its cooldown time'
   InventorySave:
     info: '&8Info: &8[playerDisplayName]'
-    saved: '&e[time] &eInventar salvat cu idul: &e[id]'
-    NoSavedInv: '&ePlayerul nu are inventare salvate
-    NoEntries: '&4Fila exista, dar nu este nici un inventar salvat!'
-    CantFind: '&eNu pot gasi un inventar cu acest id
-    TopLine: '&e----------- Inventarele lui &6[playerDisplayName] &e-----------'
+    saved: '&e[time] &eInventory saved with id: &e[id]'
+    NoSavedInv: '&eThis player doesn''t have any saved inventories'
+    NoEntries: '&4File exists, but no inventories were found!'
+    CantFind: '&eCan''t find inventory with this id'
+    TopLine: '&e----------- &6[playerDisplayName] saved inventory &e-----------'
     List: '&eid: &6[id]&e. &6[time]'
     KillerSymbol: '&c ☠'
-    Click: '&eClick pentru a verifica ([id]) inventar salvat'
-    IdDontExist: '&4Acest id salvat nu exista!'
-    Deleted: '&eInventar salvat, sters cu succes!'
-    Restored: '&eAi inapoiat &e[sourcename] &einventarul pentru userul &e[targetname].'
-    GotRestored: '&eInventarul tau a fost inapoiat din &e[sourcename] &esinventor salvat
-      la data de &e[time]'
-    LoadForSelf: '&eLoad inventarului pentru tine'
-    LoadForOwner: '&eLoad inventarului pentru owner'
-    NextInventory: '&eUrmatorul inventar'
-    PreviousInventory: '&eInventarul anterior'
-    Editable: '&eEdit mode activat'
-    NonEditable: '&eEdit mode dezactivat'
-  years: '&e[years] &6ani '
-  oneYear: '&e[years] &6an '
-  day: '&e[days] &6zile '
-  oneDay: '&e[days] &6zi '
-  hour: '&e[hours] &6ore '
-  oneHour: '&e[hours] &6ora '
+    Click: '&eClick to check ([id]) saved inventory'
+    IdDontExist: '&4This save Id doesn''t exist!'
+    Deleted: '&eSaved inventory was successfully deleted!'
+    Restored: '&eYou have restored &e[sourcename] &einventory for &e[targetname] &euser.'
+    GotRestored: '&eYour inventory was restored from &e[sourcename] &esaved inventory
+      on &e[time]'
+    LoadForSelf: '&eLoad this inventory for your self'
+    LoadForOwner: '&eLoad this inventory for owner'
+    NextInventory: '&eNext inventory'
+    PreviousInventory: '&ePrevious inventory'
+    Editable: '&eEdit mode enabled'
+    NonEditable: '&eEdit mode disabled'
+  years: '&e[years] &6years '
+  oneYear: '&e[years] &6year '
+  day: '&e[days] &6days '
+  oneDay: '&e[days] &6day '
+  hour: '&e[hours] &6hours '
+  oneHour: '&e[hours] &6hour '
   min: '&e[mins] &6min '
   sec: '&e[secs] &6sec '
-  vanishSymbolOn: '&8[&7V&8]&r'
+  vanishSymbolOn: '&8[&7H&8]&r'
   vanishSymbolOff: ''
-  afkSymbolOn: '&8[&7AFK&8]&r'
+  afkSymbolOn: '&8[&7Afk&8]&r'
   afkSymbolOff: ''
-  prevPage: '&2----<< &6Inapoi '
-  prevPageGui: '&6Pagina anterioara '
-  prevPageClean: '&6Inapoi '
-  prevPageOff: '&2----<< &7Inapoi '
+  prevPage: '&2----<< &6Prev '
+  prevPageGui: '&6Previous page '
+  prevPageClean: '&6Prev '
+  prevPageOff: '&2----<< &7Prev '
   prevPageHover: '&7<<<'
   firstPageHover: '&7|<'
-  nextPage: '&6 Pagina urmatoare &2>>----'
-  nextPageGui: '&6Pagina urmatoare'
-  nextPageClean: '&6 Inainte'
-  nextPageOff: '&7 Inainte &2>>----'
+  nextPage: '&6 Next &2>>----'
+  nextPageGui: '&6Next Page'
+  nextPageClean: '&6 Next'
+  nextPageOff: '&7 Next &2>>----'
   nextPageHover: '&7>>>'
   lastPageHover: '&7>|'
   pageCount: '&2[current]&7/&2[total]'
-  pageCountHover: '&e[totalEntries] pagini'
-  circle: '&3Cerc'
-  square: '&5Patrat'
-  protectedArea: '&cArea aceasta este protejata. Nu poti face asta aici.'
-  valueToLong: '&eValoare prea mare. Max: [max]'
-  valueToShort: '&eValoare prea mica. Min: [min]'
+  pageCountHover: '&e[totalEntries] entries'
+  circle: '&3Circle'
+  square: '&5Square'
+  protectedArea: '&cProtected area. Can''t do this here.'
+  valueToLong: '&eValue is too high. Max: [max]'
+  valueToShort: '&eValue is too low. Min: [min]'
   InvEmpty:
-    armor: '&eSlotul armurii ar trebuii sa fie gol!'
-    hand: '&eMana ta ar trebuii sa fie libera!'
-    maininv: '&eInventarul tau ar trebuii sa fie gol!'
-    maininvslots: '&eInventarul tau ar trebuii sa aiba cel putin &6[count] &esloturi libere!'
-    inv: '&eInventarul tau ar trebuii sa fie gol!'
-    offhand: '&eMana ta stanga ar trebuii sa fie libera!'
-    quickbar: '&eHotbarul tau ar trebuii sa fie gol!'
-    quickbarslots: '&eHotbarul tau ar trebuii sa aiba cel putin &6[count] &esloturi libere!'
+    armor: '&eYour armor slots should be empty!'
+    hand: '&eYour hand should be empty!'
+    maininv: '&eYour main inventory should be empty!'
+    maininvslots: '&eYour main inventory should have atleast &6[count] &eempty slots!'
+    inv: '&eYour inventory should be empty!'
+    offhand: '&eYour offhand should be empty!'
+    quickbar: '&eYour quick bar should be empty!'
+    quickbarslots: '&eYour quick bar should have atleast &6[count] &eempty slots!'
     subinv: '&eYour sub inventory should be empty!'
     subinvslots: '&eYour  sub inventory should have atleast &6[count] &eempty slots!'
   DamageCause:
-    block_explosion: Explozie
+    block_explosion: Explosion
     contact: Block Damage
-    cramming: Inghesuiala
-    custom: Necunoscut
-    dragon_breath: Respiratia Dragonului
-    drowning: Inecat
-    dryout: Seceta
+    cramming: cramming
+    custom: Unknown
+    dragon_breath: Dragon breath
+    drowning: Drowning
+    dryout: dryout
     entity_attack: Entity attack
-    entity_explosion: Explozie
+    entity_explosion: Explosion
     entity_sweep_attack: entity sweep attack
-    fall: Cazatura
+    fall: Fall
     falling_block: Falling block
-    fire: Foc
-    fire_tick: Foc
+    fire: Fire
+    fire_tick: Fire
     fly_into_wall: Fly into wall
     hot_floor: Magma block
     lava: Lava
-    lightning: Fulger
-    magic: Magie
+    lightning: Lightning
+    magic: Magic
     melting: Melting
-    poison: Otrava
+    poison: Poison
     projectile: Projectile
     starvation: Starvation
-    suffocation: Sufocare
-    suicide: Sinucidere
+    suffocation: Suffocation
+    suicide: Suicide
     thorns: Thorns
     void: Void
     wither: Wither
@@ -612,50 +614,50 @@ info:
     hero_of_the_village:
     - Hero of the village
 direction:
-  n: Norrd
-  ne: Nord Est
-  e: Est
-  se: Sud Est
-  s: Sud
-  sw: Sud Vest
-  w: Vest
-  nw: Nord Vest
+  n: North
+  ne: North East
+  e: East
+  se: South East
+  s: South
+  sw: South West
+  w: West
+  nw: North West
 modify:
-  middlemouse: '&2Click-rotita pentru a edita'
-  newItem: '&7Pune un item nou aici'
+  middlemouse: '&2Middle mouse click to edit'
+  newItem: '&7Place new item here'
   newLine: '&2<NewLine>'
-  newLineHover: '&2Adauga o noua linie'
+  newLineHover: '&2Add new line'
   newPage: '&2<NewPage>'
-  newPageHover: '&2Creeaza o noua pagina'
+  newPageHover: '&2Create new page'
   removePage: '&c<RemovePage>'
-  removePageHover: '&cSterge pagina'
+  removePageHover: '&cRemove page'
   deleteSymbol: ' &c[X]'
-  deleteSymbolHover: '&cSterge &e[text]'
+  deleteSymbolHover: '&cDelete &e[text]'
   extraEditSymbol: ' &6!'
   addSymbol: '&2[+]'
-  addSymbolHover: '&2Adauga nou'
+  addSymbolHover: '&2Add new'
   acceptSymbol: ' &2&l[✔]'
-  acceptSymbolHover: '&aAccepta'
+  acceptSymbolHover: '&aAccept'
   denySymbol: ' &4&l[X]'
-  denySymbolHover: '&cRefuza'
+  denySymbolHover: '&cDeny'
   enabledSymbol: '&2[+]'
   disabledSymbol: '&c[-]'
-  enabled: '&2Activat'
-  disabled: '&cDezactivat'
+  enabled: '&2Enabled'
+  disabled: '&cDisabled'
   running: '&2Running'
-  paused: '&cPauza'
+  paused: '&cPaused'
   editSymbol: '&e✎'
-  editSymbolHover: '&eEditeaza &6[text]'
+  editSymbolHover: '&eEdit &6[text]'
   listUpSymbol: '&6⇑'
-  listUpSymbolHover: '&eSus'
+  listUpSymbolHover: '&eUp'
   listDownSymbol: '&6⇓'
-  listDownSymbolHover: '&eJos'
-  ChangeHover: '&eClick pentru a schimba'
+  listDownSymbolHover: '&eDown'
+  ChangeHover: '&eClick to change'
   commandTitle: ' &e--- &6[name] &e---'
   commandList: ' &e[command]  '
   emptyLine: '&7[Empty line]'
-  commandEdit: '&eEditeaza lista'
-  lineAddInfo: '&eAdauga o noua linie. Scrie &6 &e'
+  commandEdit: '&eEdit list'
+  lineAddInfo: '&eEnter new line. Type &6cancel &eto cancel'
   commandAddInfo: '&eEnter new command. Type &6cancel &eto cancel'
   commandAddInformationHover: "&e[playerName] can be used to get player name \n&eTo\
     \ include delay in commands: \n&edelay! 5 \n&eSpecialized commands are supported.\
@@ -672,9 +674,9 @@ afk:
   'on': '&6AFK'
   'off': '&7Playing'
   left: '&6[playerDisplayName] &eis no longer AFK'
-  MayNotRespond: '&ePlayerul este AFK nu e posibil sa nu iti raspunda'
-  MayNotRespondStaff: '&eMembru Staff este AFK si e posibil sa nu iti raspunda. Incearca sa ne contactezi
-    prin discord ->/discord'
+  MayNotRespond: '&ePlayer is AFK and may not respond'
+  MayNotRespondStaff: '&eStaff member is AFK and may not respond. Try contacting us
+    through discord'
 BossBar:
   hpBar: '&f[victim] &e[max]&f/&e[current] &f(&c-[damage]&f)'
 Potion:
@@ -707,15 +709,15 @@ Information:
   Group: '&eGroup: &6[group]'
 econ:
   disabled: '&cCan''t use this command while economy support is disabled'
-  noMoney: '&cNu ai bani, esti sarac'
+  noMoney: '&cYou have no money'
   notEnoughMoney: '&cYou dont have enough money. Required (&6[amount]&c)'
   tooMuchMoney: '&cYou have too much money'
 Elytra:
-  Speed: '&eViteza: &6[speed]&ekm/h'
+  Speed: '&eSpeed: &6[speed]&ekm/h'
   SpeedBoost: ' &a+ '
   SpeedSuperBoost: ' &2+ '
   CanUse: '&cCan''t equip elytra without permission!'
-  Charging: '&eBOOST &f[percentage]&e%'
+  Charging: '&eCharging &f[percentage]&e%'
 Selection:
   SelectPoints: '&cSelect 2 points with selection tool! AKA: &6[tool]'
   PrimaryPoint: '&ePlaced &6Primary &eSelection Point [point]'
@@ -727,7 +729,7 @@ NetherPortal:
   ToWide: '&cPortal is to wide, max width is &6[max]&c!'
   Disabled: '&cPortal creation disabled!'
 Location:
-  Title: '&8Locatia playerului'
+  Title: '&8Players location'
   Killer: '&eKiller: &6[killer]'
   OneLiner: '&eLocation: &6[location]'
   DeathReason: '&eDeath Reason: &6[reason]'
@@ -738,10 +740,10 @@ Location:
   Pitch: '&ePitch: &6[pitch]'
   Yaw: '&eYaw: &6[yaw]'
 Ender:
-  Title: '&7Deschide ender chest'
+  Title: '&7Open ender chest'
 Chat:
   localPrefix: ''
-  shoutPrefix: '&c[Shout]&r'
+  shoutPrefix: '&c[S]&r'
   shoutDeduction: '!actionbar!&cDeducted &e[amount] &cfor shout'
   # Use \n to add new line
   publicHover: '&eSent time: &6%server_time_hh:mm:ss%'
@@ -755,15 +757,15 @@ Chat:
 command:
   help:
     output:
-      usage: '&eFoloseste: &7%usage%'
+      usage: '&eUsage: &7%usage%'
       cmdInfoFormat: '[command] &f- &e[description]'
       cmdFormat: '&6/[command]&f[arguments]'
       helpPageDescription: '&e* [description]'
       explanation: '&e * [explanation]'
-      title: '&e------ ======= &6Ajutor&e &e======= ------'
+      title: '&e------ ======= &6Help&e &e======= ------'
   nocmd:
     help:
-      info: '&eIti arata toate comenzile valabile'
+      info: '&eShows all available commands'
       args: ''
   actionbarmsg:
     help:
@@ -1742,7 +1744,7 @@ command:
       explanation:
       - Requires cmi.command.helpop.inform too see messages
     info:
-      message: '&8[&cHelpOP&8] &c[senderDisplayName] &7➟ &c[message]'
+      message: '&c[Help]&4[&7[senderDisplayName]&4]&r&c [message]'
   hideflags:
     help:
       info: '&eHides item flags'
@@ -1813,15 +1815,15 @@ command:
       list: '&eHomes: &6'
       listNonePrivate: '&f'
       listPrivate: '&2'
-      click: '&eClick pentru a teleporta  &6[home]'
-      teleported: '&eTe-ai teleportat la casa: &6[home]'
-      noHomes: '&cNu e niic o casa salvata'
+      click: '&eClick to teleport to &6[home]'
+      teleported: '&eTeleported to home: &6[home]'
+      noHomes: '&cThere is no saved homes'
       private: '&cThis home location is private!'
-      remove: '&cShift+Click-dreapta pentru a sterge casa'
-      title: '&0[playerDisplayName] &8case'
+      remove: '&cShift+Right click to remove home'
+      title: '&0[playerDisplayName] &8homes'
   homes:
     help:
-      info: '&eO lista de case la care te poti teleporta.'
+      info: '&eA list of homes that you can click to teleport to.'
       args: (playerName)
   hunger:
     help:
@@ -2115,19 +2117,19 @@ command:
       info: '&eJail player for time period'
       args: '[playerName] (time) (jailName) (cellId) (-s) (r:jail_reasson)'
     info:
-      jailed: '&eL-ai pus pe &6[playerDisplayName] &ein puscarie pentru [time]'
-      jailedPlayer: '&6[playerDisplayName] &ea intrat la puscarie pentru [time]'
-      reason: ' &epentru: &c[reason]'
-      leftTime: '!title!&7Timp in puscarie:!subtitle![time]'
-      jailedTarget: '&eAi fost bagat la parnaie! [time]'
-      cantTalk: '&cPolitaii ti-au pus scoci peste gura si nu poti vorbi prea clar'
-      cantTalkRange: '!actionbar!&fNumai jucatorii din cel putin &c[range] &fblockuri te pot auzi.'
+      jailed: '&eYou put &6[playerDisplayName] &einto jail for the next [time]'
+      jailedPlayer: '&6[playerDisplayName] &ejailed for the next [time]'
+      reason: ' &eFor: &c[reason]'
+      leftTime: '!title!&7Jail time:!subtitle![time]'
+      jailedTarget: '&eYou have been jailed! [time]'
+      cantTalk: '&cYou cant talk while you are jailed'
+      cantTalkRange: '!actionbar!&fYour chat range is limited to &c[range] &fblocks'
       failed: '&cFailed to jail player. Check target jail name, cell id or time format'
-      bossbar: '&7Timp in puscarie: [autoTimeLeft]'
-      noCommand: '&cPolitaii ti-au legat mainile, deci nu poti folosi comenzi!'
+      bossbar: '&7Jail time: [autoTimeLeft]'
+      noCommand: '&cYou can''t use this command while jailed!'
   jailedit:
     help:
-      info: '&eEditeaza puscaria'
+      info: '&eEdit jails'
       args: ''
     info:
       notInArea: '&cYou are not standing in jail area'
@@ -2399,7 +2401,7 @@ command:
       - '&5&l⚓ &a&l⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊ &5&l⚓'
       staffL: '   &6&lSTAFF  &f&l➟ &c[list]'
       adminL: '   &4&lADMIN  &f&l➟ &b&l[list]'
-      hiddenPref: '&e&7[V]'
+      hiddenPref: '&e&7[H]'
       hiddenCount: '&e&7([amount])'
       groupL: '&e[groupName] &f➟ &f[list]'
       player: '%cmi_user_afk_symbol%&f[playerDisplayName]'
@@ -2482,7 +2484,7 @@ command:
       info: '&eSends special message to all players'
       args: '[message]'
     info:
-      format: '&c[senderDisplayName] &7➟ &r[message]'
+      format: '&5* [senderDisplayName] &5[message]'
   merchant:
     help:
       info: '&eOpen merchant trade window'
@@ -2585,15 +2587,15 @@ command:
       TargetMsg: '&7[&8[senderDisplayName] &7-> &8me&7]&r&f [message]'
       SenderMsg: '&7[&8me &7-> &8[playerDisplayName]&7]&r&f [message]'
       consoleMsg: '[[senderDisplayName] -> [playerDisplayName]] [message]'
-      noPM: '&cPlayerul nu accepta mesaje private momentan'
-      badGroup: '&cNu poti trimite mesaje private acestui grup de playeri'
+      noPM: '&cPlayer is not accepting private messages now'
+      badGroup: '&cCan''t send private messages to this group of players'
   msgtoggle:
     help:
       info: '&eToggle private messages'
       args: (playerName)
     info:
-      feedbackOn: '&7Accepti mesajele private de acum'
-      feedbackOff: '&7No mai accept mesaje private'
+      feedbackOn: '&7Accepting private messages'
+      feedbackOff: '&7No longer accepting private messages'
   mute:
     help:
       info: '&eMute player'
@@ -2733,8 +2735,8 @@ command:
       info: '&eShows player total play time'
       args: (playername)
     info:
-      total: '&e* Playtime total: [time]'
-      joined: '&e* Ai intrat pe: &6[time]'
+      total: '&e* Total play time: [time]'
+      joined: '&e* Joined on: &6[time]'
   playtimetop:
     help:
       info: '&eShows top list of player total play time'
@@ -2745,7 +2747,7 @@ command:
       loading: '&eData is not loaded yet. Scan process will start and you will get
         result after its finished'
       list: '&e[number]. [playerDisplayName] &e- &6[time]'
-      place: '&6[playerDisplayName] &eeste pe &6[place] &eloc'
+      place: '&6[playerDisplayName] &eis in &6[place] &eplace'
   point:
     help:
       info: '&ePoint to block'
@@ -2957,8 +2959,8 @@ command:
       info: '&eRemove home'
       args: (homeName) (playerName)
     info:
-      remove: '&cClick pentru a scoate casa'
-      removed: '&eCasa (&6[home]&e) a fost scoasa'
+      remove: '&cClick to remove'
+      removed: '&eHome (&6[home]&e) removed'
   removeuser:
     help:
       info: '&eRemoves user and its data'
@@ -2985,10 +2987,10 @@ command:
       - cmi.command.repair.repairshare.bypass - allows a user to repair items without
         adding repair share protection
     info:
-      feedback: '&eAi reparat &3[amount]&e iteme pentru &3[playerDisplayName]&e
+      feedback: '&eYou have repaired &3[amount]&e items for &3[playerDisplayName]&e
         (&3[offon]&e).'
-      feedbackMoney: '&eAi reparat &3[amount]&e iteme pentru &3[playerDisplayName]&e
-        (&3[offon]&e). Costul: &7[cost]'
+      feedbackMoney: '&eYou have repaired &3[amount]&e items for &3[playerDisplayName]&e
+        (&3[offon]&e). Cost: &7[cost]'
       itemOwner: '&eLast repaired by: &6[owner]'
       cantUse: '!title!&cCan''t use this item!!subtitle!&eRepair it your self!'
   repaircost:
@@ -3044,7 +3046,7 @@ command:
       info: '&eReplay to last message sender'
       args: '[message]'
     info:
-      noOneToReplay: '&eNu e nimeni caruia ii poti raspunde'
+      noOneToReplay: '&eThere is no one to replay'
   resetdbfields:
     help:
       info: '&eResets particular database columns to default value'
@@ -3310,12 +3312,12 @@ command:
       - -l will define custom location for new home location, this requires cmi.command.sethome.customloc
         permission node
     info:
-      set: '&eAi creat o casa cu numele &6[homeName]&e!'
-      setBed: '&eCreat o locatie de spawn - Bed'
+      set: '&eYou correctly created the home with name of &6[homeName]&e!'
+      setBed: '&eCreated bed respawn location'
       private: ' &2(private)'
-      noMore: '&cAi atins limita la crearea caselor'
-      noOverwrite: '&cNu ai permisie pentru a schimba aceasta casa.
-        Sterge o casa veche sau alege alta.'
+      noMore: '&cYou have reached max sethome limit'
+      noOverwrite: '&cYou don''t have permission to overwrite existing home location.
+        Remove old one or pick different home name.'
   setmotd:
     help:
       info: Set server motd
@@ -3425,9 +3427,9 @@ command:
       info: '&eSit in your position'
       args: ''
     info:
-      onSit: '!actionbar!&eTe-ai asezat pe jos'
-      onStandUp: '!actionbar!&eTe-ai ridicat de pe jos'
-      accupied: '!actionbar!&cCineva sta deja aici!'
+      onSit: '!actionbar!&eYou are sitting now'
+      onStandUp: '!actionbar!&eYou are no longer sitting'
+      accupied: '!actionbar!&cSomeone is sitting here already!'
   skin:
     help:
       info: '&eChanges players skin'
@@ -3474,7 +3476,7 @@ command:
       args: (playerName)
     info:
       notset: '&4Spawn point is not set!'
-      feedback: '&6Ai fost teleportat la Spawn!'
+      feedback: '&6Teleported to spawn!'
   spawner:
     help:
       info: '&eSets spawner'
@@ -3910,13 +3912,13 @@ command:
       info: '&eAsk the player if you can teleport to them'
       args: '[playerName] (playerName) (-c)'
     info:
-      requestSent: '&eCerere de teleportare trimisa lui &6[playerDisplayName]'
-      gotRequest: '&6[senderDisplayName] &ecere sa se teleporteze la tine!'
-      time: '&eAi &6[time]&esa ii accepti cererea'
-      alreadyRequesting: '&eDeja ai trimis o cerere de teleportare lui &6[playerDisplayName],
-        &easteapta sa iti accepte cererea curenta'
-      banned: '&eNu poti trimite o cerere de teleportare lui &6[playerDisplayName]
-        &epentru urmatoarele &6[time]'
+      requestSent: '&eRequest sent to &6[playerDisplayName]'
+      gotRequest: '&6[senderDisplayName] &erequests teleportation to you!'
+      time: '&eYou have &6[time]&eto accept this request'
+      alreadyRequesting: '&eYou are already requesting that &6[playerDisplayName]
+        &eaccepts your teleportation request'
+      banned: '&eYou can''t send a teleportation request to &6[playerDisplayName]
+        &efor the next &6[time]'
   tpaall:
     help:
       info: '&eAsk all online players to teleport to your location'
@@ -3928,23 +3930,24 @@ command:
       info: '&eAccept teleport request'
       args: (playerName)
     info:
-      noRequest: '&eNu e nici o cerere de teleportare'
-      NotOnline: '&eJucatorul nu mai este online'
-      accepted: '&6[playerDisplayName] &eti-a acceptat cererea de teleportare'
-      youAccepted: '&eTeleportare acceptata!'
+      noRequest: '&eThere is no teleport requests'
+      NotOnline: '&ePlayer is no longer online'
+      accepted: '&6[playerDisplayName] &eaccepted request'
+      youAccepted: '&eTeleportation accepted'
   tpahere:
     help:
       info: '&eAsks player to accept teleportation to your location'
       args: '[playerName] (playerName) (-c)'
     info:
-      gotRequest: '&6[senderDisplayName] &eti-a trimis o cerere sa te teleportezi la el/ea!'
-      accept: '&6Click pentru a accepta teleportarea!'
+      gotRequest: '&6[senderDisplayName] &erequests teleportation to them!'
+      accept: '&6Click to accept teleportation request!'
   tpall:
     help:
       info: '&eTeleports all online players to location'
       args: (playerName)
     info:
-      feedback: '&eAi fost teleportate in ([world],[x],[y],[z]) la &3[playerDisplayName].'
+      feedback: '&eYou have been teleported ([world],[x],[y],[z]) to &3[playerDisplayName]
+        &elocation.'
   tpallworld:
     help:
       info: '&eTeleports ALL players from specific world'
@@ -3970,9 +3973,9 @@ command:
       info: '&eDeny teleport request'
       args: (playerName)
     info:
-      noRequest: '&eNu ai cereri de teleportare active!'
-      youDenied: '&eCererea de teleportare a fost respinsa!'
-      denied: '&e[senderDisplayName] &eti-a respins cererea.'
+      noRequest: '&eYou have no active teleportation requests!'
+      youDenied: '&eYour teleportation request was denied!'
+      denied: '&e[senderDisplayName] &edenied your request.'
   tphere:
     help:
       info: '&eTeleports player to your location'
@@ -4056,7 +4059,7 @@ command:
     info:
       notInJail: '&cTarget player is not in jail'
       unjailed: '&eYou have released &6[playerDisplayName] &efrom jail'
-      unjailedTarget: '&eA dat norocu' peste tine si ai iesit din puscarie!'
+      unjailedTarget: '&eYou have been released from jail!'
   unloadchunks:
     help:
       info: '&eUnloads chunks from server memory'
@@ -4109,8 +4112,8 @@ command:
       info: '&eVanish player'
       args: (playerName/list) (on/off)
     info:
-      vanished: '&eAi devenit invizibil'
-      unvanish: '&eAi devenit vizibil din nou'
+      vanished: '&eYou have vanished'
+      unvanish: '&eYou became visible'
       targetVanished: '&6[playerDisplayName] &ehave vanished'
       targetUnvanish: '&6[playerDisplayName] &ebecame visible'
       list: '&e[place]. &6[playerDisplayName] &e(&6[offon]&e)'
@@ -4223,12 +4226,12 @@ command:
       args: (warpName) (playerName) (-s)
     info:
       list: '&eWarps: &6'
-      click: '&eClick sa te teleportez la &6[warp]'
-      teleported: '&eAi fost teleportat la: &6[warp]'
-      noWarps: '&cNu exista nici un warp salvat'
-      noWarpByName: '&cNu exista nici un warp cu numele asta'
-      noAccess: '&cNu ai acces la warpul asta'
-      guiTitle: '&6Teleportari'
+      click: '&eClick to teleport to &6[warp]'
+      teleported: '&eTeleported to warp: &6[warp]'
+      noWarps: '&cThere is no saved warps'
+      noWarpByName: '&cThere is no warps by this name'
+      noAccess: '&cNo access to this warp'
+      guiTitle: '&6Warps'
       creator: '&eCreator: &6[creator]'
   weather:
     help:

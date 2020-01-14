@@ -17,15 +17,7 @@
 # Commands under this alias will get executed. Exelent way to show help page and correct usage if needed
 
 CustomAlias:
-  mvtp build:
+  mv tp build:
     Cmds:
     - build
-    Perm: true
-  s:
-    Cmds:
-    - tphere $1-
-    Perm: true
-  open:
-    Cmds:
-    - inv $1-
     Perm: true

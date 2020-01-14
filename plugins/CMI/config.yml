@@ -146,7 +146,7 @@ Optimizations:
     # If set to false then player will be teleported to player at which teleport request was issued
     CurrentLoc: true
     # Default distance for jump command. Can be overriden with cmi.command.jump.[amount] permission node
-    JumpDefault: 100
+    JumpDefault: 50
     # Defines time in seconds for accepting tpa or tpahere requests
     TpaTime: 120
     # Defines time in seconds for player being teleported after tpa or tpahere is being accepted
@@ -202,7 +202,7 @@ Optimizations:
   CMIPlayTimeTracking: true
   # Player names to be excluded from playtimetop list
   PlaytimeTopExclude:
-  - Faicu
+  - Some
   - Names
   - Here
   ItemName:
@@ -772,8 +772,6 @@ Command:
     - register
     - login
     - l
-    - cp
-    - changepass
     # Players without cmi.security.admin will only see commands from this list with command spy feature
     CommandList:
     - cmi spawn
@@ -782,7 +780,6 @@ Command:
     - cmi heal
     - cmi feed
     - cmi fly
-    - cmi msg
 PlayerNotes:
   # For how long to keep players notes in days
   ExpiresIn: 30
@@ -985,10 +982,10 @@ Elytra:
     # Do you want to show decimals in speed
     SpeedDecimals: true
     # By how much boost player on each use
-    GeneralMultyplier: 0.2
+    GeneralMultyplier: 0.1
     # By how much boost player on each super boost use
     # Use shift while using simple boost
-    SuperMultyplier: 0.4
+    SuperMultyplier: 0.3
     # Uses defined items instead of exp
     UseItems: false
     # Item material name

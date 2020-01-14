@@ -26,21 +26,6 @@ premium:
       v: 2227
       type: PIG_SPAWN_EGG
       amount: 2
-    '32':
-      v: 2227
-      type: TRIPWIRE_HOOK
-      meta:
-        ==: ItemMeta
-        meta-type: UNSPECIFIC
-        display-name: §8§lFaikkit Crate §b§lKey
-        lore:
-        - §7O cheie Speciala
-        - §7pentru o cutie speciala!
-        enchants:
-          LUCK: 1
-        ItemFlags:
-        - HIDE_ENCHANTS
-        internal: H4sIAAAAAAAAAONiYOBgEHQuSqyqBBIlqcW6YIqBPS0xMzs7s4QBAHTIepYhAAAA
 Starter:
   CommandName: Starter
   Enabled: true
