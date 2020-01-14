@@ -29,7 +29,7 @@ Economy:
   BalTop:
     # List of players to exclude from baltop list
     Exclude:
-    - Notch
+    - Faicu
     # List of names to exclude from baltop
     # Can be used to filter out towny towns
     ExcludeStartingWith:
@@ -105,7 +105,7 @@ Optimizations:
   # When set to true players with same name but different capitalization will be denyied from joining server to avoid possible issues. In example if on first day player Zrips joined server and on second day player zRips tries to join server, he will be rejected
   # RECOMMENDED to keep this at true
   PreventDifferentCapitalizationNames: true
-  # When this set to true by using any command, requiring players name, in case plugin cant determine player by given full name, then partial matches from online players will be used. In example: /cmi heal rips can heal player Zrips 
+  # When this set to true by using any command, requiring players name, in case plugin cant determine player by given full name, then partial matches from online players will be used. In example: /cmi heal rips can heal player Zrips
   # Useful when you have players with complicated names
   PartialPlayerName: false
   # When set to true, commands in help page will be sorted alphabeticaly
@@ -146,7 +146,7 @@ Optimizations:
     # If set to false then player will be teleported to player at which teleport request was issued
     CurrentLoc: true
     # Default distance for jump command. Can be overriden with cmi.command.jump.[amount] permission node
-    JumpDefault: 50
+    JumpDefault: 100
     # Defines time in seconds for accepting tpa or tpahere requests
     TpaTime: 120
     # Defines time in seconds for player being teleported after tpa or tpahere is being accepted
@@ -202,9 +202,7 @@ Optimizations:
   CMIPlayTimeTracking: true
   # Player names to be excluded from playtimetop list
   PlaytimeTopExclude:
-  - Some
-  - Names
-  - Here
+  - Faicu
   ItemName:
     # List of materials to block from itemName command
     TypeBlackList:
@@ -947,7 +945,7 @@ Animations:
   DoubleClickDelay: 200
   # Range in blocks from player to look up for valid chair block
   ChairRange: 4
-# All possible damage causes: contact, entity_attack, entity_sweep_attack, projectile, suffocation, fall, fire, fire_tick, melting, lava, drowning, block_explosion, entity_explosion, void, lightning, suicide, starvation, poison, magic, wither, falling_block, thorns, dragon_breath, custom, fly_into_wall, hot_floor, cramming, dryout, 
+# All possible damage causes: contact, entity_attack, entity_sweep_attack, projectile, suffocation, fall, fire, fire_tick, melting, lava, drowning, block_explosion, entity_explosion, void, lightning, suicide, starvation, poison, magic, wither, falling_block, thorns, dragon_breath, custom, fly_into_wall, hot_floor, cramming, dryout,
 # Syntax should be [permissionNode]:[damageCause]:[multiplier]
 # Example: nolavadamage:lava:0 will prevent lava damage with cmi.damagecontrol.nolavadamage permission node
 # Negative values will heal player instead of damaging him
@@ -982,10 +980,10 @@ Elytra:
     # Do you want to show decimals in speed
     SpeedDecimals: true
     # By how much boost player on each use
-    GeneralMultyplier: 0.1
+    GeneralMultyplier: 0.2
     # By how much boost player on each super boost use
     # Use shift while using simple boost
-    SuperMultyplier: 0.3
+    SuperMultyplier: 0.4
     # Uses defined items instead of exp
     UseItems: false
     # Item material name
@@ -1054,7 +1052,7 @@ FlightCharge:
   # This will define if you want to kill player if fall damage if higher than his health amount
   KillOnFall: false
 Point:
-  # Default particle for point command. Options: fireworks_spark, crit, magic_crit, potion_swirl, potion_swirl_transparent, spell, instant_spell, witch_magic, note, portal, flying_glyph, flame, lava_pop, footstep, splash, particle_smoke, explosion_huge, explosion_large, explosion, void_fog, small_smoke, cloud, coloured_dust, snowball_break, waterdrip, lavadrip, snow_shovel, slime, heart, villager_thundercloud, happy_villager, large_smoke, water_bubble, water_wake, suspended, barrier, mob_appearance, end_rod, damage_indicator, sweep_attack, totem, spit, squid_ink, bubble_pop, current_down, bubble_column_up, nautilus, dolphin, 
+  # Default particle for point command. Options: fireworks_spark, crit, magic_crit, potion_swirl, potion_swirl_transparent, spell, instant_spell, witch_magic, note, portal, flying_glyph, flame, lava_pop, footstep, splash, particle_smoke, explosion_huge, explosion_large, explosion, void_fog, small_smoke, cloud, coloured_dust, snowball_break, waterdrip, lavadrip, snow_shovel, slime, heart, villager_thundercloud, happy_villager, large_smoke, water_bubble, water_wake, suspended, barrier, mob_appearance, end_rod, damage_indicator, sweep_attack, totem, spit, squid_ink, bubble_pop, current_down, bubble_column_up, nautilus, dolphin,
   DefaultParticle: COLOURED_DUST
 Messages:
   Login:
@@ -1184,7 +1182,7 @@ WorldLimits:
   Enabled: false
   # World list with default game modes
   # If player will have cmi.worldlimit.gamemode.bypass permission node, game mode wont be changed
-  # Possible modes: creative, survival, adventure, spectator, 
+  # Possible modes: creative, survival, adventure, spectator,
   Gamemode:
   - world:Survival
   # If player will have cmi.worldlimit.fly.bypass permission node, fly mode wont be changed
@@ -1721,7 +1719,7 @@ Scavenge:
   Cost:
     # Defined base cost of extraction. Set to 0 if you want to make it free
     Base: 100.0
-    # Extra cost which depends on enchantment worth which can be defined with /cmi setenchantworth 
+    # Extra cost which depends on enchantment worth which can be defined with /cmi setenchantworth
     # This value is in percentage from worth value of that each enchantment and item
     # So if you have base cost of 100, extra cost of 5% and you are trying to extract sharpness 5 which worth is 1000 and item sell hand worth is 100, then you will have to pay 155 for extraction process
     Extra: 5.0
@@ -1738,7 +1736,7 @@ BungeeCord:
   # When setting this to false some features like public messages over bungee cord, private messages over bungeecord, portals over bungecoord and other features will stop working
   # Keep in mind that regular behavior of those features will remain intacted
   Enabled: true
-# If you want to disable particular sound entirely, set it to "" 
+# If you want to disable particular sound entirely, set it to ""
 Sounds:
   Enabled: true
   WarpGuiOpen: entity_bat_takeoff:0.5:1
@@ -1750,7 +1748,7 @@ Sounds:
   MailNotification: entity_creeper_hurt:1:0.5
   TeleportUp: entity_enderman_teleport:2:1
   TeleportDown: entity_enderman_teleport:0.2:1
-# If you want to disable particular particle entirely, set it to "" 
+# If you want to disable particular particle entirely, set it to ""
 # More information how to set up this one can be found at http://www.zrips.net/cmi/extra/particles/
 Particles:
   Enabled: true
