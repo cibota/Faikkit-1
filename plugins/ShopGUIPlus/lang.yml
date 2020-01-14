@@ -1,13 +1,13 @@
-PREFIX: '&aShop > &f'
+PREFIX: '&aFaikkit > &f'
 LANG:
   CONSOLE: Console
 MSG:
-  ERROR: Error occured, please contact the server owner.
+  ERROR: Eroare!
   INGAMEONLY: This command can be used only in the game.
-  NOACCESS: You don't have access to do this.
-  RELOADED: Configuration reloaded!
+  NOACCESS: Nu ai voie!
+  RELOADED: Reload cu succes!
   USAGE:
-    SUBCOMMAND: 'Invalid command usage. Correct usage: %usage%'
+    SUBCOMMAND: 'Comanda invalida, foloseste: %usage%'
   CMD:
     SHOP:
       ADDMODIFIER:
@@ -107,26 +107,26 @@ MSG:
     BOUGHT: You bought &c%command%&f for &c%price%$&f.
     CANNOTAFFORD: You need &c%price%$&f to buy this command.
   SELLHAND:
-    NOITEM: You have to hold an item in your hand in order to sell it.
-    INVALIDQUANTITY: Invalid quantity specified. Must be between 1 and %max%.
-    CANNOTSELL: You can't sell this item.
+    NOITEM: Trebuie sa ai un item in mana sa-l poti vinde!
+    INVALIDQUANTITY: Cantitate specificata invalida, trebuie sa fie intre 1 si %max%.
+    CANNOTSELL: Nu poti vinde acest item!
     MULTIPLEQUANTITYONLY: You can't sell that quantity. Only multiples of %quantity%
       are allowed for this item.
   SELLHANDALL:
-    SOLD: You sold %quantity% x %item% for a total of %price%$.
+    SOLD: Ai vandut %quantity% x %item% pentru suma de %price%$!
   SELLALL:
-    NOITEMS: You don't have any items you can sell.
-    SOLD: You sold %quantity% items for a total of %price%$.
+    NOITEMS: Nu ai niciun item pe care l-ai putea vinde!
+    SOLD: Ai vandut %quantity% iteme pentru suma de %price%$!
 DIALOG:
   AMOUNTSELECTION:
     BUY:
-      NAME: '&2Buying %item%'
+      NAME: '&Cumperi %item%'
     SELL:
-      NAME: '&cSelling %item%'
+      NAME: '&cVinzi %item%'
     BULKBUY:
-      NAME: '&cBuying stacks of %item%'
+      NAME: '&cCumperi Stack-uri de %item%'
     BULKSELL:
-      NAME: '&cSelling stacks of %item%'
+      NAME: '&cVinzi Stack-uri de %item%'
 SHOP:
   PERMISSION:
     ALREADYOWNED: '&4(Already owned)'
