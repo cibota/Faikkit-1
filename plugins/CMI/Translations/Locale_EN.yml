@@ -71,11 +71,11 @@ info:
   cantFindCommand: '&5Nu am gasit comanda &7[%1]&5, te-ai referit la &7[%2]&5?'
   PurgeNotEnabled: '&cFunctia Purge nu a fost activata in config!'
   FeatureNotEnabled: '&cAceasta functie nu este activata!'
-  TeamManagementDisabled: '&7This feature will have limited functionalaty while DisableTeamManagement
-    is set to true!'
+  TeamManagementDisabled: '&7Această caracteristică va avea o funcționalitate limitată în timp ce DisableTeamManagement
+    este setat pe adevărat! '
   ModuleNotEnabled: '&cAcest modul nu este activat!'
   versionNotSupported: '&cVersiunea serverului nu este suportata pentru aceasta functie'
-  bungeeNoGo: '&cThis feature will not work on bungee network based servers'
+  bungeeNoGo: '&cAceastă caracteristică nu va funcționa pe serverele bazate pe rețeaua bungee'
   clickToTeleport: '&eClick pentru a te teleporta'
   UseMaterial: '&4Foloseste nume de materiale!'
   UseInteger: '&4Foloseste numere!'
@@ -101,10 +101,9 @@ info:
   ShulkerBox: Shulker Box
   CantuseShulkerBox: '&cNu poti folosi shulker box in timp ce faci PvP.
     Timp: [time]'
-  CantUseNonEncrypted: '!actionbar!&cCommands on this item are not encrypted. Can''t
-    use them!'
-  CantDecode: '!actionbar!&cCan''t decode message/command. Key file contains wrong
-    key for this task. Inform server administration about this'
+  CantUseNonEncrypted: '!actionbar!&cComenzile pentru acest item nu sunt criptate. Nu le poti folosi
+  CantDecode: '!actionbar!&cNu pot decodifica mesajul / comanda. Fișierul cheie conține greșit
+    cheie pentru această sarcină. Informați administrația serverului despre aceasta'
   Show: '&eArata'
   Remove: '&cRemove'
   Back: '&eInapoi'
@@ -113,11 +112,11 @@ info:
   Save: '&eSaveaza'
   Delete: '&cSterge'
   Click: '&eClick'
-  PasteOld: '&ePaste old'
+  PasteOld: '&Lipeste vechi'
   ClickToPaste: '&eClick pentru a pune mesajul in chat'
   CantTeleportWorld: '&eNu te poti teleporta in lumea asta
-  CantTeleport: '&eYou can''t teleport because you have too many limited items. Scroll
-    over this line to see the maximum amount of items allowed.'
+  CantTeleport: '&eNu puteți teleporta, deoarece aveți prea multe iteme limitate. Scrool
+    peste această linie pentru a vedea cantitatea maximă de iteme permise.'
   teleported: '&eTe-ai teleportat.'
   BlackList: '&e[material] [amount] &6Maxim: [max]'
   PlayerSpliter: '&e----- &6[playerDisplayName] &e-----'
@@ -129,23 +128,23 @@ info:
   nothingInHandLeather: '&eTrebuie sa ti 'Leather' in mana'
   nothingToShow: '&eNimic de aratat'
   noItem: '&cNu am putut gasi itemul
-  dontHaveItem: '&cYou don''t have &6[amount]x [itemName] &cin your inventory'
-  wrongWorld: '&cCan''t do this in this world'
+  dontHaveItem: '&cNu ai &6[amount]x [itemName] &cîn inventarul tau.'
+  wrongWorld: '&cNu pot face asta pe lumea asta'
   differentWorld: '&cAlte lumi'
-  HaveItem: '&cYou have &6[amount]x [itemName] &cin your inventory'
-  ItemWillBreak: '!actionbar!&eYour item (&6[itemName]&e) will break soon! &e[current]&6/&e[max]'
+  HaveItem: '&cTu ai &6[amount]x [itemName] &cîn inventarul tau.'
+  ItemWillBreak: '!actionbar!&eItemul tau. (&6[itemName]&e) se va strica curând! &e[current]&6/&e[max]'
   cantDoForPlayer: '&eNu poti face asta lui &6[playerDisplayName]'
-  cantDoForYourSelf: '&eYou can''t do this to yourself'
-  cantDetermineMobType: '&cCan''t determine mob type from &e[type] &cvariable'
+  cantDoForYourSelf: '&eNu poți face asta singur'
+  cantDetermineMobType: '&cNu pot determina tipul mob &e[type] &cvariabil'
   cantRename: '!actionbar!&eNu poti folosi acest nume'
   wrongName: '&cNume incorect'
   invalidName: '&cNume invalid'
   alreadyexist: '&4Numele acesta este deja luat'
   dontexist: '&4Nimic gasit pe acest nume'
-  worldDontExist: '&cTarget world can''t be accessed anymore. Can''t teleport you
-    there!'
+  worldDontExist: '&cLumea țintă nu mai poate fi accesată. Nu te pot teleporta
+    Acolo!'
   flyingToHigh: '&cNu poti zbura atat de sus, inaltimea maxima: &6[max]&c!'
-  specializedItemFail: '&cCan''t determine specialized item requirement by value:
+  specializedItemFail: '&cNu pot determina cerințele itemului specializat în funcție de valoare:
     &7[value]'
   sunSpeeding: Dormi [count] din [total] [hour] ore [speed]X speed
   sleepersRequired: '&f[sleeping] &7din &f[required] &7playeri dormind pentru a incepe mari viteza timpului 
@@ -176,8 +175,8 @@ info:
   bungee:
     Online: '&6Online'
     Offline: '&cOffline'
-    not: '&cServer doesn''t belong to bungee network'
-    noserver: '&cCan''t find server by this name!'
+    not: '&cServerul nu aparține rețelei bungee'
+    noserver: '&cNu pot găsi serverul cu acest nume!'
     server: '&eServer: &7[name]'
   variables:
     Online: '&6Online'
@@ -196,7 +195,7 @@ info:
   totem:
     cooldown: '&eCooldown totem: [time]'
     warmup: '&eEfect totem: [time]'
-    cantConsume: '&eTotem usage was denied due to its cooldown time'
+    cantConsume: '&eUtilizarea totemului a fost refuzată din cauza timpului său de repas'
   InventorySave:
     info: '&8Info: &8[playerDisplayName]'
     saved: '&e[time] &eInventar salvat cu idul: &e[id]'
@@ -291,119 +290,119 @@ info:
     wither: Wither
   Biomes:
     BADLANDS: Badlands
-    BADLANDS_PLATEAU: Badlands plateau
-    BAMBOO_JUNGLE: Bamboo jungle
-    BAMBOO_JUNGLE_HILLS: Bamboo jungle hills
-    BEACH: Beach
-    BIRCH_FOREST: Birch forest
-    BIRCH_FOREST_HILLS: Birch forest hills
-    COLD_OCEAN: Cold ocean
-    DARK_FOREST: Dark forest
-    DARK_FOREST_HILLS: Dark forest hills
-    DEEP_COLD_OCEAN: Deep cold ocean
-    DEEP_FROZEN_OCEAN: Deep frozen ocean
-    DEEP_LUKEWARM_OCEAN: Deep lukewarm ocean
-    DEEP_OCEAN: Deep ocean
-    DEEP_WARM_OCEAN: Deep warm ocean
-    DESERT: Desert
-    DESERT_HILLS: Desert hills
-    DESERT_LAKES: Desert lakes
-    END_BARRENS: End barrens
+    BADLANDS_PLATEAU: Platoul Badlands
+    BAMBOO_JUNGLE: Jungla de bambus
+    BAMBOO_JUNGLE_HILLS: Dealuri din jungla de bambus
+    BEACH: Plajă
+    BIRCH_FOREST: Pădure de mesteacăn
+    BIRCH_FOREST_HILLS: Dealuri de pădure de mesteacăn
+    COLD_OCEAN: Oceanul rece
+    DARK_FOREST: Padure intunecata
+    DARK_FOREST_HILLS: Dealuri întunecate de pădure
+    DEEP_COLD_OCEAN: Ocean rece profund
+    DEEP_FROZEN_OCEAN: Oceanul adânc înghețat
+    DEEP_LUKEWARM_OCEAN: Oceanul adânc călduț
+    DEEP_OCEAN: Ocean adanc
+    DEEP_WARM_OCEAN: Oceanul cald adânc
+    DESERT: Deşert
+    DESERT_HILLS: Dealuri de deșert
+    DESERT_LAKES: Lacuri de deșert
+    END_BARRENS: Barrenuri de capăt
     END_HIGHLANDS: End highlands
-    END_MIDLANDS: End midlands
-    ERODED_BADLANDS: Eroded badlands
-    FLOWER_FOREST: Flower forest
-    FOREST: Forest
-    FROZEN_OCEAN: Frozen ocean
-    FROZEN_RIVER: Frozen river
-    GIANT_SPRUCE_TAIGA: Giant spruce taiga
-    GIANT_SPRUCE_TAIGA_HILLS: Giant spruce taiga hills
-    GIANT_TREE_TAIGA: Giant tree taiga
-    GIANT_TREE_TAIGA_HILLS: Giant tree taiga hills
-    GRAVELLY_MOUNTAINS: Gravelly mountains
-    ICE_SPIKES: Ice spikes
-    JUNGLE: Jungle
-    JUNGLE_EDGE: Jungle edge
-    JUNGLE_HILLS: Jungle hills
-    LUKEWARM_OCEAN: Lukewarm ocean
-    MODIFIED_BADLANDS_PLATEAU: Modified badlands plateau
-    MODIFIED_GRAVELLY_MOUNTAINS: Modified gravelly mountains
-    MODIFIED_JUNGLE: Modified jungle
-    MODIFIED_JUNGLE_EDGE: Modified jungle edge
-    MODIFIED_WOODED_BADLANDS_PLATEAU: Modified wooded badlands plateau
-    MOUNTAINS: Mountains
-    MOUNTAIN_EDGE: Mountain edge
-    MUSHROOM_FIELDS: Mushroom fields
-    MUSHROOM_FIELD_SHORE: Mushroom field shore
+    END_MIDLANDS: Capăturile de mijloc
+    ERODED_BADLANDS: Maluri erodate
+    FLOWER_FOREST: Pădure cu flori
+    FOREST: Pădure
+    FROZEN_OCEAN: Oceanul înghețat
+    FROZEN_RIVER: Râul înghețat
+    GIANT_SPRUCE_TAIGA: Taiga de molid uriaș
+    GIANT_SPRUCE_TAIGA_HILLS: Dealuri de taiga molid uriaș
+    GIANT_TREE_TAIGA: Arbore gigant taiga
+    GIANT_TREE_TAIGA_HILLS: Dealuri de taiga copac uriaș
+    GRAVELLY_MOUNTAINS: Munți pietroși
+    ICE_SPIKES: Vârfuri de gheață
+    JUNGLE: Junglă
+    JUNGLE_EDGE: Marginea junglei
+    JUNGLE_HILLS: Dealurile Junglei
+    LUKEWARM_OCEAN: Oceanul Lukewarm
+    MODIFIED_BADLANDS_PLATEAU: Podisul modificat al badlands
+    MODIFIED_GRAVELLY_MOUNTAINS: Muntele pietris modificat
+    MODIFIED_JUNGLE: Jungla modificată
+    MODIFIED_JUNGLE_EDGE: Marginea junglei modificată
+    MODIFIED_WOODED_BADLANDS_PLATEAU: Platou de păduri pădure modificate
+    MOUNTAINS: Munţi
+    MOUNTAIN_EDGE: Marginea muntelui
+    MUSHROOM_FIELDS: Câmpuri de ciuperci
+    MUSHROOM_FIELD_SHORE: Coasta câmpului de ciuperci
     NETHER: Nether
     OCEAN: Ocean
-    PLAINS: Plains
-    RIVER: River
-    SAVANNA: Savanna
-    SAVANNA_PLATEAU: Savanna plateau
-    SHATTERED_SAVANNA: Shattered savanna
-    SHATTERED_SAVANNA_PLATEAU: Shattered savanna plateau
-    SMALL_END_ISLANDS: Small end islands
-    SNOWY_BEACH: Snowy beach
-    SNOWY_MOUNTAINS: Snowy mountains
-    SNOWY_TAIGA: Snowy taiga
-    SNOWY_TAIGA_HILLS: Snowy taiga hills
-    SNOWY_TAIGA_MOUNTAINS: Snowy taiga mountains
-    SNOWY_TUNDRA: Snowy tundra
-    STONE_SHORE: Stone shore
-    SUNFLOWER_PLAINS: Sunflower plains
-    SWAMP: Swamp
-    SWAMP_HILLS: Swamp hills
+    PLAINS: Campie
+    RIVER: Râu
+    SAVANNA: Savană
+    SAVANNA_PLATEAU: Platoul Savanei
+    SHATTERED_SAVANNA: Savana spulberată
+    SHATTERED_SAVANNA_PLATEAU: Platoul savanei spulberate
+    SMALL_END_ISLANDS: Insulele de capăt mici
+    SNOWY_BEACH: Plaja cu zăpadă
+    SNOWY_MOUNTAINS: Munți cu zăpadă
+    SNOWY_TAIGA: Zăpadă taiga
+    SNOWY_TAIGA_HILLS: Dealurile de taiga cu zăpadă
+    SNOWY_TAIGA_MOUNTAINS: Munții taiga zăpadă
+    SNOWY_TUNDRA: Tundra cu zăpadă
+    STONE_SHORE: Malul de piatră
+    SUNFLOWER_PLAINS: Câmpii de floarea soarelui
+    SWAMP: Mlaştină
+    SWAMP_HILLS: Dealurile de mlaștină
     TAIGA: Taiga
-    TAIGA_HILLS: Taiga hills
-    TAIGA_MOUNTAINS: Taiga mountains
-    TALL_BIRCH_FOREST: Tall birch forest
-    TALL_BIRCH_HILLS: Tall birch hills
+    TAIGA_HILLS: Dealurile Taiga
+    TAIGA_MOUNTAINS: Munții Taiga
+    TALL_BIRCH_FOREST: Pădure de mesteacăn înalt
+    TALL_BIRCH_HILLS: Dealuri de mesteacăn înalte
     THE_END: The end
     THE_VOID: The void
-    WARM_OCEAN: Warm ocean
-    WOODED_BADLANDS_PLATEAU: Wooded badlands plateau
-    WOODED_HILLS: Wooded hills
-    WOODED_MOUNTAINS: Wooded mountains
+    WARM_OCEAN: Oceanul cald
+    WOODED_BADLANDS_PLATEAU: Podisul malurilor împădurite
+    WOODED_HILLS: Dealuri împădurite
+    WOODED_MOUNTAINS: Munți împăduriti
   EntityType:
-    area_effect_cloud: Area effect cloud
-    armor_stand: Armor stand
-    arrow: Arrow
-    bat: Bat
-    bee: Bee
+    area_effect_cloud: Nor de efect de zonă
+    armor_stand: Stand de armură
+    arrow: Săgeată
+    bat: Liliac
+    bee: Albină
     blaze: Blaze
-    boat: Boat
-    cat: Cat
-    cave_spider: Cave spider
-    chicken: Chicken
+    boat: Barcă
+    cat: Pisică
+    cave_spider: Paianjen de pestera
+    chicken: Pui
     cod: Cod
-    cow: Cow
+    cow: Vacă
     creeper: Creeper
-    dolphin: Dolphin
-    donkey: Donkey
-    dragon_fireball: Dragon fireball
-    dropped_item: Dropped item
-    drowned: Drowned
-    egg: Egg
-    elder_guardian: Elder guardian
+    dolphin: Delfin
+    donkey: Măgar
+    dragon_fireball: Dragon bila de foc
+    dropped_item: Item dropat
+    drowned: Înecat
+    egg: Ou
+    elder_guardian: Gardian bătrân
     enderman: Enderman
     endermite: Endermite
     ender_crystal: Ender crystal
     ender_dragon: Ender dragon
     ender_pearl: Ender pearl
     ender_signal: Ender signal
-    evoker: Evoker
+    evoker: Evocatorul
     evoker_fangs: Evoker fangs
-    experience_orb: Experience orb
-    falling_block: Falling block
+    experience_orb: Experiență orb
+    falling_block: Blocul căzut
     fireball: Fireball
     firework: Firework
-    fishing_hook: Fishing hook
-    fox: Fox
+    fishing_hook: Carlig de pescuit
+    fox: Vulpe
     ghast: Ghast
     giant: Giant
     guardian: Guardian
-    horse: Horse
+    horse: Cal
     husk: Husk
     illusioner: Illusioner
     iron_golem: Iron golem
