@@ -20,16 +20,12 @@ iesire:
   Page: 3
   Creator: ec5c2029-db95-34fe-8588-696d8cf2f714
 parkour:
-  Location: hub;936.68;64.0;1110.37;-270.87;72.3
-  AutoLore: false
+  Location: warpuri;33.53;4.0;102.52;89.55;88.04
+  ReqPerm: true
   Creator: ec5c2029-db95-34fe-8588-696d8cf2f714
   Item:
     v: 2227
     type: DIAMOND_BOOTS
-    meta:
-      ==: ItemMeta
-      meta-type: UNSPECIFIC
-      display-name: parkour
 pvp:
   Location: hub;932.43;80.0;988.61;177.64;1.52
   Slot: 1
@@ -58,10 +54,3 @@ crate:
   Slot: 1
   Page: 68
   Creator: ec5c2029-db95-34fe-8588-696d8cf2f714
-event:
-  Location: hub;767.30;64.0;1045.70;266.12;59.4
-  Slot: 2
-  Creator: 096dfb3c-6f42-3bfd-80cd-6773246db058
-  Item:
-    v: 2227
-    type: FIREWORK_ROCKET

@@ -6941,3 +6941,11 @@ hub:
     MAGNESIUM_GENERATOR: true
     KELP_COOKIE: true
     CARROT_PIE: true
+warpuri:
+  enabled: true
+  enabled-items:
+    SLIMEFUN_GUIDE: true
+hubvechi:
+  enabled: true
+  enabled-items:
+    SLIMEFUN_GUIDE: true

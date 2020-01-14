@@ -28,6 +28,15 @@ regions:
         owners: {}
         type: cuboid
         priority: 0
+    intraremvp:
+        min: {x: 1299, y: 63, z: 817}
+        max: {x: 1308, y: 87, z: 834}
+        members:
+            groups: [mvp]
+        flags: {entry: deny, item-pickup: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
     endportal:
         min: {x: 1266, y: 63, z: 788}
         max: {x: 1273, y: 70, z: 796}
@@ -35,15 +44,6 @@ regions:
             groups: [vip]
             unique-ids: [dbc8ff8c-47a6-477a-a7d1-ef7146ed0784]
         flags: {entry: allow}
-        owners: {}
-        type: cuboid
-        priority: 0
-    intraremvp:
-        min: {x: 1299, y: 63, z: 817}
-        max: {x: 1308, y: 87, z: 834}
-        members:
-            groups: [mvp]
-        flags: {entry: deny, item-pickup: deny}
         owners: {}
         type: cuboid
         priority: 0
@@ -62,8 +62,8 @@ regions:
         flags:
             other-explosion: deny
             lava-fire: deny
-            use: allow
             invincible: allow
+            use: allow
             leaf-decay: deny
             ice-melt: deny
             snow-fall: deny
@@ -80,8 +80,8 @@ regions:
             chorus-fruit-teleport: deny
             enderman-grief: deny
             pvp: deny
-            block-place: deny
             mob-spawning: deny
+            block-place: deny
             enderpearl: deny
             item-drop: allow
             creeper-explosion: deny
@@ -134,7 +134,7 @@ regions:
         min: {x: 757, y: 48, z: 1006}
         max: {x: 821, y: 110, z: 1071}
         members: {}
-        flags: {invincible: allow, keep-inventory: true, interact: allow, mob-spawning: deny}
+        flags: {keep-inventory: true, invincible: allow, interact: allow, mob-spawning: deny}
         owners: {}
         type: cuboid
         priority: 0
@@ -168,8 +168,8 @@ regions:
             item-pickup: allow
             block-break: deny
             damage-animals: deny
-            chest-access: allow
             pvp: deny
+            chest-access: allow
             mob-spawning: deny
         owners: {}
         type: global

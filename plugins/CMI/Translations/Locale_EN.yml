@@ -513,6 +513,8 @@ info:
     - Looting
     piercing:
     - PIERCING
+    woodcutter:
+    - WoodCutter
     protection_explosions:
     - BlastProtection
     damage_undead:
