@@ -1,73 +1,73 @@
 hourly1:
-  DisplayName: "&7Hourly reward"
+  DisplayName: "&7Recompensa pe oră"
   AutoClaim: true
   Description:
-  - "&2Get reward for every hour you are online"
-  - "&2Free heal and 20 bucks into your pocket"
+  - "&2Obține recompensă pentru fiecare oră în care sunteți online"
+  - "&2Vindecare gratuita și 20 de dolari în buzunar"
   PayEvery: 3600
   Commands:
   - asConsole! cmi heal [playerName] -s
   - asConsole! cmi money give [playerName] 20
 daily1:
-  DisplayName: "&7Daily reward"
+  DisplayName: "&7Recompensa zilnică"
   AutoClaim: true
   Description:
-  - "&2Get reward for every 24 hours of playtime"
-  - "&22000 bucks into your pocket!"
+  - "&2Obține recompensă pentru fiecare 24 de ore de joc"
+  - "&22000 bagate în buzunarul tau!"
   PayEvery: 86400
   Commands:
   - asConsole! cmi money give [playerName] 2000
 1hour:
-  DisplayName: "&fOne hour reward"
+  DisplayName: "&fO Zi recompensa"
   AutoClaim: false
   Description:
-  - "&2Get reward for 1 hour you have been online"
-  - "&2500 bucks into your pocket!"
+  - "&2Obține recompensă pentru 1 oră în care ați fost online"
+  - "&2500 bagati în buzunarul tau!"
   PayFor: 3600
   Commands:
   - asConsole! cmi money give [playerName] 500
 6hour:
-  DisplayName: "&f6 hour reward"
+  DisplayName: "&f6 Ore recompensa"
   AutoClaim: false
   Description:
-  - "&2Get reward for 6 hour's you have been online"
-  - "&22 000 bucks into your pocket!"
+  - "&2Obține recompensă pentru 6 ore în care ați fost online"
+  - "&22 000 bagate în buzunarul tau!"
   PayFor: 21600
   Commands:
   - asConsole! cmi money give [playerName] 2000
 12hour:
-  DisplayName: "&f12 hour reward"
+  DisplayName: "&f12 Ore recompensa"
   AutoClaim: false
   Description:
-  - "&2Get reward for 12 hour's you have been online"
-  - "&25 000 bucks into your pocket!"
+  - "&2Obține recompensă pentru 12 ore pe care le-ați fost online"
+  - "&25 000 bagate in buzunarul tau!"
   PayFor: 43200
   Commands:
   - asConsole! cmi money give [playerName] 5000
 24hour:
-  DisplayName: "&f24 hour reward"
+  DisplayName: "&f24 Ore recompensa"
   AutoClaim: false
   Description:
-  - "&2Get reward for 24 hour's you have been online"
-  - "&215 000 bucks into your pocket!"
+  - "&2Obține recompensă pentru 24 de ore pe care ai fost online"
+  - "&215 000 bagate in buzunarul tau!"
   PayFor: 86400
   Commands:
   - asConsole! cmi money give [playerName] 15000
 7days:
-  DisplayName: "&f7 day reward"
+  DisplayName: "&f7 Zile recompensa"
   AutoClaim: false
   Description:
-  - "&2Get reward for 7 days you have been online"
-  - "&250 000 bucks into your pocket!"
+  - "&2Obține recompensă pentru 7 zile în care ați fost online"
+  - "&250 000 bagate in buzunarul tau!"
   PayFor: 604800
   Commands:
   - asConsole! cmi money give [playerName] 50000
 30days:
-  DisplayName: "&f30 day reward"
+  DisplayName: "&f30 Zile Recompensa"
   AutoClaim: false
   Description:
-  - "&2Get reward for 30 days you have been online"
-  - "&2500 000 bucks into your pocket!"
+  - "&2Obține recompensă pentru 30 de zile în care ați fost online"
+  - "&2500 000 bagate in buzunarul tau!"
   PayFor: 2592000
   Commands:
   - asConsole! cmi money give [playerName] 500000
