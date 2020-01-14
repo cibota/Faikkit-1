@@ -1,0 +1,749 @@
+settings:
+  prefix: '&8(&e&lFaikkitVoucher&8)'
+
+messages:
+  reloadconfig: '&7The config has been reloaded'
+  insufficientpermissions: '&cYou do not have sufficient permissions to use that command'
+  voucherinsufficientpermissions: '&cNu poti folosi acest voucher'
+  voucherblacklistpermissions: '&cNu poti folosi acest voucher'
+  notonline: '&cThat player is not online'
+  invalidvoucher: '&cThat voucher does not exist'
+  voucherreceived: '&7You have received a(n) &e%voucher% &7voucher'
+  fullinventory: '&cYou have not received a(n) &e%voucher% &7voucher because your inventory is full'
+  vouchergive: '&7You have given &e%player% &7a(n) &e%voucher% &7voucher'
+  vouchergiveall: '&7You have given all players a(n) &e%voucher% &7voucher'
+  availablevouchers: '&eAvailable vouchers&7:'
+
+vouchers:
+  claimb500:
+    item: 'PAPER'
+    name: '&e&lVoucher &6&l500 &e&lClaim Blocks'
+    lore:
+      - '&7Acesta este un voucher pentru 500 de claimblock-uri'
+      - '&7Click-dreapta pentru a folosi voucherul.'
+    commands:
+      - 'adjustbonusclaimblocks %player% 500'
+
+    options:
+      message: '&aAi folosit voucherul si ai primit 500 de blockuri de claim.' # Set to '' to disable the message
+
+      glowing: true # Defines if the item should glow or not (enchanted)
+
+      permission:
+        enabled: true
+
+        whitelist: # Player needs this permission to use
+          enabled: true
+          permissions:
+            - 'voucher.claimb500'
+
+        blacklist: # If player has this permission player cannot use
+          enabled: true
+          permissions:
+            - 'voucher.blacklist.claimb500'
+
+      confirm: true # Defines if there should be a confirmation before using the item
+  claimb750:
+    item: 'PAPER'
+    name: '&e&lVoucher &6&l750 &e&lClaim Blocks'
+    lore:
+      - '&7Acesta este un voucher cu 750 de claimblock-uri'
+      - '&7Click-dreapta pentru a folosi voucherul.'
+    commands:
+      - 'adjustbonusclaimblocks %player% 750'
+
+    options:
+      message: '&aAi folosit voucherul si ai primit 750 de blockuri de claim.' # Set to '' to disable the message
+
+      glowing: true # Defines if the item should glow or not (enchanted)
+
+      permission:
+        enabled: true
+
+        whitelist: # Player needs this permission to use
+          enabled: true
+          permissions:
+            - 'voucher.claimb750'
+
+        blacklist: # If player has this permission player cannot use
+          enabled: true
+          permissions:
+            - 'voucher.blacklist.claimb750'
+
+      confirm: true # Defines if there should be a confirmation before using the item
+  claimb1000:
+    item: 'PAPER'
+    name: '&e&lVoucher &6&l1000 &e&lClaim Blocks'
+    lore:
+      - '&7Acesta este un voucher cu 1000 de claimblock-uri'
+      - '&7Click-dreapta pentru a folosi voucherul.'
+    commands:
+      - 'adjustbonusclaimblocks %player% 1000'
+
+    options:
+      message: '&aAi folosit voucherul si ai primit 1000 de blockuri de claim.' # Set to '' to disable the message
+
+      glowing: true # Defines if the item should glow or not (enchanted)
+
+      permission:
+        enabled: true
+
+        whitelist: # Player needs this permission to use
+          enabled: true
+          permissions:
+            - 'voucher.claimb1000'
+
+        blacklist: # If player has this permission player cannot use
+          enabled: true
+          permissions:
+            - 'voucher.blacklist.claimb1000'
+
+      confirm: true # Defines if there should be a confirmation before using the item
+  claimb1250:
+    item: 'PAPER'
+    name: '&e&lVoucher &6&l1250 &e&lClaim Blocks'
+    lore:
+      - '&7Acesta este un voucher cu 1250 de claimblock-uri'
+      - '&7Click-dreapta pentru a folosi voucherul.'
+    commands:
+      - 'adjustbonusclaimblocks %player% 1250'
+
+    options:
+      message: '&aAi folosit voucherul si ai primit 1250 de blockuri de claim.' # Set to '' to disable the message
+
+      glowing: true # Defines if the item should glow or not (enchanted)
+
+      permission:
+        enabled: true
+
+        whitelist: # Player needs this permission to use
+          enabled: true
+          permissions:
+            - 'voucher.claimb1250'
+
+        blacklist: # If player has this permission player cannot use
+          enabled: true
+          permissions:
+            - 'voucher.blacklist.claimb1250'
+
+      confirm: true # Defines if there should be a confirmation before using the item
+  claimb1500:
+    item: 'PAPER'
+    name: '&e&lVoucher &6&l1500 &e&lClaim Blocks'
+    lore:
+      - '&7Acesta este un voucher cu 1500 de claimblock-uri'
+      - '&7Click-dreapta pentru a folosi voucherul.'
+    commands:
+      - 'adjustbonusclaimblocks %player% 1500'
+
+    options:
+      message: '&aAi folosit voucherul si ai primit 1509 de blockuri de claim.' # Set to '' to disable the message
+
+      glowing: true # Defines if the item should glow or not (enchanted)
+
+      permission:
+        enabled: true
+
+        whitelist: # Player needs this permission to use
+          enabled: true
+          permissions:
+            - 'voucher.claimb500'
+
+        blacklist: # If player has this permission player cannot use
+          enabled: true
+          permissions:
+            - 'voucher.blacklist.claimb500'
+
+      confirm: true # Defines if there should be a confirmation before using the item
+  claimb1750:
+    item: 'PAPER'
+    name: '&e&lVoucher &6&l1750 &e&lClaim Blocks'
+    lore:
+      - '&7Acesta este un voucher cu 1750 de claimblock-uri'
+      - '&7Click-dreapta pentru a folosi voucherul.'
+    commands:
+      - 'adjustbonusclaimblocks %player% 1750'
+
+    options:
+      message: '&aAi folosit voucherul si ai primit 1750 de blockuri de claim.' # Set to '' to disable the message
+
+      glowing: true # Defines if the item should glow or not (enchanted)
+
+      permission:
+        enabled: true
+
+        whitelist: # Player needs this permission to use
+          enabled: true
+          permissions:
+            - 'voucher.claimb1750'
+
+        blacklist: # If player has this permission player cannot use
+          enabled: true
+          permissions:
+            - 'voucher.blacklist.claimb1750'
+
+      confirm: true # Defines if there should be a confirmation before using the item
+  claimb2000:
+    item: 'PAPER'
+    name: '&e&lVoucher &6&l2000 &e&lClaim Blocks'
+    lore:
+      - '&7Acesta este un voucher cu 2000 de claimblock-uri'
+      - '&7Click-dreapta pentru a folosi voucherul.'
+    commands:
+      - 'adjustbonusclaimblocks %player% 2000'
+
+    options:
+      message: '&aAi folosit voucherul si ai primit 2000 de blockuri de claim.' # Set to '' to disable the message
+
+      glowing: true # Defines if the item should glow or not (enchanted)
+
+      permission:
+        enabled: true
+
+        whitelist: # Player needs this permission to use
+          enabled: true
+          permissions:
+            - 'voucher.claimb2000'
+
+        blacklist: # If player has this permission player cannot use
+          enabled: true
+          permissions:
+            - 'voucher.blacklist.claimb2000'
+
+      confirm: true # Defines if there should be a confirmation before using the item
+  claimb2250:
+    item: 'PAPER'
+    name: '&e&lVoucher &6&l2250 &e&lClaim Blocks'
+    lore:
+      - '&7Acesta este un voucher cu 2250 de claimblock-uri'
+      - '&7Click-dreapta pentru a folosi voucherul.'
+    commands:
+      - 'adjustbonusclaimblocks %player% 2250'
+
+    options:
+      message: '&aAi folosit voucherul si ai primit 2250 de blockuri de claim.' # Set to '' to disable the message
+
+      glowing: true # Defines if the item should glow or not (enchanted)
+
+      permission:
+        enabled: true
+
+        whitelist: # Player needs this permission to use
+          enabled: true
+          permissions:
+            - 'voucher.claimb2250'
+
+        blacklist: # If player has this permission player cannot use
+          enabled: true
+          permissions:
+            - 'voucher.blacklist.claimb2250'
+
+      confirm: true # Defines if there should be a confirmation before using the item
+  claimb2500:
+    item: 'PAPER'
+    name: '&e&lVoucher &6&l2500 &e&lClaim Blocks'
+    lore:
+      - '&7Acesta este un voucher cu 2500 de claimblock-uri'
+      - '&7Click-dreapta pentru a folosi voucherul.'
+    commands:
+      - 'adjustbonusclaimblocks %player% 2500'
+
+    options:
+      message: '&aAi folosit voucherul si ai primit 2500 de blockuri de claim.' # Set to '' to disable the message
+
+      glowing: true # Defines if the item should glow or not (enchanted)
+
+      permission:
+        enabled: true
+
+        whitelist: # Player needs this permission to use
+          enabled: true
+          permissions:
+            - 'voucher.claimb2500'
+
+        blacklist: # If player has this permission player cannot use
+          enabled: true
+          permissions:
+            - 'voucher.blacklist.claimb2500'
+
+      confirm: true # Defines if there should be a confirmation before using the item
+  claimb2750:
+    item: 'PAPER'
+    name: '&e&lVoucher &6&l2750 &e&lClaim Blocks'
+    lore:
+      - '&7Acesta este un voucher cu 2750 de claimblock-uri'
+      - '&7Click-dreapta pentru a folosi voucherul.'
+    commands:
+      - 'adjustbonusclaimblocks %player% 2750'
+
+    options:
+      message: '&aAi folosit voucherul si ai primit 2750 de blockuri de claim.' # Set to '' to disable the message
+
+      glowing: true # Defines if the item should glow or not (enchanted)
+
+      permission:
+        enabled: true
+
+        whitelist: # Player needs this permission to use
+          enabled: true
+          permissions:
+            - 'voucher.claimb2750'
+
+        blacklist: # If player has this permission player cannot use
+          enabled: true
+          permissions:
+            - 'voucher.blacklist.claimb2750'
+
+      confirm: true # Defines if there should be a confirmation before using the item
+  claimb3000:
+    item: 'PAPER'
+    name: '&e&lVoucher &6&l3000 &e&lClaim Blocks'
+    lore:
+      - '&7Acesta este un voucher cu 3000 de claimblock-uri'
+      - '&7Click-dreapta pentru a folosi voucherul.'
+    commands:
+      - 'adjustbonusclaimblocks %player% 3000'
+
+    options:
+      message: '&aAi folosit voucherul si ai primit 3000 de blockuri de claim.' # Set to '' to disable the message
+
+      glowing: true # Defines if the item should glow or not (enchanted)
+
+      permission:
+        enabled: true
+
+        whitelist: # Player needs this permission to use
+          enabled: true
+          permissions:
+            - 'voucher.claimb3000'
+
+        blacklist: # If player has this permission player cannot use
+          enabled: true
+          permissions:
+            - 'voucher.blacklist.claimb3000'
+
+      confirm: true # Defines if there should be a confirmation before using the item
+  fly1h:
+    item: 'PAPER'
+    name: '&e&lVoucher &6&l1h &e&lFly'
+    lore:
+      - '&7Acesta este un voucher care contine 1 ora de acces la comanda /fly'
+      - '&7Click-dreapta pentru a folosi voucherul.'
+    commands:
+      - 'lp user %player% permission settemp cmi.command.fly true 1h'
+
+    options:
+      message: '&aAi folosit voucherul si ai primit 1 ora de fly.' # Set to '' to disable the message
+
+      glowing: true # Defines if the item should glow or not (enchanted)
+
+      permission:
+        enabled: true
+
+        whitelist: # Player needs this permission to use
+          enabled: true
+          permissions:
+            - 'voucher.fly1h'
+
+        blacklist: # If player has this permission player cannot use
+          enabled: true
+          permissions:
+            - 'voucher.blacklist.fly1h'
+
+      confirm: true # Defines if there should be a confirmation before using the item
+  fly3h:
+    item: 'PAPER'
+    name: '&e&lVoucher &6&l3h &e&lFly'
+    lore:
+      - '&7Acesta este un voucher care contine 3 ore de acces la comanda /fly'
+      - '&7Click-dreapta pentru a folosi voucherul.'
+    commands:
+      - 'lp user %player% permission settemp cmi.command.fly true 3h'
+
+    options:
+      message: '&aAi folosit voucherul si ai primit 3 ore de fly.' # Set to '' to disable the message
+
+      glowing: true # Defines if the item should glow or not (enchanted)
+
+      permission:
+        enabled: true
+
+        whitelist: # Player needs this permission to use
+          enabled: true
+          permissions:
+            - 'voucher.fly1h'
+
+        blacklist: # If player has this permission player cannot use
+          enabled: true
+          permissions:
+            - 'voucher.blacklist.fly1h'
+
+      confirm: true # Defines if there should be a confirmation before using the item
+  fly5h:
+    item: 'PAPER'
+    name: '&e&lVoucher &6&l5h &e&lFly'
+    lore:
+      - '&7Acesta este un voucher care contine 5 ore de acces la comanda /fly'
+      - '&7Click-dreapta pentru a folosi voucherul.'
+    commands:
+      - 'lp user %player% permission settemp cmi.command.fly true 5h'
+
+    options:
+      message: '&aAi folosit voucherul si ai primit 5 ore de fly.' # Set to '' to disable the message
+
+      glowing: true # Defines if the item should glow or not (enchanted)
+
+      permission:
+        enabled: true
+
+        whitelist: # Player needs this permission to use
+          enabled: true
+          permissions:
+            - 'voucher.fly1h'
+
+        blacklist: # If player has this permission player cannot use
+          enabled: true
+          permissions:
+            - 'voucher.blacklist.fly1h'
+
+      confirm: true # Defines if there should be a confirmation before using the item
+  fly10h:
+    item: 'PAPER'
+    name: '&e&lVoucher &6&l10h &e&lFly'
+    lore:
+      - '&7Acesta este un voucher care contine 10 ore de acces la comanda /fly'
+      - '&7Click-dreapta pentru a folosi voucherul.'
+    commands:
+      - 'lp user %player% permission settemp cmi.command.fly true 10h'
+
+    options:
+      message: '&aAi folosit voucherul si ai primit 10 ore de fly.' # Set to '' to disable the message
+
+      glowing: true # Defines if the item should glow or not (enchanted)
+
+      permission:
+        enabled: true
+
+        whitelist: # Player needs this permission to use
+          enabled: true
+          permissions:
+            - 'voucher.fly10h'
+
+        blacklist: # If player has this permission player cannot use
+          enabled: true
+          permissions:
+            - 'voucher.blacklist.fly10h'
+
+      confirm: true # Defines if there should be a confirmation before using the item
+  fly24h:
+    item: 'PAPER'
+    name: '&e&lVoucher &6&l24h &e&lFly'
+    lore:
+      - '&7Acesta este un voucher care contine 24 ore de acces la comanda /fly'
+      - '&7Click-dreapta pentru a folosi voucherul.'
+    commands:
+      - 'lp user %player% permission settemp cmi.command.fly true 24h'
+
+    options:
+      message: '&aAi folosit voucherul si ai primit 24 ore de fly.' # Set to '' to disable the message
+
+      glowing: true # Defines if the item should glow or not (enchanted)
+
+      permission:
+        enabled: true
+
+        whitelist: # Player needs this permission to use
+          enabled: true
+          permissions:
+            - 'voucher.fly24h'
+
+        blacklist: # If player has this permission player cannot use
+          enabled: true
+          permissions:
+            - 'voucher.blacklist.fly24h'
+
+      confirm: true # Defines if there should be a confirmation before using the item
+  fly3d:
+    item: 'PAPER'
+    name: '&e&lVoucher &6&l3d &e&lFly'
+    lore:
+      - '&7Acesta este un voucher care contine 3 zile de acces la comanda /fly'
+      - '&7Click-dreapta pentru a folosi voucherul.'
+    commands:
+      - 'lp user %player% permission settemp cmi.command.fly true 3d'
+
+    options:
+      message: '&aAi folosit voucherul si ai primit 3 zile de fly.' # Set to '' to disable the message
+
+      glowing: true # Defines if the item should glow or not (enchanted)
+
+      permission:
+        enabled: true
+
+        whitelist: # Player needs this permission to use
+          enabled: true
+          permissions:
+            - 'voucher.fly3d'
+
+        blacklist: # If player has this permission player cannot use
+          enabled: true
+          permissions:
+            - 'voucher.blacklist.fly3d'
+
+      confirm: true # Defines if there should be a confirmation before using the item
+  fly5d:
+    item: 'PAPER'
+    name: '&e&lVoucher &6&l5d &e&lFly'
+    lore:
+      - '&7Acesta este un voucher care contine 5 zile de acces la comanda /fly'
+      - '&7Click-dreapta pentru a folosi voucherul.'
+    commands:
+      - 'lp user %player% permission settemp cmi.command.fly true 5d'
+
+    options:
+      message: '&aAi folosit voucherul si ai primit 5 zile de fly.' # Set to '' to disable the message
+
+      glowing: true # Defines if the item should glow or not (enchanted)
+
+      permission:
+        enabled: true
+
+        whitelist: # Player needs this permission to use
+          enabled: true
+          permissions:
+            - 'voucher.fly5d'
+
+        blacklist: # If player has this permission player cannot use
+          enabled: true
+          permissions:
+            - 'voucher.blacklist.fly5d'
+
+      confirm: true # Defines if there should be a confirmation before using the item
+  fly7d:
+    item: 'PAPER'
+    name: '&e&lVoucher &6&l7d &e&lFly'
+    lore:
+      - '&7Acesta este un voucher care contine 7 zile de acces la comanda /fly'
+      - '&7Click-dreapta pentru a folosi voucherul.'
+    commands:
+      - 'lp user %player% permission settemp cmi.command.fly true 7d'
+
+    options:
+      message: '&aAi folosit voucherul si ai primit 7 zile de fly.' # Set to '' to disable the message
+
+      glowing: true # Defines if the item should glow or not (enchanted)
+
+      permission:
+        enabled: true
+
+        whitelist: # Player needs this permission to use
+          enabled: true
+          permissions:
+            - 'voucher.fly7d'
+
+        blacklist: # If player has this permission player cannot use
+          enabled: true
+          permissions:
+            - 'voucher.blacklist.fly7d'
+
+      confirm: true # Defines if there should be a confirmation before using the item
+  fly30d:
+    item: 'PAPER'
+    name: '&e&lVoucher &6&l30d &e&lFly'
+    lore:
+      - '&7Acesta este un voucher care contine 30 de zile de acces la comanda /fly'
+      - '&7Click-dreapta pentru a folosi voucherul.'
+    commands:
+      - 'lp user %player% permission settemp cmi.command.fly true 30d'
+
+    options:
+      message: '&aAi folosit voucherul si ai primit 31 ora de fly.' # Set to '' to disable the message
+
+      glowing: true # Defines if the item should glow or not (enchanted)
+
+      permission:
+        enabled: true
+
+        whitelist: # Player needs this permission to use
+          enabled: true
+          permissions:
+            - 'voucher.fly30d'
+
+        blacklist: # If player has this permission player cannot use
+          enabled: true
+          permissions:
+            - 'voucher.blacklist.fly30d'
+
+      confirm: true # Defines if there should be a confirmation before using the item
+  prefixs1temp:
+    item: 'PAPER'
+    name: '&e&lVoucher &6&lPrefix&e&l 12h'
+    lore:
+      - '&7Acesta este un voucher care contine prefixul &4Over&8Lord &7pentru 12 ore.'
+      - '&7Click-dreapta pentru a folosi voucherul.'
+    commands:
+      - 'lp user %player% meta addtempprefix 40 "&c&lOver&8&lLord &f" 12h true server=survival world=world'
+
+    options:
+      message: '&aAi folosit voucherul si ai primit prefixul &4Over&8Lord &apentru 12 ore.' # Set to '' to disable the message
+
+      glowing: true # Defines if the item should glow or not (enchanted)
+
+      permission:
+        enabled: true
+
+        whitelist: # Player needs this permission to use
+          enabled: true
+          permissions:
+            - 'voucher.prefixs1temp'
+
+        blacklist: # If player has this permission player cannot use
+          enabled: true
+          permissions:
+            - 'voucher.blacklist.prefixs1temp'
+
+      confirm: true # Defines if there should be a confirmation before using the item
+  prefixs1:
+    item: 'PAPER'
+    name: '&e&lVoucher &6&lPrefix&e&l'
+    lore:
+      - '&7Acesta este un voucher care contine prefixul &4Over&8Lord&7.'
+      - '&7Click-dreapta pentru a folosi voucherul.'
+    commands:
+      - 'lp user %player% meta addprefix 40 "&c&lOver&8&lLord &f" true server=survival world=world'
+
+    options:
+      message: '&aAi folosit voucherul si ai primit prefixul &4Over&8Lord&a.' # Set to '' to disable the message
+
+      glowing: true # Defines if the item should glow or not (enchanted)
+
+      permission:
+        enabled: true
+
+        whitelist: # Player needs this permission to use
+          enabled: true
+          permissions:
+            - 'voucher.prefixs1'
+
+        blacklist: # If player has this permission player cannot use
+          enabled: true
+          permissions:
+            - 'voucher.blacklist.prefixs1temp'
+
+      confirm: true # Defines if there should be a confirmation before using the item
+  prefixs2temp:
+    item: 'PAPER'
+    name: '&e&lVoucher &6&lPrefix&e&l 12h'
+    lore:
+      - '&7Acesta este un voucher care contine prefixul &eLegend &7pentru 12 ore.'
+      - '&7Click-dreapta pentru a folosi voucherul.'
+    commands:
+      - 'lp user %player% meta addtempprefix 40 "&eLegend &f" 12h '
+      - 'cmi broadcast ! &7[&e&lVoucher&7] %player% &7a deschis un &e&lVoucher &7si a primit prefixul "&eLegend&7" &7pentru &612h&7!'
+      
+    options:
+      message: '&aAi folosit voucherul si ai primit prefixul &eLegend &apentru 12 ore.' # Set to '' to disable the message
+
+      glowing: true # Defines if the item should glow or not (enchanted)
+
+      permission:
+        enabled: true
+
+        whitelist: # Player needs this permission to use
+          enabled: true
+          permissions:
+            - 'voucher.prefixs2temp'
+
+        blacklist: # If player has this permission player cannot use
+          enabled: true
+          permissions:
+            - 'voucher.blacklist.prefixs2temp'
+
+      confirm: true # Defines if there should be a confirmation before using the item
+  prefixs3temp:
+    item: 'PAPER'
+    name: '&e&lVoucher &6&lPrefix&e&l 12h'
+    lore:
+      - '&7Acesta este un voucher care contine prefixul &bHero &7pentru 12 ore.'
+      - '&7Click-dreapta pentru a folosi voucherul.'
+    commands:
+      - 'lp user %player% meta addtempprefix 40 "&bHero &f" 12h '
+      - 'cmi broadcast ! &7[&e&lVoucher&7] %player% &7a deschis un &e&lVoucher &7si a primit prefixul "&bHero&7" &7pentru &612h&7!'
+      
+    options:
+      message: '&aAi folosit voucherul si ai primit prefixul &bHero &apentru 12 ore.' # Set to '' to disable the message
+
+      glowing: true # Defines if the item should glow or not (enchanted)
+
+      permission:
+        enabled: true
+
+        whitelist: # Player needs this permission to use
+          enabled: true
+          permissions:
+            - 'voucher.prefixs3temp'
+
+        blacklist: # If player has this permission player cannot use
+          enabled: true
+          permissions:
+            - 'voucher.blacklist.prefixs3temp'
+
+      confirm: true # Defines if there should be a confirmation before using the item
+  prefixs4temp:
+    item: 'PAPER'
+    name: '&e&lVoucher &6&lPrefix&e&l 12h'
+    lore:
+      - '&7Acesta este un voucher care contine prefixul "&7Tractor" &7pentru 12 ore.'
+      - '&7Click-dreapta pentru a folosi voucherul.'
+    commands:
+      - 'lp user %player% meta addtempprefix 40 "&7Tractor &f" 12h '
+      - 'cmi broadcast ! &7[&e&lVoucher&7] %player% &7a deschis un &e&lVoucher &7si a primit prefixul &a"&7Tractor&a" &7pentru &612h&7!'
+      
+    options:
+      message: '&aAi folosit voucherul si ai primit prefixul &7Tractor &apentru 12 ore.' # Set to '' to disable the message
+
+      glowing: true # Defines if the item should glow or not (enchanted)
+
+      permission:
+        enabled: true
+
+        whitelist: # Player needs this permission to use
+          enabled: true
+          permissions:
+            - 'voucher.prefixs4temp'
+
+        blacklist: # If player has this permission player cannot use
+          enabled: true
+          permissions:
+            - 'voucher.blacklist.prefixs4temp'
+
+      confirm: true # Defines if there should be a confirmation before using the item
+  prefixs5temp:
+    item: 'PAPER'
+    name: '&e&lVoucher &6&lPrefix&e&l 12h'
+    lore:
+      - '&7Acesta este un voucher care contine prefixul &a"&9Supreme&a" &7pentru 12 ore.'
+      - '&7Click-dreapta pentru a folosi voucherul.'
+    commands:
+      - 'lp user %player% meta addtempprefix 40 "&8Supreme &f" 12h '
+      - 'cmi broadcast ! &7[&e&lVoucher&7] %player% &7a deschis un &e&lVoucher &7si a primit prefixul &9Supreme &7pentru &612h&7!'
+      
+    options:
+      message: '&aAi folosit voucherul si ai primit prefixul &9Supreme &apentru 12 ore.' # Set to '' to disable the message
+
+      glowing: true # Defines if the item should glow or not (enchanted)
+
+      permission:
+        enabled: true
+
+        whitelist: # Player needs this permission to use
+          enabled: true
+          permissions:
+            - 'voucher.prefixs5temp'
+
+        blacklist: # If player has this permission player cannot use
+          enabled: true
+          permissions:
+            - 'voucher.blacklist.prefixs5temp'
+
+      confirm: true # Defines if there should be a confirmation before using the item

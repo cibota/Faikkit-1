@@ -1,0 +1,131 @@
+messages:
+    Prefix: '&8(&b!&8) &3&l»'
+    Header: '  &f&m+----&3&m----&f&m----&3&m----&f&m----&3&m----&f&m----&3&m----&f&m----&3&m----+'
+    Footer: '  &f&m+----&3&m----&f&m----&3&m----&f&m----&3&m----&f&m----&3&m----&f&m----&3&m----+'
+    Note: '%prefix% &fPentru a sterge toate rapoartele, foloseste &e/reports clear&f.'
+    Reports-Cleared: '%prefix% &fToate rapoartele au fost &asterse &fcu succes.'
+    Args-Error: '%prefix% &fScuze, dar acea sub-comanda nu exista.'
+    No-Permission: '%prefix% &fScuze, dar nu ai permisie pentru comanda aia.'
+    Reloaded: '%prefix% &fAi dat cu &asucces &freload la plugin.'
+    Reported-Format: '%prefix% &c%player% &fa fost raportat de catre &a%reporter% &fpentru &a%reason%&f.'
+    Report-Submitted: '%prefix% &a%player% &fa facut un raport. &8(&e/reports&8)'
+    Click-To-Info: '&7(Click pentru a deschide ReportsGUI)'
+    Reports-Empty: '%prefix% &fScuze, dar nu a fost primit nici un raport.'
+    Specify-Reason: '%prefix% &fTe rog sa precizezi motivul pentru acest raport.'
+    Confirm: '%prefix% &fTe rog sa scri &e/reports clear &fdin nou pentru a confirma.'
+    Cant-Report-Yourself: '%prefix% &fScuze, dar nu te poti raporta pe tine insuti.'
+    Cant-Report-That-Player: '%prefix% &fScuze, dar nu il poti raporta pe %player%.'
+    Max-Reports-Reached: '%prefix% &fScuze, dar nu poti avea mai mult de %max%x raporturi in acelasi timp.'
+    Nothing-To-Clear: '%prefix% &fScuze, dar nu e nici un report de sters.'
+    Please-Wait: '%prefix% &fScuze, dar trebuie sa mai astepti pentru &c%cooldown%s&f.'
+    Report-Usage: '%prefix% &e/report (numele) (motivul)'
+    Teleport-Message: '%prefix% &fTe-ai teleportat la &a%player%&f.'
+    Player-Has-To-Be-Online: '%prefix% &fScuze, dar nu il poti raporta pe &c%player% &fde vreme ce ei nu sunt online.'
+    Claim-GUI-Not-Set-Up: '%prefix% &fSorry, but that player wasn''t rewarded as they''re offline and you haven''t set up the Reports ClaimGUI. &8(&e/reports setupclaimgui)'
+    On-ClaimGUI-Open-Note: '%prefix% &fPlace the rewards you want players to receive for a completed report if they''re offline at the time of the reports completion.'
+    Claim-GUI-Saved: '%prefix% &fThe &bClaim GUI &fa fost salvat.'
+    Report-Is-Already-Complete: '%prefix% &fScuze, dar acest raport a fost deja marcat ca si &aCompletat&f.'
+    Report-Must-Be-Complete-To-Delete: '%prefix% &fScuze, dar raporturile trebuie marcate ca si ''&aCompletat&f'' inainte de stergere.'
+    Nothing-To-Claim: '%prefix% &fScuze, dar nu ai nimic de primit.'
+    Report-Is-Not-Complete: '%prefix% &fScuze, dar raportul trebuie sa fie marcat ca si &aCompletat &fpentru a fi sters.'
+    Not-In-The-Image-Proof-URL-Whitelist: '%prefix% &fScuze, dar acela nu este un site suportat. Te rog sa folosesti Imgur, PrntScr sau Gyazo.'
+    Proof-Added: '%prefix% &fAi pus dovada foto la raportul tau.'
+    Added-URL-To-Whitelist: '%prefix% &aAdaugat cu &fcu succes acel link in whitelist.'
+    Canceled-Providing-Proof-Image: '%prefix% &fAi anulat raportul. Trebuie sa furnizati un link catre orice raport pe care îl faceți, astfel incat persoana respectiva pe care o raportati nu poate pretinde că ati mintit.'
+    Your-Report-Was-Denied: '%prefix% &fUnul dintre raporatele tale recente a fost &crespins&f.'
+    Link-Format: '%prefix% &e%link%'
+    Provide-Image-Proof:
+    - '%prefix% &fVă rugăm să furnizați un link către o imagine de dovadă pentru raportul dvs. în chat.'
+    - '%prefix% &fPoti scrie ''cancel'' pentru a anula raportul.'
+    Player-Reported:
+    - ''
+    - '%header%'
+    - '  %prefix% &fL-ai raportat cu succes pe &c%player%&f.'
+    - '  &fMotiv &3&l» &b%reason%&f.'
+    - '%footer%'
+    - ''
+settings:
+    Inform-Operators: true
+    Max-Reports-Per-Player: 3
+    # Reports that are marked as 'Complete' are not counted.
+    Command-Format: ' &3&l» &e%command% &3&l» &f%usage%'
+    Require-Reported-Player-To-Be-Online: false
+    Save-Reporters-Location: true
+    # This needs to be true to use the %reporter% placeholder in the 'Player-Commands' option
+    Perform-Commands-On-Report: true
+    Commands-Upon-Reports:
+    - 'staffchat %reporter% reported %reported% for %reason%'
+    Use-Header-&-Footer: true
+    Require-Image-Proof-Link-Before-Report-Creation: false
+    Tell-Reporter-Their-Report-Was-Denied: true
+    # The reporter will only receive a message if they're online at the time of the report being removed.
+    Open-Reports-GUI-Sound:
+        Enabled: true
+        Sound: BLOCK_CHEST_OPEN
+    Open-Claim-GUI-Sound:
+        Enabled: true
+        Sound: BLOCK_CHEST_OPEN
+    Clear-Reports-Timer: 3
+    Submit-Report-Timer: 60
+    # Timers are in seconds
+    Reports-Must-Be-Confirmed-To-Delete: true
+    Remove-Reports:
+        Click-Type: RIGHT
+    Change-Status:
+        Click-Type: MIDDLE
+    Open-Proof-Link:
+        Click-Type: DROP
+    # RIGHT, LEFT, SHIFT_LEFT, SHIFT_RIGHT, MIDDLE, DROP, DOUBLE_CLICK, NUMBER_KEY
+    Statuses:
+        New: '&fNou'
+        WIP: '&eSe investigheaza'
+        Complete: '&aCompletat'
+    Give-Reporter-Rewards-On-Report-Complete:
+        Enabled: true
+        Reporter-Is-Online:
+        - 'cmi mail send %reporter% Un raport pe care l-ai făcut a fost completat cu succes. Am dori să vă mulțumim pentru ca sunteti un jucător loial! Verificati /reporta claim pentru recomepnse."
+        - 'cc give p vote 1 %reporter%        
+       Reporter-Is-Offline:
+        - 'cmi mail send %reporter% Un raport pe care l-ai făcut a fost completat cu succes. Am dori să vă mulțumim pentru ca sunteti un jucător loial! Verificati /reporta claim pentru recomepnse."
+        - 'cc give p vote 1 %reporter% 
+        # Offline players can receive items by setting up /reports setupclaimgui
+    Image-Proof-URL-Whitelist:
+        - 'imgur.com'
+        - 'i.imgur.com'
+        - 'prntscr.com'
+        - 'gyazo.com'
+        - 'i.gyazo.com'
+        - 'i.ibb.co'
+        - 'ibb.co'
+        - 'pasteboard.co'
+sounds:
+    Enabled: true
+    Report-Submitted: ENTITY_PLAYER_LEVELUP
+    Player-Reported-Notification: BLOCK_ANVIL_FALL
+GUI:
+    Name: '&cRaporturi'
+    Size: 54
+    Default-Item:
+        Player-Commands:
+        - 'teleport %player%'
+        Material: PAPER
+        Name: '&a%reported%'
+        Lore:
+        - ''
+        - ' &3&l» &fStatus &3&l» %status%'
+        - ''
+        - ' &3&l» &fTrimis de &3&l» &b%reporter%'
+        - ' &3&l» &fRaportat &3&l» &c%reported%'
+        - ''
+        - ' &3&l» &fMotiv &3&l» &b%reason%'
+        - ''
+        - '&7(Click-stanga pentru a te teleporta la %reported%)'
+        - '&7(Click-dreapta pentru a sterge raportul)'
+        - '&7(Click-mijloc pentru a schimba statusul raportului)'
+        - '&7(Arunca din inventar pentru a vedea dovezile)'
+ClaimGUI:
+    Name: '&bClaim GUI'
+    Size: 27
+    Players-View:
+        Name: '&fRecompensele tale'
+        Size: 27
