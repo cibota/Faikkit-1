@@ -449,7 +449,6 @@ Listener_Priority:
 Command_Aliases:
 - chatcontrol
 - chc
-- cc
 Locale: en
 Prefix: '&8[&3Faikkit&8]&7 '
 Server_Name: Survival

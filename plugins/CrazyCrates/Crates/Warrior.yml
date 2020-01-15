@@ -61,7 +61,7 @@ Crate:
       MaxRange: 100
   Prizes:
     '1':
-      DisplayName: '&7&l&nShuffle I'
+      DisplayName: §7§l§nShuffle I
       DisplayItem: BOOK
       DisplayAmount: 1
       Lore: []
@@ -70,8 +70,7 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Tiers:
-      - Common
+      Unbreakable: false
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
@@ -87,7 +86,7 @@ Crate:
         Items: []
         Messages: []
     '2':
-      DisplayName: '&7&l&nAquatic I'
+      DisplayName: §7§l§nAquatic I
       DisplayItem: BOOK
       DisplayAmount: 1
       Lore: []
@@ -96,8 +95,7 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Tiers:
-      - Common
+      Unbreakable: false
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
@@ -113,7 +111,7 @@ Crate:
         Items: []
         Messages: []
     '3':
-      DisplayName: '&7&l&nAuto Smelt I'
+      DisplayName: §7§l§nAuto Smelt I
       DisplayItem: BOOK
       DisplayAmount: 1
       Lore: []
@@ -122,8 +120,7 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Tiers:
-      - Common
+      Unbreakable: false
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
@@ -139,7 +136,7 @@ Crate:
         Items: []
         Messages: []
     '4':
-      DisplayName: '&7&l&nConfusion I'
+      DisplayName: §7§l§nConfusion I
       DisplayItem: BOOK
       DisplayAmount: 1
       Lore: []
@@ -148,8 +145,7 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Tiers:
-      - Common
+      Unbreakable: false
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
@@ -165,7 +161,7 @@ Crate:
         Items: []
         Messages: []
     '5':
-      DisplayName: '&7&l&nExperience I'
+      DisplayName: §7§l§nExperience I
       DisplayItem: BOOK
       DisplayAmount: 1
       Lore: []
@@ -174,8 +170,7 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Tiers:
-      - Common
+      Unbreakable: false
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
@@ -191,7 +186,7 @@ Crate:
         Items: []
         Messages: []
     '6':
-      DisplayName: '&7&l&nHaste I'
+      DisplayName: §7§l§nHaste I
       DisplayItem: BOOK
       DisplayAmount: 1
       Lore: []
@@ -200,8 +195,7 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Tiers:
-      - Common
+      Unbreakable: false
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
@@ -217,7 +211,7 @@ Crate:
         Items: []
         Messages: []
     '7':
-      DisplayName: '&7&l&nInsomnia I'
+      DisplayName: §7§l§nInsomnia I
       DisplayItem: BOOK
       DisplayAmount: 1
       Lore: []
@@ -226,8 +220,7 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Tiers:
-      - Common
+      Unbreakable: false
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
@@ -243,7 +236,7 @@ Crate:
         Items: []
         Messages: []
     '8':
-      DisplayName: '&7&l&nLightning I'
+      DisplayName: §7§l§nLightning I
       DisplayItem: BOOK
       DisplayAmount: 1
       Lore: []
@@ -252,8 +245,7 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Tiers:
-      - Common
+      Unbreakable: false
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
@@ -269,7 +261,7 @@ Crate:
         Items: []
         Messages: []
     '9':
-      DisplayName: '&7&l&nOxygenate I'
+      DisplayName: §7§l§nOxygenate I
       DisplayItem: BOOK
       DisplayAmount: 1
       Lore: []
@@ -278,8 +270,7 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Tiers:
-      - Common
+      Unbreakable: false
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
@@ -295,7 +286,7 @@ Crate:
         Items: []
         Messages: []
     '10':
-      DisplayName: '&7&l&nEpicness I'
+      DisplayName: §7§l§nThundering Blow I
       DisplayItem: BOOK
       DisplayAmount: 1
       Lore: []
@@ -304,24 +295,13 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Tiers:
-      - Common
+      Unbreakable: false
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
         v: 2227
-        type: BOOK
-        meta:
-          ==: ItemMeta
-          meta-type: UNSPECIFIC
-          display-name: §7§l§nEpicness I
-          lore:
-          - §a100% Success Rate
-          - §c0% Destroy Rate
-          - §eGives particles and sound effects.
-          - §7Swords Enchantment
-          - §7Drag n' drop onto item to enchant
-          internal: H4sIAAAAAAAAAONiYOBgYEnKz89mkEpMjS9LzMlMsU4tyEzOSy0utja0NrA2NDCwZgAA2E5rbicAAAA=
+        type: AIR
+        amount: 0
       Commands: []
       Messages: []
       BlackListed-Permissions: []
@@ -331,7 +311,7 @@ Crate:
         Items: []
         Messages: []
     '11':
-      DisplayName: '&7&l&nObliterate I'
+      DisplayName: §7§l§nGlowing I
       DisplayItem: BOOK
       DisplayAmount: 1
       Lore: []
@@ -340,24 +320,13 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Tiers:
-      - Common
+      Unbreakable: false
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
         v: 2227
-        type: BOOK
-        meta:
-          ==: ItemMeta
-          meta-type: UNSPECIFIC
-          display-name: §7§l§nObliterate I
-          lore:
-          - §a100% Success Rate
-          - §c0% Destroy Rate
-          - §eExtreme knockback.
-          - §7Swords Enchantment
-          - §7Drag n' drop onto item to enchant
-          internal: H4sIAAAAAAAAAONiYOBgYEnKz89mkElMjS9LzMlMsc5PysksSS1KLEm1NrQ2sDY0MLBmAAAAjQgOKQAAAA==
+        type: AIR
+        amount: 0
       Commands: []
       Messages: []
       BlackListed-Permissions: []
@@ -367,7 +336,7 @@ Crate:
         Items: []
         Messages: []
     '12':
-      DisplayName: '&7&l&nHeadless I'
+      DisplayName: §7§l§nDecapitation I
       DisplayItem: BOOK
       DisplayAmount: 1
       Lore: []
@@ -376,25 +345,13 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Tiers:
-      - Common
+      Unbreakable: false
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
         v: 2227
-        type: BOOK
-        meta:
-          ==: ItemMeta
-          meta-type: UNSPECIFIC
-          display-name: §7§l§nHeadless I
-          lore:
-          - §a100% Success Rate
-          - §c0% Destroy Rate
-          - §eVictims have a chance of dropping
-          - §etheir head on death.
-          - §7Swords Enchantment
-          - §7Drag n' drop onto item to enchant
-          internal: H4sIAAAAAAAAAONiYOBgYEnKz89mkEpMjS9LzMlMsc5ITUzJSS0utja0NrA2NDCwZgAAOqBDdycAAAA=
+        type: AIR
+        amount: 0
       Commands: []
       Messages: []
       BlackListed-Permissions: []
@@ -404,7 +361,7 @@ Crate:
         Items: []
         Messages: []
     '13':
-      DisplayName: '&7&l&nDecapitation I'
+      DisplayName: §7§l§nHeadless I
       DisplayItem: BOOK
       DisplayAmount: 1
       Lore: []
@@ -413,25 +370,13 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Tiers:
-      - Common
+      Unbreakable: false
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
         v: 2227
-        type: BOOK
-        meta:
-          ==: ItemMeta
-          meta-type: UNSPECIFIC
-          display-name: §7§l§nDecapitation I
-          lore:
-          - §a100% Success Rate
-          - §c0% Destroy Rate
-          - §eVictims have a chance of dropping
-          - §etheir head on death.
-          - §7Axes Enchantment
-          - §7Drag n' drop onto item to enchant
-          internal: H4sIAAAAAAAAAONiYOBgYEnKz89mkEtMjS9LzMlMsU5JTU4syCxJLMnMz7M2tDawNjQwsGYAADfiJNwrAAAA
+        type: AIR
+        amount: 0
       Commands: []
       Messages: []
       BlackListed-Permissions: []
@@ -441,7 +386,7 @@ Crate:
         Items: []
         Messages: []
     '14':
-      DisplayName: '&7&l&nGlowing I'
+      DisplayName: §7§l§nObliterate I
       DisplayItem: BOOK
       DisplayAmount: 1
       Lore: []
@@ -450,24 +395,13 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Tiers:
-      - Common
+      Unbreakable: false
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
         v: 2227
-        type: BOOK
-        meta:
-          ==: ItemMeta
-          meta-type: UNSPECIFIC
-          display-name: §7§l§nGlowing I
-          lore:
-          - §a100% Success Rate
-          - §c0% Destroy Rate
-          - §eGives permanent night vision.
-          - §7Helmet Enchantment
-          - §7Drag n' drop onto item to enchant
-          internal: H4sIAAAAAAAAAONiYOBgYEnKz89mkExMjS9LzMlMsU7PyS/PzEu3NrQ2sDY0MLBmAABpVxUnJgAAAA==
+        type: AIR
+        amount: 0
       Commands: []
       Messages: []
       BlackListed-Permissions: []
@@ -477,7 +411,7 @@ Crate:
         Items: []
         Messages: []
     '15':
-      DisplayName: '&7&l&nThundering Blow I'
+      DisplayName: §a§l§nBerserk I
       DisplayItem: BOOK
       DisplayAmount: 1
       Lore: []
@@ -486,24 +420,13 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Tiers:
-      - Common
+      Unbreakable: false
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
         v: 2227
-        type: BOOK
-        meta:
-          ==: ItemMeta
-          meta-type: UNSPECIFIC
-          display-name: §7§l§nThundering Blow I
-          lore:
-          - §a100% Success Rate
-          - §c0% Destroy Rate
-          - §eCan cause smite effect on your enemy.
-          - §7Swords Enchantment
-          - §7Drag n' drop onto item to enchant
-          internal: H4sIAAAAAAAAAONiYOBgYEnKz89mUEhMjS9LzMlMsS7JKM1LSS3KzEtPyskvtza0NrA2NDCwZgAAjUW8AC0AAAA=
+        type: AIR
+        amount: 0
       Commands: []
       Messages: []
       BlackListed-Permissions: []
@@ -513,7 +436,7 @@ Crate:
         Items: []
         Messages: []
     '16':
-      DisplayName: '&a&l&nTelepathy I'
+      DisplayName: §a§l§nCurse I
       DisplayItem: BOOK
       DisplayAmount: 1
       Lore: []
@@ -522,8 +445,7 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Tiers:
-      - Unique
+      Unbreakable: false
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
@@ -539,7 +461,7 @@ Crate:
         Items: []
         Messages: []
     '17':
-      DisplayName: '&a&l&nSelf Destruct I'
+      DisplayName: §a§l§nEnderShift I
       DisplayItem: BOOK
       DisplayAmount: 1
       Lore: []
@@ -548,8 +470,7 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Tiers:
-      - Unique
+      Unbreakable: false
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
@@ -565,7 +486,7 @@ Crate:
         Items: []
         Messages: []
     '18':
-      DisplayName: '&a&l&nRavenous I'
+      DisplayName: §a§l§nExplosive I
       DisplayItem: BOOK
       DisplayAmount: 1
       Lore: []
@@ -574,8 +495,7 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Tiers:
-      - Unique
+      Unbreakable: false
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
@@ -591,7 +511,7 @@ Crate:
         Items: []
         Messages: []
     '19':
-      DisplayName: '&a&l&nMolten I'
+      DisplayName: §a§l§nFeatherweight I
       DisplayItem: BOOK
       DisplayAmount: 1
       Lore: []
@@ -600,8 +520,7 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Tiers:
-      - Unique
+      Unbreakable: false
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
@@ -617,7 +536,7 @@ Crate:
         Items: []
         Messages: []
     '20':
-      DisplayName: '&a&l&nFeatherweight I'
+      DisplayName: §a§l§nMolten I
       DisplayItem: BOOK
       DisplayAmount: 1
       Lore: []
@@ -626,8 +545,7 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Tiers:
-      - Unique
+      Unbreakable: false
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
@@ -643,7 +561,7 @@ Crate:
         Items: []
         Messages: []
     '21':
-      DisplayName: '&a&l&nExplosive I'
+      DisplayName: §a§l§nRavenous I
       DisplayItem: BOOK
       DisplayAmount: 1
       Lore: []
@@ -652,8 +570,7 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Tiers:
-      - Unique
+      Unbreakable: false
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
@@ -669,7 +586,7 @@ Crate:
         Items: []
         Messages: []
     '22':
-      DisplayName: '&a&l&nEnderShift I'
+      DisplayName: §a§l§nSelf Destruct I
       DisplayItem: BOOK
       DisplayAmount: 1
       Lore: []
@@ -678,8 +595,7 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Tiers:
-      - Unique
+      Unbreakable: false
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
@@ -695,7 +611,7 @@ Crate:
         Items: []
         Messages: []
     '23':
-      DisplayName: '&a&l&nCurse I'
+      DisplayName: §a§l§nTelepathy I
       DisplayItem: BOOK
       DisplayAmount: 1
       Lore: []
@@ -704,8 +620,7 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Tiers:
-      - Unique
+      Unbreakable: false
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
@@ -721,7 +636,7 @@ Crate:
         Items: []
         Messages: []
     '24':
-      DisplayName: '&a&l&nBerserk I'
+      DisplayName: §a§l§nObsidian Destroyer I
       DisplayItem: BOOK
       DisplayAmount: 1
       Lore: []
@@ -730,8 +645,7 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Tiers:
-      - Unique
+      Unbreakable: false
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
@@ -747,7 +661,7 @@ Crate:
         Items: []
         Messages: []
     '25':
-      DisplayName: '&a&l&nVirus I'
+      DisplayName: §a§l§nSkill Swipe I
       DisplayItem: BOOK
       DisplayAmount: 1
       Lore: []
@@ -756,26 +670,13 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Tiers:
-      - Unique
+      Unbreakable: false
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
         v: 2227
-        type: BOOK
-        meta:
-          ==: ItemMeta
-          meta-type: UNSPECIFIC
-          display-name: §a§l§nVirus I
-          lore:
-          - §a100% Success Rate
-          - §c0% Destroy Rate
-          - §eMultiplies all Wither and Poison damage the
-          - §eaffected target recieves and has a chance to remove
-          - §eregeneration effects on hit.
-          - §7Bow Enchantment
-          - §7Drag n' drop onto item to enchant
-          internal: H4sIAAAAAAAAAONiYOBgYEnKz89mEE9MjS9LzMlMsS7LLCottja0NrA2NDCwZgAAwBKxfyQAAAA=
+        type: AIR
+        amount: 0
       Commands: []
       Messages: []
       BlackListed-Permissions: []
@@ -785,7 +686,7 @@ Crate:
         Items: []
         Messages: []
     '26':
-      DisplayName: '&a&l&nPlague Carrier I'
+      DisplayName: §a§l§nPlague Carrier I
       DisplayItem: BOOK
       DisplayAmount: 1
       Lore: []
@@ -794,25 +695,13 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Tiers:
-      - Unique
+      Unbreakable: false
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
         v: 2227
-        type: BOOK
-        meta:
-          ==: ItemMeta
-          meta-type: UNSPECIFIC
-          display-name: §a§l§nPlague Carrier I
-          lore:
-          - §a100% Success Rate
-          - §c0% Destroy Rate
-          - §eWhen near death summons creepers
-          - §eand debuffs to avenge you.
-          - §7Leggings Enchantment
-          - §7Drag n' drop onto item to enchant
-          internal: H4sIAAAAAAAAAONiYOBgYEnKz89mkE9MjS9LzMlMsS7ISUwvTU1OLCrKTC2yNrQ2sDY0MLBmAACcwfyALAAAAA==
+        type: AIR
+        amount: 0
       Commands: []
       Messages: []
       BlackListed-Permissions: []
@@ -822,7 +711,7 @@ Crate:
         Items: []
         Messages: []
     '27':
-      DisplayName: '&a&l&nSkill Swipe I'
+      DisplayName: §b§l§nAnti Gravity I
       DisplayItem: BOOK
       DisplayAmount: 1
       Lore: []
@@ -831,25 +720,13 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Tiers:
-      - Unique
+      Unbreakable: false
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
         v: 2227
-        type: BOOK
-        meta:
-          ==: ItemMeta
-          meta-type: UNSPECIFIC
-          display-name: §a§l§nSkill Swipe I
-          lore:
-          - §a100% Success Rate
-          - §c0% Destroy Rate
-          - §eA chance to steal some of your enemy's
-          - §eEXP every time you damage them.
-          - §7Sword Enchantment
-          - §7Drag n' drop onto item to enchant
-          internal: H4sIAAAAAAAAAONiYOBgYEnKz89mkElMjS9LzMlMsS7OzszJKS7PLEi1NrQ2sDY0MLBmAABrZ+XdKQAAAA==
+        type: AIR
+        amount: 0
       Commands: []
       Messages: []
       BlackListed-Permissions: []
@@ -859,7 +736,7 @@ Crate:
         Items: []
         Messages: []
     '28':
-      DisplayName: '&a&l&nObsidian Destroyer I'
+      DisplayName: §b§l§nBlind I
       DisplayItem: BOOK
       DisplayAmount: 1
       Lore: []
@@ -868,24 +745,13 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Tiers:
-      - Unique
+      Unbreakable: false
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
         v: 2227
-        type: BOOK
-        meta:
-          ==: ItemMeta
-          meta-type: UNSPECIFIC
-          display-name: §a§l§nObsidian Destroyer I
-          lore:
-          - §a100% Success Rate
-          - §c0% Destroy Rate
-          - §eChance to instantly break obsidian blocks.
-          - §7Pickaxe Enchantment
-          - §7Drag n' drop onto item to enchant
-          internal: H4sIAAAAAAAAAONiYOBgYEnKz89mUE5MjS9LzMlMsc5PKs5MyUzMS0ktLinKr0wtsja0NrA2NDCwZgAA9p0t6TAAAAA=
+        type: AIR
+        amount: 0
       Commands: []
       Messages: []
       BlackListed-Permissions: []
@@ -895,7 +761,7 @@ Crate:
         Items: []
         Messages: []
     '29':
-      DisplayName: '&b&l&nPoisoned I'
+      DisplayName: §b§l§nShackle I
       DisplayItem: BOOK
       DisplayAmount: 1
       Lore: []
@@ -904,8 +770,7 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Tiers:
-      - Elite
+      Unbreakable: false
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
@@ -921,7 +786,7 @@ Crate:
         Items: []
         Messages: []
     '30':
-      DisplayName: '&b&l&nPoison I'
+      DisplayName: §b§l§nCactus I
       DisplayItem: BOOK
       DisplayAmount: 1
       Lore: []
@@ -930,8 +795,7 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Tiers:
-      - Elite
+      Unbreakable: false
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
@@ -947,7 +811,7 @@ Crate:
         Items: []
         Messages: []
     '31':
-      DisplayName: '&b&l&nParalyze I'
+      DisplayName: §b§l§nExecute I
       DisplayItem: BOOK
       DisplayAmount: 1
       Lore: []
@@ -956,8 +820,7 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Tiers:
-      - Elite
+      Unbreakable: false
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
@@ -973,7 +836,7 @@ Crate:
         Items: []
         Messages: []
     '32':
-      DisplayName: '&b&l&nFrozen I'
+      DisplayName: §b§l§nFrozen I
       DisplayItem: BOOK
       DisplayAmount: 1
       Lore: []
@@ -982,8 +845,7 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Tiers:
-      - Elite
+      Unbreakable: false
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
@@ -999,7 +861,7 @@ Crate:
         Items: []
         Messages: []
     '33':
-      DisplayName: '&b&l&nExecute I'
+      DisplayName: §b§l§nParalyze I
       DisplayItem: BOOK
       DisplayAmount: 1
       Lore: []
@@ -1008,8 +870,7 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Tiers:
-      - Elite
+      Unbreakable: false
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
@@ -1025,7 +886,7 @@ Crate:
         Items: []
         Messages: []
     '34':
-      DisplayName: '&b&l&nCactus I'
+      DisplayName: §b§l§nPoison I
       DisplayItem: BOOK
       DisplayAmount: 1
       Lore: []
@@ -1034,8 +895,7 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Tiers:
-      - Elite
+      Unbreakable: false
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
@@ -1051,7 +911,7 @@ Crate:
         Items: []
         Messages: []
     '35':
-      DisplayName: '&b&l&nShackle I'
+      DisplayName: §b§l§nPoisoned I
       DisplayItem: BOOK
       DisplayAmount: 1
       Lore: []
@@ -1076,7 +936,7 @@ Crate:
         Items: []
         Messages: []
     '36':
-      DisplayName: '&b&l&nBlind I'
+      DisplayName: §b§l§nReforged I
       DisplayItem: BOOK
       DisplayAmount: 1
       Lore: []
@@ -1085,8 +945,7 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Tiers:
-      - Elite
+      Unbreakable: false
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
@@ -1102,7 +961,7 @@ Crate:
         Items: []
         Messages: []
     '37':
-      DisplayName: '&e&l&nAnti Gravity I'
+      DisplayName: §b§l§nSnare I
       DisplayItem: BOOK
       DisplayAmount: 1
       Lore: []
@@ -1127,7 +986,7 @@ Crate:
         Items: []
         Messages: []
     '38':
-      DisplayName: '&b&l&nReforged I'
+      DisplayName: §b§l§nSprings I
       DisplayItem: BOOK
       DisplayAmount: 1
       Lore: []
@@ -1136,8 +995,7 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Tiers:
-      - Elite
+      Unbreakable: false
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
@@ -1153,7 +1011,7 @@ Crate:
         Items: []
         Messages: []
     '39':
-      DisplayName: '&b&l&nSnare I'
+      DisplayName: §b§l§nStormcaller I
       DisplayItem: BOOK
       DisplayAmount: 1
       Lore: []
@@ -1162,8 +1020,7 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Tiers:
-      - Elite
+      Unbreakable: false
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
@@ -1179,7 +1036,7 @@ Crate:
         Items: []
         Messages: []
     '40':
-      DisplayName: '&e&l&nInfernal I'
+      DisplayName: §b§l§nDemonforged I
       DisplayItem: BOOK
       DisplayAmount: 1
       Lore: []
@@ -1188,8 +1045,7 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Tiers:
-      - Elite
+      Unbreakable: false
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
@@ -1205,7 +1061,7 @@ Crate:
         Items: []
         Messages: []
     '41':
-      DisplayName: '&b&l&nPummel I'
+      DisplayName: §b§l§nTrap I
       DisplayItem: BOOK
       DisplayAmount: 1
       Lore: []
@@ -1214,8 +1070,7 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Tiers:
-      - Elite
+      Unbreakable: false
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
@@ -1231,7 +1086,7 @@ Crate:
         Items: []
         Messages: []
     '42':
-      DisplayName: '&b&l&nShockwave I'
+      DisplayName: §b§l§nUndead Ruse I
       DisplayItem: BOOK
       DisplayAmount: 1
       Lore: []
@@ -1240,8 +1095,7 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Tiers:
-      - Elite
+      Unbreakable: false
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
@@ -1257,7 +1111,7 @@ Crate:
         Items: []
         Messages: []
     '43':
-      DisplayName: '&b&l&nVampire I'
+      DisplayName: §b§l§nVenom I
       DisplayItem: BOOK
       DisplayAmount: 1
       Lore: []
@@ -1266,8 +1120,7 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Tiers:
-      - Elite
+      Unbreakable: false
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
@@ -1283,7 +1136,7 @@ Crate:
         Items: []
         Messages: []
     '44':
-      DisplayName: '&b&l&nFarcast I'
+      DisplayName: §b§l§nVoodoo I
       DisplayItem: BOOK
       DisplayAmount: 1
       Lore: []
@@ -1292,8 +1145,7 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Tiers:
-      - Elite
+      Unbreakable: false
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
@@ -1309,7 +1161,7 @@ Crate:
         Items: []
         Messages: []
     '45':
-      DisplayName: '&b&l&nGreatsword I'
+      DisplayName: §b§l§nWither I
       DisplayItem: BOOK
       DisplayAmount: 1
       Lore: []
@@ -1318,8 +1170,7 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Tiers:
-      - Elite
+      Unbreakable: false
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
@@ -1335,7 +1186,7 @@ Crate:
         Items: []
         Messages: []
     '46':
-      DisplayName: '&b&l&nHijack I'
+      DisplayName: §b§l§nSmoke Bomb I
       DisplayItem: BOOK
       DisplayAmount: 1
       Lore: []
@@ -1344,8 +1195,7 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Tiers:
-      - Elite
+      Unbreakable: false
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
@@ -1361,7 +1211,7 @@ Crate:
         Items: []
         Messages: []
     '47':
-      DisplayName: '&e&l&nWither I'
+      DisplayName: §b§l§nInfernal I
       DisplayItem: BOOK
       DisplayAmount: 1
       Lore: []
@@ -1370,8 +1220,7 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Tiers:
-      - Elite
+      Unbreakable: false
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
@@ -1387,7 +1236,7 @@ Crate:
         Items: []
         Messages: []
     '48':
-      DisplayName: '&b&l&nVoodoo I'
+      DisplayName: §b§l§nPummel I
       DisplayItem: BOOK
       DisplayAmount: 1
       Lore: []
@@ -1396,8 +1245,7 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Tiers:
-      - Elite
+      Unbreakable: false
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
@@ -1413,7 +1261,7 @@ Crate:
         Items: []
         Messages: []
     '49':
-      DisplayName: '&b&l&nRocket Escape I'
+      DisplayName: §b§l§nShockwave I
       DisplayItem: BOOK
       DisplayAmount: 1
       Lore: []
@@ -1422,8 +1270,7 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Tiers:
-      - Elite
+      Unbreakable: false
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
@@ -1439,7 +1286,7 @@ Crate:
         Items: []
         Messages: []
     '50':
-      DisplayName: '&b&l&nTrickster I'
+      DisplayName: §b§l§nVampire I
       DisplayItem: BOOK
       DisplayAmount: 1
       Lore: []
@@ -1448,8 +1295,7 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Tiers:
-      - Elite
+      Unbreakable: false
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
@@ -1465,7 +1311,7 @@ Crate:
         Items: []
         Messages: []
     '51':
-      DisplayName: '&b&l&nHardened I'
+      DisplayName: §b§l§nFarcast I
       DisplayItem: BOOK
       DisplayAmount: 1
       Lore: []
@@ -1474,8 +1320,7 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Tiers:
-      - Elite
+      Unbreakable: false
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
@@ -1491,7 +1336,7 @@ Crate:
         Items: []
         Messages: []
     '52':
-      DisplayName: '&e&l&nSprings I'
+      DisplayName: §b§l§nGreatsword I
       DisplayItem: BOOK
       DisplayAmount: 1
       Lore: []
@@ -1500,8 +1345,7 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Tiers:
-      - Elite
+      Unbreakable: false
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
@@ -1517,7 +1361,7 @@ Crate:
         Items: []
         Messages: []
     '53':
-      DisplayName: '&b&l&nStormcaller I'
+      DisplayName: §b§l§nHardened I
       DisplayItem: BOOK
       DisplayAmount: 1
       Lore: []
@@ -1526,8 +1370,7 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Tiers:
-      - Elite
+      Unbreakable: false
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
@@ -1543,7 +1386,7 @@ Crate:
         Items: []
         Messages: []
     '54':
-      DisplayName: '&b&l&nDemonforged I'
+      DisplayName: §b§l§nRocket Escape I
       DisplayItem: BOOK
       DisplayAmount: 1
       Lore: []
@@ -1552,14 +1395,23 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Tiers:
-      - Elite
+      Unbreakable: false
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
         v: 2227
-        type: AIR
-        amount: 0
+        type: BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §b§l§nRocket Escape I
+          lore:
+          - §a100% Success Rate
+          - §c0% Destroy Rate
+          - §eBlast off into the air at low HP.
+          - §7Boots Enchantment
+          - §7Drag n' drop onto item to enchant
+          internal: H4sIAAAAAAAAAONiYOBgYEnKz89mkEtMjS9LzMlMsS7KT85OLUktTk4sSLU2tDawNjQwsGYAAMDXzdQrAAAA
       Commands: []
       Messages: []
       BlackListed-Permissions: []
@@ -1569,7 +1421,7 @@ Crate:
         Items: []
         Messages: []
     '55':
-      DisplayName: '&b&l&nTrap I'
+      DisplayName: §b§l§nTrickster I
       DisplayItem: BOOK
       DisplayAmount: 1
       Lore: []
@@ -1578,14 +1430,24 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Tiers:
-      - Elite
+      Unbreakable: false
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
         v: 2227
-        type: AIR
-        amount: 0
+        type: BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §b§l§nTrickster I
+          lore:
+          - §a100% Success Rate
+          - §c0% Destroy Rate
+          - §eWhen hit you have a chance to teleport directly
+          - §ebehind your opponent and take them by surprise.
+          - §7Armor Enchantment
+          - §7Drag n' drop onto item to enchant
+          internal: H4sIAAAAAAAAAONiYOBgYEnKz89mkE5MjS9LzMlMsS4pykzOLi5JLbI2tDawNjQwsGYAAFsvzhcoAAAA
       Commands: []
       Messages: []
       BlackListed-Permissions: []
@@ -1595,7 +1457,7 @@ Crate:
         Items: []
         Messages: []
     '56':
-      DisplayName: '&b&l&nVenom I'
+      DisplayName: §b§l§nHijack I
       DisplayItem: BOOK
       DisplayAmount: 1
       Lore: []
@@ -1604,14 +1466,25 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Tiers:
-      - Elite
+      Unbreakable: false
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
         v: 2227
-        type: AIR
-        amount: 0
+        type: BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §b§l§nHijack I
+          lore:
+          - §a100% Success Rate
+          - §c0% Destroy Rate
+          - §eChance to convert summoned enemy
+          - §eGuardians into your own when they
+          - §eare shot with an arrow.
+          - §7Bow Enchantment
+          - §7Drag n' drop onto item to enchant
+          internal: H4sIAAAAAAAAAONiYOBgYEnKz89mkEhMjS9LzMlMsc7IzEpMzrY2tDawNjQwsGYAALqE2CYlAAAA
       Commands: []
       Messages: []
       BlackListed-Permissions: []
@@ -1621,8 +1494,8 @@ Crate:
         Items: []
         Messages: []
     '57':
-      DisplayName: '&b&l&nUndead Ruse I'
-      DisplayItem: BOOK
+      DisplayName: '&7Auto Generated Prize #&657'
+      DisplayItem: STAINED_GLASS_PANE:14
       DisplayAmount: 1
       Lore: []
       MaxRange: 100
@@ -1630,14 +1503,26 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Tiers:
-      - Elite
+      Unbreakable: false
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
         v: 2227
         type: AIR
         amount: 0
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §e§l§nRestore I
+          lore:
+          - §a100% Success Rate
+          - §c0% Destroy Rate
+          - §eUpon breaking, item has a chance
+          - §eto lose this enchantment and repair
+          - §ehalf of it's durability
+          - §7Tools Enchantment
+          - §7Drag n' drop onto item to enchant
+          internal: H4sIAAAAAAAAAONiYOBgYEnKz89mkExMjS9LzMlMsS5KLS7JL0q1NrQ2sDY0MLBmAABX+fyVJgAAAA==
       Commands: []
       Messages: []
       BlackListed-Permissions: []
@@ -1647,8 +1532,8 @@ Crate:
         Items: []
         Messages: []
     '58':
-      DisplayName: '&e&l&nArrow Lifesteal I'
-      DisplayItem: BOOK
+      DisplayName: '&7Auto Generated Prize #&658'
+      DisplayItem: STAINED_GLASS_PANE:14
       DisplayAmount: 1
       Lore: []
       MaxRange: 100
@@ -1656,13 +1541,49 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Tiers:
-      - Ultimate
+      Unbreakable: false
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
         v: 2227
-        type: BOOK
+        type: AIR
+        amount: 0
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §e§l§nAngelic I
+          lore:
+          - §a100% Success Rate
+          - §c0% Destroy Rate
+          - §eHeals health over time whenever damaged
+          - §7Armor Enchantment
+          - §7Drag n' drop onto item to enchant
+          internal: H4sIAAAAAAAAAONiYOBgYEnKz89mkExMjS9LzMlMsU7MS0/NyUy2NrQ2sDY0MLBmAABa2LqWJgAAAA==
+      Commands: []
+      Messages: []
+      BlackListed-Permissions: []
+      Alternative-Prize:
+        Toggle: false
+        Commands: []
+        Items: []
+        Messages: []
+    '59':
+      DisplayName: '&7Auto Generated Prize #&659'
+      DisplayItem: STAINED_GLASS_PANE:14
+      DisplayAmount: 1
+      Lore: []
+      MaxRange: 100
+      Chance: 50
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2227
+        type: AIR
+        amount: 0
         meta:
           ==: ItemMeta
           meta-type: UNSPECIFIC
@@ -1682,9 +1603,9 @@ Crate:
         Commands: []
         Items: []
         Messages: []
-    '59':
-      DisplayName: '&e&l&nArrow Deflect I'
-      DisplayItem: BOOK
+    '60':
+      DisplayName: '&7Auto Generated Prize #&660'
+      DisplayItem: STAINED_GLASS_PANE:14
       DisplayAmount: 1
       Lore: []
       MaxRange: 100
@@ -1692,13 +1613,13 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Tiers:
-      - Ultimate
+      Unbreakable: false
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
         v: 2227
-        type: BOOK
+        type: AIR
+        amount: 0
         meta:
           ==: ItemMeta
           meta-type: UNSPECIFIC
@@ -1720,9 +1641,9 @@ Crate:
         Commands: []
         Items: []
         Messages: []
-    '60':
-      DisplayName: '&e&l&nArrow Break I'
-      DisplayItem: BOOK
+    '61':
+      DisplayName: '&7Auto Generated Prize #&661'
+      DisplayItem: STAINED_GLASS_PANE:14
       DisplayAmount: 1
       Lore: []
       MaxRange: 100
@@ -1730,13 +1651,13 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Tiers:
-      - Ultimate
+      Unbreakable: false
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
         v: 2227
-        type: BOOK
+        type: AIR
+        amount: 0
         meta:
           ==: ItemMeta
           meta-type: UNSPECIFIC
@@ -1759,9 +1680,9 @@ Crate:
         Commands: []
         Items: []
         Messages: []
-    '61':
-      DisplayName: '&e&l&nAssassin I'
-      DisplayItem: BOOK
+    '62':
+      DisplayName: '&7Auto Generated Prize #&662'
+      DisplayItem: STAINED_GLASS_PANE:14
       DisplayAmount: 1
       Lore: []
       MaxRange: 100
@@ -1769,13 +1690,13 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Tiers:
-      - Ultimate
+      Unbreakable: false
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
         v: 2227
-        type: BOOK
+        type: AIR
+        amount: 0
         meta:
           ==: ItemMeta
           meta-type: UNSPECIFIC
@@ -1799,9 +1720,9 @@ Crate:
         Commands: []
         Items: []
         Messages: []
-    '62':
-      DisplayName: '&e&l&nBlessed I'
-      DisplayItem: BOOK
+    '63':
+      DisplayName: '&7Auto Generated Prize #&663'
+      DisplayItem: STAINED_GLASS_PANE:14
       DisplayAmount: 1
       Lore: []
       MaxRange: 100
@@ -1809,13 +1730,13 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Tiers:
-      - Ultimate
+      Unbreakable: false
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
         v: 2227
-        type: BOOK
+        type: AIR
+        amount: 0
         meta:
           ==: ItemMeta
           meta-type: UNSPECIFIC
@@ -1835,9 +1756,9 @@ Crate:
         Commands: []
         Items: []
         Messages: []
-    '63':
-      DisplayName: '&e&l&nCorrupt I'
-      DisplayItem: BOOK
+    '64':
+      DisplayName: '&7Auto Generated Prize #&664'
+      DisplayItem: STAINED_GLASS_PANE:14
       DisplayAmount: 1
       Lore: []
       MaxRange: 100
@@ -1845,13 +1766,13 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Tiers:
-      - Ultimate
+      Unbreakable: false
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
         v: 2227
-        type: BOOK
+        type: AIR
+        amount: 0
         meta:
           ==: ItemMeta
           meta-type: UNSPECIFIC
@@ -1872,9 +1793,9 @@ Crate:
         Commands: []
         Items: []
         Messages: []
-    '64':
-      DisplayName: '&e&l&nRagdoll I'
-      DisplayItem: BOOK
+    '65':
+      DisplayName: '&7Auto Generated Prize #&665'
+      DisplayItem: STAINED_GLASS_PANE:14
       DisplayAmount: 1
       Lore: []
       MaxRange: 100
@@ -1882,13 +1803,13 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Tiers:
-      - Ultimate
+      Unbreakable: false
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
         v: 2227
-        type: BOOK
+        type: AIR
+        amount: 0
         meta:
           ==: ItemMeta
           meta-type: UNSPECIFIC
@@ -1909,45 +1830,9 @@ Crate:
         Commands: []
         Items: []
         Messages: []
-    '65':
-      DisplayName: '&e&lDetonate I'
-      DisplayItem: BOOK
-      DisplayAmount: 1
-      Lore: []
-      MaxRange: 100
-      Chance: 50
-      Firework: false
-      Glowing: false
-      Player: ''
-      Tiers:
-      - Ultimate
-      Items: []
-      Editor-Items:
-      - ==: org.bukkit.inventory.ItemStack
-        v: 2227
-        type: BOOK
-        meta:
-          ==: ItemMeta
-          meta-type: UNSPECIFIC
-          display-name: §e§l§nDetonate I
-          lore:
-          - §a100% Success Rate
-          - §c0% Destroy Rate
-          - §eChance to break in 3x3 area.
-          - §7Pickaxes Enchantment
-          - §7Drag n' drop onto item to enchant
-          internal: H4sIAAAAAAAAAONiYOBgYEnKz89mkEpMjS9LzMlMsU5JLcnPSyxJtTa0NrA2NDCwZgAAetU8OicAAAA=
-      Commands: []
-      Messages: []
-      BlackListed-Permissions: []
-      Alternative-Prize:
-        Toggle: false
-        Commands: []
-        Items: []
-        Messages: []
     '66':
-      DisplayName: '&e&l&nBlock I'
-      DisplayItem: BOOK
+      DisplayName: '&7Auto Generated Prize #&666'
+      DisplayItem: STAINED_GLASS_PANE:14
       DisplayAmount: 1
       Lore: []
       MaxRange: 100
@@ -1955,13 +1840,13 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Tiers:
-      - Ultimate
+      Unbreakable: false
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
         v: 2227
-        type: BOOK
+        type: AIR
+        amount: 0
         meta:
           ==: ItemMeta
           meta-type: UNSPECIFIC
@@ -1982,8 +1867,8 @@ Crate:
         Items: []
         Messages: []
     '67':
-      DisplayName: '&e&l&nDodge I'
-      DisplayItem: BOOK
+      DisplayName: '&7Auto Generated Prize #&667'
+      DisplayItem: STAINED_GLASS_PANE:14
       DisplayAmount: 1
       Lore: []
       MaxRange: 100
@@ -1991,13 +1876,49 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Tiers:
-      - Ultimate
+      Unbreakable: false
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
         v: 2227
-        type: BOOK
+        type: AIR
+        amount: 0
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §e§l§nDetonate I
+          lore:
+          - §a100% Success Rate
+          - §c0% Destroy Rate
+          - §eChance to break in 3x3 area.
+          - §7Pickaxes Enchantment
+          - §7Drag n' drop onto item to enchant
+          internal: H4sIAAAAAAAAAONiYOBgYEnKz89mkEpMjS9LzMlMsU5JLcnPSyxJtTa0NrA2NDCwZgAAetU8OicAAAA=
+      Commands: []
+      Messages: []
+      BlackListed-Permissions: []
+      Alternative-Prize:
+        Toggle: false
+        Commands: []
+        Items: []
+        Messages: []
+    '68':
+      DisplayName: '&7Auto Generated Prize #&668'
+      DisplayItem: STAINED_GLASS_PANE:14
+      DisplayAmount: 1
+      Lore: []
+      MaxRange: 100
+      Chance: 50
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2227
+        type: AIR
+        amount: 0
         meta:
           ==: ItemMeta
           meta-type: UNSPECIFIC
@@ -2019,9 +1940,9 @@ Crate:
         Commands: []
         Items: []
         Messages: []
-    '68':
-      DisplayName: '&e&l&nEnrage I'
-      DisplayItem: BOOK
+    '69':
+      DisplayName: '&7Auto Generated Prize #&669'
+      DisplayItem: STAINED_GLASS_PANE:14
       DisplayAmount: 1
       Lore: []
       MaxRange: 100
@@ -2029,13 +1950,13 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Tiers:
-      - Ultimate
+      Unbreakable: false
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
         v: 2227
-        type: BOOK
+        type: AIR
+        amount: 0
         meta:
           ==: ItemMeta
           meta-type: UNSPECIFIC
@@ -2055,9 +1976,9 @@ Crate:
         Commands: []
         Items: []
         Messages: []
-    '69':
-      DisplayName: '&e&l&nGuardians I'
-      DisplayItem: BOOK
+    '70':
+      DisplayName: '&7Auto Generated Prize #&670'
+      DisplayItem: STAINED_GLASS_PANE:14
       DisplayAmount: 1
       Lore: []
       MaxRange: 100
@@ -2065,13 +1986,13 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Tiers:
-      - Ultimate
+      Unbreakable: false
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
         v: 2227
-        type: BOOK
+        type: AIR
+        amount: 0
         meta:
           ==: ItemMeta
           meta-type: UNSPECIFIC
@@ -2092,9 +2013,9 @@ Crate:
         Commands: []
         Items: []
         Messages: []
-    '70':
-      DisplayName: '&e&l&nIce Aspect I'
-      DisplayItem: BOOK
+    '71':
+      DisplayName: '&7Auto Generated Prize #&671'
+      DisplayItem: STAINED_GLASS_PANE:14
       DisplayAmount: 1
       Lore: []
       MaxRange: 100
@@ -2102,13 +2023,13 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Tiers:
-      - Ultimate
+      Unbreakable: false
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
         v: 2227
-        type: BOOK
+        type: AIR
+        amount: 0
         meta:
           ==: ItemMeta
           meta-type: UNSPECIFIC
@@ -2129,9 +2050,9 @@ Crate:
         Commands: []
         Items: []
         Messages: []
-    '71':
-      DisplayName: '&e&l&nImplants I'
-      DisplayItem: BOOK
+    '72':
+      DisplayName: '&7Auto Generated Prize #&672'
+      DisplayItem: STAINED_GLASS_PANE:14
       DisplayAmount: 1
       Lore: []
       MaxRange: 100
@@ -2139,13 +2060,13 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Tiers:
-      - Ultimate
+      Unbreakable: false
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
         v: 2227
-        type: BOOK
+        type: AIR
+        amount: 0
         meta:
           ==: ItemMeta
           meta-type: UNSPECIFIC
@@ -2166,9 +2087,9 @@ Crate:
         Commands: []
         Items: []
         Messages: []
-    '72':
-      DisplayName: '&e&l&nObsidianshield I'
-      DisplayItem: BOOK
+    '73':
+      DisplayName: '&7Auto Generated Prize #&673'
+      DisplayItem: STAINED_GLASS_PANE:14
       DisplayAmount: 1
       Lore: []
       MaxRange: 100
@@ -2176,13 +2097,13 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Tiers:
-      - Ultimate
+      Unbreakable: false
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
         v: 2227
-        type: BOOK
+        type: AIR
+        amount: 0
         meta:
           ==: ItemMeta
           meta-type: UNSPECIFIC
@@ -2202,9 +2123,9 @@ Crate:
         Commands: []
         Items: []
         Messages: []
-    '73':
-      DisplayName: '&e&l&nPiercing I'
-      DisplayItem: BOOK
+    '74':
+      DisplayName: '&7Auto Generated Prize #&674'
+      DisplayItem: STAINED_GLASS_PANE:14
       DisplayAmount: 1
       Lore: []
       MaxRange: 100
@@ -2212,13 +2133,13 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Tiers:
-      - Ultimate
+      Unbreakable: false
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
         v: 2227
-        type: BOOK
+        type: AIR
+        amount: 0
         meta:
           ==: ItemMeta
           meta-type: UNSPECIFIC
@@ -2238,9 +2159,9 @@ Crate:
         Commands: []
         Items: []
         Messages: []
-    '74':
-      DisplayName: '&e&l&nDominate I'
-      DisplayItem: BOOK
+    '75':
+      DisplayName: '&7Auto Generated Prize #&675'
+      DisplayItem: STAINED_GLASS_PANE:14
       DisplayAmount: 1
       Lore: []
       MaxRange: 100
@@ -2248,13 +2169,50 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Tiers:
-      - Ultimate
+      Unbreakable: false
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
         v: 2227
-        type: BOOK
+        type: AIR
+        amount: 0
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §e§l§nDisintegrate I
+          lore:
+          - §a100% Success Rate
+          - §c0% Destroy Rate
+          - §eChance to deal double durability damage to
+          - §eall enemy armor with every attack.
+          - §7Sword Enchantment
+          - §7Drag n' drop onto item to enchant
+          internal: H4sIAAAAAAAAAONiYOBgYEnKz89mkEtMjS9LzMlMsU7JLM7MK0lNL0osSbU2tDawNjQwsGYAADQA9qYrAAAA
+      Commands: []
+      Messages: []
+      BlackListed-Permissions: []
+      Alternative-Prize:
+        Toggle: false
+        Commands: []
+        Items: []
+        Messages: []
+    '76':
+      DisplayName: '&7Auto Generated Prize #&676'
+      DisplayItem: STAINED_GLASS_PANE:14
+      DisplayAmount: 1
+      Lore: []
+      MaxRange: 100
+      Chance: 50
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2227
+        type: AIR
+        amount: 0
         meta:
           ==: ItemMeta
           meta-type: UNSPECIFIC
@@ -2275,9 +2233,9 @@ Crate:
         Commands: []
         Items: []
         Messages: []
-    '75':
-      DisplayName: '&e&l&n Ender Walker I'
-      DisplayItem: BOOK
+    '77':
+      DisplayName: '&7Auto Generated Prize #&677'
+      DisplayItem: STAINED_GLASS_PANE:14
       DisplayAmount: 1
       Lore: []
       MaxRange: 100
@@ -2285,13 +2243,13 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Tiers:
-      - Ultimate
+      Unbreakable: false
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
         v: 2227
-        type: BOOK
+        type: AIR
+        amount: 0
         meta:
           ==: ItemMeta
           meta-type: UNSPECIFIC
@@ -2312,9 +2270,9 @@ Crate:
         Commands: []
         Items: []
         Messages: []
-    '76':
-      DisplayName: '&e&l&nPacify I'
-      DisplayItem: BOOK
+    '78':
+      DisplayName: '&7Auto Generated Prize #&678'
+      DisplayItem: STAINED_GLASS_PANE:14
       DisplayAmount: 1
       Lore: []
       MaxRange: 100
@@ -2322,8 +2280,267 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Tiers:
-      - Ultimate
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2227
+        type: AIR
+        amount: 0
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §e§l§nEagle Eye I
+          lore:
+          - §a100% Success Rate
+          - §c0% Destroy Rate
+          - §eChance to deal 1-4 durability damage to
+          - §eALL armor pieces of enemy player.
+          - §7Bow Enchantment
+          - §7Drag n' drop onto item to enchant
+          internal: H4sIAAAAAAAAAONiYOBgYEnKz89mkEpMjS9LzMlMsU5NTM9JTa1MtTa0NrA2NDCwZgAA1PTaaScAAAA=
+      Commands: []
+      Messages: []
+      BlackListed-Permissions: []
+      Alternative-Prize:
+        Toggle: false
+        Commands: []
+        Items: []
+        Messages: []
+    '79':
+      DisplayName: '&7Auto Generated Prize #&679'
+      DisplayItem: STAINED_GLASS_PANE:14
+      DisplayAmount: 1
+      Lore: []
+      MaxRange: 100
+      Chance: 50
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2227
+        type: AIR
+        amount: 0
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §e§l§nHeavy I
+          lore:
+          - §a100% Success Rate
+          - §c0% Destroy Rate
+          - §eDecreases damage from enemy bows
+          - §eby 2% per level.
+          - §7Armor Enchantment
+          - §7Drag n' drop onto item to enchant
+          internal: H4sIAAAAAAAAAONiYOBgYEnKz89mEE9MjS9LzMlMsc5ITSyrtDa0NrA2NDCwZgAAt0SpYCQAAAA=
+      Commands: []
+      Messages: []
+      BlackListed-Permissions: []
+      Alternative-Prize:
+        Toggle: false
+        Commands: []
+        Items: []
+        Messages: []
+    '80':
+      DisplayName: '&7Auto Generated Prize #&680'
+      DisplayItem: STAINED_GLASS_PANE:14
+      DisplayAmount: 1
+      Lore: []
+      MaxRange: 100
+      Chance: 50
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2227
+        type: AIR
+        amount: 0
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §e§l§nHellfire I
+          lore:
+          - §a100% Success Rate
+          - §c0% Destroy Rate
+          - §eAll arrows shot by you turn
+          - §einto explosive fireballs.
+          - §7Bow Enchantment
+          - §7Drag n' drop onto item to enchant
+          internal: H4sIAAAAAAAAAONiYOBgYEnKz89mkEpMjS9LzMlMsc5IzclJyyxKtTa0NrA2NDCwZgAAYw/rJCcAAAA=
+      Commands: []
+      Messages: []
+      BlackListed-Permissions: []
+      Alternative-Prize:
+        Toggle: false
+        Commands: []
+        Items: []
+        Messages: []
+    '81':
+      DisplayName: '&7Auto Generated Prize #&681'
+      DisplayItem: STAINED_GLASS_PANE:14
+      DisplayAmount: 1
+      Lore: []
+      MaxRange: 100
+      Chance: 50
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2227
+        type: AIR
+        amount: 0
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §e§l§nLongbow I
+          lore:
+          - §a100% Success Rate
+          - §c0% Destroy Rate
+          - §eGreatly increases damage dealt
+          - §eto enemy players that have
+          - §ea bow in their hands.
+          - §7Bow Enchantment
+          - §7Drag n' drop onto item to enchant
+          internal: H4sIAAAAAAAAAONiYOBgYEnKz89mkExMjS9LzMlMsc7Jz0tPyi+3NrQ2sDY0MLBmAAACJ4S2JgAAAA==
+      Commands: []
+      Messages: []
+      BlackListed-Permissions: []
+      Alternative-Prize:
+        Toggle: false
+        Commands: []
+        Items: []
+        Messages: []
+    '82':
+      DisplayName: '&7Auto Generated Prize #&682'
+      DisplayItem: STAINED_GLASS_PANE:14
+      DisplayAmount: 1
+      Lore: []
+      MaxRange: 100
+      Chance: 50
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2227
+        type: AIR
+        amount: 0
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §e§l§nTank I
+          lore:
+          - §a100% Success Rate
+          - §c0% Destroy Rate
+          - §eDecreases damage from enemy
+          - §eaxes by 1.85% per level.
+          - §7Armor Enchantment
+          - §7Drag n' drop onto item to enchant
+          internal: H4sIAAAAAAAAAONiYOBgYEnKz89mEEtMjS9LzMlMsS5JzMu2NrQ2sDY0MLBmAAAtDB9aIwAAAA==
+      Commands: []
+      Messages: []
+      BlackListed-Permissions: []
+      Alternative-Prize:
+        Toggle: false
+        Commands: []
+        Items: []
+        Messages: []
+    '83':
+      DisplayName: '&7Auto Generated Prize #&683'
+      DisplayItem: STAINED_GLASS_PANE:14
+      DisplayAmount: 1
+      Lore: []
+      MaxRange: 100
+      Chance: 50
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2227
+        type: AIR
+        amount: 0
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §e§l§nUnfocus I
+          lore:
+          - §a100% Success Rate
+          - §c0% Destroy Rate
+          - §eChance to Unfocus target player,
+          - §ereducing their out going bow damage
+          - §eby 50% for up to 10 seconds.
+          - §7Bow Enchantment
+          - §7Drag n' drop onto item to enchant
+          internal: H4sIAAAAAAAAAONiYOBgYEnKz89mkExMjS9LzMlMsS7NS8tPLi22NrQ2sDY0MLBmAAAY1rsZJgAAAA==
+      Commands: []
+      Messages: []
+      BlackListed-Permissions: []
+      Alternative-Prize:
+        Toggle: false
+        Commands: []
+        Items: []
+        Messages: []
+    '84':
+      DisplayName: '&7Auto Generated Prize #&684'
+      DisplayItem: STAINED_GLASS_PANE:14
+      DisplayAmount: 1
+      Lore: []
+      MaxRange: 100
+      Chance: 50
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2227
+        type: BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §e§l§nValor I
+          lore:
+          - §a100% Success Rate
+          - §c0% Destroy Rate
+          - §eReduces incoming damage while
+          - §ewielding a sword by up to 22.5%.
+          - §7Armor Enchantment
+          - §7Drag n' drop onto item to enchant
+          internal: H4sIAAAAAAAAAONiYOBgYEnKz89mEE9MjS9LzMlMsQaS+UXWhtYG1oYGBtYMAMF8qCUkAAAA
+      Commands: []
+      Messages: []
+      BlackListed-Permissions: []
+      Alternative-Prize:
+        Toggle: false
+        Commands: []
+        Items: []
+        Messages: []
+    '85':
+      DisplayName: '&7Auto Generated Prize #&685'
+      DisplayItem: STAINED_GLASS_PANE:14
+      DisplayAmount: 1
+      Lore: []
+      MaxRange: 100
+      Chance: 50
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
@@ -2350,9 +2567,9 @@ Crate:
         Commands: []
         Items: []
         Messages: []
-    '77':
-      DisplayName: '&e&l&nMetaphysical I'
-      DisplayItem: BOOK
+    '86':
+      DisplayName: '&7Auto Generated Prize #&686'
+      DisplayItem: STAINED_GLASS_PANE:14
       DisplayAmount: 1
       Lore: []
       MaxRange: 100
@@ -2360,8 +2577,7 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Tiers:
-      - Ultimate
+      Unbreakable: false
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
@@ -2388,9 +2604,9 @@ Crate:
         Commands: []
         Items: []
         Messages: []
-    '78':
-      DisplayName: '&e&l&nCreeper Armor I'
-      DisplayItem: BOOK
+    '87':
+      DisplayName: '&7Auto Generated Prize #&687'
+      DisplayItem: STAINED_GLASS_PANE:14
       DisplayAmount: 1
       Lore: []
       MaxRange: 100
@@ -2398,8 +2614,7 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Tiers:
-      - Ultimate
+      Unbreakable: false
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
@@ -2426,9 +2641,9 @@ Crate:
         Commands: []
         Items: []
         Messages: []
-    '79':
-      DisplayName: '&e&l&nEagle Eye I'
-      DisplayItem: BOOK
+    '88':
+      DisplayName: '&7Auto Generated Prize #&688'
+      DisplayItem: STAINED_GLASS_PANE:14
       DisplayAmount: 1
       Lore: []
       MaxRange: 100
@@ -2436,45 +2651,7 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Tiers:
-      - Ultimate
-      Items: []
-      Editor-Items:
-      - ==: org.bukkit.inventory.ItemStack
-        v: 2227
-        type: BOOK
-        meta:
-          ==: ItemMeta
-          meta-type: UNSPECIFIC
-          display-name: §e§l§nEagle Eye I
-          lore:
-          - §a100% Success Rate
-          - §c0% Destroy Rate
-          - §eChance to deal 1-4 durability damage to
-          - §eALL armor pieces of enemy player.
-          - §7Bow Enchantment
-          - §7Drag n' drop onto item to enchant
-          internal: H4sIAAAAAAAAAONiYOBgYEnKz89mkEpMjS9LzMlMsU5NTM9JTa1MtTa0NrA2NDCwZgAA1PTaaScAAAA=
-      Commands: []
-      Messages: []
-      BlackListed-Permissions: []
-      Alternative-Prize:
-        Toggle: false
-        Commands: []
-        Items: []
-        Messages: []
-    '80':
-      DisplayName: '&e&l&nSpirits I'
-      DisplayItem: BOOK
-      DisplayAmount: 1
-      Lore: []
-      MaxRange: 100
-      Chance: 50
-      Firework: false
-      Glowing: false
-      Player: ''
-      Tiers:
-      - Ultimate
+      Unbreakable: false
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
@@ -2500,9 +2677,9 @@ Crate:
         Commands: []
         Items: []
         Messages: []
-    '81':
-      DisplayName: '&e&l&nHeavy I'
-      DisplayItem: BOOK
+    '89':
+      DisplayName: '&7Auto Generated Prize #&689'
+      DisplayItem: STAINED_GLASS_PANE:14
       DisplayAmount: 1
       Lore: []
       MaxRange: 100
@@ -2510,8 +2687,7 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Tiers:
-      - Ultimate
+      Unbreakable: false
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
@@ -2520,239 +2696,15 @@ Crate:
         meta:
           ==: ItemMeta
           meta-type: UNSPECIFIC
-          display-name: §e§l§nHeavy I
+          display-name: §e§l§nBleed I
           lore:
           - §a100% Success Rate
           - §c0% Destroy Rate
-          - §eDecreases damage from enemy bows
-          - §eby 2% per level.
-          - §7Armor Enchantment
+          - §eApplies bleed stacks to enemies
+          - §ethat decrease their movement speed.
+          - §7Axe Enchantment
           - §7Drag n' drop onto item to enchant
-          internal: H4sIAAAAAAAAAONiYOBgYEnKz89mEE9MjS9LzMlMsc5ITSyrtDa0NrA2NDCwZgAAt0SpYCQAAAA=
-      Commands: []
-      Messages: []
-      BlackListed-Permissions: []
-      Alternative-Prize:
-        Toggle: false
-        Commands: []
-        Items: []
-        Messages: []
-    '82':
-      DisplayName: '&e&l&nHellfire I'
-      DisplayItem: BOOK
-      DisplayAmount: 1
-      Lore: []
-      MaxRange: 100
-      Chance: 50
-      Firework: false
-      Glowing: false
-      Player: ''
-      Tiers:
-      - Ultimate
-      Items: []
-      Editor-Items:
-      - ==: org.bukkit.inventory.ItemStack
-        v: 2227
-        type: BOOK
-        meta:
-          ==: ItemMeta
-          meta-type: UNSPECIFIC
-          display-name: §e§l§nHellfire I
-          lore:
-          - §a100% Success Rate
-          - §c0% Destroy Rate
-          - §eAll arrows shot by you turn
-          - §einto explosive fireballs.
-          - §7Bow Enchantment
-          - §7Drag n' drop onto item to enchant
-          internal: H4sIAAAAAAAAAONiYOBgYEnKz89mkEpMjS9LzMlMsc5IzclJyyxKtTa0NrA2NDCwZgAAYw/rJCcAAAA=
-      Commands: []
-      Messages: []
-      BlackListed-Permissions: []
-      Alternative-Prize:
-        Toggle: false
-        Commands: []
-        Items: []
-        Messages: []
-    '83':
-      DisplayName: '&e&l&nValor I'
-      DisplayItem: BOOK
-      DisplayAmount: 1
-      Lore: []
-      MaxRange: 100
-      Chance: 50
-      Firework: false
-      Glowing: false
-      Player: ''
-      Tiers:
-      - Ultimate
-      Items: []
-      Editor-Items:
-      - ==: org.bukkit.inventory.ItemStack
-        v: 2227
-        type: BOOK
-        meta:
-          ==: ItemMeta
-          meta-type: UNSPECIFIC
-          display-name: §e§l§nValor I
-          lore:
-          - §a100% Success Rate
-          - §c0% Destroy Rate
-          - §eReduces incoming damage while
-          - §ewielding a sword by up to 22.5%.
-          - §7Armor Enchantment
-          - §7Drag n' drop onto item to enchant
-          internal: H4sIAAAAAAAAAONiYOBgYEnKz89mEE9MjS9LzMlMsQaS+UXWhtYG1oYGBtYMAMF8qCUkAAAA
-      Commands: []
-      Messages: []
-      BlackListed-Permissions: []
-      Alternative-Prize:
-        Toggle: false
-        Commands: []
-        Items: []
-        Messages: []
-    '84':
-      DisplayName: '&e&l&nTank I'
-      DisplayItem: BOOK
-      DisplayAmount: 1
-      Lore: []
-      MaxRange: 100
-      Chance: 50
-      Firework: false
-      Glowing: false
-      Player: ''
-      Tiers:
-      - Ultimate
-      Items: []
-      Editor-Items:
-      - ==: org.bukkit.inventory.ItemStack
-        v: 2227
-        type: BOOK
-        meta:
-          ==: ItemMeta
-          meta-type: UNSPECIFIC
-          display-name: §e§l§nTank I
-          lore:
-          - §a100% Success Rate
-          - §c0% Destroy Rate
-          - §eDecreases damage from enemy
-          - §eaxes by 1.85% per level.
-          - §7Armor Enchantment
-          - §7Drag n' drop onto item to enchant
-          internal: H4sIAAAAAAAAAONiYOBgYEnKz89mEEtMjS9LzMlMsS5JzMu2NrQ2sDY0MLBmAAAtDB9aIwAAAA==
-      Commands: []
-      Messages: []
-      BlackListed-Permissions: []
-      Alternative-Prize:
-        Toggle: false
-        Commands: []
-        Items: []
-        Messages: []
-    '85':
-      DisplayName: '&e&l&nDisintegrate I'
-      DisplayItem: BOOK
-      DisplayAmount: 1
-      Lore: []
-      MaxRange: 100
-      Chance: 50
-      Firework: false
-      Glowing: false
-      Player: ''
-      Tiers:
-      - Ultimate
-      Items: []
-      Editor-Items:
-      - ==: org.bukkit.inventory.ItemStack
-        v: 2227
-        type: BOOK
-        meta:
-          ==: ItemMeta
-          meta-type: UNSPECIFIC
-          display-name: §e§l§nDisintegrate I
-          lore:
-          - §a100% Success Rate
-          - §c0% Destroy Rate
-          - §eChance to deal double durability damage to
-          - §eall enemy armor with every attack.
-          - §7Sword Enchantment
-          - §7Drag n' drop onto item to enchant
-          internal: H4sIAAAAAAAAAONiYOBgYEnKz89mkEtMjS9LzMlMsU7JLM7MK0lNL0osSbU2tDawNjQwsGYAADQA9qYrAAAA
-      Commands: []
-      Messages: []
-      BlackListed-Permissions: []
-      Alternative-Prize:
-        Toggle: false
-        Commands: []
-        Items: []
-        Messages: []
-    '86':
-      DisplayName: '&e&l&nUnfocus I'
-      DisplayItem: BOOK
-      DisplayAmount: 1
-      Lore: []
-      MaxRange: 100
-      Chance: 50
-      Firework: false
-      Glowing: false
-      Player: ''
-      Tiers:
-      - Ultimate
-      Items: []
-      Editor-Items:
-      - ==: org.bukkit.inventory.ItemStack
-        v: 2227
-        type: BOOK
-        meta:
-          ==: ItemMeta
-          meta-type: UNSPECIFIC
-          display-name: §e§l§nUnfocus I
-          lore:
-          - §a100% Success Rate
-          - §c0% Destroy Rate
-          - §eChance to Unfocus target player,
-          - §ereducing their out going bow damage
-          - §eby 50% for up to 10 seconds.
-          - §7Bow Enchantment
-          - §7Drag n' drop onto item to enchant
-          internal: H4sIAAAAAAAAAONiYOBgYEnKz89mkExMjS9LzMlMsS7NS8tPLi22NrQ2sDY0MLBmAAAY1rsZJgAAAA==
-      Commands: []
-      Messages: []
-      BlackListed-Permissions: []
-      Alternative-Prize:
-        Toggle: false
-        Commands: []
-        Items: []
-        Messages: []
-    '87':
-      DisplayName: '&e&l&nLongbow I'
-      DisplayItem: BOOK
-      DisplayAmount: 1
-      Lore: []
-      MaxRange: 100
-      Chance: 50
-      Firework: false
-      Glowing: false
-      Player: ''
-      Tiers:
-      - Ultimate
-      Items: []
-      Editor-Items:
-      - ==: org.bukkit.inventory.ItemStack
-        v: 2227
-        type: BOOK
-        meta:
-          ==: ItemMeta
-          meta-type: UNSPECIFIC
-          display-name: §e§l§nLongbow I
-          lore:
-          - §a100% Success Rate
-          - §c0% Destroy Rate
-          - §eGreatly increases damage dealt
-          - §eto enemy players that have
-          - §ea bow in their hands.
-          - §7Bow Enchantment
-          - §7Drag n' drop onto item to enchant
-          internal: H4sIAAAAAAAAAONiYOBgYEnKz89mkExMjS9LzMlMsc7Jz0tPyi+3NrQ2sDY0MLBmAAACJ4S2JgAAAA==
+          internal: H4sIAAAAAAAAAONiYOBgYEnKz89mEE9MjS9LzMlMsU7KSU1NsTa0NrA2NDCwZgAAtxqtdyQAAAA=
       Commands: []
       Messages: []
       BlackListed-Permissions: []
