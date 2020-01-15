@@ -27,10 +27,3 @@ iesire:
   Item:
     v: 2227
     type: GRASS_BLOCK
-event:
-  Location: warpuri;-119.70;4.0;-5.44;272.24;64.5
-  Slot: 2
-  Creator: ec5c2029-db95-34fe-8588-696d8cf2f714
-  Item:
-    v: 2227
-    type: FIREWORK_ROCKET
