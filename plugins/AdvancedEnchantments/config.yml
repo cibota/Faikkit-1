@@ -2,12 +2,12 @@
 # Made by GC
 commands:
   enchanter:
-    enabled: true
+    enabled: false
     command: /enchanter
     aliases:
     - e
   tinkerer:
-    enabled: true
+    enabled: false
     command: /tinkerer
     aliases:
     - tinker
