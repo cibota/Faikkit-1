@@ -895,7 +895,7 @@ Crate:
         Items: []
         Messages: []
     '29':
-      DisplayName: '&e&l&nPoisoned I'
+      DisplayName: '&b&l&nPoisoned I'
       DisplayItem: BOOK
       DisplayAmount: 1
       Lore: []
@@ -904,7 +904,8 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Unbreakable: false
+      Tiers:
+      - Elite
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
@@ -920,7 +921,7 @@ Crate:
         Items: []
         Messages: []
     '30':
-      DisplayName: '&e&l&nPoison I'
+      DisplayName: '&b&l&nPoison I'
       DisplayItem: BOOK
       DisplayAmount: 1
       Lore: []
@@ -929,7 +930,8 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Unbreakable: false
+      Tiers:
+      - Elite
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
@@ -945,7 +947,7 @@ Crate:
         Items: []
         Messages: []
     '31':
-      DisplayName: '&e&l&nParalyze I'
+      DisplayName: '&b&l&nParalyze I'
       DisplayItem: BOOK
       DisplayAmount: 1
       Lore: []
@@ -954,7 +956,8 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Unbreakable: false
+      Tiers:
+      - Elite
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
@@ -970,7 +973,7 @@ Crate:
         Items: []
         Messages: []
     '32':
-      DisplayName: '&e&l&nFrozen I'
+      DisplayName: '&b&l&nFrozen I'
       DisplayItem: BOOK
       DisplayAmount: 1
       Lore: []
@@ -979,7 +982,8 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Unbreakable: false
+      Tiers:
+      - Elite
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
@@ -995,7 +999,7 @@ Crate:
         Items: []
         Messages: []
     '33':
-      DisplayName: '&e&l&nExecute I'
+      DisplayName: '&b&l&nExecute I'
       DisplayItem: BOOK
       DisplayAmount: 1
       Lore: []
@@ -1004,7 +1008,8 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Unbreakable: false
+      Tiers:
+      - Elite
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
@@ -1020,7 +1025,7 @@ Crate:
         Items: []
         Messages: []
     '34':
-      DisplayName: '&e&l&nCactus I'
+      DisplayName: '&b&l&nCactus I'
       DisplayItem: BOOK
       DisplayAmount: 1
       Lore: []
@@ -1029,7 +1034,8 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Unbreakable: false
+      Tiers:
+      - Elite
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
@@ -1045,7 +1051,7 @@ Crate:
         Items: []
         Messages: []
     '35':
-      DisplayName: '&e&l&nShackle I'
+      DisplayName: '&b&l&nShackle I'
       DisplayItem: BOOK
       DisplayAmount: 1
       Lore: []
@@ -1070,7 +1076,7 @@ Crate:
         Items: []
         Messages: []
     '36':
-      DisplayName: '&e&l&nBlind I'
+      DisplayName: '&b&l&nBlind I'
       DisplayItem: BOOK
       DisplayAmount: 1
       Lore: []
@@ -1079,7 +1085,8 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Unbreakable: false
+      Tiers:
+      - Elite
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
@@ -1120,7 +1127,7 @@ Crate:
         Items: []
         Messages: []
     '38':
-      DisplayName: '&e&l&nReforged I'
+      DisplayName: '&b&l&nReforged I'
       DisplayItem: BOOK
       DisplayAmount: 1
       Lore: []
@@ -1129,7 +1136,8 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Unbreakable: false
+      Tiers:
+      - Elite
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
@@ -1145,7 +1153,7 @@ Crate:
         Items: []
         Messages: []
     '39':
-      DisplayName: '&e&l&nSnare I'
+      DisplayName: '&b&l&nSnare I'
       DisplayItem: BOOK
       DisplayAmount: 1
       Lore: []
@@ -1154,7 +1162,8 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Unbreakable: false
+      Tiers:
+      - Elite
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
@@ -1179,7 +1188,8 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Unbreakable: false
+      Tiers:
+      - Elite
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
@@ -1195,7 +1205,7 @@ Crate:
         Items: []
         Messages: []
     '41':
-      DisplayName: '&e&l&nPummel I'
+      DisplayName: '&b&l&nPummel I'
       DisplayItem: BOOK
       DisplayAmount: 1
       Lore: []
@@ -1204,7 +1214,8 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Unbreakable: false
+      Tiers:
+      - Elite
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
@@ -1220,7 +1231,7 @@ Crate:
         Items: []
         Messages: []
     '42':
-      DisplayName: '&e&l&nShockwave I'
+      DisplayName: '&b&l&nShockwave I'
       DisplayItem: BOOK
       DisplayAmount: 1
       Lore: []
@@ -1229,7 +1240,8 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Unbreakable: false
+      Tiers:
+      - Elite
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
@@ -1245,7 +1257,7 @@ Crate:
         Items: []
         Messages: []
     '43':
-      DisplayName: '&e&l&nVampire I'
+      DisplayName: '&b&l&nVampire I'
       DisplayItem: BOOK
       DisplayAmount: 1
       Lore: []
@@ -1254,7 +1266,8 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Unbreakable: false
+      Tiers:
+      - Elite
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
@@ -1270,7 +1283,7 @@ Crate:
         Items: []
         Messages: []
     '44':
-      DisplayName: '&e&l&nFarcast I'
+      DisplayName: '&b&l&nFarcast I'
       DisplayItem: BOOK
       DisplayAmount: 1
       Lore: []
@@ -1279,7 +1292,8 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Unbreakable: false
+      Tiers:
+      - Elite
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
@@ -1295,7 +1309,7 @@ Crate:
         Items: []
         Messages: []
     '45':
-      DisplayName: '&e&l&nGreatsword I'
+      DisplayName: '&b&l&nGreatsword I'
       DisplayItem: BOOK
       DisplayAmount: 1
       Lore: []
@@ -1304,7 +1318,8 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Unbreakable: false
+      Tiers:
+      - Elite
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
@@ -1320,7 +1335,7 @@ Crate:
         Items: []
         Messages: []
     '46':
-      DisplayName: '&e&l&nHijack I'
+      DisplayName: '&b&l&nHijack I'
       DisplayItem: BOOK
       DisplayAmount: 1
       Lore: []
@@ -1329,7 +1344,8 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Unbreakable: false
+      Tiers:
+      - Elite
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
@@ -1354,7 +1370,8 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Unbreakable: false
+      Tiers:
+      - Elite
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
@@ -1370,7 +1387,7 @@ Crate:
         Items: []
         Messages: []
     '48':
-      DisplayName: '&e&l&nVoodoo I'
+      DisplayName: '&b&l&nVoodoo I'
       DisplayItem: BOOK
       DisplayAmount: 1
       Lore: []
@@ -1379,7 +1396,8 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Unbreakable: false
+      Tiers:
+      - Elite
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
@@ -1395,7 +1413,7 @@ Crate:
         Items: []
         Messages: []
     '49':
-      DisplayName: '&e&l&nRocket Escape I'
+      DisplayName: '&b&l&nRocket Escape I'
       DisplayItem: BOOK
       DisplayAmount: 1
       Lore: []
@@ -1404,7 +1422,8 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Unbreakable: false
+      Tiers:
+      - Elite
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
@@ -1420,7 +1439,7 @@ Crate:
         Items: []
         Messages: []
     '50':
-      DisplayName: '&e&l&nTrickster I'
+      DisplayName: '&b&l&nTrickster I'
       DisplayItem: BOOK
       DisplayAmount: 1
       Lore: []
@@ -1429,7 +1448,8 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Unbreakable: false
+      Tiers:
+      - Elite
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
@@ -1445,7 +1465,7 @@ Crate:
         Items: []
         Messages: []
     '51':
-      DisplayName: '&e&l&nHardened I'
+      DisplayName: '&b&l&nHardened I'
       DisplayItem: BOOK
       DisplayAmount: 1
       Lore: []
@@ -1454,7 +1474,8 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Unbreakable: false
+      Tiers:
+      - Elite
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
@@ -1479,7 +1500,8 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Unbreakable: false
+      Tiers:
+      - Elite
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
@@ -1495,7 +1517,7 @@ Crate:
         Items: []
         Messages: []
     '53':
-      DisplayName: '&e&l&nStormcaller I'
+      DisplayName: '&b&l&nStormcaller I'
       DisplayItem: BOOK
       DisplayAmount: 1
       Lore: []
@@ -1504,7 +1526,8 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Unbreakable: false
+      Tiers:
+      - Elite
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
@@ -1520,7 +1543,7 @@ Crate:
         Items: []
         Messages: []
     '54':
-      DisplayName: '&e&l&nDemonforged I'
+      DisplayName: '&b&l&nDemonforged I'
       DisplayItem: BOOK
       DisplayAmount: 1
       Lore: []
@@ -1529,7 +1552,8 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Unbreakable: false
+      Tiers:
+      - Elite
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
@@ -1545,7 +1569,7 @@ Crate:
         Items: []
         Messages: []
     '55':
-      DisplayName: '&e&l&nTrap I'
+      DisplayName: '&b&l&nTrap I'
       DisplayItem: BOOK
       DisplayAmount: 1
       Lore: []
@@ -1554,7 +1578,8 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Unbreakable: false
+      Tiers:
+      - Elite
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
@@ -1570,7 +1595,7 @@ Crate:
         Items: []
         Messages: []
     '56':
-      DisplayName: '&e&l&nVenom I'
+      DisplayName: '&b&l&nVenom I'
       DisplayItem: BOOK
       DisplayAmount: 1
       Lore: []
@@ -1579,7 +1604,8 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Unbreakable: false
+      Tiers:
+      - Elite
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
@@ -1595,7 +1621,7 @@ Crate:
         Items: []
         Messages: []
     '57':
-      DisplayName: '&e&l&nUndead Ruse I'
+      DisplayName: '&b&l&nUndead Ruse I'
       DisplayItem: BOOK
       DisplayAmount: 1
       Lore: []
@@ -1604,7 +1630,8 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Unbreakable: false
+      Tiers:
+      - Elite
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
@@ -1629,7 +1656,8 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Unbreakable: false
+      Tiers:
+      - Ultimate
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
@@ -1664,7 +1692,8 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Unbreakable: false
+      Tiers:
+      - Ultimate
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
@@ -1701,7 +1730,8 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Unbreakable: false
+      Tiers:
+      - Ultimate
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
@@ -1739,7 +1769,8 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Unbreakable: false
+      Tiers:
+      - Ultimate
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
@@ -1778,7 +1809,8 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Unbreakable: false
+      Tiers:
+      - Ultimate
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
@@ -1813,7 +1845,8 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Unbreakable: false
+      Tiers:
+      - Ultimate
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
@@ -1849,7 +1882,8 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Unbreakable: false
+      Tiers:
+      - Ultimate
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
@@ -1876,8 +1910,8 @@ Crate:
         Items: []
         Messages: []
     '65':
-      DisplayName: '&7Auto Generated Prize #&665'
-      DisplayItem: STAINED_GLASS_PANE:14
+      DisplayName: '&e&lDetonate I'
+      DisplayItem: BOOK
       DisplayAmount: 1
       Lore: []
       MaxRange: 100
@@ -1885,7 +1919,8 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Unbreakable: false
+      Tiers:
+      - Ultimate
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
@@ -1911,8 +1946,8 @@ Crate:
         Items: []
         Messages: []
     '66':
-      DisplayName: '&7Auto Generated Prize #&666'
-      DisplayItem: STAINED_GLASS_PANE:14
+      DisplayName: '&e&l&nBlock I'
+      DisplayItem: BOOK
       DisplayAmount: 1
       Lore: []
       MaxRange: 100
@@ -1920,7 +1955,8 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Unbreakable: false
+      Tiers:
+      - Ultimate
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
@@ -1946,8 +1982,8 @@ Crate:
         Items: []
         Messages: []
     '67':
-      DisplayName: '&7Auto Generated Prize #&667'
-      DisplayItem: STAINED_GLASS_PANE:14
+      DisplayName: '&e&l&nDodge I'
+      DisplayItem: BOOK
       DisplayAmount: 1
       Lore: []
       MaxRange: 100
@@ -1955,7 +1991,8 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Unbreakable: false
+      Tiers:
+      - Ultimate
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
@@ -1983,8 +2020,8 @@ Crate:
         Items: []
         Messages: []
     '68':
-      DisplayName: '&7Auto Generated Prize #&668'
-      DisplayItem: STAINED_GLASS_PANE:14
+      DisplayName: '&e&l&nEnrage I'
+      DisplayItem: BOOK
       DisplayAmount: 1
       Lore: []
       MaxRange: 100
@@ -1992,7 +2029,8 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Unbreakable: false
+      Tiers:
+      - Ultimate
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
@@ -2018,8 +2056,8 @@ Crate:
         Items: []
         Messages: []
     '69':
-      DisplayName: '&7Auto Generated Prize #&669'
-      DisplayItem: STAINED_GLASS_PANE:14
+      DisplayName: '&e&l&nGuardians I'
+      DisplayItem: BOOK
       DisplayAmount: 1
       Lore: []
       MaxRange: 100
@@ -2027,7 +2065,8 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Unbreakable: false
+      Tiers:
+      - Ultimate
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
@@ -2054,8 +2093,8 @@ Crate:
         Items: []
         Messages: []
     '70':
-      DisplayName: '&7Auto Generated Prize #&670'
-      DisplayItem: STAINED_GLASS_PANE:14
+      DisplayName: '&e&l&nIce Aspect I'
+      DisplayItem: BOOK
       DisplayAmount: 1
       Lore: []
       MaxRange: 100
@@ -2063,7 +2102,8 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Unbreakable: false
+      Tiers:
+      - Ultimate
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
@@ -2090,8 +2130,8 @@ Crate:
         Items: []
         Messages: []
     '71':
-      DisplayName: '&7Auto Generated Prize #&671'
-      DisplayItem: STAINED_GLASS_PANE:14
+      DisplayName: '&e&l&nImplants I'
+      DisplayItem: BOOK
       DisplayAmount: 1
       Lore: []
       MaxRange: 100
@@ -2099,7 +2139,8 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Unbreakable: false
+      Tiers:
+      - Ultimate
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
@@ -2126,8 +2167,8 @@ Crate:
         Items: []
         Messages: []
     '72':
-      DisplayName: '&7Auto Generated Prize #&672'
-      DisplayItem: STAINED_GLASS_PANE:14
+      DisplayName: '&e&l&nObsidianshield I'
+      DisplayItem: BOOK
       DisplayAmount: 1
       Lore: []
       MaxRange: 100
@@ -2135,7 +2176,8 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Unbreakable: false
+      Tiers:
+      - Ultimate
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
@@ -2161,8 +2203,8 @@ Crate:
         Items: []
         Messages: []
     '73':
-      DisplayName: '&7Auto Generated Prize #&673'
-      DisplayItem: STAINED_GLASS_PANE:14
+      DisplayName: '&e&l&nPiercing I'
+      DisplayItem: BOOK
       DisplayAmount: 1
       Lore: []
       MaxRange: 100
@@ -2170,7 +2212,8 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Unbreakable: false
+      Tiers:
+      - Ultimate
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
@@ -2196,8 +2239,8 @@ Crate:
         Items: []
         Messages: []
     '74':
-      DisplayName: '&7Auto Generated Prize #&674'
-      DisplayItem: STAINED_GLASS_PANE:14
+      DisplayName: '&e&l&nDominate I'
+      DisplayItem: BOOK
       DisplayAmount: 1
       Lore: []
       MaxRange: 100
@@ -2205,7 +2248,8 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Unbreakable: false
+      Tiers:
+      - Ultimate
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
@@ -2232,8 +2276,8 @@ Crate:
         Items: []
         Messages: []
     '75':
-      DisplayName: '&7Auto Generated Prize #&675'
-      DisplayItem: STAINED_GLASS_PANE:14
+      DisplayName: '&e&l&n Ender Walker I'
+      DisplayItem: BOOK
       DisplayAmount: 1
       Lore: []
       MaxRange: 100
@@ -2241,7 +2285,8 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Unbreakable: false
+      Tiers:
+      - Ultimate
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
@@ -2268,8 +2313,8 @@ Crate:
         Items: []
         Messages: []
     '76':
-      DisplayName: '&7Auto Generated Prize #&676'
-      DisplayItem: STAINED_GLASS_PANE:14
+      DisplayName: '&e&l&nPacify I'
+      DisplayItem: BOOK
       DisplayAmount: 1
       Lore: []
       MaxRange: 100
@@ -2277,7 +2322,8 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Unbreakable: false
+      Tiers:
+      - Ultimate
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
@@ -2305,8 +2351,8 @@ Crate:
         Items: []
         Messages: []
     '77':
-      DisplayName: '&7Auto Generated Prize #&677'
-      DisplayItem: STAINED_GLASS_PANE:14
+      DisplayName: '&e&l&nMetaphysical I'
+      DisplayItem: BOOK
       DisplayAmount: 1
       Lore: []
       MaxRange: 100
@@ -2314,7 +2360,8 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Unbreakable: false
+      Tiers:
+      - Ultimate
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
@@ -2342,8 +2389,8 @@ Crate:
         Items: []
         Messages: []
     '78':
-      DisplayName: '&7Auto Generated Prize #&678'
-      DisplayItem: STAINED_GLASS_PANE:14
+      DisplayName: '&e&l&nCreeper Armor I'
+      DisplayItem: BOOK
       DisplayAmount: 1
       Lore: []
       MaxRange: 100
@@ -2351,7 +2398,8 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Unbreakable: false
+      Tiers:
+      - Ultimate
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
@@ -2379,8 +2427,8 @@ Crate:
         Items: []
         Messages: []
     '79':
-      DisplayName: '&7Auto Generated Prize #&679'
-      DisplayItem: STAINED_GLASS_PANE:14
+      DisplayName: '&e&l&nEagle Eye I'
+      DisplayItem: BOOK
       DisplayAmount: 1
       Lore: []
       MaxRange: 100
@@ -2388,7 +2436,8 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Unbreakable: false
+      Tiers:
+      - Ultimate
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
@@ -2415,8 +2464,8 @@ Crate:
         Items: []
         Messages: []
     '80':
-      DisplayName: '&7Auto Generated Prize #&680'
-      DisplayItem: STAINED_GLASS_PANE:14
+      DisplayName: '&e&l&nSpirits I'
+      DisplayItem: BOOK
       DisplayAmount: 1
       Lore: []
       MaxRange: 100
@@ -2424,7 +2473,8 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Unbreakable: false
+      Tiers:
+      - Ultimate
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
@@ -2451,8 +2501,8 @@ Crate:
         Items: []
         Messages: []
     '81':
-      DisplayName: '&7Auto Generated Prize #&681'
-      DisplayItem: STAINED_GLASS_PANE:14
+      DisplayName: '&e&l&nHeavy I'
+      DisplayItem: BOOK
       DisplayAmount: 1
       Lore: []
       MaxRange: 100
@@ -2460,7 +2510,8 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Unbreakable: false
+      Tiers:
+      - Ultimate
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
@@ -2487,8 +2538,8 @@ Crate:
         Items: []
         Messages: []
     '82':
-      DisplayName: '&7Auto Generated Prize #&682'
-      DisplayItem: STAINED_GLASS_PANE:14
+      DisplayName: '&e&l&nHellfire I'
+      DisplayItem: BOOK
       DisplayAmount: 1
       Lore: []
       MaxRange: 100
@@ -2496,7 +2547,8 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Unbreakable: false
+      Tiers:
+      - Ultimate
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
@@ -2523,8 +2575,8 @@ Crate:
         Items: []
         Messages: []
     '83':
-      DisplayName: '&7Auto Generated Prize #&683'
-      DisplayItem: STAINED_GLASS_PANE:14
+      DisplayName: '&e&l&nValor I'
+      DisplayItem: BOOK
       DisplayAmount: 1
       Lore: []
       MaxRange: 100
@@ -2532,7 +2584,8 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Unbreakable: false
+      Tiers:
+      - Ultimate
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
@@ -2559,8 +2612,8 @@ Crate:
         Items: []
         Messages: []
     '84':
-      DisplayName: '&7Auto Generated Prize #&684'
-      DisplayItem: STAINED_GLASS_PANE:14
+      DisplayName: '&e&l&nTank I'
+      DisplayItem: BOOK
       DisplayAmount: 1
       Lore: []
       MaxRange: 100
@@ -2568,7 +2621,8 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Unbreakable: false
+      Tiers:
+      - Ultimate
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
@@ -2595,8 +2649,8 @@ Crate:
         Items: []
         Messages: []
     '85':
-      DisplayName: '&7Auto Generated Prize #&685'
-      DisplayItem: STAINED_GLASS_PANE:14
+      DisplayName: '&e&l&nDisintegrate I'
+      DisplayItem: BOOK
       DisplayAmount: 1
       Lore: []
       MaxRange: 100
@@ -2604,7 +2658,8 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Unbreakable: false
+      Tiers:
+      - Ultimate
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
@@ -2631,8 +2686,8 @@ Crate:
         Items: []
         Messages: []
     '86':
-      DisplayName: '&7Auto Generated Prize #&686'
-      DisplayItem: STAINED_GLASS_PANE:14
+      DisplayName: '&e&l&nUnfocus I'
+      DisplayItem: BOOK
       DisplayAmount: 1
       Lore: []
       MaxRange: 100
@@ -2640,7 +2695,8 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Unbreakable: false
+      Tiers:
+      - Ultimate
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
@@ -2668,8 +2724,8 @@ Crate:
         Items: []
         Messages: []
     '87':
-      DisplayName: '&7Auto Generated Prize #&687'
-      DisplayItem: STAINED_GLASS_PANE:14
+      DisplayName: '&e&l&nLongbow I'
+      DisplayItem: BOOK
       DisplayAmount: 1
       Lore: []
       MaxRange: 100
@@ -2677,7 +2733,8 @@ Crate:
       Firework: false
       Glowing: false
       Player: ''
-      Unbreakable: false
+      Tiers:
+      - Ultimate
       Items: []
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
