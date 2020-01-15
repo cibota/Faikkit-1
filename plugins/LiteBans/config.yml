@@ -24,7 +24,7 @@ sync_dupeip_notifications: false
 # If you need per-server bans, you have to change server_name on all instances
 # The "$serverScope" and "$serverOrigin" variables can be used in messages.
 # Maximum length is 32 characters.
-server_name: 'Lobby'
+server_name: 'Survival'
 
 # This option decides which server(s) will be affected in commands by default.
 default_server_scope: '*'
@@ -77,6 +77,14 @@ durations:
   # The highest limit matched by permissions will be used for duration limits.
   # If a player has "litebans.group.unlimited", they will bypass these.
   limits:
+    operator:
+      permission: litebans.group.moderator
+      tempban: 24 months
+      tempmute: 24 months
+    admin:
+      permission: litebans.group.helper
+      tempban: 30 days
+      tempmute: 30 days
     moderator:
       permission: litebans.group.moderator
       tempban: 1 month
@@ -115,6 +123,7 @@ mutes:
   - /t
   - /r
   - /mail send
+  - /cmi helpop
   # This command blacklist specifically applies to players who are affected by /mutechat.
   mutechat_command_blacklist:
   - /me
@@ -134,8 +143,8 @@ warnings:
   # Format: <amount>[+]:<action>
   # If '+' is provided after the amount, the action will execute if the player has that amount of warnings or more.
   actions:
-  - '3:/kick -s:$silent $player Final warning: $reason'
-  - '4:/tempban -s:$silent $player 1 day Reached 4 warnings: $list'
+  - '3:/kick -s:$silent $player Ultimul avertisment: $reason'
+  - '4:/tempban -s:$silent $player 1 day Ai ajuns la 4 avertismente: $list'
 
   # If enabled, the console will execute warning actions.
   # Otherwise, the player who executes the last warning also executes the warning action.
@@ -260,7 +269,7 @@ warning_cooldown: 3
 # If enabled, online player names will be auto-completed.
 # Example: /ban Pl -> /ban Player
 # This has absolutely nothing to do with tab-completion.
-autocomplete_online_player_names: false
+autocomplete_online_player_names: true
 
 # This allows /dupeip and /ipreport to scan every single IP address that a player has ever joined with. (Multiple IP scanning)
 # If set to false, only the player's last IP address will be scanned.
@@ -298,7 +307,7 @@ debug_level: 0
 
 # If enabled, LiteBans performs an additional database query on login to provide case-insensitive name bans.
 # This also prevents players from evading bans by switching from offline-mode to online-mode (through FastLogin, for example).
-ban_names: false
+ban_names: true
 
 # If a kick message contains any of these, it will not be added to the database.
 # You can set this list to [''] if you don't want any kicks to be added to the database.
