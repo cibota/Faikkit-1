@@ -128,6 +128,12 @@ machines:
     enter-text: '&7Please enter your desired Hologram Text in your Chat. &r(Color
       Codes are supported!)'
   ELEVATOR:
+    pick-a-floor: '&3- Pick a floor -'
+    current-floor: '&eThis is the floor you are currently on:'
+    click-to-teleport: '&eClick &7to teleport to this floor:'
+    enter-name: '&7Please enter your desired floor name into your Chat. &r(Color Codes
+      are supported!)'
+    named: '&2Successfully named this floor: &r%floor%'
     no-destinations: '&4No Destinations found'
   CARGO_NODES:
     must-be-placed: '&4Must be placed onto a Chest or Machine'
