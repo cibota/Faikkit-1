@@ -1496,7 +1496,7 @@ Time:
       # Default value: 90 Starts from tick: 22200 Ends at tick: 24000
       sunrise: 90
     # Time is defined in seconds. Vanilla 24 hour ingame duration is 1200 seconds of real time
-    build:
+    warpuri:
       Enabled: false
       # Default value: 600 Starts from tick: 0 Ends at tick: 12000
       day: 600
@@ -1518,7 +1518,7 @@ Time:
       # Default value: 90 Starts from tick: 22200 Ends at tick: 24000
       sunrise: 90
     # Time is defined in seconds. Vanilla 24 hour ingame duration is 1200 seconds of real time
-    warpuri:
+    build:
       Enabled: false
       # Default value: 600 Starts from tick: 0 Ends at tick: 12000
       day: 600
@@ -1606,6 +1606,10 @@ RandomTeleportation:
       CenterX: 0
       CenterZ: 0
       Circle: false
+      IgnoreWater: true
+      IgnoreLava: true
+      minY: 0
+      maxY: 256
   # How long force player to wait before using command again.
   Cooldown: 600
   # How many times to try find correct location for teleportation.

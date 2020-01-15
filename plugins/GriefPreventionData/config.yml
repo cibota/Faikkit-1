@@ -4,12 +4,16 @@ GriefPrevention:
     world: 256
     world_nether: 256
     world_the_end: 256
+    warpuri: -1
+    spawn: -1
     build: -1
   Claims:
     Mode:
       world_the_end: Survival
       world_nether: Survival
+      warpuri: Survival
       world: Survival
+      spawn: Survival
       build: Survival
     PreventGlobalMonsterEggs: false
     PreventTheft: true
@@ -74,6 +78,8 @@ GriefPrevention:
       world: true
       world_nether: true
       world_the_end: true
+      warpuri: true
+      spawn: true
       build: true
     ProtectFreshSpawns: true
     PunishLogout: true
