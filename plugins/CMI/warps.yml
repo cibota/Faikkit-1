@@ -1,6 +1,5 @@
 parkour:
   Location: warpuri;33.53;4.0;102.52;89.55;88.04
-  ReqPerm: true
   Slot: 1
   Creator: ec5c2029-db95-34fe-8588-696d8cf2f714
   Item:
@@ -8,7 +7,6 @@ parkour:
     type: DIAMOND_BOOTS
 crate:
   Location: spawn;-204.40;147.0;-2.07;-179.31;0.29
-  ReqPerm: true
   Slot: 3
   Creator: bf3f44dc-80a0-363c-a079-23387f9b3dcd
   Item:
@@ -16,7 +14,6 @@ crate:
     type: ENDER_CHEST
 pvp:
   Location: warpuri;-172.54;20.0;169.55;-180.29;-1.5
-  ReqPerm: true
   Slot: 0
   Creator: bf3f44dc-80a0-363c-a079-23387f9b3dcd
   Item:
@@ -32,7 +29,6 @@ iesire:
     type: GRASS_BLOCK
 event:
   Location: warpuri;-119.70;4.0;-5.44;272.24;64.5
-  ReqPerm: true
   Slot: 2
   Creator: ec5c2029-db95-34fe-8588-696d8cf2f714
   Item:

@@ -71,3 +71,9 @@ Locations:
     X: 214
     Y: 4
     Z: 101
+  '10':
+    Crate: Warrior
+    World: spawn
+    X: -198
+    Y: 149
+    Z: -10

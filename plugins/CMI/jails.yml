@@ -1,0 +1,14 @@
+# Command section can utilize same custom variables as scheduler. Check schedules.yml file for all possible variables.
+
+puscarie1:
+  Loc: spawn:-213.0:152.0:6.0:-210.0:156.0:10.0
+  safeLoc: spawn;-198.44;147.0;0.50;87.75;-0.45
+  cells:
+    '1':
+      location: spawn;-210.44;153.0;8.59;178.95;7.8
+puscarie2:
+  Loc: spawn:-234.0:151.0:-9.0:-231.0:154.0:-4.0
+  safeLoc: spawn;-198.44;147.0;0.50;87.75;-0.45
+  cells:
+    '1':
+      location: spawn;-232.47;152.0;-6.72;-3.2;8.1

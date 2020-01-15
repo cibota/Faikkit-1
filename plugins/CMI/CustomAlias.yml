@@ -20,8 +20,12 @@ CustomAlias:
   s:
     Cmds:
     - tphere $1-
-    Perm: false
   open:
     Cmds:
     - inv $1-
-    Perm: false
+  warpuri:
+    Cmds:
+    - mvtp warpuri
+  build:
+    Cmds:
+    - mvtp build

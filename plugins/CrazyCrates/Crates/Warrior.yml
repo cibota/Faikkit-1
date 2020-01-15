@@ -911,17 +911,6 @@ Crate:
         v: 2227
         type: AIR
         amount: 0
-        meta:
-          ==: ItemMeta
-          meta-type: UNSPECIFIC
-          display-name: §b§l§nPoisoned I
-          lore:
-          - §a100% Success Rate
-          - §c0% Destroy Rate
-          - §eChance to give poison to your attacker.
-          - §7Armor Enchantment
-          - §7Drag n' drop onto item to enchant
-          internal: H4sIAAAAAAAAAONiYOBgYEnKz89mkEpMjS9LzMlMsS7IzyzOz0tNsTa0NrA2NDCwZgAAQYGtLycAAAA=
       Commands: []
       Messages: []
       BlackListed-Permissions: []
@@ -947,17 +936,6 @@ Crate:
         v: 2227
         type: AIR
         amount: 0
-        meta:
-          ==: ItemMeta
-          meta-type: UNSPECIFIC
-          display-name: §b§l§nPoison I
-          lore:
-          - §a100% Success Rate
-          - §c0% Destroy Rate
-          - §eA chance of giving poison effect.
-          - §7Weapon Enchantment
-          - §7Drag n' drop onto item to enchant
-          internal: H4sIAAAAAAAAAONiYOBgYEnKz89mkEhMjS9LzMlMsS7IzyzOz7M2tDawNjQwsGYAABAmcU0lAAAA
       Commands: []
       Messages: []
       BlackListed-Permissions: []
@@ -983,18 +961,6 @@ Crate:
         v: 2227
         type: AIR
         amount: 0
-        meta:
-          ==: ItemMeta
-          meta-type: UNSPECIFIC
-          display-name: §b§l§nParalyze I
-          lore:
-          - §a100% Success Rate
-          - §c0% Destroy Rate
-          - §eGives lightning effect and a chance
-          - §efor slowness and slow swinging.
-          - §7Swords Enchantment
-          - §7Drag n' drop onto item to enchant
-          internal: H4sIAAAAAAAAAONiYOBgYEnKz89mkEpMjS9LzMlMsS5ILErMqaxKtTa0NrA2NDCwZgAAPmqGNCcAAAA=
       Commands: []
       Messages: []
       BlackListed-Permissions: []
@@ -1020,18 +986,6 @@ Crate:
         v: 2227
         type: AIR
         amount: 0
-        meta:
-          ==: ItemMeta
-          meta-type: UNSPECIFIC
-          display-name: §b§l§nFrozen I
-          lore:
-          - §a100% Success Rate
-          - §c0% Destroy Rate
-          - §eCan cause slowness to attacker
-          - §ewhen defending.
-          - §7Armor Enchantment
-          - §7Drag n' drop onto item to enchant
-          internal: H4sIAAAAAAAAAONiYOBgYEnKz89mkEhMjS9LzMlMsU4ryq9KzbM2tDawNjQwsGYAABY1y9UlAAAA
       Commands: []
       Messages: []
       BlackListed-Permissions: []
@@ -1057,18 +1011,6 @@ Crate:
         v: 2227
         type: AIR
         amount: 0
-        meta:
-          ==: ItemMeta
-          meta-type: UNSPECIFIC
-          display-name: §b§l§nExecute I
-          lore:
-          - §a100% Success Rate
-          - §c0% Destroy Rate
-          - §eDamage buff when your target is at
-          - §elow HP.
-          - §7Swords Enchantment
-          - §7Drag n' drop onto item to enchant
-          internal: H4sIAAAAAAAAAONiYOBgYEnKz89mkExMjS9LzMlMsU6tSE0uLUm1NrQ2sDY0MLBmAACr2NBJJgAAAA==
       Commands: []
       Messages: []
       BlackListed-Permissions: []
@@ -1094,18 +1036,6 @@ Crate:
         v: 2227
         type: AIR
         amount: 0
-        meta:
-          ==: ItemMeta
-          meta-type: UNSPECIFIC
-          display-name: §b§l§nCactus I
-          lore:
-          - §a100% Success Rate
-          - §c0% Destroy Rate
-          - §eInjures your attacker but does not
-          - §eaffect your durability.
-          - §7Armor Enchantment
-          - §7Drag n' drop onto item to enchant
-          internal: H4sIAAAAAAAAAONiYOBgYEnKz89mkEhMjS9LzMlMsU5OTC4pLbY2tDawNjQwsGYAAJvk5EMlAAAA
       Commands: []
       Messages: []
       BlackListed-Permissions: []
@@ -1131,18 +1061,6 @@ Crate:
         v: 2227
         type: AIR
         amount: 0
-        meta:
-          ==: ItemMeta
-          meta-type: UNSPECIFIC
-          display-name: §b§l§nShackle I
-          lore:
-          - §a100% Success Rate
-          - §c0% Destroy Rate
-          - §ePrevents mobs from suffering from
-          - §eknockback from your attacks.
-          - §7Swords Enchantment
-          - §7Drag n' drop onto item to enchant
-          internal: H4sIAAAAAAAAAONiYOBgYEnKz89mkExMjS9LzMlMsS7OSEzOzkm1NrQ2sDY0MLBmAABLnBvRJgAAAA==
       Commands: []
       Messages: []
       BlackListed-Permissions: []
@@ -1168,18 +1086,6 @@ Crate:
         v: 2227
         type: AIR
         amount: 0
-        meta:
-          ==: ItemMeta
-          meta-type: UNSPECIFIC
-          display-name: §b§l§nBlind I
-          lore:
-          - §a100% Success Rate
-          - §c0% Destroy Rate
-          - §eA chance of causing blindness
-          - §ewhen attacking.
-          - §7Swords Enchantment
-          - §7Drag n' drop onto item to enchant
-          internal: H4sIAAAAAAAAAONiYOBgYEnKz89mEE9MjS9LzMlMsU7KycxLsTa0NrA2NDCwZgAAQgeFnCQAAAA=
       Commands: []
       Messages: []
       BlackListed-Permissions: []
@@ -1205,17 +1111,6 @@ Crate:
         v: 2227
         type: AIR
         amount: 0
-        meta:
-          ==: ItemMeta
-          meta-type: UNSPECIFIC
-          display-name: §b§l§nAnti Gravity I
-          lore:
-          - §a100% Success Rate
-          - §c0% Destroy Rate
-          - §eSuper jump.
-          - §7Boots Enchantment
-          - §7Drag n' drop onto item to enchant
-          internal: H4sIAAAAAAAAAONiYOBgYEnKz89mkE1MjS9LzMlMsU7MK8lML0osyyyptDa0NrA2NDCwZgAAYOBLVCoAAAA=
       Commands: []
       Messages: []
       BlackListed-Permissions: []
@@ -1241,18 +1136,6 @@ Crate:
         v: 2227
         type: AIR
         amount: 0
-        meta:
-          ==: ItemMeta
-          meta-type: UNSPECIFIC
-          display-name: §b§l§nReforged I
-          lore:
-          - §a100% Success Rate
-          - §c0% Destroy Rate
-          - §eProtects weapons durability, items will be take
-          - §elonger to break.
-          - §7Weapons Enchantment
-          - §7Drag n' drop onto item to enchant
-          internal: H4sIAAAAAAAAAONiYOBgYEnKz89mkEpMjS9LzMlMsS5KTcsvSk9NsTa0NrA2NDCwZgAA1SL1wScAAAA=
       Commands: []
       Messages: []
       BlackListed-Permissions: []
@@ -1278,18 +1161,6 @@ Crate:
         v: 2227
         type: AIR
         amount: 0
-        meta:
-          ==: ItemMeta
-          meta-type: UNSPECIFIC
-          display-name: §b§l§nSnare I
-          lore:
-          - §a100% Success Rate
-          - §c0% Destroy Rate
-          - §eChance to slow and fatigue
-          - §eenemies with projectiles.
-          - §7Bows Enchantment
-          - §7Drag n' drop onto item to enchant
-          internal: H4sIAAAAAAAAAONiYOBgYEnKz89mEE9MjS9LzMlMsS7OSyxKtTa0NrA2NDCwZgAAmCvtEiQAAAA=
       Commands: []
       Messages: []
       BlackListed-Permissions: []
@@ -1315,17 +1186,6 @@ Crate:
         v: 2227
         type: AIR
         amount: 0
-        meta:
-          ==: ItemMeta
-          meta-type: UNSPECIFIC
-          display-name: §b§l§nInfernal I
-          lore:
-          - §a100% Success Rate
-          - §c0% Destroy Rate
-          - §eExplosive fire effect.
-          - §7Bow Enchantment
-          - §7Drag n' drop onto item to enchant
-          internal: H4sIAAAAAAAAAONiYOBgYEnKz89mkEpMjS9LzMlMsc7MS0stykvMsTa0NrA2NDCwZgAAfbRU/icAAAA=
       Commands: []
       Messages: []
       BlackListed-Permissions: []
@@ -1351,18 +1211,6 @@ Crate:
         v: 2227
         type: AIR
         amount: 0
-        meta:
-          ==: ItemMeta
-          meta-type: UNSPECIFIC
-          display-name: §b§l§nPummel I
-          lore:
-          - §a100% Success Rate
-          - §c0% Destroy Rate
-          - §eChance to slow nearby enemy
-          - §eplayers for a short period.
-          - §7Axe Enchantment
-          - §7Drag n' drop onto item to enchant
-          internal: H4sIAAAAAAAAAONiYOBgYEnKz89mkEhMjS9LzMlMsS4ozc1NzbE2tDawNjQwsGYAAJiwCoslAAAA
       Commands: []
       Messages: []
       BlackListed-Permissions: []
@@ -1388,18 +1236,6 @@ Crate:
         v: 2227
         type: AIR
         amount: 0
-        meta:
-          ==: ItemMeta
-          meta-type: UNSPECIFIC
-          display-name: §b§l§nShockwave I
-          lore:
-          - §a100% Success Rate
-          - §c0% Destroy Rate
-          - §eThe chance to push back your attacker
-          - §ewhen your health is low.
-          - §7Chestplate Enchantment
-          - §7Drag n' drop onto item to enchant
-          internal: H4sIAAAAAAAAAONiYOBgYEnKz89mkE5MjS9LzMlMsS7OyE/OLk8sS7U2tDawNjQwsGYAABn+LYooAAAA
       Commands: []
       Messages: []
       BlackListed-Permissions: []
@@ -1425,18 +1261,6 @@ Crate:
         v: 2227
         type: AIR
         amount: 0
-        meta:
-          ==: ItemMeta
-          meta-type: UNSPECIFIC
-          display-name: §b§l§nVampire I
-          lore:
-          - §a100% Success Rate
-          - §c0% Destroy Rate
-          - §eA chance to heal you for up to
-          - §e3hp a few seconds after you strike.
-          - §7Sword Enchantment
-          - §7Drag n' drop onto item to enchant
-          internal: H4sIAAAAAAAAAONiYOBgYEnKz89mkExMjS9LzMlMsS5LzC3ILEq1NrQ2sDY0MLBmAADjRZ0iJgAAAA==
       Commands: []
       Messages: []
       BlackListed-Permissions: []
@@ -1462,20 +1286,6 @@ Crate:
         v: 2227
         type: AIR
         amount: 0
-        meta:
-          ==: ItemMeta
-          meta-type: UNSPECIFIC
-          display-name: §b§l§nFarcast I
-          lore:
-          - §a100% Success Rate
-          - §c0% Destroy Rate
-          - §eChance to knockback melee attackers
-          - §eby a couple of blocks when they hit you.
-          - §eThe lower your health, the higher
-          - §ethe chance to proc.
-          - §7Bow Enchantment
-          - §7Drag n' drop onto item to enchant
-          internal: H4sIAAAAAAAAAONiYOBgYEnKz89mkExMjS9LzMlMsU5LLEpOLC6xNrQ2sDY0MLBmAADyHSuRJgAAAA==
       Commands: []
       Messages: []
       BlackListed-Permissions: []
@@ -1501,18 +1311,6 @@ Crate:
         v: 2227
         type: AIR
         amount: 0
-        meta:
-          ==: ItemMeta
-          meta-type: UNSPECIFIC
-          display-name: §b§l§nGreatsword I
-          lore:
-          - §a100% Success Rate
-          - §c0% Destroy Rate
-          - §eMultiplies damage against players who are
-          - §ewielding a BOW at the time they are hit.
-          - §7Sword Enchantment
-          - §7Drag n' drop onto item to enchant
-          internal: H4sIAAAAAAAAAONiYOBgYEnKz89mkElMjS9LzMlMsU4vSk0sKS7PL0qxNrQ2sDY0MLBmAACLZOyoKQAAAA==
       Commands: []
       Messages: []
       BlackListed-Permissions: []
@@ -1538,19 +1336,6 @@ Crate:
         v: 2227
         type: AIR
         amount: 0
-        meta:
-          ==: ItemMeta
-          meta-type: UNSPECIFIC
-          display-name: §b§l§nHijack I
-          lore:
-          - §a100% Success Rate
-          - §c0% Destroy Rate
-          - §eChance to convert summoned enemy
-          - §eGuardians into your own when they
-          - §eare shot with an arrow.
-          - §7Bow Enchantment
-          - §7Drag n' drop onto item to enchant
-          internal: H4sIAAAAAAAAAONiYOBgYEnKz89mkEhMjS9LzMlMsc7IzEpMzrY2tDawNjQwsGYAALqE2CYlAAAA
       Commands: []
       Messages: []
       BlackListed-Permissions: []
@@ -1576,17 +1361,6 @@ Crate:
         v: 2227
         type: AIR
         amount: 0
-        meta:
-          ==: ItemMeta
-          meta-type: UNSPECIFIC
-          display-name: §b§l§nWither I
-          lore:
-          - §a100% Success Rate
-          - §c0% Destroy Rate
-          - §eA chance to give the wither effect.
-          - §7Armor Enchantment
-          - §7Drag n' drop onto item to enchant
-          internal: H4sIAAAAAAAAAONiYOBgYEnKz89mkEhMjS9LzMlMsS7PLMlILbI2tDawNjQwsGYAALThL14lAAAA
       Commands: []
       Messages: []
       BlackListed-Permissions: []
@@ -1612,17 +1386,6 @@ Crate:
         v: 2227
         type: AIR
         amount: 0
-        meta:
-          ==: ItemMeta
-          meta-type: UNSPECIFIC
-          display-name: §b§l§nVoodoo I
-          lore:
-          - §a100% Success Rate
-          - §c0% Destroy Rate
-          - §eGives a chance to deal weakness.
-          - §7Armor Enchantment
-          - §7Drag n' drop onto item to enchant
-          internal: H4sIAAAAAAAAAONiYOBgYEnKz89mkEhMjS9LzMlMsS7Lz0/Jz7c2tDawNjQwsGYAAAB72O4lAAAA
       Commands: []
       Messages: []
       BlackListed-Permissions: []
@@ -1648,17 +1411,6 @@ Crate:
         v: 2227
         type: AIR
         amount: 0
-        meta:
-          ==: ItemMeta
-          meta-type: UNSPECIFIC
-          display-name: §b§l§nRocket Escape I
-          lore:
-          - §a100% Success Rate
-          - §c0% Destroy Rate
-          - §eBlast off into the air at low HP.
-          - §7Boots Enchantment
-          - §7Drag n' drop onto item to enchant
-          internal: H4sIAAAAAAAAAONiYOBgYEnKz89mkEtMjS9LzMlMsS7KT85OLUktTk4sSLU2tDawNjQwsGYAAMDXzdQrAAAA
       Commands: []
       Messages: []
       BlackListed-Permissions: []
@@ -1684,18 +1436,6 @@ Crate:
         v: 2227
         type: AIR
         amount: 0
-        meta:
-          ==: ItemMeta
-          meta-type: UNSPECIFIC
-          display-name: §b§l§nTrickster I
-          lore:
-          - §a100% Success Rate
-          - §c0% Destroy Rate
-          - §eWhen hit you have a chance to teleport directly
-          - §ebehind your opponent and take them by surprise.
-          - §7Armor Enchantment
-          - §7Drag n' drop onto item to enchant
-          internal: H4sIAAAAAAAAAONiYOBgYEnKz89mkE5MjS9LzMlMsS4pykzOLi5JLbI2tDawNjQwsGYAAFsvzhcoAAAA
       Commands: []
       Messages: []
       BlackListed-Permissions: []
@@ -1721,17 +1461,6 @@ Crate:
         v: 2227
         type: AIR
         amount: 0
-        meta:
-          ==: ItemMeta
-          meta-type: UNSPECIFIC
-          display-name: §b§l§nHardened I
-          lore:
-          - §a100% Success Rate
-          - §c0% Destroy Rate
-          - §eArmor takes less durability damage.
-          - §7Armor Enchantment
-          - §7Drag n' drop onto item to enchant
-          internal: H4sIAAAAAAAAAONiYOBgYEnKz89mkEpMjS9LzMlMsc5ILEpJzUtNsTa0NrA2NDCwZgAALtTT5icAAAA=
       Commands: []
       Messages: []
       BlackListed-Permissions: []
@@ -1757,17 +1486,6 @@ Crate:
         v: 2227
         type: AIR
         amount: 0
-        meta:
-          ==: ItemMeta
-          meta-type: UNSPECIFIC
-          display-name: §b§l§nSprings I
-          lore:
-          - §a100% Success Rate
-          - §c0% Destroy Rate
-          - §eGives jump boost.
-          - §7Boots Enchantment
-          - §7Drag n' drop onto item to enchant
-          internal: H4sIAAAAAAAAAONiYOBgYEnKz89mkExMjS9LzMlMsS4uKMrMSy+2NrQ2sDY0MLBmAACiC/npJgAAAA==
       Commands: []
       Messages: []
       BlackListed-Permissions: []
@@ -1793,17 +1511,6 @@ Crate:
         v: 2227
         type: AIR
         amount: 0
-        meta:
-          ==: ItemMeta
-          meta-type: UNSPECIFIC
-          display-name: §b§l§nStormcaller I
-          lore:
-          - §a100% Success Rate
-          - §c0% Destroy Rate
-          - §eStrikes lightning on attacking players.
-          - §7Armor Enchantment
-          - §7Drag n' drop onto item to enchant
-          internal: H4sIAAAAAAAAAONiYOBgYEnKz89mkE1MjS9LzMlMsS4uyS/KTU7MyUktsja0NrA2NDCwZgAA33QsQSoAAAA=
       Commands: []
       Messages: []
       BlackListed-Permissions: []
@@ -1829,18 +1536,6 @@ Crate:
         v: 2227
         type: AIR
         amount: 0
-        meta:
-          ==: ItemMeta
-          meta-type: UNSPECIFIC
-          display-name: §b§l§nDemonforged I
-          lore:
-          - §a100% Success Rate
-          - §c0% Destroy Rate
-          - §eIncreases durability loss on
-          - §eyour enemy''s armor.
-          - §7Sword Enchantment
-          - §7Drag n' drop onto item to enchant
-          internal: H4sIAAAAAAAAAONiYOBgYEnKz89mkE1MjS9LzMlMsU5Jzc3PS8svSk9NsTa0NrA2NDCwZgAAKqMhhyoAAAA=
       Commands: []
       Messages: []
       BlackListed-Permissions: []
@@ -1866,17 +1561,6 @@ Crate:
         v: 2227
         type: AIR
         amount: 0
-        meta:
-          ==: ItemMeta
-          meta-type: UNSPECIFIC
-          display-name: §b§l§nTrap I
-          lore:
-          - §a100% Success Rate
-          - §c0% Destroy Rate
-          - §eChance to give buffed slowness effect.
-          - §7Sword Enchantment
-          - §7Drag n' drop onto item to enchant
-          internal: H4sIAAAAAAAAAONiYOBgYEnKz89mEEtMjS9LzMlMsS4pSiywNrQ2sDY0MLBmAADHGpGsIwAAAA==
       Commands: []
       Messages: []
       BlackListed-Permissions: []
@@ -1902,17 +1586,6 @@ Crate:
         v: 2227
         type: AIR
         amount: 0
-        meta:
-          ==: ItemMeta
-          meta-type: UNSPECIFIC
-          display-name: §b§l§nVenom I
-          lore:
-          - §a100% Success Rate
-          - §c0% Destroy Rate
-          - §eA chance of dealing poison.
-          - §7Bows Enchantment
-          - §7Drag n' drop onto item to enchant
-          internal: H4sIAAAAAAAAAONiYOBgYEnKz89mEE9MjS9LzMlMsS5LzcvPtTa0NrA2NDCwZgAAnHZWYSQAAAA=
       Commands: []
       Messages: []
       BlackListed-Permissions: []
@@ -1938,18 +1611,6 @@ Crate:
         v: 2227
         type: AIR
         amount: 0
-        meta:
-          ==: ItemMeta
-          meta-type: UNSPECIFIC
-          display-name: §b§l§nUndead Ruse I
-          lore:
-          - §a100% Success Rate
-          - §c0% Destroy Rate
-          - §eWhen hit you have a chance to spawn zombie
-          - §ehordes to distract and disorient your opponents.
-          - §7Boots Enchantment
-          - §7Drag n' drop onto item to enchant
-          internal: H4sIAAAAAAAAAONiYOBgYEnKz89mkElMjS9LzMlMsS7NS0lNTCkqLU61NrQ2sDY0MLBmAACCTfj+KQAAAA==
       Commands: []
       Messages: []
       BlackListed-Permissions: []
@@ -2206,6 +1867,835 @@ Crate:
           - §7Armor Enchantment
           - §7Drag n' drop onto item to enchant
           internal: H4sIAAAAAAAAAONiYOBgYEnKz89mkExMjS9LzMlMsS5KTE/Jz8mxNrQ2sDY0MLBmAAD3cwV3JgAAAA==
+      Commands: []
+      Messages: []
+      BlackListed-Permissions: []
+      Alternative-Prize:
+        Toggle: false
+        Commands: []
+        Items: []
+        Messages: []
+    '65':
+      DisplayName: '&7Auto Generated Prize #&665'
+      DisplayItem: STAINED_GLASS_PANE:14
+      DisplayAmount: 1
+      Lore: []
+      MaxRange: 100
+      Chance: 50
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2227
+        type: BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §e§l§nDetonate I
+          lore:
+          - §a100% Success Rate
+          - §c0% Destroy Rate
+          - §eChance to break in 3x3 area.
+          - §7Pickaxes Enchantment
+          - §7Drag n' drop onto item to enchant
+          internal: H4sIAAAAAAAAAONiYOBgYEnKz89mkEpMjS9LzMlMsU5JLcnPSyxJtTa0NrA2NDCwZgAAetU8OicAAAA=
+      Commands: []
+      Messages: []
+      BlackListed-Permissions: []
+      Alternative-Prize:
+        Toggle: false
+        Commands: []
+        Items: []
+        Messages: []
+    '66':
+      DisplayName: '&7Auto Generated Prize #&666'
+      DisplayItem: STAINED_GLASS_PANE:14
+      DisplayAmount: 1
+      Lore: []
+      MaxRange: 100
+      Chance: 50
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2227
+        type: BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §e§l§nBlock I
+          lore:
+          - §a100% Success Rate
+          - §c0% Destroy Rate
+          - §eA chance to redirect an attack.
+          - §7Sword Enchantment
+          - §7Drag n' drop onto item to enchant
+          internal: H4sIAAAAAAAAAONiYOBgYEnKz89mEE9MjS9LzMlMsU7KyU/Otja0NrA2NDCwZgAAty03MSQAAAA=
+      Commands: []
+      Messages: []
+      BlackListed-Permissions: []
+      Alternative-Prize:
+        Toggle: false
+        Commands: []
+        Items: []
+        Messages: []
+    '67':
+      DisplayName: '&7Auto Generated Prize #&667'
+      DisplayItem: STAINED_GLASS_PANE:14
+      DisplayAmount: 1
+      Lore: []
+      MaxRange: 100
+      Chance: 50
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2227
+        type: BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §e§l§nDodge I
+          lore:
+          - §a100% Success Rate
+          - §c0% Destroy Rate
+          - §eChance to dodge physical enemy
+          - §eattacks, increased chance if
+          - §esneaking.
+          - §7Armor Enchantment
+          - §7Drag n' drop onto item to enchant
+          internal: H4sIAAAAAAAAAONiYOBgYEnKz89mEE9MjS9LzMlMsU7JT0lPtTa0NrA2NDCwZgAARHMV2SQAAAA=
+      Commands: []
+      Messages: []
+      BlackListed-Permissions: []
+      Alternative-Prize:
+        Toggle: false
+        Commands: []
+        Items: []
+        Messages: []
+    '68':
+      DisplayName: '&7Auto Generated Prize #&668'
+      DisplayItem: STAINED_GLASS_PANE:14
+      DisplayAmount: 1
+      Lore: []
+      MaxRange: 100
+      Chance: 50
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2227
+        type: BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §e§l§nEnrage I
+          lore:
+          - §a100% Success Rate
+          - §c0% Destroy Rate
+          - §eDeal more damage on low HP.
+          - §7Swords Enchantment
+          - §7Drag n' drop onto item to enchant
+          internal: H4sIAAAAAAAAAONiYOBgYEnKz89mkEhMjS9LzMlMsU7NK0pMT7U2tDawNjQwsGYAANr7CLAlAAAA
+      Commands: []
+      Messages: []
+      BlackListed-Permissions: []
+      Alternative-Prize:
+        Toggle: false
+        Commands: []
+        Items: []
+        Messages: []
+    '69':
+      DisplayName: '&7Auto Generated Prize #&669'
+      DisplayItem: STAINED_GLASS_PANE:14
+      DisplayAmount: 1
+      Lore: []
+      MaxRange: 100
+      Chance: 50
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2227
+        type: BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §e§l§nGuardians I
+          lore:
+          - §a100% Success Rate
+          - §c0% Destroy Rate
+          - §eA chance to spawn iron golems to
+          - §eassist you and watch over you.
+          - §7Armor Enchantment
+          - §7Drag n' drop onto item to enchant
+          internal: H4sIAAAAAAAAAONiYOBgYEnKz89mkE5MjS9LzMlMsU4vTSxKyUzMK7Y2tDawNjQwsGYAAGAzkhEoAAAA
+      Commands: []
+      Messages: []
+      BlackListed-Permissions: []
+      Alternative-Prize:
+        Toggle: false
+        Commands: []
+        Items: []
+        Messages: []
+    '70':
+      DisplayName: '&7Auto Generated Prize #&670'
+      DisplayItem: STAINED_GLASS_PANE:14
+      DisplayAmount: 1
+      Lore: []
+      MaxRange: 100
+      Chance: 50
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2227
+        type: BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §e§l§nIce Aspect I
+          lore:
+          - §a100% Success Rate
+          - §c0% Destroy Rate
+          - §eA chance of causing the slowness
+          - §eeffect on your enemy.
+          - §7Swords Enchantment
+          - §7Drag n' drop onto item to enchant
+          internal: H4sIAAAAAAAAAONiYOBgYEnKz89mkE5MjS9LzMlMsc5MTk0sLkhNLrE2tDawNjQwsGYAAEpFfXkoAAAA
+      Commands: []
+      Messages: []
+      BlackListed-Permissions: []
+      Alternative-Prize:
+        Toggle: false
+        Commands: []
+        Items: []
+        Messages: []
+    '71':
+      DisplayName: '&7Auto Generated Prize #&671'
+      DisplayItem: STAINED_GLASS_PANE:14
+      DisplayAmount: 1
+      Lore: []
+      MaxRange: 100
+      Chance: 50
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2227
+        type: BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §e§l§nImplants I
+          lore:
+          - §a100% Success Rate
+          - §c0% Destroy Rate
+          - §ePassively heals +1 health
+          - §eand restores +1 hunger every few seconds
+          - §7Helmets Enchantment
+          - §7Drag n' drop onto item to enchant
+          internal: H4sIAAAAAAAAAONiYOBgYEnKz89mkEpMjS9LzMlMsc7MLchJzCsptja0NrA2NDCwZgAAuhxs3ScAAAA=
+      Commands: []
+      Messages: []
+      BlackListed-Permissions: []
+      Alternative-Prize:
+        Toggle: false
+        Commands: []
+        Items: []
+        Messages: []
+    '72':
+      DisplayName: '&7Auto Generated Prize #&672'
+      DisplayItem: STAINED_GLASS_PANE:14
+      DisplayAmount: 1
+      Lore: []
+      MaxRange: 100
+      Chance: 50
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2227
+        type: BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §e§l§nObsidianshield I
+          lore:
+          - §a100% Success Rate
+          - §c0% Destroy Rate
+          - §eGives permanent fire resistance.
+          - §7Armor Enchantment
+          - §7Drag n' drop onto item to enchant
+          internal: H4sIAAAAAAAAAONiYOBgYEnKz89mUEhMjS9LzMlMsc5PKs5MyUzMK87ITM1JsTa0NrA2NDCwZgAAAvBBNC0AAAA=
+      Commands: []
+      Messages: []
+      BlackListed-Permissions: []
+      Alternative-Prize:
+        Toggle: false
+        Commands: []
+        Items: []
+        Messages: []
+    '73':
+      DisplayName: '&7Auto Generated Prize #&673'
+      DisplayItem: STAINED_GLASS_PANE:14
+      DisplayAmount: 1
+      Lore: []
+      MaxRange: 100
+      Chance: 50
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2227
+        type: BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §e§l§nPiercing I
+          lore:
+          - §a100% Success Rate
+          - §c0% Destroy Rate
+          - §eInflicts more damage.
+          - §7Bows Enchantment
+          - §7Drag n' drop onto item to enchant
+          internal: H4sIAAAAAAAAAONiYOBgYEnKz89mkEpMjS9LzMlMsS7ITC1KzsxLtza0NrA2NDCwZgAAE2u2KScAAAA=
+      Commands: []
+      Messages: []
+      BlackListed-Permissions: []
+      Alternative-Prize:
+        Toggle: false
+        Commands: []
+        Items: []
+        Messages: []
+    '74':
+      DisplayName: '&7Auto Generated Prize #&674'
+      DisplayItem: STAINED_GLASS_PANE:14
+      DisplayAmount: 1
+      Lore: []
+      MaxRange: 100
+      Chance: 50
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2227
+        type: BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §e§l§nDominate I
+          lore:
+          - §a100% Success Rate
+          - §c0% Destroy Rate
+          - §eChance to weaken enemy players on hit,
+          - §ecausing them to deal less damage.
+          - §7Sword Enchantment
+          - §7Drag n' drop onto item to enchant
+          internal: H4sIAAAAAAAAAONiYOBgYEnKz89mkEpMjS9LzMlMsU7Jz83MSyxJtTa0NrA2NDCwZgAAke62EScAAAA=
+      Commands: []
+      Messages: []
+      BlackListed-Permissions: []
+      Alternative-Prize:
+        Toggle: false
+        Commands: []
+        Items: []
+        Messages: []
+    '75':
+      DisplayName: '&7Auto Generated Prize #&675'
+      DisplayItem: STAINED_GLASS_PANE:14
+      DisplayAmount: 1
+      Lore: []
+      MaxRange: 100
+      Chance: 50
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2227
+        type: BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §e§l§nEnder Walker I
+          lore:
+          - §a100% Success Rate
+          - §c0% Destroy Rate
+          - §eWither and Poison do not injur
+          - §eand have a chance to heal at high levels.
+          - §7Boots Enchantment
+          - §7Drag n' drop onto item to enchant
+          internal: H4sIAAAAAAAAAONiYOBgYEnKz89mkE1MjS9LzMlMsU7NS0ktKk/MyU4tsja0NrA2NDCwZgAAV3vqsCoAAAA=
+      Commands: []
+      Messages: []
+      BlackListed-Permissions: []
+      Alternative-Prize:
+        Toggle: false
+        Commands: []
+        Items: []
+        Messages: []
+    '76':
+      DisplayName: '&7Auto Generated Prize #&676'
+      DisplayItem: STAINED_GLASS_PANE:14
+      DisplayAmount: 1
+      Lore: []
+      MaxRange: 100
+      Chance: 50
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2227
+        type: BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §e§l§nPacify I
+          lore:
+          - §a100% Success Rate
+          - §c0% Destroy Rate
+          - §eA chance to pacify your target,
+          - §epreventing them from building rage stacks for
+          - §e1-3 seconds depending on level.
+          - §7Bow Enchantment
+          - §7Drag n' drop onto item to enchant
+          internal: H4sIAAAAAAAAAONiYOBgYEnKz89mkEhMjS9LzMlMsS5ITM5Mq7Q2tDawNjQwsGYAANvPCeYlAAAA
+      Commands: []
+      Messages: []
+      BlackListed-Permissions: []
+      Alternative-Prize:
+        Toggle: false
+        Commands: []
+        Items: []
+        Messages: []
+    '77':
+      DisplayName: '&7Auto Generated Prize #&677'
+      DisplayItem: STAINED_GLASS_PANE:14
+      DisplayAmount: 1
+      Lore: []
+      MaxRange: 100
+      Chance: 50
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2227
+        type: BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §e§l§nMetaphysical I
+          lore:
+          - §a100% Success Rate
+          - §c0% Destroy Rate
+          - §eA chance to be immune of Slowness.
+          - §eAt max level, you will only be
+          - §eaffected approx. 10% of the time.
+          - §7Boots Enchantment
+          - §7Drag n' drop onto item to enchant
+          internal: H4sIAAAAAAAAAONiYOBgYEnKz89mkEtMjS9LzMlMsc5NLUksyKgszkxOzLE2tDawNjQwsGYAAEtKj0srAAAA
+      Commands: []
+      Messages: []
+      BlackListed-Permissions: []
+      Alternative-Prize:
+        Toggle: false
+        Commands: []
+        Items: []
+        Messages: []
+    '78':
+      DisplayName: '&7Auto Generated Prize #&678'
+      DisplayItem: STAINED_GLASS_PANE:14
+      DisplayAmount: 1
+      Lore: []
+      MaxRange: 100
+      Chance: 50
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2227
+        type: BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §e§l§nCreeper Armor I
+          lore:
+          - §a100% Success Rate
+          - §c0% Destroy Rate
+          - §eImmune to explosive damage, at
+          - §ehigher levels you take no knockback from them
+          - §eand they have a chance to heal you.
+          - §7Armor Enchantment
+          - §7Drag n' drop onto item to enchant
+          internal: H4sIAAAAAAAAAONiYOBgYEnKz89mkEtMjS9LzMlMsU4uSk0tSC1KLMrNL7I2tDawNjQwsGYAAG2uq6wrAAAA
+      Commands: []
+      Messages: []
+      BlackListed-Permissions: []
+      Alternative-Prize:
+        Toggle: false
+        Commands: []
+        Items: []
+        Messages: []
+    '79':
+      DisplayName: '&7Auto Generated Prize #&679'
+      DisplayItem: STAINED_GLASS_PANE:14
+      DisplayAmount: 1
+      Lore: []
+      MaxRange: 100
+      Chance: 50
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2227
+        type: BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §e§l§nEagle Eye I
+          lore:
+          - §a100% Success Rate
+          - §c0% Destroy Rate
+          - §eChance to deal 1-4 durability damage to
+          - §eALL armor pieces of enemy player.
+          - §7Bow Enchantment
+          - §7Drag n' drop onto item to enchant
+          internal: H4sIAAAAAAAAAONiYOBgYEnKz89mkEpMjS9LzMlMsU5NTM9JTa1MtTa0NrA2NDCwZgAA1PTaaScAAAA=
+      Commands: []
+      Messages: []
+      BlackListed-Permissions: []
+      Alternative-Prize:
+        Toggle: false
+        Commands: []
+        Items: []
+        Messages: []
+    '80':
+      DisplayName: '&7Auto Generated Prize #&680'
+      DisplayItem: STAINED_GLASS_PANE:14
+      DisplayAmount: 1
+      Lore: []
+      MaxRange: 100
+      Chance: 50
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2227
+        type: BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §e§l§nSpirits I
+          lore:
+          - §a100% Success Rate
+          - §c0% Destroy Rate
+          - §eChance to spawn blazes that heal
+          - §eyourself and your allies in combat.
+          - §7Armor Enchantment
+          - §7Drag n' drop onto item to enchant
+          internal: H4sIAAAAAAAAAONiYOBgYEnKz89mkExMjS9LzMlMsS4uyCzKLCm2NrQ2sDY0MLBmAADGDBBcJgAAAA==
+      Commands: []
+      Messages: []
+      BlackListed-Permissions: []
+      Alternative-Prize:
+        Toggle: false
+        Commands: []
+        Items: []
+        Messages: []
+    '81':
+      DisplayName: '&7Auto Generated Prize #&681'
+      DisplayItem: STAINED_GLASS_PANE:14
+      DisplayAmount: 1
+      Lore: []
+      MaxRange: 100
+      Chance: 50
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2227
+        type: BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §e§l§nHeavy I
+          lore:
+          - §a100% Success Rate
+          - §c0% Destroy Rate
+          - §eDecreases damage from enemy bows
+          - §eby 2% per level.
+          - §7Armor Enchantment
+          - §7Drag n' drop onto item to enchant
+          internal: H4sIAAAAAAAAAONiYOBgYEnKz89mEE9MjS9LzMlMsc5ITSyrtDa0NrA2NDCwZgAAt0SpYCQAAAA=
+      Commands: []
+      Messages: []
+      BlackListed-Permissions: []
+      Alternative-Prize:
+        Toggle: false
+        Commands: []
+        Items: []
+        Messages: []
+    '82':
+      DisplayName: '&7Auto Generated Prize #&682'
+      DisplayItem: STAINED_GLASS_PANE:14
+      DisplayAmount: 1
+      Lore: []
+      MaxRange: 100
+      Chance: 50
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2227
+        type: BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §e§l§nHellfire I
+          lore:
+          - §a100% Success Rate
+          - §c0% Destroy Rate
+          - §eAll arrows shot by you turn
+          - §einto explosive fireballs.
+          - §7Bow Enchantment
+          - §7Drag n' drop onto item to enchant
+          internal: H4sIAAAAAAAAAONiYOBgYEnKz89mkEpMjS9LzMlMsc5IzclJyyxKtTa0NrA2NDCwZgAAYw/rJCcAAAA=
+      Commands: []
+      Messages: []
+      BlackListed-Permissions: []
+      Alternative-Prize:
+        Toggle: false
+        Commands: []
+        Items: []
+        Messages: []
+    '83':
+      DisplayName: '&7Auto Generated Prize #&683'
+      DisplayItem: STAINED_GLASS_PANE:14
+      DisplayAmount: 1
+      Lore: []
+      MaxRange: 100
+      Chance: 50
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2227
+        type: BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §e§l§nValor I
+          lore:
+          - §a100% Success Rate
+          - §c0% Destroy Rate
+          - §eReduces incoming damage while
+          - §ewielding a sword by up to 22.5%.
+          - §7Armor Enchantment
+          - §7Drag n' drop onto item to enchant
+          internal: H4sIAAAAAAAAAONiYOBgYEnKz89mEE9MjS9LzMlMsQaS+UXWhtYG1oYGBtYMAMF8qCUkAAAA
+      Commands: []
+      Messages: []
+      BlackListed-Permissions: []
+      Alternative-Prize:
+        Toggle: false
+        Commands: []
+        Items: []
+        Messages: []
+    '84':
+      DisplayName: '&7Auto Generated Prize #&684'
+      DisplayItem: STAINED_GLASS_PANE:14
+      DisplayAmount: 1
+      Lore: []
+      MaxRange: 100
+      Chance: 50
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2227
+        type: BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §e§l§nTank I
+          lore:
+          - §a100% Success Rate
+          - §c0% Destroy Rate
+          - §eDecreases damage from enemy
+          - §eaxes by 1.85% per level.
+          - §7Armor Enchantment
+          - §7Drag n' drop onto item to enchant
+          internal: H4sIAAAAAAAAAONiYOBgYEnKz89mEEtMjS9LzMlMsS5JzMu2NrQ2sDY0MLBmAAAtDB9aIwAAAA==
+      Commands: []
+      Messages: []
+      BlackListed-Permissions: []
+      Alternative-Prize:
+        Toggle: false
+        Commands: []
+        Items: []
+        Messages: []
+    '85':
+      DisplayName: '&7Auto Generated Prize #&685'
+      DisplayItem: STAINED_GLASS_PANE:14
+      DisplayAmount: 1
+      Lore: []
+      MaxRange: 100
+      Chance: 50
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2227
+        type: BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §e§l§nDisintegrate I
+          lore:
+          - §a100% Success Rate
+          - §c0% Destroy Rate
+          - §eChance to deal double durability damage to
+          - §eall enemy armor with every attack.
+          - §7Sword Enchantment
+          - §7Drag n' drop onto item to enchant
+          internal: H4sIAAAAAAAAAONiYOBgYEnKz89mkEtMjS9LzMlMsU7JLM7MK0lNL0osSbU2tDawNjQwsGYAADQA9qYrAAAA
+      Commands: []
+      Messages: []
+      BlackListed-Permissions: []
+      Alternative-Prize:
+        Toggle: false
+        Commands: []
+        Items: []
+        Messages: []
+    '86':
+      DisplayName: '&7Auto Generated Prize #&686'
+      DisplayItem: STAINED_GLASS_PANE:14
+      DisplayAmount: 1
+      Lore: []
+      MaxRange: 100
+      Chance: 50
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2227
+        type: BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §e§l§nUnfocus I
+          lore:
+          - §a100% Success Rate
+          - §c0% Destroy Rate
+          - §eChance to Unfocus target player,
+          - §ereducing their out going bow damage
+          - §eby 50% for up to 10 seconds.
+          - §7Bow Enchantment
+          - §7Drag n' drop onto item to enchant
+          internal: H4sIAAAAAAAAAONiYOBgYEnKz89mkExMjS9LzMlMsS7NS8tPLi22NrQ2sDY0MLBmAAAY1rsZJgAAAA==
+      Commands: []
+      Messages: []
+      BlackListed-Permissions: []
+      Alternative-Prize:
+        Toggle: false
+        Commands: []
+        Items: []
+        Messages: []
+    '87':
+      DisplayName: '&7Auto Generated Prize #&687'
+      DisplayItem: STAINED_GLASS_PANE:14
+      DisplayAmount: 1
+      Lore: []
+      MaxRange: 100
+      Chance: 50
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2227
+        type: BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §e§l§nLongbow I
+          lore:
+          - §a100% Success Rate
+          - §c0% Destroy Rate
+          - §eGreatly increases damage dealt
+          - §eto enemy players that have
+          - §ea bow in their hands.
+          - §7Bow Enchantment
+          - §7Drag n' drop onto item to enchant
+          internal: H4sIAAAAAAAAAONiYOBgYEnKz89mkExMjS9LzMlMsc7Jz0tPyi+3NrQ2sDY0MLBmAAACJ4S2JgAAAA==
       Commands: []
       Messages: []
       BlackListed-Permissions: []
