@@ -1,0 +1,150 @@
+# 
+# Your database information should go here.# 
+SQLite: false
+sql:
+  host: 127.0.0.1
+  port: '3306'
+  database: database
+  user: user
+  pass: password
+auction:
+  listingPrice: 2
+  listingHours: 48
+  unclaimedHours: 240
+  preventCreativeSale: true
+  maxSellPrice: 1000000000000
+Faikkitlist:
+- '1000'
+- '1001:12'
+- '12333:4'
+FaikkitlistLore:
+- Faikkitlisted Line Of Lore
+language:
+  mainMenuName: Licitatii
+  currentListingsMenuName: Listarile Tale
+  expiredMenuName: Iteme expirate / anulate
+  purchaseItemMenuName: 'Cumpara Item: Esti sigur?'
+  menuItemText:
+    listedItem:
+      lore:
+      - '&7&m-------------------------'
+      - '&2Click pentru a cumpara.'
+      - ''
+      - '&fPret: &2$%price%'
+      - '&fVanzator: &2%seller%'
+      - '&7&m-------------------------'
+    yourListedItem:
+      lore:
+      - '&7&m-------------------------'
+      - '&2Click pentru a anula.'
+      - ''
+      - '&fPret: &2$%price%'
+      - '&fExpira: &2%time%'
+      - '&7&m-------------------------'
+    yourExpiredItem:
+      lore:
+      - '&7&m-------------------------'
+      - '&fClick pentru a primi item-ul inapoi.'
+      - '&7&m-------------------------'
+    yourListedItems:
+      id: '264'
+      name: '&2Itemele pe care le vinzi'
+      lore:
+      - '&fClick pentru a vedea toate itemele'
+      - '&fcare le vinzi.'
+      - ''
+      - '&fVinzi: &2%selling% iteme'
+    yourExpiredItems:
+      id: '394'
+      name: '&2Colecteaza itemele anulate / expirate'
+      lore:
+      - '&fClick pentru a vedea si a colecta'
+      - '&fitemele pe care le-ai anulat sau'
+      - '&fcare au expirat.'
+      - ''
+      - '&2Items To Collect: &e%expired%'
+    returnAllItems:
+      id: '390'
+      name: '&2Colecteaza toate itemele'
+      lore:
+      - '&fClick pentru a returna toate itemele'
+      - '&fanulate si expirate.'
+    previousPage:
+      id: '339'
+      name: '&2Pagina Trecuta'
+    refreshPage:
+      id: '175'
+      name: '&2Reincarca Pagina'
+    nextPage:
+      id: '339'
+      name: '&2Urmatoarea Pagina'
+    backButton:
+      id: '339'
+      name: '&2Inapoi'
+    howToSell:
+      id: '388'
+      name: '&2Cum sa vinzi un Item'
+      lore:
+      - '&fPentru a lista un item'
+      - '&ffoloseste comanda &2/ah sell <pret>'
+      - '&fin timp ce tii item-ul in mana.'
+    mainWhatIsThisPage:
+      id: '340'
+      name: '&2Ce este aceasta pagina?'
+      lore:
+      - '&fAceasta pagina este pagina cu'
+      - '&flicitatii, de unde poti sa cumperi'
+      - '&f sau sa vinzi iteme.'
+    yourListedWhatIsThisPage:
+      id: '340'
+      name: '&2Ce este aceasta pagina?'
+      lore:
+      - '&fAceste iteme sunt itemele pe care le-ai'
+      - '&fle-ai listat in meniul de licitatii.'
+      - ''
+      - '&fPoti anula listarile aici, oricand.'
+    expiredWhatIsThisPage:
+      id: '340'
+      name: '&2Ce este aceasta pagina?'
+      lore:
+      - '&fAceasta pagina este pagina de unde iti'
+      - '&afpoti lua itemele anulate sau expirate.'
+      - ''
+      - '&fApasa pe item si daca ai destul loc in inventar'
+      - '&fiti vei primi item-ul inapoi.'
+    purchaseConfirm:
+      name: '&a&lCONFIRMA'
+    purchaseCancel:
+      name: '&c&lANULEAZA'
+    purchaseItem:
+      lore:
+      - ''
+      - '&fPret: &2$%price%'
+      - '&fVanzator: &2%seller%'
+  clickFails:
+    notEnoughInventory: Nu ai destul loc in inventar.
+    cannotPurchaseSelf: Nu iti poti cumpara propriul item. :|
+    notExists: Acest item a fost luat de alt cineva.
+    cannotAfford: Nu ai destui bani pentru a cumpara acest item.
+    noListingsToReturn: Nu ai listat nimic.
+  chatMessages:
+    itemPurchased: '&fItem &2cumparat&f!'
+    buyerPurchased: '&2%buyer% &fa castigat licitatia cu &2$%price%&f!'
+    listedItem: '&fAi listat un item &2cu succes&f.'
+    listingCancel: '&eYou have &2cancelled &ean auction. Return cancelled and expired
+      items at &2/ah expired&e.'
+    adminRemoveListing: '&eListing Removed.'
+    expiredReturned: '&eItem &2returned &eto your inventory.'
+    notEnoughInventory: '&cYou do not have enough inventory space.'
+    returnedAll: '&2All &eexpired listings have been &2returned&e.'
+    unknownCommand: '&cUnknown command. Use /ah help for auction commands.'
+    notHoldingItem: '&cYou are not holding an item in your hand.'
+    inCreative: '&cYou cannot sell items while in creative.'
+    noMore: '&cYou can not list any more items at once.'
+    max: '&cYou cannot list more than 45 items at a time.'
+    invalidPrice: '&cThat is not a valid price.'
+    maxMoney: '&cYou can not list with a price higher than $999,999,999.'
+    maxSetMoney: '&cYou can not list with a price higher than $1,000,000,000,000'
+    notEnoughMoney: '&cYou do not have enough money to list an auction.'
+    getHelp: '&cUse /ah help for help.'
+    isEnderLandlisted: '&cThat item is not allowed to be put on the auction house!'
