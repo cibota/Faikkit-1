@@ -1,0 +1,75 @@
+############################################################
+# +-------- Designed and Developed by JackProehl --------+ #
+# |    Please consider donating to my PayPal account.    | #
+# +----------------- JohnProehl@me.com ------------------+ #
+############################################################
+
+# **** WATCH VIDEO ON PLUGIN PAGE FOR CONFIG HELP! **** 
+# **** http://dev.bukkit.org/server-mods/combatlog **** 
+
+# Add me on Skype (John.Proehl) if you have any issues.
+
+# Please report all bugs and glitches on BukkitDev.
+
+# Do not backspace the Version number!
+Version: 1.7.11
+
+############################################################
+# +------------------------------------------------------+ #
+# |                       Messages                       | #
+# +------------------------------------------------------+ #
+############################################################
+
+# TO DISABLE A MESSAGE, SET IT AS 'false'!
+
+# Message sent to ops to notify them of a CombatLog update.
+UpdateCheckMessage: ''
+
+# Custom message of the day that can be turned off in the config.yml.
+MOTDMessage: ''
+
+# Broadcast that it sent when a player CombatLogs.
+# "<player>" is replaced with the name of the CombatLogger.
+BroadcastMessage: '&2&lFaikkit &c➽ &b<player> &fA iesit in timpul luptei!'
+
+# Message sent to a player when he attacks someone or something.
+TaggerMessage: '&2&lFaikkit &c➽ &fL-ai lovit pe &b<name>&f. Nu iesi de pe server!'
+
+# Message sent to a player when he has been attacked by someone or something.
+TaggedMessage: '&2&lFaikkit &c➽ &b<name> te-a lovit. Nu iesi de pe server!'
+
+# Message sent to the player when his tag duration is over.
+UntagMessage: '&2&lFaikkit &c➽ &bAi iesit din Combat.'
+
+# Message sent to a player when he types /ct to check his remaining Tag time.
+InCombatMessage: '&2&lFaikkit &c➽ &fAi intrat in combat timp de &b<time> &fsecunde.'
+
+# Message sent to a player who types /ct if he is not in Combat.
+NotInCombatMessage: '&2&lFaikkit &c➽ &fNu mai esti in Combat.'
+
+# Message sent to the player when his creative and/or fly mode is removed.
+RemoveModesMessage: '&2&lFaikkit &c➽ &fAvantajele tale au fost sterse / dezactivate.'
+
+# Message sent to the player when his potion effects are removed.
+RemovePotionsMessage: '&2&lFaikkit &c➽ &fEfectele tale au fost sterse.'
+
+# Message sent when the player attempts to use a blocked command.
+BlockCommandsMessage: '&2&lFaikkit &c➽ &fNu poti folosi comenzi cat timp esti in Combat.'
+
+# Message sent when the player attempts to teleport.
+BlockTeleportationMessage: '&2&lFaikkit &c➽ &fNu te poti teleporta cat timp esti in combat.'
+
+# Message sent when the player attempts to use an enderpearl.
+BlockEnderpearlsMessage: '&2&lFaikkit &c➽ &fNu poti folosi Ender Pearl-uri in Combat.'
+
+# Message sent to the CombatLogger upon logging back in after being fined for CombatLogging.
+FineMessage: '&2&lFaikkit &c➽ &fAi fost omorat pentru ca ai iesit in timpul luptei!'
+
+# Message sent to the CombatLogger upon logging back in after having his belongings dropped for CombatLogging.
+DropMessage: '&2&lFaikkit &c➽ &fAi fost omorat pentru ca ai iesit in timpul luptei!'
+
+# Message sent to the CombatLogger upon logging back in after being killed for CombatLogging.
+KillMessage: '&2&lFaikkit &c➽ &fAi fost omorat pentru ca ai iesit in timpul luptei!'
+
+# Message sent to the CombatLogger upon logging back in after being temporarily banned for CombatLogging.
+BanMessage: '&2&lFaikkit &c➽ &fAi fost banat timp de &b<time> &fpentru ca ai iesit in timpul luptei.'
