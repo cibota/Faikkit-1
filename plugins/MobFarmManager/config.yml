@@ -30,7 +30,7 @@ EntitySpawn:
   PreventMobBuild: false
   # If this set to true, chunks will be grouped up and counted as one. In example with range 2 all 10 chunks will be counted as one and limits will be used as for one chunk
   # This will give wider range of mob cleaning
-  GroupChunks: false
+  GroupChunks: true
   GroupChunksRadius: 2
 AutoClean:
   #  
@@ -45,7 +45,7 @@ AutoClean:
   # Set to 0 if you want to disable limit
   MaxRemoved: 0
   # When set to true and value for ChunkRadius is provided, we will group more then one chunk into check
-  GroupChunks: false
+  GroupChunks: true
   # Range around player in chunks to check. 2 means that 9 chunks will be checked, 3 - 25 chunks and so on
   # Max value is 5 to avoid unnecessary load on server
   ChunkRadius: 2
@@ -167,6 +167,7 @@ EntityGroups:
     - Cave_Spider
     - Pig_Zombie
     - Enderman
+    - Pillager
 #  
 # This list is automaticaly filled with ALL posible entities in game, so some of them can just not work until future update
 # If you not sure what is that entity, then keep it at -1 limit, to not limit its spawning
