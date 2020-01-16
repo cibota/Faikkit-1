@@ -71,11 +71,11 @@ lines:
     - '&7• Grad: &r{placeholderapi_cmi_user_prefix}'
     interval: 50
     random: false
-  rank:
-    frames:
-    - '&7• Rank: &r{placeholderapi_cmi_user_rank}'
-    interval: 50
-    random: false
+#  rank:
+#    frames:
+#    - '&7• Rank: &r{placeholderapi_cmi_user_rank}'
+#    interval: 50
+#    random: false
   spacer2:
     frames: []
     interval: 100
