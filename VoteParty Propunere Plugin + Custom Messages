@@ -1,0 +1,95 @@
+# VoteParty 1.3.4.1 configuration file
+check_updates: true
+party:
+  total_votes_needed_for_party: 50
+  max_possible_rewards_per_player: 7
+  start_delay_in_seconds: 5
+  player_must_vote_to_participate: false
+  use_no_luck_commands: false
+  allow_duplicate_no_luck_commands: false
+  max_no_luck_commands: 1
+  no_luck_commands:
+  - eco give @p 1
+  reward_command_delay: 2
+  reward_commands:
+  - eco give @p 100;0
+  - eco give @p 1000;0
+  - crate gk @p Spawners 1;3
+  - crate gk @p DropParty 2;3
+  - crate gk @p DropParty 2;3
+  - crate gk @p VoteCrate 2;1
+  - give @p diamond_block 6;3
+  - crate gk @p VoteCrate 3;3
+  - crate gk @p VoteCrate 2;2
+  - give @p emerald_block 1;1
+  - p give @p 20
+  use_global_party_start_commands: false
+  global_party_start_commands:
+  - broadcast Party Starting!
+  - save-all
+  disabled_worlds:
+  - world_nether
+  allow_offline_votes: true
+  use_global_pre_party_start_commands: false
+  global_pre_party_start_commands:
+  - broadcast Party will start soon!
+effects:
+  on_vote:
+    enabled: true
+    effects:
+    - flames
+    - hearts
+  on_party_start:
+    enabled: true
+    effects:
+    - glyph
+    - hearts
+  on_party_command_execute:
+    enabled: true
+    effects:
+    - smoke
+    - hearts
+crate:
+  use_crate: false
+  material_or_id: 33
+  data: 7
+  displayname: '&b&lVote&f&lParty &7Crate'
+  lore:
+  - '&aPlace me &e:)'
+messages:
+  broadcast_vote_recieved: true
+  vote_recieved: '&b✱ &3%player% &fa votat serverul&! &fInca &c%votes% voturi &fpana
+    la event&f!'
+  broadcast_party_start: true
+  party_broadcast: '&b✱ &fEvent-ul VoteParty &fva incepe in &c%delay% secunde&f!'
+  crate_added_to_inventory: '&b✱ &fA reward crate has been added to your inventory!'
+  no_reward: '&8[&6Vote&fParty&8] &6Aww you didn''t get any rewards this time!'
+  did_not_vote: '&8[&6Vote&fParty&8] &eYou didn''t vote to be able to participate
+    in this VoteParty!'
+  reward: '&b✱ &fEvent-ul s-a terminat!'
+  commands:
+    voteparty: '&b✱ &fVoturi necesare: &c%votes%'
+    give_crate: '&b✱ &eYou just got %amount% VoteCrate(s)'
+    private_party: '&8[&6Vote&fParty&8] &eEnjoy your personal VoteParty!'
+    ignore_toggle_on: '&8[&6Vote&fParty&8] &7You will no longer participate in VoteParties!'
+    ignore_toggle_off: '&8[&6Vote&fParty&8] &fYou will now participate in VoteParties!'
+  crate_disabled_in_world: '&8[&6Vote&fParty&8] &cYou can''t open a party crate in
+    your current world!'
+scoreboard:
+  enabled: true
+  display_time: 5
+  title: '&bVote&fParty'
+  message: '&bVotes needed'
+per_vote_rewards:
+  enabled: true
+  max_possible_rewards: 1
+  reward_commands:
+  - eco give @p 10;0
+  - give @p steak 8;0
+on_vote_global_commands:
+  enabled: true
+  ommands:
+  - broadcast Only %votes% more votes until a VoteParty!
+  commands:
+  - broadcast &b✱ &fInca &c%votes% voturi &fpana la event!
+save: 7
