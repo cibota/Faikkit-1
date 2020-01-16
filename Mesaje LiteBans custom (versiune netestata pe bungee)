@@ -1,0 +1,260 @@
+time_format: YYYY-MM-dd
+history_time_format: YYYY-MM-dd
+banned_message_base: |
+  &fEsti banat pe acest server!
+
+  &fBanat la&8: &2$bannedFrom
+  &fBanat de&8: &2$displayName
+  &fMotiv&8: &2$reason&f
+banned_message: |-
+  &f$base
+  &fExpira in&8: &2$banTimeLeft
+  &f$appealMessage
+banned_message_permanent: |-
+  &f$base
+  &fEsti banat permanent pe acest server!
+  &f$appealMessage
+banned_message_appeal_message: 'Aplica o cerere de unban pe&8: &2faikkit.faicu.ro'
+banned_message_geoip_blacklist: |-
+  &fEsti banat pe acest server!
+
+  Your location is blacklisted:  $geoip
+default_ban_reason: Motiv default
+default_mute_reason: Motiv default
+permission_error: '&fNu ai permisiunea de a face asta.'
+muted: '&fAi mute pentru inca (&2$duration remaining&f).'
+muted_permanent: '&fAi mute permanent.'
+notify:
+  banned_player_join: '&fJucatorul &2$player &fa intrat sa se conecteze, dar are ban
+    pentru inca ($duration).'
+  banned_geoip_blacklist: '&fJucatorul &2$player &fa incercat sa se conecteze, dar
+    este pe lista neagra (&2$geoip&f).'
+error_no_sql_connection: '&fPluginul nu este conectat la o baza de date.'
+internal_error: '&fA avut loc o eroare cand s-a incercat efectuarea acestei comenzi.'
+duration_limit_error: '&fMaximum duration allowed&8: &2$duration'
+warned_join: '&fAi noi avertismente:'
+warned_join_entry: |-
+  &fAvertisment primit de la &2$displayName &fpentru '&2$reason&f'.
+     &f(&2$timeSince ago&f)
+command:
+  ban:
+    usage: '&fFoloseste&8: &2/ban <jucator> <durata> <motiv>'
+    unban_usage: '&fFoloseste&8: &2/unban <jucator>'
+    example: '&fExemplu&8: &2/ban Jucator 30d Test'
+    silent_prefix: '&fSILENTIOS '
+    broadcast_ban: '&2$banningPlayer &fi-a dat ban permanent lui &2$bannedPlayer &fpentru
+      ''&2$reason&f''.'
+    broadcast_tempban: '&2$banningPlayer &fi-a dat ban temporar lui &2$bannedPlayer
+      &fpentru &2$tempDuration &fpentru ''&2$reason&f''.'
+    broadcast_ip_ban: '&2$banningPlayer &fi-a dat ban permanent pe IP lui &2$bannedPlayer
+      &fpentru ''&2$reason&f''.'
+    broadcast_temp_ip_ban: '&2$banningPlayer &fi-a dat ban temporar pe IP lui &2$bannedIP
+      &fpentru &2$tempDuration &fpentru ''&2$reason&f''.'
+    broadcast_ip_ban_hidden: '[IP Ascuns]'
+    broadcast_unban: '&2$displayName &fi-a dat unban lui &2$bannedPlayer&f.'
+    previous_ban_removed: '&fI-ai sters ban-ul anterior lui &2$bannedPlayer&f.'
+    previous_ban_existing: '&2$bannedPlayer &fare deja ban, iar tu nu ai permisiunea
+      de a-i prelungi ban-ul.'
+    unban_queue: '&fDaca se reconecteaza, vor primi unban.'
+    error_no_spec: '&fSeteaza o durata.'
+    unban_fail: '&fJucatorul nu are ban.'
+    exempt: '&fNu ii poti da ban lui &2$player&f!'
+    broadcast_unmute: '&2$displayName &fi-a dat unmute lui &2$bannedPlayer&f.'
+    no_override: '&fPlayer is already banned!'
+    response: ''
+  mute:
+    usage: '&fFoloseste&8: &2/mute <jucator> <durata> <motiv>'
+    unmute_usage: '&fFoloseste&8: &2/unmute <jucator>'
+    example: '&fExemplu&8: &2/mute Jucator 30min Test'
+    broadcast: '&2$displayName &fi-a dat mute permanent lui &2$mutedPlayer &fpentru
+      ''&2$reason&f''.'
+    broadcast_tempmute: '&2$displayName &fi-a dat mute temporar lui &2$mutedPlayer
+      &fpentru &2$tempDuration &fpentru ''&2$reason&f''.'
+    unmute_fail: '&fJucatorul nu are mute.'
+    previous_mute_removed: '&fI-ai sters mute-ul anterior lui &2$mutedPlayer&f.'
+    previous_mute_existing: '&2$mutedPlayer &fare deja mute, iar tu nu ai permisiunea
+      de a-i prelungi mute-ul.'
+    exempt: '&fNu ii poti da mute lui &2$player&f!'
+    error_not_enabled: '&fMute-ul nu este activat in configuratii.'
+    notification: '&2$mutedPlayer &fa incercat sa vorbeasca, dar are mute. Ofera-i
+      un warn daca continua.'
+    broadcast_ip_mute: '&2$displayName &fIP-muted &2$mutedPlayer &ffor ''&2$reason&f'''
+    broadcast_temp_ip_mute: '&2$displayName &ftemp IP-muted &2$mutedIP &ffor &2$tempDuration
+      &ffor ''&2$reason&f'''
+    message: |-
+      &fAi primit mute de la &2$displayName &fpentru &f'&2$reason&f'.
+      &fAcest mute expira in &2$duration&f.
+    message_permanent: |-
+      &fAi primit mute permanent de la &2$displayName &fpentru &f'&2$reason&f'.
+      &fAcest mute nu expira.
+    no_override: '&fAcest jucator are deja mute.'
+    response: ''
+  warn:
+    usage: '&fFolosete&8: &2/warn <jucator> <motiv>'
+    unwarn_usage: '&fFoloseste&8: &2/unwarn <jucator>'
+    example: ''
+    broadcast: '&2$displayName &fi-a dat un avertisment lui &2$warnedPlayer &fpentru
+      ''&2$reason&f''.'
+    message: |-
+      &fAi primit un avertisment de la &2$displayName &fpentru '&2$reason&f'.
+      Acest avertisment expira in &2$duration&f.
+    list_entry: '&fAvertisment primit de la &2$displayName &fpentru ''&2$reason&f''
+      (&2$timeSince ago&f).'
+    unwarn_response: '&fI-ai scos ultimul avertisment lui &2$player&f.'
+    unwarn_fail: '&fJucatorul nu are avertismente.'
+    exempt: '&fNu ii poti da avertisment lui &2$player&f!'
+    cooldown: '&fTrebuie sa astepti &2$seconds secunde &fpana sa ii poti da un avertisment
+      lui &2$player&f.'
+    response: ''
+  history:
+    usage: '&fFoloseste&8: &2/history <jucator> <intrari>'
+    start: '&fIstoricul pentru &2$target &fcu &2$limit &fintrari:'
+    ban_entry: |-
+      &fCu &2$timeSince &fin urma.
+      &2$name &fa primit ban de la &2$displayName &fpentru '&2$reason&f'.
+    mute_entry: |-
+      &fCu &2$timeSince &fin urma.
+      &2$name &fa primit mute de la &2$displayName &fpentru '&2$reason&f'.
+    warn_entry: |-
+      &fCu &2$timeSince &fin urma.
+      &2$name &fa primit un avertisment de la &2$displayName &fpentru '&2$reason&f'.
+    kick_entry: |-
+      &fCu &2$timeSince &fin urma.
+      &2$name &fa primit kick de la &2$displayName &fpentru '&2$reason&f'.
+    active_suffix: '&2&lActiv'
+    active_suffix_temp: |-
+      &2&lACTIV
+      &fExpira in &2$duration&f.
+    error_no_history: '&fNu s-a gasit niciun istoric pentru acest jucator.'
+    unban_entry: |2-
+
+       &2$displayName &fi-a scos ban-ul lui &2$name&f.
+    unmute_entry: |2-
+
+       &2$displayName &fi-a scos mute-ul lui &2$name&f.
+    expired_suffix: '&2&lEXPIRAT'
+  warnings:
+    usage: '&fFoloseste&8: &2/warnings <jucator>'
+    start: '&2$target &fare urmatoarele avertismente:'
+  prunehistory:
+    usage: '&fFoloseste&8: &2/prunehistory <jucator> <durata>'
+    message: '&fHistory pruned.'
+  staffhistory:
+    usage: '&fFoloseste&8: &2/staffhistory <jucator> <intrari>'
+    start: '&fSanctiunile oferite de catre &2$target &fcu &2$limit &fintrari:'
+  staffrollback:
+    usage: '&fFoloseste&8: &2/staffrollback <player> <durata>'
+    message: '&fTotalul de sanctiuni sterse a fost egal cu &2$amount &fsanctiuni.'
+  banlist:
+    start: -= Pagina &2$page &fdin &2$total &f=-
+  iphistory:
+    usage: '&fFoloseste&8: &2/iphistory <jucator> <intrari>'
+    start: '&fIstoricul logarilor lui &2$target &fcu &2$limit &fintrari:'
+    entry: '&f - [&f$date&f]&f $name&f:&f $ip'
+    error_no_history: '&fNu s-a gasit istoric al logarilor pentru acest jucator.'
+  dupeip:
+    usage: '&fFoloseste&8: &2/dupeip <jucator>'
+    start: '&fSe scaneaza jucatorul &2$name &fpe IP &2$ip&8: &f[&2Online&f] [&2Offline&f]
+      [&fBanned&f]'
+    separator: '&f, '
+    online: '&2'
+    offline: '&2'
+    banned: '&f'
+    multiple_addresses: '[$num addresses]'
+  ipreport:
+    start: '&fSe scaneaza &2$num&f jucatori online ... [&2Online&f] [&2Offline&f]
+      [&fBanned&f]'
+    entry: '&f$player&f: $result'
+  checkban:
+    usage: '&fFoloseste&8: &2/checkban <jucator>'
+    no_ban: '&fJucatorul nu are ban.'
+    banned: |-
+      &fJucatorul &2$target &fare ban:
+      &fBanat de&8: &2$displayName
+      &fMotiv&8: &2$reason
+      &fBanat la&8: &2$bannedFrom
+      &fBanat pana la&8: &2$bannedUntil ($banTimeLeft)
+      &fBan ip&8: &2$ipban, silent&8: &2$silent, permanent&8: &2$permanent
+  lastuuid:
+    usage: '&fFoloseste&8: &2/lastuuid <jucator|IP>'
+    message: '&fUltimul UUID pentru &2$name&8: &2$uuid&f.'
+  geoip:
+    usage: '&fFoloseste&8: &2/geoip <jucator|IP>'
+    message: '&2$target &feste din &2$result&f.'
+    error_disabled: '&fGeoIP nu este activat in configuratii.'
+    error_unavailable: '&fGeoIP nu este disponibil. A fost descarcat?'
+    error_not_found: '&fGeoIP information for &2$target &fnot found.'
+  lockdown:
+    usage: '&fFoloseste&8: &2/lockdown <motiv> | /lockdown end'
+    message: '&fLoockdown server activat pentru "&2$reason&f".'
+    stopped: '&fLockdown has been deactivated.'
+    kick_message: |-
+      &fLoockdown server este activat.
+      &fMotiv: &2$reason
+    error_not_active: '&fLookdown nu este activat.'
+  kick:
+    usage: '&fFoloseste&8: &2/kick <jucator> <motiv>'
+    no_match: '&fJucatorul nu a fost gasit.'
+    message: '&fAi fost dat afara de pe server de catre &2$displayName &fpentru &2
+      $reason&f.'
+    message_no_reason: Ai fost dat afara de pe server de catre &2$displayName&f.
+    response: '&fJucatorul a fost dat afara de pe server.'
+    broadcast: '&2$player &fa fost dat afara de pe server de catre &2$displayName
+      &fpentru ''&2$reason&f''.'
+    broadcast_no_reason: '&2$player &fa fost dat afara de pe server de catre &2$displayName&f.'
+    exempt: '&fNu il poti da afara de pe server pe &2$player&f.'
+    kick_requested: '&2Player $player is not online on this server. Cross-server kick
+      has been requested.'
+  togglechat:
+    toggle_off: '&fChat-ul a fost &2dezactivat&f.'
+    toggle_on: '&fChat-ul a fost &2activat&f.'
+  clearchat:
+    broadcast: '&fChat-ul a fost curatat de catre &2$displayName&f.'
+  litebans:
+    reload_success: '&fConfiguratiile pluginului au fost reimprospatate.'
+    reload_fail_connect: '&fConfiguratiile pluginului au fost reimprospatate. Nu s-a
+      reconectat la baza de date.'
+    add_history_usage: '&fFoloseste&8: &2/litebans addhistory <nume> <UUID> <IP>'
+    add_history: '&fIstoric adaugat.'
+    fix_history: '&fFixing history for table $table...'
+    fix_history_result: '&fAdded $amount entries.'
+    import_usage: '&f/litebans import start'
+    import_start: '&fImporting from $db, this might take a while...'
+    import_finish: '&fImport finished successfully. $bans bans imported, $ipbans IP-bans.'
+    import_finish_litebans: '&fImport finished successfully. Added $amount entries
+      to the database.'
+    import_fail: '&fImport failed. Check console.'
+    import_unsupported: '&fImporting from ''$name'' is not supported yet!'
+    sqlexec_success: '&fSQL query executed successfully.'
+    sqlexec_failure: '&fFailed to execute.'
+    reload_fail: '&fReload failed.'
+    reload_fail_config: |-
+      &f[LiteBans] &4config.yml is not valid and could not be loaded, the default configuration will be used.
+      &fPlease check the server console for more information.
+    reload_fail_messages: |-
+      &f[LiteBans] &4messages.yml is not valid and could not be loaded, default messages will be used.
+      &fPlease check the server console for more information.
+    fix_history_offline_uuids: '&c$amount UUIDs were not fetched from Mojang since
+      they are offline-mode UUIDs.'
+  mutechat:
+    response: '&fChat-ul este momentan &2dezactivat&f!'
+    broadcast_disabled: '&fChat-ul a fost &2dezactivat &fde catre &2$displayName&f.'
+    broadcast_enabled: '&fChat-ul a fost &2activat &fde catre &2$displayName&f.'
+duration:
+  forever: permanent
+  year: an
+  years: ani
+  month: luna
+  months: luni
+  week: saptamana
+  weeks: saptamani
+  day: zi
+  days: zile
+  hour: ora
+  hours: ore
+  minute: minut
+  minutes: minute
+  second: secunda
+  seconds: seconde
+  expired: expired
+error_no_reason_provided: '&fYou must provide a reason for this punishment!'
