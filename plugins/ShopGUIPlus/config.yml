@@ -2,7 +2,7 @@ database:
   # Database backend type, can be set to mysql or sqlite
   type: sqlite
   # MySQL database host
-  mySQLHost: ovh.faicu.ro
+  mySQLHost: localhost
   # MySQL connection port number
   mySQLPort: 3306
   # MySQL database name
@@ -15,7 +15,7 @@ database:
   tableNames:
     players: "shop_players"
 
-#  Type of the economy which will handle all transactions. 
+#  Type of the economy which will handle all transactions.
 #  Supported economies:
 #  - EXP (default Minecraft experience points)
 #  - VAULT (requires http://dev.bukkit.org/bukkit-plugins/vault/)
@@ -199,7 +199,8 @@ disableShopsInGamemodes:
 # Choose in which worlds players won't be able to access the shop. Same list format as disableShopsInGamemodes
 disableShopsInWorlds:
   - builder
-  
+  - build
+
 # Choose whether price modifiers should be displayed in percents instead of decimals (eg. 10% instead of 0.10), remember you will still have to use the decimal way in commands
 displayPriceModifiersInPercents: true
 
@@ -228,7 +229,7 @@ shopItemLoreFormat:
     - "&9Click cu rotita sa vinzi tot!"
   # This lore will be applied to items in the buy GUI (when enableBuyGUI is set to true)
   itemBuyGUI:
-    - "&7Cumpara cu: &c%buy%$"  
+    - "&7Cumpara cu: &c%buy%$"
   # This lore will be applied to items in the sell GUI (when enableSellGUI is set to true)
   itemSellGUI:
     - "&7Vinde cu: &a%sell%$"
@@ -259,7 +260,7 @@ log:
   formatSell: "%player% a vandut %amount% x %item% cu %price%$ la shopul %shop%!"
   # Log message for sold all items
   formatSellAll: "%player% a vandut tot %amount% x %item% cu %price%$ la shopul %shop%!"
-  
+
 # Sell hand command settings
 sellHand:
   # When set to true, players will be able to sell any quantity of the item (the price will be calculated from the base price)
@@ -277,19 +278,19 @@ buttons:
   goBack:
     item:
       # Material name, full list can be found here: http://wiki.brcdev.net/Materials
-      material: NETHER_STAR 
+      material: NETHER_STAR
       # Amount of the item
-      amount: 1 
+      amount: 1
       # (optional) Data value, for example 1 for WOOD:1 means spruce wood planks
-      damage: 0 
+      damage: 0
       # (optional) Custom name
       name: "&a&l < Categorii"
       # (optional) Lore, can contain multiple lines
-      lore: 
+      lore:
         - "&7Click sa te intorci"
         - "&7la Meniul Principal"
     # Slot in each shop's GUI
-    slot: 49 
+    slot: 49
   # "Previous page" button
   previousPage:
     item:
@@ -401,9 +402,9 @@ amountSelectionGUIBulkBuy:
       item:
         material: RED_STAINED_GLASS
         quantity: 1
-        name: "&c&lCancel"
+        name: "&c&lAnuleaza!"
       slot: 13
-      
+
 # Elements of the bulk buy GUI
 amountSelectionGUIBulkSell:
   # Size of the GUI, valid values are 9, 18, 27, 36, 45 and 54
@@ -500,7 +501,7 @@ amountSelectionGUIBulkSell:
       item:
         material: RED_STAINED_GLASS
         quantity: 1
-        name: "&c&lCancel"
+        name: "&c&lAnuleaza!"
       slot: 13
 
 # Elements of the regular buy/sell GUI
@@ -565,37 +566,37 @@ amountSelectionGUI:
       item:
         material: LIME_STAINED_GLASS
         quantity: 1
-        name: "&a&lConfirma"   
+        name: "&a&lConfirma!"
       slot: 39
     # "Sell all" button
     sellAll:
       item:
         material: LIME_STAINED_GLASS
         quantity: 1
-        name: "&a&lVinde tot"      
+        name: "&a&lVinde tot!"
       slot: 40
     # "Buy more" button
     buyMore:
       item:
         material: LIME_STAINED_GLASS
         quantity: 64
-        name: "&a&lCumpara mai mult"      
+        name: "&a&lCumpara mai mult"
       slot: 49
     # "Sell more" button
     sellMore:
       item:
         material: LIME_STAINED_GLASS
         quantity: 64
-        name: "&a&lVinde mai mult"      
+        name: "&a&lVinde mai mult"
       slot: 49
     # "Cancel" button
     cancel:
       item:
         material: RED_STAINED_GLASS
         quantity: 1
-        name: "&c&lCancel"
+        name: "&c&lAnuleaza!"
       slot: 41
-      
+
 shopMenuItems:
   # Has to be unique, value doesn't matter
   1:
@@ -608,21 +609,21 @@ shopMenuItems:
     shop: "blocks"
     # Slot in shops menu, counting from 0 to 53
     slot: 4
-  2: 
+  2:
     item:
       material: ENCHANTED_GOLDEN_APPLE
-      quantity: 1 
+      quantity: 1
       damage: 0
       name: "&a&lMancare"
-    shop: "food" 
+    shop: "food"
     slot: 12
-  3: 
+  3:
     item:
       material: DIAMOND
-      quantity: 1 
+      quantity: 1
       damage: 0
       name: "&a&lMinereuri"
-    shop: "ores" 
+    shop: "ores"
     slot: 30
   4:
     item:
@@ -658,7 +659,7 @@ shopMenuItems:
       quantity: 1
       name: "&a&lDrop"
     shop: "drops"
-    slot: 20 
+    slot: 20
 specialElements:
   balance:
     item:
