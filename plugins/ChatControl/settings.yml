@@ -100,8 +100,8 @@ Anti_Spam:
   Chat:
     Message_Delay: 1
     Limit:
-      Period: 10 seconds
-      Max_Messages: 7
+      Period: 5 seconds
+      Max_Messages: 3
       Points:
         Warn_Set: spam
         Amount: 3
