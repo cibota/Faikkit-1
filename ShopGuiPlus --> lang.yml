@@ -1,0 +1,48 @@
+PREFIX: '&2&lFaikkit &c» &f'
+MSG:
+  INGAMEONLY: Aceasta comanda poate fi folosita doar in joc.
+  NOACCESS: Nu ai permisiunea necesara pentru a folosi aceasta comanda.
+  NOTLOADED: Your data isn't loaded yet, please try again later.
+  NOTLOADEDTARGET: This player's data isn't loaded yet, please try again later.
+  RELOADED: Configuration reloaded!
+  INVALIDSHOP: Acest shop nu exista.
+  NOACCESSTOSHOP: Nu ai permisiunea de a folosi Shop-ul &2%shop%
+  NODIRECTACCESSTOSHOP: Nu poti accesa Shop-ul &2%shop%
+  MAINMENUDISABLED: Nu poti folosi aceasta comanda. Foloseste /shop <id>.
+  GAMEMODEBANNED: Nu poti accesa Shop-ul cat timp esti in &2/gm %gamemode%
+  GAMEMODEBANNEDTARGET: '%player% nu poate accesa Shop-ul cat timp este in &2/gm %gamemode%'
+  ITEM:
+    FULLINVENTORY: Nu ai destul spatiu liber in inventar.
+    CANNOTAFFORD: Ai nevoie de &$%price% &2$&f pentru a cumpara &2%amount%x %item%
+    CANNOTBUY: Nu poti cumpara acest item.
+    CANNOTSELL: Nu poti vinde acest item.
+    BOUGHT: Ai cumparat &2%amount%x %item%&f la pretul de &2%price% $ &f.
+    BOUGHTFREE: Ai primit &2%amount%x %item%&f.
+    NOTENOUGH: Nu ai &2%amount%x %item%&f.
+    SOLD: Ai vandut &2%amount%x %item%&f si ai primit &2%price% $&f.
+    SOLDFREE: Ai vandut &2%amount%x %item%&f si nu ai primit &2nici un coin&f.
+    SOLDALL: Ai vandut toate bucatile de &2%item% &7(&%amount%x %item%) &fsi ai primit &2%price% $&f.
+    SOLDALLFREE: Ti-ai vandut toate bucatile de &2%item%&7 (%amount%x %item%)&f si nu ai primit &2nici un coin&f.
+    NOACCESS: Nu ai permisiunea de a accesa acest item.
+  ENCHANT:
+    CANNOTAPPLY: Enchant-ul &2%enchantment%&f nu poate fi aplicat pe item-ul care il tii in mana.
+    ALREADYAPPLIED: Acest item are deja enchant-ul &2%enchantment%&f aplicat.
+    LEVELDIFF: Ai nevoie de un item cu cel putin &2%enchantment% %level%&f.
+    CANNOTAFFORD: Ai nevoie de &2%price% $&f pentru a cumpara enchant-ul &2%enchantment%&f.
+    MAX: Acest item are deja numarul maxim de enchant-uri &7(%amount%)&f.
+    TOOMANY: Nu poti enchanta mai mult de &2%amount% &fitem.
+    BOUGHT: Ai cumparat enchant-ul &2%enchantment%&f la pretul de &2%price% $&f.
+  PERMISSION:
+    PERMISSIONSDISABLED: Permisiunile sunt dezactivate.
+    ALREADYHAVE: Ai deja permisiunea &2%permission%&f.
+    CANNOTAFFORD: Ai nevoie de &2%price% $&f pentru a cumpara permisiunea &2%permission%&f.
+    BOUGHT: Ai cumparat permisiunea &2%permission%&f la pretul de &2%price% $&f.
+  COMMAND:
+    BOUGHT: Ai cumparat comanda la pretul de &2%price%$ $f.
+    CANNOTAFFORD: Ai nevoie de &2%price% $&f pentru a cumpara aceasta comanda.
+DIALOG:
+  AMOUNTSELECTION:
+    BUY:
+      NAME: '&2Cumparand %item%'
+    SELL:
+      NAME: '&2Vanzand %item%'
