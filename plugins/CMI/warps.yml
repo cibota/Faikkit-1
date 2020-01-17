@@ -27,3 +27,11 @@ iesire:
   Item:
     v: 2227
     type: GRASS_BLOCK
+parkour1:
+  Location: build;341.51;4.06;42.48;-359.22;3.36
+  ShowWithNoPerm: true
+  Slot: 2
+  Creator: 46091be7-9f81-384f-b3e9-b6c6bb2685de
+  Item:
+    v: 2227
+    type: GOLDEN_BOOTS
