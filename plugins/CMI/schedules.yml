@@ -110,11 +110,16 @@ Announcer:
   Repeat: true
   Randomize: true
   Commands:
-  - broadcast!&4&l⚠ &aFaikkit &8&l» &6Iti doresti propriul tau pet? Foloseste comanda &8&l[&c&l/petshop&8&l]
-  - broadcast!&4&l⚠ &aFaikkit &8&l» &6Pentru a primi un ghid pentru &5&lSlimefun&6 foloseste comanda &8&l[&c&l/sf guide&8&l]
-  - broadcast!&4&l⚠ &aFaikkit &8&l» &6Nu uita sa votezi pentru a primi un &2Vote Crate &bKey &6si multe altele! &8&l[&c&l/vote&8&l]
-  - broadcast!&4&l⚠ &aFaikkit &8&l» &6Daca ai nevoie de ajutor, nu ezita sa intrebi un &2Helper&6 pentru ajutor!
-  - broadcast!&4&l⚠ &aFaikkit &8&l» &6Ai gasit un player care crezi ca incalca &cregulamentul&6? &6Raporteaza-l folosind &8&l[&c&l/report <player> motiv&8&l]&6!
+  - broadcast!&4&l⚠ &aFaikkit &8&l» &6Iti doresti propriul tau pet? Foloseste comanda
+    &8&l[&c&l/petshop&8&l]
+  - broadcast!&4&l⚠ &aFaikkit &8&l» &6Pentru a primi un ghid pentru &5&lSlimefun&6
+    foloseste comanda &8&l[&c&l/sf guide&8&l]
+  - broadcast!&4&l⚠ &aFaikkit &8&l» &6Nu uita sa votezi pentru a primi un &2Vote Crate
+    &bKey &6si multe altele! &8&l[&c&l/vote&8&l]
+  - broadcast!&4&l⚠ &aFaikkit &8&l» &6Daca ai nevoie de ajutor, nu ezita sa intrebi
+    un &2Helper&6 pentru ajutor!
+  - broadcast!&4&l⚠ &aFaikkit &8&l» &6Ai gasit un player care crezi ca incalca &cregulamentul&6?
+    &6Raporteaza-l folosind &8&l[&c&l/report <player> motiv&8&l]&6!
 Restart:
   Enabled: false
   PerformOn:

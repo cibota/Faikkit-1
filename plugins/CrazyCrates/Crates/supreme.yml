@@ -300,3 +300,15 @@ Crate:
       Commands:
       - petadmin create %player% Wither baby
       - cmi broadcast ! &8&l[&bFaikkitCrates&8&l] &6%Player% &7a castigat &eVoucher 2000 ClaimBlocks &7din &9Supreme Crate&7!
+    '20':
+      DisplayName: '&6EnderChest'
+      DisplayItem: ENDER_CHEST
+      Lore:
+      - '&7Un chest personal.'
+      - '&7Sansa: &c3%'
+      MaxRange: 100
+      Chance: 3
+      Firework: true
+      Commands:
+      - cmi give %player% enderchest 1
+      - cmi broadcast ! &8&l[&bFaikkitCrates&8&l] &6%Player% &7a castigat &0EnderChest &7din &9Supreme Crate&7!
