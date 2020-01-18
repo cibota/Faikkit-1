@@ -10,13 +10,13 @@ GriefPrevention:
     build: -1
   Claims:
     Mode:
-      world_the_end: Survival
-      world_nether: Survival
-      warpuri: Survival
-      hub: Survival
+      world_the_end: Disabled
+      world_nether: Disabled
+      warpuri: Disabled
+      hub: Disabled
       world: Survival
-      spawn: Survival
-      build: Survival
+      spawn: Disabled
+      build: Disabled
     PreventGlobalMonsterEggs: false
     PreventTheft: true
     ProtectCreatures: true
