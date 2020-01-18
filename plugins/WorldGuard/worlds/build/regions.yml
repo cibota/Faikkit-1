@@ -12,8 +12,8 @@
 regions:
     __global__:
         members: {}
-        flags: {sleep: deny, use: deny, invincible: allow, fall-damage: deny, interact: deny,
-            pvp: deny}
+        flags: {sleep: deny, use: deny, game-mode: creative, invincible: allow, fall-damage: deny,
+            interact: deny, pvp: deny}
         owners: {}
         type: global
         priority: 0

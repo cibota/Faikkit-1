@@ -24,14 +24,14 @@ Crate:
     Glowing: true
   Prizes:
     '1':
-      DisplayName: '&7&lFaikkit Crate &b&lKey'
+      DisplayName: '&7Faikkit Crate &b&lKey'
       DisplayItem: TRIPWIRE_HOOK
       DisplayAmount: 1
       Lore:
-      - '&7Cateva mere in caz de iti e foame.'
+      - '&7Sa inceapa distractia!'
       - '&7Sansa: &c15%'
       MaxRange: 100
-      Chance: 15
+      Chance: 10
       Firework: true
       Commands:
       - cc give p faikkit %player% 1
@@ -109,17 +109,18 @@ Crate:
       - cmi give %Player% 384 32
       - cmi broadcast ! &8&l[&bFaikkitCrates&8&l] &6%Player% &7a castigat &b32x Sticlute EXP &7din &9Supreme Crate&7!
     '8':
-      DisplayName: '&7&lFaikkit Crate &b&lKey'
+      DisplayName: '&9Supreme Crate &b&lKey'
       DisplayItem: TRIPWIRE_HOOK
+      DisplayAmount: 1
       Lore:
-      - '&7O cheie speciala pentru o cutie speciala.'
+      - '&7O a doua sansa!'
       - '&7Sansa: &c10%'
       MaxRange: 100
       Chance: 10
       Firework: true
       Commands:
-      - cc give p faikkit 1 %Player%
-      - cmi broadcast ! &8&l[&bFaikkitCrates&8&l] &6%Player% &7a castigat &2Faikkit Crate &7Key &7din &9Supreme Crate&7!
+      - cc give p faikkit %player% 1
+      - cmi broadcast ! &8&l[&b&lFaikkitCrates&8&l] &6%Player% &7a castigat &bFaikkit Crate Key &7din &9Supreme Crate&7!
     '9':
       DisplayName: '&e&lVote Crate &b&lKey'
       DisplayItem: TRIPWIRE_HOOK
@@ -311,4 +312,40 @@ Crate:
       Firework: true
       Commands:
       - cmi give %player% enderchest 1
-      - cmi broadcast ! &8&l[&bFaikkitCrates&8&l] &6%Player% &7a castigat &0EnderChest &7din &9Supreme Crate&7!
+      - cmi broadcast ! &8&l[&bFaikkitCrates&8&l] &6%Player% &7a castigat &0EnderChest &7din &9Supreme Crate&7!      
+    '21':
+      DisplayName: '&616x &bDiamante'
+      DisplayItem: DIAMOND
+      Lore:
+      - '&7Putina avere?'
+      - '&7Sansa: &c10%'
+      MaxRange: 100
+      Chance: 10
+      Firework: true
+      Commands:
+      - cmi give %player% diamond 16
+      - cmi broadcast ! &8&l[&bFaikkitCrates&8&l] &6%Player% &7a castigat &616x &bDiamante &7din &9Supreme Crate&7!
+    '22':
+      DisplayName: '&68x &eGolden Apples'
+      DisplayItem: GOLDEN_APPLE
+      Lore:
+      - '&7Un pranz delicios?'
+      - '&7Sansa: &c5%'
+      MaxRange: 100
+      Chance: 5
+      Firework: true
+      Commands:
+      - cmi give %player% golden_apple 8
+      - cmi broadcast ! &8&l[&bFaikkitCrates&8&l] &6%Player% &7a castigat &68x &eMere De Aur &7din &9Supreme Crate&7!      
+    '23':
+      DisplayName: '&616x &3Ender Pearls'
+      DisplayItem: ENDER_PEARL
+      Lore:
+      - '&7Sa inceapa distractia!'
+      - '&7Sansa: &c5%'
+      MaxRange: 100
+      Chance: 5
+      Firework: true
+      Commands:
+      - cmi give %player% ender_pearl 16
+      - cmi broadcast ! &8&l[&bFaikkitCrates&8&l] &6%Player% &7a castigat &616x &3Ender Pearls &7din &9Supreme Crate&7!
