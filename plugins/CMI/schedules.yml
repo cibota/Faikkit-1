@@ -34,7 +34,7 @@
 # More information about specialized commands can be found at http://www.zrips.net/cmi/commands/specialized/
 
 saveMaps:
-  Enabled: false
+  Enabled: true
   Delay: 10000
   Repeat: true
   Commands:
@@ -104,19 +104,17 @@ AllInOneJustExample:
   - actionbar! &eServer will stop in &61 &esec!
   - kickall! &eServer will be back online soon!
 Announcer:
-  Enabled: false
+  Enabled: true
   MinPlayers: 1
   Delay: 350
   Repeat: true
   Randomize: true
   Commands:
-  - broadcast! &ePentru a cumpara un pet foloseste comanda &5[/petshop]
-  - broadcast! &ePentru a primi un ghid pentru slimefun foloseste comanda &5[/sf guide]
-  - broadcast! &eNu uita sa votezi pentru a primi un Crate Key si multe altele, foloseste
-    &5[/vote]
-  - broadcast! &eDaca ai nevoie de ajutor, intreaba un Helper!
-  - broadcast! &eAi gasit un player care crezi ca incalca regulamentul? Raporteaza-l
-    folosind 5[/report <player> motiv]!
+  - broadcast!&4&l⚠ &aFaikkit &8&l» &6Iti doresti propriul tau pet? Foloseste comanda &8&l[&c&l/petshop&8&l]
+  - broadcast!&4&l⚠ &aFaikkit &8&l» &6Pentru a primi un ghid pentru &5&lSlimefun&6 foloseste comanda &8&l[&c&l/sf guide&8&l]
+  - broadcast!&4&l⚠ &aFaikkit &8&l» &6Nu uita sa votezi pentru a primi un &2Vote Crate &bKey &6si multe altele! &8&l[&c&l/vote&8&l]
+  - broadcast!&4&l⚠ &aFaikkit &8&l» &6Daca ai nevoie de ajutor, nu ezita sa intrebi un &2Helper&6 pentru ajutor!
+  - broadcast!&4&l⚠ &aFaikkit &8&l» &6Ai gasit un player care crezi ca incalca &cregulamentul&6? &6Raporteaza-l folosind &8&l[&c&l/report <player> motiv&8&l]&6!
 Restart:
   Enabled: false
   PerformOn:
