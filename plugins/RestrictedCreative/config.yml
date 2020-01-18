@@ -65,16 +65,12 @@ creative:
     enabled: true
     color: 16711680
   permissions:
-    enabled: true
+    enabled: false
     use-vault: true
-    list:
-    - prefix.creative
-    - prefix.survival
+    list: []
   groups:
-    enabled: true
-    list:
-    - creative
-    - -survival
+    enabled: false
+    list: []
 tracking:
   blocks:
     enabled: true
@@ -88,15 +84,15 @@ limit:
   regions:
     owner-based:
       enabled: true
-      allow-members: false
+      allow-members: true
     whitelist:
       enabled: false
       list:
       - building_competition
   moving:
-    enabled: false
-    below-y: -1
-    above-y: -1
+    enabled: true
+    below-y: -10
+    above-y: 300
   interact:
     inventories: true
     entities: true

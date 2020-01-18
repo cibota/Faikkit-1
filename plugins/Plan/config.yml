@@ -14,7 +14,7 @@ Plugin:
         Create_new_locale_file_on_next_enable: false
         Debug: false
         Dev: false
-        Delete_logs_after_days: 7
+        Delete_logs_after_days: 30
     Update_notifications:
         # Display update notification on the website
         Check_for_updates: true
@@ -119,8 +119,8 @@ Display_options:
     Graphs:
         Show_gaps_in_data: false
         TPS:
-            High_threshold: 18
-            Medium_threshold: 10
+            High_threshold: 19
+            Medium_threshold: 15
         Disk_space:
             High_threshold: 500
             Medium_threshold: 100
@@ -132,10 +132,10 @@ Display_options:
 Formatting:
     Decimal_points: '#.##'
     Time_amount:
-        Year: '1 year, '
-        Years: '%years% years, '
-        Month: '1 month, '
-        Months: '%months% months, '
+        Year: '1 an, '
+        Years: '%years% ani, '
+        Month: '1 luna, '
+        Months: '%months% luni, '
         Day: '1d '
         Days: '%days%d '
         Hours: '%hours%h '

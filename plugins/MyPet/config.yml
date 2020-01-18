@@ -14,7 +14,7 @@ MyPet:
   Leash:
     Consume: true
     AllowRanged: true
-  OwnerCanAttackPet: false
+  OwnerCanAttackPet: true
   DisablePetVersusPlayer: true
   RetainEquipmentOnTame: true
   Make-Pet-Invisible-When-Owner-Is-Invisible: true
