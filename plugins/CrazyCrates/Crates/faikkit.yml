@@ -34,7 +34,24 @@ Crate:
       Firework: true
       Commands:
       - cc give p Warrior 1 %Player%
-      - cmi broadcast ! &8&l[&b&lFaikkitCrates&8&l] &6%Player% &7a castigat &7Warrior Crate &bKey &7din &2Faikkit Crate&7!
+      - cmi broadcast ! &8&l[&b&lFaikkitCrates&8&l] &6%Player% &7a castigat &7Warrior
+        Crate &bKey &7din &2Faikkit Crate&7!
+      DisplayAmount: 1
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2227
+        type: BEACON
+      Messages: []
+      BlackListed-Permissions: []
+      Alternative-Prize:
+        Toggle: false
+        Commands: []
+        Items: []
+        Messages: []
     '2':
       DisplayName: '&c&lSabia lui Faicu'
       DisplayItem: DIAMOND_SWORD
@@ -64,7 +81,8 @@ Crate:
             DAMAGE_ALL: 3
             DURABILITY: 3
       Commands:
-      - cmi broadcast ! &8&l[&bFaikkitCrates&8&l] &6%Player% &7a castigat &cSabia lui Faicu &7din &2Faikkit Crate&7!
+      - cmi broadcast ! &8&l[&bFaikkitCrates&8&l] &6%Player% &7a castigat &cSabia
+        lui Faicu &7din &2Faikkit Crate&7!
       Messages: []
       BlackListed-Permissions: []
       Alternative-Prize:
@@ -76,7 +94,7 @@ Crate:
       DisplayName: '&c&lPalaria lui Faicu'
       DisplayItem: DIAMOND_HELMET
       DisplayAmount: 1
-      Lore: 
+      Lore:
       - '&7Palaria sacra a Fondatorului, ai mare grija de ea.'
       - '&7Sansa: &c5%'
       MaxRange: 100
@@ -98,7 +116,8 @@ Crate:
             PROTECTION_ENVIRONMENTAL: 4
             DURABILITY: 3
       Commands:
-      - cmi broadcast ! &8&l[&bFaikkitCrates&8&l] &6%Player% &7a castigat &cPalaria lui Faicu &7din &2Faikkit Crate&7!
+      - cmi broadcast ! &8&l[&bFaikkitCrates&8&l] &6%Player% &7a castigat &cPalaria
+        lui Faicu &7din &2Faikkit Crate&7!
       Messages: []
       BlackListed-Permissions: []
       Alternative-Prize:
@@ -110,7 +129,7 @@ Crate:
       DisplayName: '&c&lTricoul lui Faicu'
       DisplayItem: DIAMOND_CHESTPLATE
       DisplayAmount: 1
-      Lore: 
+      Lore:
       - '&7Tricoul sacru al Fondatorului, ai mare grija de el.'
       - '&7Sansa: &c5%'
       MaxRange: 100
@@ -132,7 +151,8 @@ Crate:
             PROTECTION_ENVIRONMENTAL: 4
             DURABILITY: 3
       Commands:
-      - cmi broadcast ! &8&l[&bFaikkitCrates&8&l] &6%Player% &7a castigat &cTricoul lui Faicu &7din &2Faikkit Crate&7!
+      - cmi broadcast ! &8&l[&bFaikkitCrates&8&l] &6%Player% &7a castigat &cTricoul
+        lui Faicu &7din &2Faikkit Crate&7!
       Messages: []
       BlackListed-Permissions: []
       Alternative-Prize:
@@ -144,7 +164,7 @@ Crate:
       DisplayName: '&c&lPantalonii lui Faicu'
       DisplayItem: DIAMOND_LEGGINGS
       DisplayAmount: 1
-      Lore: 
+      Lore:
       - '&7Pantalonii sacrii a Fondatorului, ai mare grija de ei.'
       - '&7Sansa: &c5%'
       MaxRange: 100
@@ -165,8 +185,9 @@ Crate:
           enchants:
             PROTECTION_ENVIRONMENTAL: 4
             DURABILITY: 3
-      Commands: 
-      - cmi broadcast ! &8&l[&bFaikkitCrates&8&l] &6%Player% &7a castigat &cPantalonii lui Faicu &7din &2Faikkit Crate&7!
+      Commands:
+      - cmi broadcast ! &8&l[&bFaikkitCrates&8&l] &6%Player% &7a castigat &cPantalonii
+        lui Faicu &7din &2Faikkit Crate&7!
       Messages: []
       BlackListed-Permissions: []
       Alternative-Prize:
@@ -199,8 +220,9 @@ Crate:
           enchants:
             PROTECTION_ENVIRONMENTAL: 4
             DURABILITY: 3
-      Commands: 
-      - cmi broadcast ! &8&l[&bFaikkitCrates&8&l] &6%Player% &7a castigat &cPapucii lui Faicu &7din &2Faikkit Crate&7!
+      Commands:
+      - cmi broadcast ! &8&l[&bFaikkitCrates&8&l] &6%Player% &7a castigat &cPapucii
+        lui Faicu &7din &2Faikkit Crate&7!
       Messages: []
       BlackListed-Permissions: []
       Alternative-Prize:
@@ -208,7 +230,7 @@ Crate:
         Commands: []
         Items: []
         Messages: []
-    '7':   
+    '7':
       DisplayName: '&b&8x Mere'
       DisplayItem: APPLE
       DisplayAmount: 8
@@ -220,7 +242,8 @@ Crate:
       Firework: true
       Commands:
       - cmi give %player% apple 8
-      - cmi broadcast ! &8&l[&b&lFaikkitCrates&8&l] &6%Player% &7a castigat &b8x Mere &7din &2Faikkit Crate&7!
+      - cmi broadcast ! &8&l[&b&lFaikkitCrates&8&l] &6%Player% &7a castigat &b8x Mere
+        &7din &2Faikkit Crate&7!
     '8':
       DisplayName: '&bVillager Spawn Egg'
       DisplayItem: VILLAGER_SPAWN_EGG
@@ -232,7 +255,8 @@ Crate:
       Firework: true
       Commands:
       - cmi give %player% villager_spawn_egg 1
-      - cmi broadcast ! &8&l[&bFaikkitCrates&8&l] &6%Player% &7a castigat &bVillager Spawn Egg &7din &2Faikkit Crate&7!
+      - cmi broadcast ! &8&l[&bFaikkitCrates&8&l] &6%Player% &7a castigat &bVillager
+        Spawn Egg &7din &2Faikkit Crate&7!
     '9':
       DisplayName: '&b3x Cow Spawn Egg'
       DisplayItem: COW_SPAWN_EGG
@@ -245,7 +269,8 @@ Crate:
       Firework: true
       Commands:
       - cmi give %player% cow_spawn_egg 3
-      - cmi broadcast ! &8&l[&bFaikkitCrates&8&l] &6%Player% &7a castigat &b3xCow Spawn Egg &7din &2Faikkit Crate&7!
+      - cmi broadcast ! &8&l[&bFaikkitCrates&8&l] &6%Player% &7a castigat &b3xCow
+        Spawn Egg &7din &2Faikkit Crate&7!
     '10':
       DisplayName: '&b2x Chicken Spawn Egg'
       DisplayItem: CHICKEN_SPAWN_EGG
@@ -258,7 +283,8 @@ Crate:
       Firework: true
       Commands:
       - cmi give %player% chicken_spawn_egg 2
-      - cmi broadcast ! &8&l[&bFaikkitCrates&8&l] &6%Player% &7a castigat &b2x Chicken Spawn Egg &7din &2Faikkit Crate&7!
+      - cmi broadcast ! &8&l[&bFaikkitCrates&8&l] &6%Player% &7a castigat &b2x Chicken
+        Spawn Egg &7din &2Faikkit Crate&7!
     '11':
       DisplayName: '&bVoucher 2000 ClaimBlocks'
       DisplayItem: PAPER
@@ -270,7 +296,8 @@ Crate:
       Firework: true
       Commands:
       - voucher give %player% claimb2000
-      - cmi broadcast ! &8&l[&bFaikkitCrates&8&l] &6%Player% &7a castigat &bVoucher 2000 ClaimBlocks &7din &2Faikkit Crate&7!
+      - cmi broadcast ! &8&l[&bFaikkitCrates&8&l] &6%Player% &7a castigat &bVoucher
+        2000 ClaimBlocks &7din &2Faikkit Crate&7!
     '12':
       DisplayName: '&bVoucher 1000 ClaimBlocks'
       DisplayItem: PAPER
@@ -282,7 +309,8 @@ Crate:
       Firework: true
       Commands:
       - voucher give %player% claimb1000
-      - cmi broadcast ! &8&l[&bFaikkitCrates&8&l] &6%Player% &7a castigat &bVoucher 1000 ClaimBlocks &7din &2Faikkit Crate&7!
+      - cmi broadcast ! &8&l[&bFaikkitCrates&8&l] &6%Player% &7a castigat &bVoucher
+        1000 ClaimBlocks &7din &2Faikkit Crate&7!
     '13':
       DisplayName: '&bVoucher 1500 ClaimBlocks'
       DisplayItem: PAPER
@@ -294,7 +322,8 @@ Crate:
       Firework: true
       Commands:
       - voucher give %player% claimb1500
-      - cmi broadcast ! &8&l[&bFaikkitCrates&8&l] &6%Player% &7a castigat &bVoucher 1500 ClaimBlocks &7din &2Faikkit Crate&7!
+      - cmi broadcast ! &8&l[&bFaikkitCrates&8&l] &6%Player% &7a castigat &bVoucher
+        1500 ClaimBlocks &7din &2Faikkit Crate&7!
     '14':
       DisplayName: '&bVoucher 3000 ClaimBlocks'
       DisplayItem: PAPER
@@ -306,7 +335,8 @@ Crate:
       Firework: true
       Commands:
       - voucher give %player% claimb3000
-      - cmi broadcast ! &8&l[&bFaikkitCrates&8&l] &6%Player% &7a castigat &bVoucher 3000 ClaimBlocks &7din &2Faikkit Crate&7!
+      - cmi broadcast ! &8&l[&bFaikkitCrates&8&l] &6%Player% &7a castigat &bVoucher
+        3000 ClaimBlocks &7din &2Faikkit Crate&7!
     '15':
       DisplayName: '&b20.000$'
       DisplayItem: SUNFLOWER
@@ -318,7 +348,8 @@ Crate:
       Firework: true
       Commands:
       - cmi money give %player% 20000
-      - cmi broadcast ! &8&l[&bFaikkitCrates&8&l] &6%Player% &7a castigat &b20.000$ &7din &2Faikkit Crate&7!
+      - cmi broadcast ! &8&l[&bFaikkitCrates&8&l] &6%Player% &7a castigat &b20.000$
+        &7din &2Faikkit Crate&7!
     '16':
       DisplayName: '&b50.000$'
       DisplayItem: SUNFLOWER
@@ -330,7 +361,8 @@ Crate:
       Firework: true
       Commands:
       - cmi money give %player% 50000
-      - cmi broadcast ! &8&l[&bFaikkitCrates&8&l] &6%Player% &7a castigat &b50.000$ &7din &2Faikkit Crate&7!
+      - cmi broadcast ! &8&l[&bFaikkitCrates&8&l] &6%Player% &7a castigat &b50.000$
+        &7din &2Faikkit Crate&7!
     '17':
       DisplayName: '&b100.000$'
       DisplayItem: SUNFLOWER
@@ -342,7 +374,8 @@ Crate:
       Firework: true
       Commands:
       - cmi money give %player% 100000
-      - cmi broadcast ! &8&l[&bFaikkitCrates&8&l] &6%Player% &7a castigat &b100.000$ &7din &2Faikkit Crate&7!
+      - cmi broadcast ! &8&l[&bFaikkitCrates&8&l] &6%Player% &7a castigat &b100.000$
+        &7din &2Faikkit Crate&7!
     '18':
       DisplayName: '&b5.000$'
       DisplayItem: SUNFLOWER
@@ -354,7 +387,8 @@ Crate:
       Firework: true
       Commands:
       - cmi money give %player% 5000
-      - cmi broadcast ! &8&l[&bFaikkitCrates&8&l] &6%Player% &7a castigat &b5.000$ &7din &2Faikkit Crate&7!
+      - cmi broadcast ! &8&l[&bFaikkitCrates&8&l] &6%Player% &7a castigat &b5.000$
+        &7din &2Faikkit Crate&7!
     '19':
       DisplayName: '&b10.000$'
       DisplayItem: SUNFLOWER
@@ -366,4 +400,5 @@ Crate:
       Firework: true
       Commands:
       - cmi money give %player% 10000
-      - cmi broadcast ! &8&l[&bFaikkitCrates&8&l] &6%Player% &7a castigat &b10.000$ &7din &2Faikkit Crate&7!
+      - cmi broadcast ! &8&l[&bFaikkitCrates&8&l] &6%Player% &7a castigat &b10.000$
+        &7din &2Faikkit Crate&7!

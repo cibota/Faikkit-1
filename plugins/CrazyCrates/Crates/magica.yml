@@ -21,18 +21,6 @@ Crate:
     Item: BOOK
     Glowing: true
   Prizes:
-#    '1':
-#      DisplayName: '&4&lFly &3&l7 &2&lZile'
-#      DisplayItem: '399'
-#      Lore:
-#      - '&dSansa de a castiga &4&lFly &3&l7 &2&lZile &deste:'
-#      - '&c2%'
-#      MaxRange: 100
-#      Chance: 2
-#      Firework: true
-#      Commands:
-#      - otu give %Player% fly7d 1
-#      - cmi broadcast &6%Player% &fa castigat &4&lFly &3&l7 &2&lZile &fdin &2&lCutie &3&lMagica!
     '2 ':
       DisplayName: '&732x &bDiamante'
       DisplayItem: DIAMOND
@@ -57,30 +45,6 @@ Crate:
       Commands:
       - cmi give %Player% 264 64
       - cmi broadcast &6%Player% &fa castigat &764x &bDiamante &fdin &2&lCutie &3&lMagica!
-#    '4':
-#      DisplayName: '&6Burete'
-#      DisplayItem: SPONGE
-#      Lore:
-#      - '&dSansa de a castiga un &6Burete &deste:'
-#      - '&c10%'
-#      MaxRange: 100
-#      Chance: 10
-#      Firework: true
-#      Commands:
-#      - cmi give %Player% 19 1
-#      - cmi broadcast &6%Player% &fa castigat un &6Burete&fdin &2&lCutie &3&lMagica!
-#    '5':
-#      DisplayName: '&b&lExcalibur'
-#      DisplayItem: '276'
-#      Lore:
-#      - '&dSansa de a castiga &b&lExcalibur &deste:'
-#      - '&c1%'
-#      MaxRange: 100
-#      Chance: 1
-#      Firework: true
-#      Commands:
-#      - 'myitems load custom sabiemagica %Player% 1'
-#      - cmi broadcast &6%Player% &fa castigat &b&lExcalibur &fdin &2&lCutie &3&lMagica!
     '6':
       DisplayName: '&7&lCaptain Ahab'
       DisplayItem: FISHING_ROD
@@ -91,7 +55,8 @@ Crate:
       Chance: 1
       Firework: true
       Commands:
-      - cmi give %Player% 346 1 e 61:5 e lure:5 e unbreaking:2 n &c&lCaptain_Ahab l NU_IL_REPARA!
+      - cmi give %Player% 346 1 e 61:5 e lure:5 e unbreaking:2 n &c&lCaptain_Ahab
+        l NU_IL_REPARA!
       - cmi broadcast &6%Player% &fa castigat &7&lCaptain Ahab &fdin &2&lCutie &3&lMagica!
     '7':
       DisplayName: '&612.500$'
@@ -139,7 +104,8 @@ Crate:
       Chance: 2.5
       Firework: true
       Commands:
-      - cmi give %Player% 313 1 e fireprotection:3 e protection:5 e unbreaking:2 n &c&lPapuci l NU_IL_REPARA!
+      - cmi give %Player% 313 1 e fireprotection:3 e protection:5 e unbreaking:2 n
+        &c&lPapuci l NU_IL_REPARA!
       - cmi broadcast &6%Player% &fa castigat &bDiamond Boots &fdin &2&lCutie &3&lMagica!
     '11':
       DisplayName: '&bDiamond Chestplate'
@@ -151,8 +117,10 @@ Crate:
       Chance: 2.5
       Firework: true
       Commands:
-      - cmi give %Player% 311 1 e blastprotection:3 e protection:5 e unbreaking:2 n &c&lArmura l NU_IL_REPARA!
-      - cmi broadcast &6%Player% &fa castigat &bDiamond Chestplate &fdin &2&lCutie &3&lMagica!
+      - cmi give %Player% 311 1 e blastprotection:3 e protection:5 e unbreaking:2
+        n &c&lArmura l NU_IL_REPARA!
+      - cmi broadcast &6%Player% &fa castigat &bDiamond Chestplate &fdin &2&lCutie
+        &3&lMagica!
     '12':
       DisplayName: '&bDiamond Leggings'
       DisplayItem: DIAMOND_LEGGINGS
@@ -163,8 +131,35 @@ Crate:
       Chance: 2.5
       Firework: true
       Commands:
-      - cmi give %Player% 312 1 e fireprotection:3 e protection:5 e unbreaking:2 e thorns:3 n &c&lPantaloni l NU_IL_REPARA!
+      - cmi give %Player% 312 1 e fireprotection:3 e protection:5 e unbreaking:2 e
+        thorns:3 n &c&lPantaloni l NU_IL_REPARA!
       - cmi broadcast &6%Player% &fa castigat &bDiamond Leggings &fdin &2&lCutie &3&lMagica!
+      DisplayAmount: 1
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2227
+        type: DIAMOND_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §b§lFluctLight
+          enchants:
+            FIRE_ASPECT: 3
+            KNOCKBACK: 3
+            DAMAGE_ALL: 6
+            DAMAGE_UNDEAD: 4
+            DURABILITY: 4
+      Messages: []
+      BlackListed-Permissions: []
+      Alternative-Prize:
+        Toggle: false
+        Commands: []
+        Items: []
+        Messages: []
     '13':
       DisplayName: '&bDiamond Helmet'
       DisplayItem: DIAMOND_HELMET
@@ -175,8 +170,35 @@ Crate:
       Chance: 2.5
       Firework: true
       Commands:
-      - cmi give %Player% 310 1 e fireprotection:3 e protection:5 e unbreaking:2 n &c&lCasca l NU_IL_REPARA!
+      - cmi give %Player% 310 1 e fireprotection:3 e protection:5 e unbreaking:2 n
+        &c&lCasca l NU_IL_REPARA!
       - cmi broadcast &6%Player% &fa castigat &bDiamond Helmet &fdin &2&lCutie &3&lMagica!
+      DisplayAmount: 1
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2227
+        type: DIAMOND_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §b§lFluctLight
+          enchants:
+            FIRE_ASPECT: 3
+            KNOCKBACK: 3
+            DAMAGE_ALL: 6
+            DAMAGE_UNDEAD: 4
+            DURABILITY: 4
+      Messages: []
+      BlackListed-Permissions: []
+      Alternative-Prize:
+        Toggle: false
+        Commands: []
+        Items: []
+        Messages: []
     '14':
       DisplayName: '&7&lBow'
       DisplayItem: BOW
@@ -187,8 +209,35 @@ Crate:
       Chance: 2.5
       Firework: true
       Commands:
-      - cmi give %Player% 261 1 e power:5 e infinity:1 e unbreaking:2 n &c&lArc l NU_IL_REPARA!
+      - cmi give %Player% 261 1 e power:5 e infinity:1 e unbreaking:2 n &c&lArc l
+        NU_IL_REPARA!
       - cmi broadcast &6%Player% &fa castigat &7&lBow &fdin &2&lCutie &3&lMagica!
+      DisplayAmount: 1
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2227
+        type: DIAMOND_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §b§lFluctLight
+          enchants:
+            FIRE_ASPECT: 3
+            KNOCKBACK: 3
+            DAMAGE_ALL: 6
+            DAMAGE_UNDEAD: 4
+            DURABILITY: 4
+      Messages: []
+      BlackListed-Permissions: []
+      Alternative-Prize:
+        Toggle: false
+        Commands: []
+        Items: []
+        Messages: []
     '15':
       DisplayName: '&3&lCutie &7&lMagica'
       DisplayItem: CHEST
@@ -201,3 +250,110 @@ Crate:
       Commands:
       - crazycrates give p magica 1 %player%
       - cmi broadcast &6%Player% &fa castigat o &2&lCutie &3&lMagica!
+    '1':
+      DisplayName: '&7Auto Generated Prize #&61'
+      DisplayItem: STAINED_GLASS_PANE:14
+      DisplayAmount: 1
+      Lore: []
+      MaxRange: 100
+      Chance: 50
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2227
+        type: DIAMOND_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §b§lFluctLight
+          enchants:
+            FIRE_ASPECT: 3
+            KNOCKBACK: 3
+            DAMAGE_ALL: 6
+            DAMAGE_UNDEAD: 4
+            DURABILITY: 4
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2227
+        type: DIAMOND_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §b§lFluctLight
+          enchants:
+            FIRE_ASPECT: 3
+            KNOCKBACK: 3
+            DAMAGE_ALL: 6
+            DAMAGE_UNDEAD: 4
+            DURABILITY: 4
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2227
+        type: DIAMOND_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §b§lFluctLight
+          enchants:
+            FIRE_ASPECT: 3
+            KNOCKBACK: 3
+            DAMAGE_ALL: 6
+            DAMAGE_UNDEAD: 4
+            DURABILITY: 4
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2227
+        type: DIAMOND_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §b§lFluctLight
+          enchants:
+            FIRE_ASPECT: 3
+            KNOCKBACK: 3
+            DAMAGE_ALL: 6
+            DAMAGE_UNDEAD: 4
+            DURABILITY: 4
+      Commands: []
+      Messages: []
+      BlackListed-Permissions: []
+      Alternative-Prize:
+        Toggle: false
+        Commands: []
+        Items: []
+        Messages: []
+    '21':
+      DisplayName: '&7Auto Generated Prize #&621'
+      DisplayItem: STAINED_GLASS_PANE:14
+      DisplayAmount: 1
+      Lore: []
+      MaxRange: 100
+      Chance: 50
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2227
+        type: DIAMOND_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §b§lFluctLight
+          enchants:
+            FIRE_ASPECT: 3
+            KNOCKBACK: 3
+            DAMAGE_ALL: 6
+            DAMAGE_UNDEAD: 4
+            DURABILITY: 4
+      Commands: []
+      Messages: []
+      BlackListed-Permissions: []
+      Alternative-Prize:
+        Toggle: false
+        Commands: []
+        Items: []
+        Messages: []

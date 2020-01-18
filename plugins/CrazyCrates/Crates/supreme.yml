@@ -34,7 +34,7 @@ Crate:
       Chance: 10
       Firework: true
       Commands:
-      - cc give p faikkit %player% 1
+      - cc give p faikkit 1 %player% 
       - cmi broadcast ! &8&l[&b&lFaikkitCrates&8&l] &6%Player% &7a castigat &bFaikkit Crate Key &7din &9Supreme Crate&7!
     '2':
       DisplayName: '&eVoucher 2000 ClaimBlocks'
@@ -119,7 +119,7 @@ Crate:
       Chance: 10
       Firework: true
       Commands:
-      - cc give p faikkit %player% 1
+      - cc give p faikkit 1 %player% 
       - cmi broadcast ! &8&l[&b&lFaikkitCrates&8&l] &6%Player% &7a castigat &bFaikkit Crate Key &7din &9Supreme Crate&7!
     '9':
       DisplayName: '&e&lVote Crate &b&lKey'
@@ -348,4 +348,28 @@ Crate:
       Firework: true
       Commands:
       - cmi give %player% ender_pearl 16
-      - cmi broadcast ! &8&l[&bFaikkitCrates&8&l] &6%Player% &7a castigat &616x &3Ender Pearls &7din &9Supreme Crate&7!
+      - cmi broadcast ! &8&l[&bFaikkitCrates&8&l] &6%Player% &7a castigat &616x &3Ender Pearls &7din &9Supreme Crate&7!      
+    '24':
+      DisplayName: '&64x &5Shulker Shell'
+      DisplayItem: SHULKER_SHELL
+      Lore:
+      - '&7Interesant..'
+      - '&7Sansa: &c10%'
+      MaxRange: 100
+      Chance: 10
+      Firework: true
+      Commands:
+      - cmi give %player% shulker_shell 4
+      - cmi broadcast ! &8&l[&bFaikkitCrates&8&l] &6%Player% &7a castigat &64x &5Shulker Shell &7din &9Supreme Crate&7!    
+    '25':
+      DisplayName: '&6Kit &9Supreme'
+      DisplayItem: CHEST
+      Lore:
+      - '&7Echipeaza-te!'
+      - '&7Sansa: &c5%'
+      MaxRange: 100
+      Chance: 8
+      Firework: true
+      Commands:
+      - cmi kit supreme %player%
+      - cmi broadcast ! &8&l[&bFaikkitCrates&8&l] &6%Player% &7a castigat &6Kit &9Supreme &7din &9Supreme Crate&7!

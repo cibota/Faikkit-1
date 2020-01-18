@@ -21,6 +21,10 @@ parkour:
   Item:
     v: 2227
     type: DIAMOND_BOOTS
+staff:
+  Location: warpuri;-40.41;5.0;178.45;-269.66;86.69
+  ReqPerm: true
+  Creator: ec5c2029-db95-34fe-8588-696d8cf2f714
 crate:
   Location: spawn;-204.40;147.0;-2.07;-179.31;0.29
   Slot: 3
@@ -36,9 +40,8 @@ pvp:
     v: 2227
     type: DIAMOND_SWORD
 parkour1:
-  Location: build;341.51;4.05;42.48;-359.22;3.36
-  ReqPerm: true
-  ShowWithNoPerm: true
+  Location: warpuri;-82.58;4.0;-96.43;-3.44;86.54
+  AutoLore: false
   Slot: 2
   Creator: 46091be7-9f81-384f-b3e9-b6c6bb2685de
   Item:

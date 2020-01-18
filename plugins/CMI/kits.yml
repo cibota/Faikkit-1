@@ -3,6 +3,105 @@
 # Possible custom variables: {USERNAME} {DISPLAYNAME} {WORLDNAME} {KITNAME} {RANDOMPLAYER}
 # Edit kits ingame with /cmi kiteditor to avoid formating issues
 
+Faikkit:
+  CommandName: Faikkit
+  Enabled: true
+  DropOnGround: true
+  ShowDespiteWeight: false
+  Delay: 10
+  MaxUsages: -1
+  Items:
+    '28':
+      v: 2227
+      type: DIAMOND_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §4Faikkit
+        enchants:
+          FIRE_ASPECT: 2
+          KNOCKBACK: 2
+          DAMAGE_ALL: 4
+          DURABILITY: 3
+    '29':
+      v: 2227
+      type: DIAMOND_SHOVEL
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §4Faikkit
+        enchants:
+          DIG_SPEED: 4
+          DURABILITY: 4
+    '30':
+      v: 2227
+      type: DIAMOND_AXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §4Faikkit
+        enchants:
+          DIG_SPEED: 4
+          DURABILITY: 4
+    '31':
+      v: 2227
+      type: DIAMOND_PICKAXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §4Faikkit
+        enchants:
+          DIG_SPEED: 4
+          LOOT_BONUS_BLOCKS: 2
+          DURABILITY: 4
+    '36':
+      v: 2227
+      type: COOKED_PORKCHOP
+      amount: 32
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §4Faikkit
+    Helmet:
+      v: 2227
+      type: DIAMOND_HELMET
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §4Faikkit
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 4
+          DURABILITY: 3
+    Chest:
+      v: 2227
+      type: DIAMOND_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §4Faikkit
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 4
+          DURABILITY: 3
+    Legs:
+      v: 2227
+      type: DIAMOND_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §4Faikkit
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 4
+          DURABILITY: 3
+    Boots:
+      v: 2227
+      type: DIAMOND_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §4Faikkit
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 4
+          DURABILITY: 3
 premium:
   CommandName: premium
   Enabled: true
@@ -252,6 +351,105 @@ VIP+:
           PROTECTION_ENVIRONMENTAL: 4
           THORNS: 4
           DURABILITY: 3
+Supreme:
+  CommandName: Supreme
+  Enabled: true
+  DropOnGround: true
+  ShowDespiteWeight: false
+  Delay: 10
+  MaxUsages: -1
+  Items:
+    '28':
+      v: 2227
+      type: DIAMOND_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §9Supreme
+        enchants:
+          FIRE_ASPECT: 1
+          KNOCKBACK: 1
+          DAMAGE_ALL: 3
+          DURABILITY: 3
+    '29':
+      v: 2227
+      type: DIAMOND_PICKAXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §9Supreme
+        enchants:
+          DIG_SPEED: 3
+          LOOT_BONUS_BLOCKS: 1
+          DURABILITY: 3
+    '30':
+      v: 2227
+      type: DIAMOND_AXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §9Supreme
+        enchants:
+          DIG_SPEED: 3
+          DURABILITY: 3
+    '31':
+      v: 2227
+      type: DIAMOND_SHOVEL
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §9Supreme
+        enchants:
+          DIG_SPEED: 3
+          DURABILITY: 3
+    '36':
+      v: 2227
+      type: COOKED_MUTTON
+      amount: 32
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §9Supreme
+    Helmet:
+      v: 2227
+      type: DIAMOND_HELMET
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §9Supreme
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 3
+          DURABILITY: 3
+    Chest:
+      v: 2227
+      type: DIAMOND_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §9Supreme
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 3
+          DURABILITY: 3
+    Legs:
+      v: 2227
+      type: DIAMOND_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §9Supreme
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 3
+          DURABILITY: 3
+    Boots:
+      v: 2227
+      type: DIAMOND_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §9Supreme
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 3
+          DURABILITY: 3
 vip:
   CommandName: vip
   Enabled: true
@@ -322,3 +520,100 @@ vip:
           PROTECTION_ENVIRONMENTAL: 4
           THORNS: 2
           DURABILITY: 3
+Vote:
+  CommandName: Vote
+  Enabled: true
+  DropOnGround: true
+  ShowDespiteWeight: false
+  Delay: 10
+  MaxUsages: -1
+  Items:
+    '28':
+      v: 2227
+      type: DIAMOND_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §5Vote
+        enchants:
+          KNOCKBACK: 1
+          DAMAGE_ALL: 2
+          DURABILITY: 2
+    '29':
+      v: 2227
+      type: DIAMOND_PICKAXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §5Vote
+        enchants:
+          DIG_SPEED: 2
+          DURABILITY: 2
+    '30':
+      v: 2227
+      type: DIAMOND_AXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §5Vote
+        enchants:
+          DIG_SPEED: 2
+          DURABILITY: 2
+    '31':
+      v: 2227
+      type: DIAMOND_SHOVEL
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §5Vote
+        enchants:
+          DIG_SPEED: 2
+          DURABILITY: 2
+    '36':
+      v: 2227
+      type: BREAD
+      amount: 32
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §5Vote
+    Helmet:
+      v: 2227
+      type: DIAMOND_HELMET
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §5Vote
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 2
+          DURABILITY: 2
+    Chest:
+      v: 2227
+      type: DIAMOND_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §5Vote
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 2
+          DURABILITY: 2
+    Legs:
+      v: 2227
+      type: DIAMOND_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §5Vote
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 2
+          DURABILITY: 2
+    Boots:
+      v: 2227
+      type: DIAMOND_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §5Vote
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 2
+          DURABILITY: 2
