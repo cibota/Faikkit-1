@@ -1,5 +1,5 @@
-# Use a YAML editor like NotepadPlusPlus to edit this file.  
-# After editing, back up your changes before reloading the server in case you made a syntax error.  
+# Use a YAML editor like NotepadPlusPlus to edit this file.
+# After editing, back up your changes before reloading the server in case you made a syntax error.
 # Use dollar signs ($) for formatting codes, which are documented here: http://minecraft.gamepedia.com/Formatting_codes
 Messages:
   RespectingClaims:
@@ -200,7 +200,7 @@ Messages:
     Text: This chest is NOT protected.  Consider using a golden shovel to expand an
       existing claim or to create a new one.
   ThatPlayerPvPImmune:
-    Text: Mi poti lovi un jucator fara aparare.
+    Text: Nu poti ataca acest jucator!
   CantFightWhileImmune:
     Text: Nu te poti lupta cu cineva cand esti protejat de PvP.
   NoDamageClaimedEntity:
