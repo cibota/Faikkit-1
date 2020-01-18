@@ -13,10 +13,9 @@ GriefPrevention:
       world_the_end: Disabled
       world_nether: Disabled
       warpuri: Disabled
-      hub: Disabled
       world: Survival
       spawn: Disabled
-      build: Disabled
+      build: Survival
     PreventGlobalMonsterEggs: false
     PreventTheft: true
     ProtectCreatures: true
