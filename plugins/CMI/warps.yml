@@ -7,7 +7,7 @@ iesire:
     v: 2227
     type: GRASS_BLOCK
 enchant:
-  Location: spawn;-216.44;147.0;-2.72;-234.15;39.44
+  Location: spawn;-216.44;147.0;-2.72;-234.15;39.43
   ShowWithNoPerm: true
   AutoLore: false
   Creator: ec5c2029-db95-34fe-8588-696d8cf2f714
@@ -36,7 +36,8 @@ pvp:
     v: 2227
     type: DIAMOND_SWORD
 parkour1:
-  Location: build;341.51;4.06;42.48;-359.22;3.36
+  Location: build;341.51;4.05;42.48;-359.22;3.36
+  ReqPerm: true
   ShowWithNoPerm: true
   Slot: 2
   Creator: 46091be7-9f81-384f-b3e9-b6c6bb2685de
