@@ -1,1 +1,13 @@
-holograms: {}
+holograms:
+  Faikkit:
+    location: spawn;-210.53426603240598;143.875;-36.31630660830344;56.550037;-358.7968
+    lines:
+    - §4§lFaikkit §6§lCrate
+  Vote:
+    location: spawn;-207.50260750041042;143.875;-38.29196759015808;-2.2499704;-1.046826
+    lines:
+    - §5§lVote §6§lCrate
+  Supreme:
+    location: spawn;-204.60853185174045;143.875;-36.35473980265649;-6.8999877;355.80304
+    lines:
+    - §9§lSupreme §6§lCrate

@@ -24,11 +24,15 @@ parkour:
 staff:
   Location: warpuri;-40.41;5.0;178.45;-269.66;86.69
   ReqPerm: true
+  ShowWithNoPerm: true
   Creator: ec5c2029-db95-34fe-8588-696d8cf2f714
-crate:
-  Location: spawn;-204.40;147.0;-2.07;-179.31;0.29
-  Slot: 3
-  Creator: bf3f44dc-80a0-363c-a079-23387f9b3dcd
+  Item:
+    v: 2227
+    type: NETHER_STAR
+Crate:
+  Location: spawn;-207.96;142.5;-23.02;178.05;6.15
+  ReqPerm: true
+  Creator: ceb7a1b5-4cc9-377f-a7b6-dcbc7a2b4fc7
   Item:
     v: 2227
     type: ENDER_CHEST
