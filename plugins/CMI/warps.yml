@@ -1,3 +1,19 @@
+iesire:
+  Location: spawn;-261.57;146.0;4.34;-270.21;-2.85
+  ReqPerm: true
+  Slot: 4
+  Creator: bf3f44dc-80a0-363c-a079-23387f9b3dcd
+  Item:
+    v: 2227
+    type: GRASS_BLOCK
+enchant:
+  Location: spawn;-216.44;147.0;-2.72;-234.15;39.44
+  ShowWithNoPerm: true
+  AutoLore: false
+  Creator: ec5c2029-db95-34fe-8588-696d8cf2f714
+  Item:
+    v: 2227
+    type: ENCHANTING_TABLE
 parkour:
   Location: warpuri;33.53;4.0;102.52;89.55;88.04
   Slot: 1
@@ -19,14 +35,6 @@ pvp:
   Item:
     v: 2227
     type: DIAMOND_SWORD
-iesire:
-  Location: spawn;-261.57;146.0;4.34;-270.21;-2.85
-  ReqPerm: true
-  Slot: 4
-  Creator: bf3f44dc-80a0-363c-a079-23387f9b3dcd
-  Item:
-    v: 2227
-    type: GRASS_BLOCK
 parkour1:
   Location: build;341.51;4.06;42.48;-359.22;3.36
   ShowWithNoPerm: true
