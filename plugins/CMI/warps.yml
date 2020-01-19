@@ -1,3 +1,10 @@
+Parkour2:
+  Location: warpuri;-82.58;4.0;-96.43;-0.59;2.24
+  ReqPerm: true
+  Creator: ceb7a1b5-4cc9-377f-a7b6-dcbc7a2b4fc7
+  Item:
+    v: 2227
+    type: GOLDEN_BOOTS
 iesire:
   Location: spawn;-261.57;146.0;4.34;-270.21;-2.85
   ReqPerm: true
@@ -6,14 +13,20 @@ iesire:
   Item:
     v: 2227
     type: GRASS_BLOCK
-enchant:
-  Location: spawn;-216.44;147.0;-2.72;-234.15;39.43
-  ShowWithNoPerm: true
-  AutoLore: false
-  Creator: ec5c2029-db95-34fe-8588-696d8cf2f714
+Enchant:
+  Location: spawn;-216.44;146.8;-2.72;-227.09;7.17
+  ReqPerm: true
+  Creator: ceb7a1b5-4cc9-377f-a7b6-dcbc7a2b4fc7
   Item:
     v: 2227
     type: ENCHANTING_TABLE
+Xp:
+  Location: warpuri;-412.51;5.0;10.44;177.95;-6.6
+  ReqPerm: true
+  Creator: ceb7a1b5-4cc9-377f-a7b6-dcbc7a2b4fc7
+  Item:
+    v: 2227
+    type: EXPERIENCE_BOTTLE
 parkour:
   Location: warpuri;33.53;4.0;102.52;89.55;88.04
   Slot: 1
@@ -43,11 +56,3 @@ pvp:
   Item:
     v: 2227
     type: DIAMOND_SWORD
-parkour1:
-  Location: warpuri;-82.58;4.0;-96.43;-3.44;86.54
-  AutoLore: false
-  Slot: 2
-  Creator: 46091be7-9f81-384f-b3e9-b6c6bb2685de
-  Item:
-    v: 2227
-    type: GOLDEN_BOOTS
