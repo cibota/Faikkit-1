@@ -6,7 +6,6 @@ GriefPrevention:
     world_the_end: 256
     warpuri: -1
     spawn: -1
-    hub: -1
     build: -1
   Claims:
     Mode:
@@ -81,7 +80,6 @@ GriefPrevention:
       world_the_end: true
       warpuri: true
       spawn: true
-      hub: true
       build: true
     ProtectFreshSpawns: true
     PunishLogout: true
