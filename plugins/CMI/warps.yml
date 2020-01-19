@@ -22,7 +22,7 @@ Enchant:
     type: ENCHANTING_TABLE
 Xp:
   Location: warpuri;-412.51;5.0;10.44;177.95;-6.6
-  ReqPerm: true
+  AutoLore: false
   Creator: ceb7a1b5-4cc9-377f-a7b6-dcbc7a2b4fc7
   Item:
     v: 2227
