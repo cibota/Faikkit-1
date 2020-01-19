@@ -291,7 +291,7 @@ Crate:
       Chance: 10
       Firework: true
       Commands:
-      - cmi money give %player% 100000
+      - cmi money give %player% 15000
       - cmi broadcast ! &8&l[&bFaikkitCrates&8&l] &6%Player% &7a castigat &b100.000$ &7din &aVote Crate&7!
     '25':
       DisplayName: '&b5.000$'
