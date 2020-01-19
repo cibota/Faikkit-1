@@ -1,21 +1,21 @@
 #
 Crate:
   CrateType: Roulette
-  CrateName: '&8Vote Crate'
+  CrateName: '&5&lVote &6&lCrate'
   StartingKeys: 0
   InGUI: true
   Slot: 25
   OpeningBroadCast: true
-  BroadCast: '%Prefix%&6&l%Player% &7deschide &e&lVote &7Crate!'
+  BroadCast: '%Prefix%&6&l%Player% &7deschide &5&lVote &6&lCrate!'
   Item: CHEST
-  Name: '&a&lVote Crate'
+  Name: '&5&lVote &6&lCrate'
   Lore:
     - '&7Acest crate contine obiecte de tot felul,'
     - '&7testeaza-ti norocul si vezi ce poti castiga.'
     - '&7Momentan ai &6%Keys% chei pentru acest crate.'
     - '&7&l(&e&l!&7&l) &cClick-dreapta pentru a vedea itemele.'
   PhysicalKey:
-    Name: '&e&lVote Crate &b&lKey'
+    Name: '&5&lVote &6&lCrate &3&lKey'
     Lore:
     - '&7O cheie Speciala'
     - '&7pentru o cutie speciala.'
