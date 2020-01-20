@@ -12,7 +12,7 @@
 regions:
     __global__:
         members: {}
-        flags: {sleep: deny, use: deny, game-mode: creative, invincible: allow, fall-damage: deny,
+        flags: {sleep: deny, fall-damage: deny, use: deny, invincible: allow, game-mode: creative,
             interact: deny, pvp: deny}
         owners: {}
         type: global
@@ -21,7 +21,7 @@ regions:
         min: {x: 258, y: 3, z: 27}
         max: {x: 372, y: 122, z: 144}
         members: {}
-        flags: {fly: deny, game-mode: survival, fall-damage: deny}
+        flags: {fly: deny, fall-damage: deny, game-mode: survival}
         owners: {}
         type: cuboid
         priority: 0
