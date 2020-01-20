@@ -124,6 +124,7 @@ mutes:
   - /r
   - /mail send
   - /cmi helpop
+  - /helpop
   # This command blacklist specifically applies to players who are affected by /mutechat.
   mutechat_command_blacklist:
   - /me
