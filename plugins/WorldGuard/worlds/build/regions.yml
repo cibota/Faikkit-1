@@ -11,12 +11,13 @@
 #
 regions:
     __global__:
-        members: {}
+        members:
+            groups: [builder]
         flags: {sleep: deny, fall-damage: deny, use: deny, invincible: allow, game-mode: creative,
             interact: deny, pvp: deny}
         owners: {}
         type: global
-        priority: 0
+        priority: 10
     parkour1:
         min: {x: 258, y: 3, z: 27}
         max: {x: 372, y: 122, z: 144}
