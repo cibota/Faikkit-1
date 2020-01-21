@@ -1,21 +1,21 @@
 #
 Crate:
   CrateType: Roulette
-  CrateName: '&8Vote Crate'
+  CrateName: '&5&lVote &6&lCrate'
   StartingKeys: 0
   InGUI: true
   Slot: 25
   OpeningBroadCast: true
-  BroadCast: '%Prefix%&6&l%Player% &7deschide &e&lVote &7Crate!'
+  BroadCast: '%Prefix%&6&l%Player% &7deschide &5&lVote &6&lCrate!'
   Item: CHEST
-  Name: '&a&lVote Crate'
+  Name: '&5&lVote &6&lCrate'
   Lore:
     - '&7Acest crate contine obiecte de tot felul,'
     - '&7testeaza-ti norocul si vezi ce poti castiga.'
     - '&7Momentan ai &6%Keys% chei pentru acest crate.'
     - '&7&l(&e&l!&7&l) &cClick-dreapta pentru a vedea itemele.'
   PhysicalKey:
-    Name: '&e&lVote Crate &b&lKey'
+    Name: '&5&lVote &6&lCrate &3&lKey'
     Lore:
     - '&7O cheie Speciala'
     - '&7pentru o cutie speciala.'
@@ -23,7 +23,7 @@ Crate:
     Glowing: true
   Prizes:
     '1':
-      DisplayName: '&f&l8 &c&lMere'
+      DisplayName: '&f8 &cMere'
       DisplayItem: APPLE
       DisplayAmount: 8
       Lore:
@@ -35,7 +35,7 @@ Crate:
       - cmi give %player% apple 8
       - cmi broadcast ! &8&l[&b&lFaikkitCrates&8&l] &6%Player% &7a castigat &f&l8 &c&lMere &7din &aVote Crate&7!
     '2 ':
-      DisplayName: '&f&l6 &8&lInk Sac'
+      DisplayName: '&f6 &8Ink Sac'
       DisplayItem: INK_SAC
       DisplayAmount: 6
       Lore:
@@ -47,7 +47,7 @@ Crate:
       - cmi give %player% ink_sac 6
       - cmi broadcast ! &8&l[&bFaikkitCrates&8&l] &6%Player% &7a castigat &f&l6 &8&lInk Sac &7din &aVote Crate&7!
     '3':
-      DisplayName: '&f&l4 &3&lSea Lantern'
+      DisplayName: '&f8 &3Sea Lantern'
       DisplayItem: SEA_LANTERN
       DisplayAmount: 4
       Lore:
@@ -56,8 +56,8 @@ Crate:
       Chance: 7
       Firework: true
       Commands:
-      - cmi give %player% sea_lantern 4
-      - cmi broadcast ! &8&l[&bFaikkitCrates&8&l] &6%Player% &7a castigat &f&l4 &3&lSea Lantern &7din &aVote Crate&7!
+      - cmi give %player% sea_lantern 8
+      - cmi broadcast ! &8&l[&bFaikkitCrates&8&l] &6%Player% &7a castigat &f&l8 &3&lSea Lantern &7din &aVote Crate&7!
     '4':
       DisplayName: '&f&lGhast Tear'
       DisplayItem: GHAST_TEAR
@@ -71,7 +71,7 @@ Crate:
       - cmi give %player% ghast_tear 1
       - cmi broadcast ! &8&l[&bFaikkitCrates&8&l] &6%Player% &7a castigat &f&lGhast Tear &7din &aVote Crate&7!
     '5':
-      DisplayName: '&f&l2 &e&lSponge'
+      DisplayName: '&f2 &e&lSponge'
       DisplayItem: SPONGE
       DisplayAmount: 2
       Lore:
@@ -91,21 +91,21 @@ Crate:
       Chance: 1.5
       Firework: true
       Commands:
-      - cmi give %player% elytra  &bVote_Crate_Elytra 1
+      - cmi give %player% elytra 1 
       - cmi broadcast ! &8&l[&bFaikkitCrates&8&l] &6%Player% &7a castigat &bElytra &7din &aVote Crate&7!
     '7':
-      DisplayName: '&8&lWither Skull'
+      DisplayName: '&8Wither Skull'
       DisplayItem: WITHER_SKELETON_SKULL
       Lore:
-      - '&7Sansa: &c1%'
+      - '&7Sansa: &c2%'
       MaxRange: 100
-      Chance: 1
+      Chance: 2
       Firework: true
       Commands:
       - cmi give %player% wither_skeleton_skull 1
       - cmi broadcast ! &8&l[&bFaikkitCrates&8&l] &6%Player% &7a castigat &8&lWither Skull &7din &aVote Crate&7!
     '8':
-      DisplayName: '&8&lWither Skeleton Egg'
+      DisplayName: '&8Wither Skeleton Egg'
       DisplayItem: WITHER_SKELETON_SPAWN_EGG
       Lore:
       - '&7Sansa: &c2.5%'
@@ -116,7 +116,7 @@ Crate:
       - cmi give %player% wither_skeleton_spawn_egg 1
       - cmi broadcast ! &8&l[&bFaikkitCrates&8&l] &6%Player% &7a castigat &8&lWither Skeleton Egg &7din &aVote Crate&7!
     '9':
-      DisplayName: '&5&lVillager Egg'
+      DisplayName: '&5Villager Egg'
       DisplayItem: VILLAGER_SPAWN_EGG
       Lore:
       - '&7Sansa: &c0.7%'
@@ -127,7 +127,7 @@ Crate:
       - cmi give %player% villager_spawn_egg 1
       - cmi broadcast ! &8&l[&bFaikkitCrates&8&l] &6%Player% &7a castigat &5&lVillager Egg &7din &aVote Crate&7!
     '10':
-      DisplayName: '&7&lDonkey Egg'
+      DisplayName: '&7Donkey Egg'
       DisplayItem: DONKEY_SPAWN_EGG
       Lore:
       - '&7Sansa: &c5%'
@@ -138,7 +138,7 @@ Crate:
       - cmi give %player% villager_spawn_egg 1
       - cmi broadcast ! &8&l[&bFaikkitCrates&8&l] &6%Player% &7a castigat &7&lDonkey Egg &7din &aVote Crate&7!
     '11':
-      DisplayName: '&f&l2 Cow Eggs'
+      DisplayName: '&f2 Cow Eggs'
       DisplayItem: COW_SPAWN_EGG
       DisplayAmount: 2
       Lore:
@@ -147,15 +147,15 @@ Crate:
       Chance: 4
       Firework: true
       Commands:
-      - cmi give %player% cow_spawn_egg 3
+      - cmi give %player% cow_spawn_egg 2
       - cmi broadcast ! &8&l[&bFaikkitCrates&8&l] &6%Player% &7a castigat &f&l2 Cow Eggs &7din &aVote Crate&7!
     '12':
       DisplayName: '&3&lVote Trident'
       DisplayItem: TRIDENT
       Lore:
-      - '&7Sansa: &c1%'
+      - '&7Sansa: &c2%'
       MaxRange: 100
-      Chance: 1
+      Chance: 2
       Firework: true
       Commands:
       - cmi give %player% trident n &3&lVote_Trident
@@ -217,7 +217,7 @@ Crate:
       - voucher give %player% claimb3000
       - cmi broadcast ! &8&l[&bFaikkitCrates&8&l] &6%Player% &7a castigat &bVoucher 3000 ClaimBlocks &7din &aVote Crate&7!
     '18':
-      DisplayName: '&9&lSupreme Crate &3&lKey'
+      DisplayName: '&9Supreme &6Crate &3&lKey'
       DisplayItem: TRIPWIRE_HOOK
       Lore:
       - '&7Sansa: &c1%'
@@ -227,19 +227,19 @@ Crate:
       Commands:
       - cc give p supreme 1 %player%
       - cmi broadcast ! &8&l[&bFaikkitCrates&8&l] &6%Player% &7a castigat &9&lSupreme Crate &3&lKey &7din &aVote Crate&7!
-    '19':
-      DisplayName: '&7&lWarrior Crate &3&lKey'
-      DisplayItem: TRIPWIRE_HOOK
-      Lore:
-      - '&7Sansa: &c0.5%'
-      MaxRange: 100
-      Chance: 0.5
-      Firework: true
-      Commands:
-      - cc give p warrior 1 %player%
-      - cmi broadcast ! &8&l[&bFaikkitCrates&8&l] &6%Player% &7a castigat &7&lWarrior Crate &3&lKey &7din &aVote Crate&7!
+#    '19':
+#      DisplayName: '&7&lWarrior Crate &3&lKey'
+#      DisplayItem: TRIPWIRE_HOOK
+#      Lore:
+#      - '&7Sansa: &c0.5%'
+#      MaxRange: 100
+#      Chance: 0.5
+#      Firework: true
+#      Commands:
+#      - cc give p warrior 1 %player%
+#      - cmi broadcast ! &8&l[&bFaikkitCrates&8&l] &6%Player% &7a castigat &7&lWarrior Crate &3&lKey &7din &aVote Crate&7!
     '20':
-      DisplayName: '&2&lFaikkit Crate &3&lKey'
+      DisplayName: '&2Faikkit &6Crate &3&lKey'
       DisplayItem: TRIPWIRE_HOOK
       Lore:
       - '&7Sansa: &c1%'
@@ -250,7 +250,7 @@ Crate:
       - cc give p faikkit 1 %player%
       - cmi broadcast ! &8&l[&bFaikkitCrates&8&l] &6%Player% &7a castigat &2&lFaikkit Crate &3&lKey &7din &aVote Crate&7!
     '21':
-      DisplayName: '&e&lVote Crate &3&lKey'
+      DisplayName: '&5Vote &6Crate &3&lKey'
       DisplayItem: TRIPWIRE_HOOK
       Lore:
       - '&7Sansa: &c2%'
@@ -291,7 +291,7 @@ Crate:
       Chance: 10
       Firework: true
       Commands:
-      - cmi money give %player% 100000
+      - cmi money give %player% 15000
       - cmi broadcast ! &8&l[&bFaikkitCrates&8&l] &6%Player% &7a castigat &b100.000$ &7din &aVote Crate&7!
     '25':
       DisplayName: '&b5.000$'
@@ -370,3 +370,25 @@ Crate:
       Commands:
       - voucher give %player% fly3h
       - cmi broadcast ! &8&l[&bFaikkitCrates&8&l] &6%Player% &7a castigat &bVoucher Fly 3h &7din &aVote Crate&7!
+    '32':
+      DisplayName: '&6Kit &5Vote'
+      DisplayItem: CHEST
+      Lore:
+      - '&7Sansa: &c6%'
+      MaxRange: 100
+      Chance: 6
+      Firework: true
+      Commands:
+      - cmi kit vote %player%
+      - cmi broadcast ! &8&l[&bFaikkitCrates&8&l] &6%Player% &7a castigat &6Kit &5Vote &7din &aVote Crate&7!      
+    '33':
+      DisplayName: '&f&lNIMIC'
+      DisplayItem: BARRIER
+      Lore:
+      - '&7Sansa: &c5%'
+      MaxRange: 100
+      Chance: 5
+      Firework: true
+      Commands:
+      - cmi tell %player% Din pacate nu ai castigat nimic!
+      - cmi broadcast ! &8&l[&bFaikkitCrates&8&l] &6%Player% &7NU a castigat &6NIMIC &7din &aVote Crate&7!

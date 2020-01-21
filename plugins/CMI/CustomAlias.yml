@@ -26,6 +26,3 @@ CustomAlias:
   warpuri:
     Cmds:
     - mvtp warpuri
-  build:
-    Cmds:
-    - mvtp build
