@@ -2,17 +2,17 @@ settings:
   prefix: '&8(&e&lFaikkitVoucher&8)'
 
 messages:
-  reloadconfig: '&7The config has been reloaded'
-  insufficientpermissions: '&cYou do not have sufficient permissions to use that command'
+  reloadconfig: '&7Configuratia a fost restartata'
+  insufficientpermissions: '&cNu ai permisia necesara sa folosesti aceasta comanda'
   voucherinsufficientpermissions: '&cNu poti folosi acest voucher'
   voucherblacklistpermissions: '&cNu poti folosi acest voucher'
-  notonline: '&cThat player is not online'
-  invalidvoucher: '&cThat voucher does not exist'
-  voucherreceived: '&7You have received a(n) &e%voucher% &7voucher'
-  fullinventory: '&cYou have not received a(n) &e%voucher% &7voucher because your inventory is full'
+  notonline: '&cAcest player nu este online'
+  invalidvoucher: '&cAcel voucher nu exista'
+  voucherreceived: '&7Ai primit un(n) &e%voucher% &7voucher'
+  fullinventory: '&cNu ai primit un (n) &e%voucher% &7pentru ca inventarul tau e plin'
   vouchergive: '&7You have given &e%player% &7a(n) &e%voucher% &7voucher'
   vouchergiveall: '&7You have given all players a(n) &e%voucher% &7voucher'
-  availablevouchers: '&eAvailable vouchers&7:'
+  availablevouchers: '&eVouchere valabile&7:'
 
 vouchers:
   claimb500:
@@ -25,7 +25,7 @@ vouchers:
       - 'adjustbonusclaimblocks %player% 500'
 
     options:
-      message: '&aAi folosit voucherul si ai primit 500 de blockuri de claim.' # Set to '' to disable the message
+      message: '&8[&a&lVouchers&8] &6Ai folosit voucherul si ai primit &c500 &6CLAIMBLOCKS.' # Set to '' to disable the message
 
       glowing: true # Defines if the item should glow or not (enchanted)
 
@@ -53,7 +53,7 @@ vouchers:
       - 'adjustbonusclaimblocks %player% 750'
 
     options:
-      message: '&aAi folosit voucherul si ai primit 750 de blockuri de claim.' # Set to '' to disable the message
+      message: '&8[&a&lVouchers&8] &6Ai folosit voucherul si ai primit &c750 &6CLAIMBLOCKS.' # Set to '' to disable the message
 
       glowing: true # Defines if the item should glow or not (enchanted)
 
@@ -81,7 +81,7 @@ vouchers:
       - 'adjustbonusclaimblocks %player% 1000'
 
     options:
-      message: '&aAi folosit voucherul si ai primit 1000 de blockuri de claim.' # Set to '' to disable the message
+      message: '&8[&a&lVouchers&8] &6Ai folosit voucherul si ai primit &c1000 &6CLAIMBLOCKS.' # Set to '' to disable the message
 
       glowing: true # Defines if the item should glow or not (enchanted)
 
@@ -109,7 +109,7 @@ vouchers:
       - 'adjustbonusclaimblocks %player% 1250'
 
     options:
-      message: '&aAi folosit voucherul si ai primit 1250 de blockuri de claim.' # Set to '' to disable the message
+      message: '&8[&a&lVouchers&8] &6Ai folosit voucherul si ai primit &c1250 &6CLAIMBLOCKS.' # Set to '' to disable the message
 
       glowing: true # Defines if the item should glow or not (enchanted)
 
@@ -137,7 +137,7 @@ vouchers:
       - 'adjustbonusclaimblocks %player% 1500'
 
     options:
-      message: '&aAi folosit voucherul si ai primit 1509 de blockuri de claim.' # Set to '' to disable the message
+      message: '&a&8[&a&lVouchers&8] &6Ai folosit voucherul si ai primit &c1500 &6CLAIMBLOCKS.' # Set to '' to disable the message
 
       glowing: true # Defines if the item should glow or not (enchanted)
 
@@ -165,7 +165,7 @@ vouchers:
       - 'adjustbonusclaimblocks %player% 1750'
 
     options:
-      message: '&aAi folosit voucherul si ai primit 1750 de blockuri de claim.' # Set to '' to disable the message
+      message: '&8[&a&lVouchers&8] &6Ai folosit voucherul si ai primit &c1750 &6CLAIMBLOCKS.' # Set to '' to disable the message
 
       glowing: true # Defines if the item should glow or not (enchanted)
 
@@ -193,7 +193,7 @@ vouchers:
       - 'adjustbonusclaimblocks %player% 2000'
 
     options:
-      message: '&aAi folosit voucherul si ai primit 2000 de blockuri de claim.' # Set to '' to disable the message
+      message: '&8[&a&lVouchers&8] &6Ai folosit voucherul si ai primit &c2000 &6CLAIMBLOCKS' # Set to '' to disable the message
 
       glowing: true # Defines if the item should glow or not (enchanted)
 
@@ -221,7 +221,7 @@ vouchers:
       - 'adjustbonusclaimblocks %player% 2250'
 
     options:
-      message: '&aAi folosit voucherul si ai primit 2250 de blockuri de claim.' # Set to '' to disable the message
+      message: '&8[&a&lVouchers&8] &6Ai folosit voucherul si ai primit &c2250 &6CLAIMBLOCKS.' # Set to '' to disable the message
 
       glowing: true # Defines if the item should glow or not (enchanted)
 
@@ -249,7 +249,7 @@ vouchers:
       - 'adjustbonusclaimblocks %player% 2500'
 
     options:
-      message: '&aAi folosit voucherul si ai primit 2500 de blockuri de claim.' # Set to '' to disable the message
+      message: '&8[&a&lVouchers&8] &6Ai folosit voucherul si ai primit &c2500 &6CLAIMBLOCKS.' # Set to '' to disable the message
 
       glowing: true # Defines if the item should glow or not (enchanted)
 
@@ -277,7 +277,7 @@ vouchers:
       - 'adjustbonusclaimblocks %player% 2750'
 
     options:
-      message: '&aAi folosit voucherul si ai primit 2750 de blockuri de claim.' # Set to '' to disable the message
+      message: '&8[&a&lVouchers&8] &6Ai folosit voucherul si ai primit &c2750 &6CLAIMBLOCKS.' # Set to '' to disable the message
 
       glowing: true # Defines if the item should glow or not (enchanted)
 
@@ -305,7 +305,7 @@ vouchers:
       - 'adjustbonusclaimblocks %player% 3000'
 
     options:
-      message: '&aAi folosit voucherul si ai primit 3000 de blockuri de claim.' # Set to '' to disable the message
+      message: '&8[&a&lVouchers&8] &6Ai folosit voucherul si ai primit &c3000 &6CLAIMBLOCKS' # Set to '' to disable the message
 
       glowing: true # Defines if the item should glow or not (enchanted)
 
@@ -333,7 +333,7 @@ vouchers:
       - 'lp user %player% permission settemp cmi.command.fly true 1h'
 
     options:
-      message: '&aAi folosit voucherul si ai primit 1 ora de fly.' # Set to '' to disable the message
+      message: '&8[&a&lVouchers&8] &6Ai folosit voucherul si ai primit &c1 ora &6FLY.' # Set to '' to disable the message
 
       glowing: true # Defines if the item should glow or not (enchanted)
 
@@ -361,7 +361,7 @@ vouchers:
       - 'lp user %player% permission settemp cmi.command.fly true 3h'
 
     options:
-      message: '&aAi folosit voucherul si ai primit 3 ore de fly.' # Set to '' to disable the message
+      message: '&8[&a&lVouchers&8] &6Ai folosit voucherul si ai primit &c3 ore &6FLY.' # Set to '' to disable the message
 
       glowing: true # Defines if the item should glow or not (enchanted)
 
@@ -389,7 +389,7 @@ vouchers:
       - 'lp user %player% permission settemp cmi.command.fly true 5h'
 
     options:
-      message: '&aAi folosit voucherul si ai primit 5 ore de fly.' # Set to '' to disable the message
+      message: '&8[&a&lVouchers&8] &6Ai folosit voucherul si ai primit &c5 ore &6FLY.' # Set to '' to disable the message
 
       glowing: true # Defines if the item should glow or not (enchanted)
 
@@ -417,7 +417,7 @@ vouchers:
       - 'lp user %player% permission settemp cmi.command.fly true 10h'
 
     options:
-      message: '&aAi folosit voucherul si ai primit 10 ore de fly.' # Set to '' to disable the message
+      message: '&8[&a&lVouchers&8] &6Ai folosit voucherul si ai primit &c10 ore &6FLY.' # Set to '' to disable the message
 
       glowing: true # Defines if the item should glow or not (enchanted)
 
@@ -445,7 +445,7 @@ vouchers:
       - 'lp user %player% permission settemp cmi.command.fly true 24h'
 
     options:
-      message: '&aAi folosit voucherul si ai primit 24 ore de fly.' # Set to '' to disable the message
+      message: '&8[&a&lVouchers&8] &6Ai folosit voucherul si ai primit &c24 ore &6FLY.' # Set to '' to disable the message
 
       glowing: true # Defines if the item should glow or not (enchanted)
 
@@ -473,7 +473,7 @@ vouchers:
       - 'lp user %player% permission settemp cmi.command.fly true 3d'
 
     options:
-      message: '&aAi folosit voucherul si ai primit 3 zile de fly.' # Set to '' to disable the message
+      message: '&8[&a&lVouchers&8] &6Ai folosit voucherul si ai primit &c3 zile &6FLY.' # Set to '' to disable the message
 
       glowing: true # Defines if the item should glow or not (enchanted)
 
@@ -501,7 +501,7 @@ vouchers:
       - 'lp user %player% permission settemp cmi.command.fly true 5d'
 
     options:
-      message: '&aAi folosit voucherul si ai primit 5 zile de fly.' # Set to '' to disable the message
+      message: '&8[&a&lVouchers&8] &6Ai folosit voucherul si ai primit &c5 zile &6FLY.' # Set to '' to disable the message
 
       glowing: true # Defines if the item should glow or not (enchanted)
 
@@ -529,7 +529,7 @@ vouchers:
       - 'lp user %player% permission settemp cmi.command.fly true 7d'
 
     options:
-      message: '&aAi folosit voucherul si ai primit 7 zile de fly.' # Set to '' to disable the message
+      message: '&8[&a&lVouchers&8] &6Ai folosit voucherul si ai primit &c7 zile fly &6FLY.' # Set to '' to disable the message
 
       glowing: true # Defines if the item should glow or not (enchanted)
 
@@ -557,7 +557,7 @@ vouchers:
       - 'lp user %player% permission settemp cmi.command.fly true 30d'
 
     options:
-      message: '&aAi folosit voucherul si ai primit 31 ora de fly.' # Set to '' to disable the message
+      message: '&8[&a&lVouchers&8] &6Ai folosit voucherul si ai primit &c30 zile &6FLY.' # Set to '' to disable the message
 
       glowing: true # Defines if the item should glow or not (enchanted)
 
@@ -585,7 +585,7 @@ vouchers:
       - 'lp user %player% meta addtempprefix 40 "&c&lOver&8&lLord &f" 12h true server=survival world=world'
 
     options:
-      message: '&aAi folosit voucherul si ai primit prefixul &4Over&8Lord &apentru 12 ore.' # Set to '' to disable the message
+      message: '&8[&a&lVouchers&8] &6Ai folosit voucherul si ai primit &cprefix &c&lOver&8&lLord.' # Set to '' to disable the message
 
       glowing: true # Defines if the item should glow or not (enchanted)
 
@@ -613,7 +613,7 @@ vouchers:
       - 'lp user %player% meta addprefix 40 "&c&lOver&8&lLord &f" true server=survival world=world'
 
     options:
-      message: '&aAi folosit voucherul si ai primit prefixul &4Over&8Lord&a.' # Set to '' to disable the message
+      message: '&8[&a&lVouchers&8] &6Ai folosit voucherul si ai primit &cprefix &c&lOver&8&lLord.' # Set to '' to disable the message
 
       glowing: true # Defines if the item should glow or not (enchanted)
 
@@ -635,14 +635,14 @@ vouchers:
     item: 'PAPER'
     name: '&e&lVoucher &6&lPrefix&e&l 12h'
     lore:
-      - '&7Acesta este un voucher care contine prefixul &eLegend &7pentru 12 ore.'
+      - '&7Acesta este un voucher care contine prefixul &a&lLegend &7pentru 12 ore.'
       - '&7Click-dreapta pentru a folosi voucherul.'
     commands:
       - 'lp user %player% meta addtempprefix 40 "&eLegend &f" 12h '
-      - 'cmi broadcast ! &7[&e&lVoucher&7] %player% &7a deschis un &e&lVoucher &7si a primit prefixul "&eLegend&7" &7pentru &612h&7!'
+      - 'cmi broadcast !&8[&a&lVouchers&8] &6A folosit voucherul si a primit &cprefix &a&lLegend &6pentru &c12h&6!'
       
     options:
-      message: '&aAi folosit voucherul si ai primit prefixul &eLegend &apentru 12 ore.' # Set to '' to disable the message
+      message: '&8[&a&lVouchers&8] &6Ai folosit voucherul si ai primit &cprefix &a&lLegend&6.' # Set to '' to disable the message
 
       glowing: true # Defines if the item should glow or not (enchanted)
 
@@ -664,14 +664,14 @@ vouchers:
     item: 'PAPER'
     name: '&e&lVoucher &6&lPrefix&e&l 12h'
     lore:
-      - '&7Acesta este un voucher care contine prefixul &bHero &7pentru 12 ore.'
+      - '&7Acesta este un voucher care contine prefixul &b&lHero &7pentru 12 ore.'
       - '&7Click-dreapta pentru a folosi voucherul.'
     commands:
-      - 'lp user %player% meta addtempprefix 40 "&bHero &f" 12h '
-      - 'cmi broadcast ! &7[&e&lVoucher&7] %player% &7a deschis un &e&lVoucher &7si a primit prefixul "&bHero&7" &7pentru &612h&7!'
+      - 'lp user %player% meta addtempprefix 40 "&b&lHero &f" 12h '
+      - 'cmi broadcast !&8[&a&lVouchers&8] &6A folosit voucherul si a primit &cprefix &b&lHero &6pentru &c12h&6'
       
     options:
-      message: '&aAi folosit voucherul si ai primit prefixul &bHero &apentru 12 ore.' # Set to '' to disable the message
+      message: '&8[&a&lVouchers&8] &6Ai folosit voucherul si ai primit &cprefix &b&lHero&6.' # Set to '' to disable the message
 
       glowing: true # Defines if the item should glow or not (enchanted)
 
@@ -693,14 +693,14 @@ vouchers:
     item: 'PAPER'
     name: '&e&lVoucher &6&lPrefix&e&l 12h'
     lore:
-      - '&7Acesta este un voucher care contine prefixul "&7Tractor" &7pentru 12 ore.'
+      - '&7Acesta este un voucher care contine prefixul "&7&lTractor &f" &7pentru 12 ore.'
       - '&7Click-dreapta pentru a folosi voucherul.'
     commands:
-      - 'lp user %player% meta addtempprefix 40 "&7Tractor &f" 12h '
-      - 'cmi broadcast ! &7[&e&lVoucher&7] %player% &7a deschis un &e&lVoucher &7si a primit prefixul &a"&7Tractor&a" &7pentru &612h&7!'
+      - 'lp user %player% meta addtempprefix 40 "&7&lTractor &f" 12h '
+      - 'cmi broadcast !&8[&a&lVouchers&8] &6A folosit voucherul si a primit &cprefix &7&lTractor &6pentru &c12h&6'
       
     options:
-      message: '&aAi folosit voucherul si ai primit prefixul &7Tractor &apentru 12 ore.' # Set to '' to disable the message
+      message: '&8[&a&lVouchers&8] &6Ai folosit voucherul si ai primit &cprefix &7&lTractor&6.' # Set to '' to disable the message
 
       glowing: true # Defines if the item should glow or not (enchanted)
 
@@ -725,11 +725,11 @@ vouchers:
       - '&7Acesta este un voucher care contine prefixul &a"&9Supreme&a" &7pentru 12 ore.'
       - '&7Click-dreapta pentru a folosi voucherul.'
     commands:
-      - 'lp user %player% meta addtempprefix 40 "&8Supreme &f" 12h '
-      - 'cmi broadcast ! &7[&e&lVoucher&7] %player% &7a deschis un &e&lVoucher &7si a primit prefixul &9Supreme &7pentru &612h&7!'
+      - 'lp user %player% meta addtempprefix 40 "&9&lSupreme &f" 12h '
+      - 'cmi broadcast !&8[&a&lVouchers&8] &6A folosit voucherul si a primit &cprefix &9&lSupreme &6pentru &c12h&6'
       
     options:
-      message: '&aAi folosit voucherul si ai primit prefixul &9Supreme &apentru 12 ore.' # Set to '' to disable the message
+      message: '&8[&a&lVouchers&8] &6Ai folosit voucherul si ai primit &cprefix &9&lSupreme&6.' # Set to '' to disable the message
 
       glowing: true # Defines if the item should glow or not (enchanted)
 
