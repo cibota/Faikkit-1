@@ -16,7 +16,7 @@
 # Repeat: (true/false) if set to false, action will be performed only once other wise it will be repeated all the time in intervals or on particular time
 # MinPlayers: (amount) Will limit minimum player amount there should be online when command performe
 # MaxPlayers: (amount) Will skip scheduler if there is more than defined amount of players
-# FeedBack: (true/false) if set to false will not show feedback message in console in case there is not enough players to perform this schedule
+# Feedback: (true/false) if set to false will not show feedback message in console in case there is not enough players to perform this schedule
 # Commands: List of commands to be performed when time is correct. 
 #   If command starts with msg! and then player name is given, simple message will be sent to that player if he is online.
 #   If command starts with broadcast! then message will be sent to everyone on server in simple manear

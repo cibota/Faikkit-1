@@ -27,6 +27,9 @@ Alias:
   # /cmi aliaseditor $1-
   /aliaseditor: true
   #  
+  # /cmi anvil $1-
+  /anvil: false
+  #  
   # /cmi armorstand $1-
   /armorstand: true
   #  
