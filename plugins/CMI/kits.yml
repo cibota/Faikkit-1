@@ -179,7 +179,7 @@ MVP:
       meta:
         ==: ItemMeta
         meta-type: UNSPECIFIC
-        display-name: §9§lSupreme Crate §b§lKey
+        display-name: §9§lSupreme §6§lCrate §3§lKey
         lore:
         - §7O cheie speciala
         - §7pentru un crate special!
@@ -237,7 +237,7 @@ MVP:
       meta:
         ==: ItemMeta
         meta-type: UNSPECIFIC
-        display-name: §8§lFaikkit Crate §b§lKey
+        display-name: §4§lFaikkit §6§lCrate §3§lKey
         lore:
         - §7O cheie Speciala
         - §7pentru o cutie speciala!
@@ -300,7 +300,7 @@ VIP+:
       meta:
         ==: ItemMeta
         meta-type: UNSPECIFIC
-        display-name: §8§lFaikkit Crate §b§lKey
+        display-name: §4§lFaikkit §6§lCrate §3§lKey
         lore:
         - §7O cheie Speciala
         - §7pentru o cutie speciala!
@@ -468,7 +468,7 @@ vip:
       meta:
         ==: ItemMeta
         meta-type: UNSPECIFIC
-        display-name: §8§lFaikkit Crate §b§lKey
+        display-name: §4§lFaikkit §6§lCrate §3§lKey
         lore:
         - §7O cheie Speciala
         - §7pentru o cutie speciala!
