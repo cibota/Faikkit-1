@@ -81,7 +81,7 @@ settings:
         WIP: '&eSe investigheaza'
         Complete: '&aCompletat'
     Give-Reporter-Rewards-On-Report-Complete:
-        Enabled: true
+        Enabled: false
         Reporter-Is-Online:
         - 'cmi mail send %reporter% Un raport pe care l-ai făcut a fost completat cu succes. Am dori să vă mulțumim pentru ca sunteti un jucător loial! Verificati /reporta claim pentru recomepnse.'
         - 'cc give p vote 1 %reporter%'
