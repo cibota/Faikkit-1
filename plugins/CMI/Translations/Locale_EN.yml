@@ -246,6 +246,7 @@ info:
   lastPageHover: '&7>|'
   pageCount: '&2[current]&7/&2[total]'
   pageCountHover: '&e[totalEntries] entries'
+  skullOwner: '!actionbar!&7Owner:&r [playerName]'
   circle: '&3Circle'
   square: '&5Square'
   protectedArea: '&cProtected area. Can''t do this here.'
@@ -831,6 +832,13 @@ command:
         \ command from console"
       editInfo: '&eClick to paste old text. Type &6cancel &eto cancel action. Type
         &6remove &eto remove line'
+  anvil:
+    help:
+      info: '&eOpen anvil'
+      args: (playerName)
+    info:
+      feedback: '&eYou have opened anvil for &3[playerDisplayName]&e (&3[offon]&e).'
+      targetfeedback: '&3[senderDisplayName]&e opened anvil for you.'
   armorstand:
     help:
       info: '&eOpen armor stand editor'
@@ -914,6 +922,7 @@ command:
       explanation:
       - cmi.command.ban.bypass - to bypass ban
     info:
+      # Make sure that OverrideLoginMessage is enabled in config file
       message: '&cYou are banned from this server!'
       reason: '&6Reason: &e[reason]'
       defaultReason: '&eViolated server rules'
@@ -1747,6 +1756,8 @@ command:
       - Requires cmi.command.helpop.inform too see messages
     info:
       message: '&c[Help]&4[&7[senderDisplayName]&4]&r&c [message]'
+      feedback: '&c[Help]&7Your question was submitted to online staff'
+      offline: '&c[Help]&7There are no staff members currently online, try later'
   hideflags:
     help:
       info: '&eHides item flags'
@@ -2407,8 +2418,6 @@ command:
       hiddenCount: '&e&7([amount])'
       groupL: '&e[groupName] &f➟ &f[list]'
       player: '%cmi_user_afk_symbol%&f[playerDisplayName]'
-      # Add as many groups as you wish, by default there is only 10, to create new one, just copy paste one line and add increment into lines name, like group11 or group12 and so on.
-      # Player have to have appropriate permission node to be placed in group cmi.command.list.group.[groupnumber], bigger number have priority
       groups:
         group1: '&eJucatori: &f[list]'
         group2: '&eDonatori: &f[list]'
@@ -3759,7 +3768,7 @@ command:
         &efor: &6[time] &ereason: &6[reason]'
       time: '&eYou will be unbanned after &6[time]'
       badTime: '&cTime is defined incorrectly'
-      badTimeRange: '&cYou can''t ban for longer than &6[seconds]'
+      badTimeRanges: '&cYou can''t ban for longer than [time] &6([seconds])'
   tempipban:
     help:
       info: '&eTemp ban ip'
@@ -4136,6 +4145,7 @@ command:
       informOnJoin: '&eShows join message'
       PrivateMessages: '&ePrivate messages'
       nightVision: '&eApply night vision'
+      relogDisable: '&eDisable vanish on relog'
       bossbar: '&eShow bossBar when vanished'
       afkcommands: '&eTrigger afk when vanished'
       bossbarTitle: '&fVanished'

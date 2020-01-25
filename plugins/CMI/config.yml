@@ -92,6 +92,8 @@ Optimizations:
     GeoIp: true
     # In case you dont have GeoLiteCity.dat it will be downloaded automatically on server start. Restart can be needed for it to take effect
     GeoLiteCity: true
+  # When enabled you will see skull owner name in action bar when right clicking it
+  ShowSkullOwner: true
   # Sets indicator when creating elevator signs. Its case insensitive
   ElevatorIndicator: '[Elevator]'
   # Defines elevator type. If this is used on second line of sing, then player will be teleported directly in front of it instead of keeping original players x and z coordinates
@@ -182,6 +184,9 @@ Optimizations:
     # List of worlds to whichones player can't go back with /back command
     BackBlackList:
     - TeztWorldz
+  helpop:
+    # When set to true player will not see his sent message to helpop, but rather predefined message informing that his question have been sent to online staff
+    feedbackMessage: true
   IP:
     # When set to true, players ip will be recorded for future use, like recognizing players other accounts
     # Some commands will have limited usage when this is disabled
@@ -377,9 +382,6 @@ Homes:
   DefaultBedName: Home
   # Defines what characters you can use in your home names
   NameRegex: /([\p{L}-]+)/ug
-  # When set to true home icons in GUI will try to pick real blocks from that location for easy way to see which is which
-  # When set to false, then random wool block will be used
-  PickRealBlock: true
 ReSpawn:
   # Time in seconds to make player immortal after he respawns
   # Can be used to prevent respawn camping
