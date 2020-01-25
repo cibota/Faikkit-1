@@ -245,8 +245,8 @@ spawn-limiter:
 # -- 'broadcast-enabled' defines whether or not tps-meter should broadcast
 tps-meter:
   enabled: false
-  trigger-broadcast-message: '&6[ClearLag] &cThe server is overloaded, executing lag-perventing measures'
-  recover-broadcast-message: '&6[ClearLag] &aThe server is no longer overloaded!'
+  trigger-broadcast-message: '&7(&9!&7) Server-ul este supraincarcat'
+  recover-broadcast-message: '&7(&9!&7) The server is no longer overloaded!'
   broadcast-enabled: false
   interval: 15
   tps-trigger: 14.0
@@ -303,7 +303,7 @@ item-merger:
 # -- 'warnings' list warnings to be given out at specified times
 auto-removal:
   enabled: true
-  broadcast-message: '&8[&6Lag&8] &7Au fost sterse &c+RemoveAmount&7 entitati!'
+  broadcast-message: '&7(&9!&7) &fToate &fentitatile &fau fost eliminate cu succes!'
   broadcast-removal: true
   autoremoval-interval: 460
   world-filter:
@@ -329,8 +329,8 @@ auto-removal:
   # - Minecart !isMounted <- This entity will be REMOVED if it's NOT mounted
   # - Wolf !hasName <- This entity will be REMOVED if it doesn't have a name
   warnings:
-        - 'time:400 msg:&8[&6Lag&8] &7&oAtentie, entitatile se vor sterge in &c+remaining &7&ode secunde!'
-        - 'time:440 msg:&8[&6Lag&8] &7&oAtentie, entitatile se vor sterge in &c+remaining &7&ode secunde!'
+        - 'time:400 msg:&7(&9!&7) &fToate entitatile vor fi eliminate in &9+remaining &fde secunde!'
+        - 'time:440 msg:&7(&9!&7) &fToate entitatile vor fi eliminate in &9+remaining &fde secunde!'
 
 #What should be removed during /lagg clear
 command-remove:
